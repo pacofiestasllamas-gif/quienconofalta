@@ -210,7 +210,8 @@ function openGuessModal(playerIndex) {
     }
     
     const player = getPlayerByIndex(playerIndex);
-    const fullName = player.name.toUpperCase();
+    const fullName = player.name.toUpperCase(); // Nombre con espacios y tildes para visualización
+    const normalizedName = normalizeText(player.name); // Nombre sin tildes para lógica
     
     // Crear grid de letras
     const guessGrid = document.getElementById('guess-grid');
@@ -291,9 +292,14 @@ function getPlayerByIndex(index) {
 // LÓGICA DEL WORDLE
 let currentRow = 0;
 
+// Función para normalizar texto (quitar tildes)
+function normalizeText(text) {
+    return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+}
+
 function handleKeyPress(key) {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetName = player.name.replace(/\s/g, '').toUpperCase();
+    const targetName = normalizeText(player.name.replace(/\s/g, ''));
     
     if (key === 'Enter') {
         if (currentGuess.length === targetName.length) {
@@ -318,7 +324,7 @@ function handleKeyPress(key) {
 
 function updateCurrentRow() {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetLength = player.name.replace(/\s/g, '').length;
+    const targetLength = normalizeText(player.name.replace(/\s/g, '')).length;
     
     for (let i = 0; i < targetLength; i++) {
         const cell = document.getElementById(`cell-${currentRow}-${i}`);
@@ -329,7 +335,7 @@ function updateCurrentRow() {
 
 function checkGuess() {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetName = player.name.replace(/\s/g, '').toUpperCase();
+    const targetName = normalizeText(player.name.replace(/\s/g, ''));
     const guessWord = currentGuess.join('');
     
     if (guessWord === targetName) {
@@ -425,7 +431,7 @@ function checkGuess() {
 
 function animateCorrectGuess() {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetLength = player.name.replace(/\s/g, '').length;
+    const targetLength = normalizeText(player.name.replace(/\s/g, '')).length;
     
     for (let i = 0; i < targetLength; i++) {
         const cell = document.getElementById(`cell-${currentRow}-${i}`);
