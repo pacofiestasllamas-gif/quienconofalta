@@ -157,12 +157,21 @@ function renderFormation() {
             
             if (isRevealed) {
                 nameContainer.textContent = player.name;
+                nameContainer.classList.add('revealed');
+                
+                // Ajustar tamaño según longitud
+                const nameLength = player.name.length;
+                if (nameLength > 12) {
+                    nameContainer.classList.add('very-long-name');
+                } else if (nameLength > 9) {
+                    nameContainer.classList.add('long-name');
+                }
+                
                 jersey.classList.add('revealed');
             } else {
-                // Crear guiones
+                // Crear guiones negros
                 const nameLength = player.name.replace(/\s/g, '').length;
-                const dashes = '_ '.repeat(nameLength).trim();
-                nameContainer.textContent = dashes;
+                nameContainer.textContent = '─'.repeat(nameLength);
                 jersey.classList.add('hidden');
             }
             
@@ -328,7 +337,6 @@ function checkGuess() {
     // Si agotó los intentos
     if (currentRow >= 6) {
         setTimeout(() => {
-            alert(`Era: ${player.name}`);
             revealPlayer(currentPlayerIndex);
             closeGuessModal();
             updateStats(false);
@@ -407,8 +415,6 @@ function revealPlayer(playerIndex) {
 
 function revealPlayerFromModal() {
     if (currentPlayerIndex !== null) {
-        const player = getPlayerByIndex(currentPlayerIndex);
-        alert(`Era: ${player.name}`);
         revealPlayer(currentPlayerIndex);
         closeGuessModal();
         updateStats(false);
