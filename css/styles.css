@@ -434,14 +434,38 @@
         }
 
         .player-name-container {
-            background: white;
+            background: #1f2937;
+            color: white;
             padding: 4px 8px;
             border-radius: 4px;
             display: flex;
-            gap: 2px;
-            min-width: 60px;
+            gap: 3px;
+            width: 70px;
+            min-height: 24px;
             justify-content: center;
+            align-items: center;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        
+        .player-name-container.revealed {
+            background: white;
+            color: var(--bg-dark);
+            font-size: 0.65rem;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        
+        .player-name-container.revealed.long-name {
+            font-size: 0.55rem;
+            letter-spacing: 0;
+        }
+        
+        .player-name-container.revealed.very-long-name {
+            font-size: 0.48rem;
+            letter-spacing: 0;
         }
 
         .name-slot {
@@ -887,8 +911,16 @@
             }
 
             .player-name-container {
-                min-width: 50px;
-                font-size: 0.65rem;
+                width: 55px;
+                font-size: 0.6rem;
+            }
+            
+            .player-name-container.revealed.long-name {
+                font-size: 0.5rem;
+            }
+            
+            .player-name-container.revealed.very-long-name {
+                font-size: 0.42rem;
             }
 
             .letter-cell {
