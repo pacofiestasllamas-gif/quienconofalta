@@ -7,6 +7,7 @@ let currentPlayerIndex = null;
 let revealedPlayers = new Set();
 let currentGuess = [];
 let usedHints = new Set();
+let playerAttempts = {}; // Contador de intentos por jugador
 
 // Estadísticas
 let stats = {
@@ -106,6 +107,7 @@ function loadMatch() {
     currentMatch = allMatches[currentMatchIndex];
     revealedPlayers = new Set();
     usedHints = new Set();
+    playerAttempts = {};
     
     // Mostrar información del partido
     document.getElementById('competition').textContent = currentMatch.competition;
@@ -140,15 +142,19 @@ function renderFormation() {
         lineDiv.className = 'line';
         
         line.forEach((player, playerIndex) => {
-            const playerDiv = document.createElement('div');
-            playerDiv.className = 'player-slot';
-            
             const globalIndex = formation.slice(0, lineIndex).reduce((sum, l) => sum + l.length, 0) + playerIndex;
             const isRevealed = revealedPlayers.has(globalIndex);
             
+            // Player card container
+            const playerCard = document.createElement('div');
+            playerCard.className = 'player-card';
+            if (isRevealed) {
+                playerCard.classList.add('revealed');
+            }
+            
             // Jersey
             const jersey = document.createElement('div');
-            jersey.className = `jersey ${player.position === 'GK' ? 'gk' : ''}`;
+            jersey.className = `jersey ${player.position === 'GK' ? 'goalkeeper' : ''}`;
             jersey.onclick = () => openGuessModal(globalIndex);
             
             // Nombre del jugador
@@ -156,28 +162,40 @@ function renderFormation() {
             nameContainer.className = 'player-name-container';
             
             if (isRevealed) {
-                nameContainer.textContent = player.name;
-                nameContainer.classList.add('revealed');
-                
-                // Ajustar tamaño según longitud
-                const nameLength = player.name.length;
-                if (nameLength > 12) {
-                    nameContainer.classList.add('very-long-name');
-                } else if (nameLength > 9) {
-                    nameContainer.classList.add('long-name');
-                }
-                
-                jersey.classList.add('revealed');
+                // Mostrar nombre revelado
+                const revealedName = document.createElement('div');
+                revealedName.className = 'revealed-name';
+                revealedName.textContent = player.name;
+                nameContainer.appendChild(revealedName);
             } else {
-                // Crear guiones negros
-                const nameLength = player.name.replace(/\s/g, '').length;
-                nameContainer.textContent = '─'.repeat(nameLength);
-                jersey.classList.add('hidden');
+                // Crear guiones negros individuales
+                for (let i = 0; i < player.name.length; i++) {
+                    const char = player.name[i];
+                    const slot = document.createElement('div');
+                    
+                    if (char === ' ') {
+                        slot.className = 'name-slot space';
+                    } else {
+                        slot.className = 'name-slot';
+                    }
+                    
+                    nameContainer.appendChild(slot);
+                }
             }
             
-            playerDiv.appendChild(jersey);
-            playerDiv.appendChild(nameContainer);
-            lineDiv.appendChild(playerDiv);
+            playerCard.appendChild(jersey);
+            playerCard.appendChild(nameContainer);
+            
+            // Contador de intentos (solo si no está revelado)
+            if (!isRevealed) {
+                const attemptsCounter = document.createElement('div');
+                attemptsCounter.className = 'attempts-counter';
+                attemptsCounter.textContent = playerAttempts[globalIndex] || '0';
+                attemptsCounter.id = `attempts-${globalIndex}`;
+                playerCard.appendChild(attemptsCounter);
+            }
+            
+            lineDiv.appendChild(playerCard);
         });
         
         formationContainer.appendChild(lineDiv);
@@ -189,6 +207,11 @@ function openGuessModal(playerIndex) {
     
     currentPlayerIndex = playerIndex;
     currentGuess = [];
+    
+    // Inicializar contador de intentos si no existe
+    if (!playerAttempts[playerIndex]) {
+        playerAttempts[playerIndex] = 0;
+    }
     
     const player = getPlayerByIndex(playerIndex);
     const nameLength = player.name.replace(/\s/g, '').length;
@@ -333,6 +356,18 @@ function checkGuess() {
     
     currentRow++;
     currentGuess = [];
+    
+    // Incrementar contador de intentos
+    if (!playerAttempts[currentPlayerIndex]) {
+        playerAttempts[currentPlayerIndex] = 0;
+    }
+    playerAttempts[currentPlayerIndex]++;
+    
+    // Actualizar visualización del contador
+    const attemptsCounter = document.getElementById(`attempts-${currentPlayerIndex}`);
+    if (attemptsCounter) {
+        attemptsCounter.textContent = playerAttempts[currentPlayerIndex];
+    }
     
     // Si agotó los intentos
     if (currentRow >= 6) {
