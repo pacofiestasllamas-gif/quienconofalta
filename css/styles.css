@@ -434,38 +434,43 @@
         }
 
         .player-name-container {
-            background: #1f2937;
-            color: white;
+            background: white;
             padding: 4px 8px;
             border-radius: 4px;
             display: flex;
-            gap: 3px;
-            width: 70px;
-            min-height: 24px;
+            gap: 2px;
+            min-width: 60px;
             justify-content: center;
-            align-items: center;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .name-slot {
+            width: 8px;
+            height: 2px;
+            background: black;
+            border-radius: 1px;
+        }
+
+        .name-slot.space {
+            width: 6px;
+            background: transparent;
+        }
+
+        .revealed-name {
+            color: black;
+            font-weight: 700;
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .attempts-counter {
+            background: rgba(0, 0, 0, 0.3);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
             font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 1px;
-        }
-        
-        .player-name-container.revealed {
-            background: white;
-            color: var(--bg-dark);
-            font-size: 0.65rem;
-            white-space: nowrap;
-            overflow: hidden;
-        }
-        
-        .player-name-container.revealed.long-name {
-            font-size: 0.55rem;
-            letter-spacing: 0;
-        }
-        
-        .player-name-container.revealed.very-long-name {
-            font-size: 0.48rem;
-            letter-spacing: 0;
+            font-weight: bold;
         }
 
         .name-slot {
@@ -911,16 +916,12 @@
             }
 
             .player-name-container {
-                width: 55px;
-                font-size: 0.6rem;
+                min-width: 50px;
+                font-size: 0.65rem;
             }
             
-            .player-name-container.revealed.long-name {
-                font-size: 0.5rem;
-            }
-            
-            .player-name-container.revealed.very-long-name {
-                font-size: 0.42rem;
+            .revealed-name {
+                font-size: 0.65rem;
             }
 
             .letter-cell {
