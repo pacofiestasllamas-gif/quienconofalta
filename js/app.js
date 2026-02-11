@@ -8,6 +8,7 @@ let revealedPlayers = new Set();
 let currentGuess = [];
 let usedHints = new Set();
 let playerAttempts = {}; // Contador de intentos por jugador
+let playerGuessHistory = {}; // Historial de intentos del wordle por jugador
 
 // Estadísticas
 let stats = {
@@ -55,10 +56,8 @@ async function loadMatchData(mode) {
         // Combinar todos los partidos
         allMatches = results.flat();
         
-        // Mezclar si es modo random
-        if (mode === 'random') {
-            allMatches = shuffleArray(allMatches);
-        }
+        // Mezclar siempre para que aparezcan en orden aleatorio
+        allMatches = shuffleArray(allMatches);
         
         return allMatches.length > 0;
     } catch (error) {
@@ -108,6 +107,7 @@ function loadMatch() {
     revealedPlayers = new Set();
     usedHints = new Set();
     playerAttempts = {};
+    playerGuessHistory = {};
     
     // Mostrar información del partido
     document.getElementById('competition').textContent = currentMatch.competition;
@@ -186,15 +186,6 @@ function renderFormation() {
             playerCard.appendChild(jersey);
             playerCard.appendChild(nameContainer);
             
-            // Contador de intentos (solo si no está revelado)
-            if (!isRevealed) {
-                const attemptsCounter = document.createElement('div');
-                attemptsCounter.className = 'attempts-counter';
-                attemptsCounter.textContent = playerAttempts[globalIndex] || '0';
-                attemptsCounter.id = `attempts-${globalIndex}`;
-                playerCard.appendChild(attemptsCounter);
-            }
-            
             lineDiv.appendChild(playerCard);
         });
         
@@ -213,8 +204,13 @@ function openGuessModal(playerIndex) {
         playerAttempts[playerIndex] = 0;
     }
     
+    // Inicializar historial si no existe
+    if (!playerGuessHistory[playerIndex]) {
+        playerGuessHistory[playerIndex] = [];
+    }
+    
     const player = getPlayerByIndex(playerIndex);
-    const nameLength = player.name.replace(/\s/g, '').length;
+    const fullName = player.name.toUpperCase();
     
     // Crear grid de letras
     const guessGrid = document.getElementById('guess-grid');
@@ -224,18 +220,53 @@ function openGuessModal(playerIndex) {
         const row = document.createElement('div');
         row.className = 'guess-row';
         
-        for (let j = 0; j < nameLength; j++) {
+        let cellIndex = 0;
+        for (let j = 0; j < fullName.length; j++) {
             const cell = document.createElement('div');
-            cell.className = 'letter-cell';
-            cell.id = `cell-${i}-${j}`;
+            
+            if (fullName[j] === ' ') {
+                // Crear celda de espacio
+                cell.className = 'letter-cell space-cell';
+                cell.id = `cell-${i}-${j}-space`;
+            } else {
+                // Crear celda normal
+                cell.className = 'letter-cell';
+                cell.id = `cell-${i}-${cellIndex}`;
+                cellIndex++;
+            }
+            
             row.appendChild(cell);
         }
         
         guessGrid.appendChild(row);
     }
     
-    // Resetear teclado
+    // Restaurar intentos previos
+    const history = playerGuessHistory[playerIndex];
+    for (let i = 0; i < history.length; i++) {
+        const attempt = history[i];
+        
+        // Rellenar las celdas con las letras
+        for (let j = 0; j < attempt.guess.length; j++) {
+            const cell = document.getElementById(`cell-${i}-${j}`);
+            if (cell) {
+                cell.textContent = attempt.guess[j];
+                cell.classList.add(attempt.status[j]);
+                cell.classList.add('flip');
+            }
+        }
+    }
+    
+    // Establecer currentRow basado en el historial
+    currentRow = history.length;
+    
+    // Resetear teclado y aplicar estado previo
     resetKeyboard();
+    
+    // Restaurar estado del teclado
+    for (const attempt of history) {
+        updateKeyboard(attempt.guess.split(''), attempt.status);
+    }
     
     // Ocultar pista
     document.getElementById('hint-display').style.display = 'none';
@@ -303,6 +334,16 @@ function checkGuess() {
     
     if (guessWord === targetName) {
         // CORRECTO
+        // Guardar el intento correcto en el historial
+        const correctStatus = new Array(targetName.length).fill('correct');
+        if (!playerGuessHistory[currentPlayerIndex]) {
+            playerGuessHistory[currentPlayerIndex] = [];
+        }
+        playerGuessHistory[currentPlayerIndex].push({
+            guess: guessWord,
+            status: correctStatus
+        });
+        
         animateCorrectGuess();
         setTimeout(() => {
             revealPlayer(currentPlayerIndex);
@@ -354,6 +395,15 @@ function checkGuess() {
         updateKeyboard(guessArray, letterStatus);
     }, guessArray.length * 100);
     
+    // Guardar intento en el historial
+    if (!playerGuessHistory[currentPlayerIndex]) {
+        playerGuessHistory[currentPlayerIndex] = [];
+    }
+    playerGuessHistory[currentPlayerIndex].push({
+        guess: guessWord,
+        status: letterStatus
+    });
+    
     currentRow++;
     currentGuess = [];
     
@@ -362,12 +412,6 @@ function checkGuess() {
         playerAttempts[currentPlayerIndex] = 0;
     }
     playerAttempts[currentPlayerIndex]++;
-    
-    // Actualizar visualización del contador
-    const attemptsCounter = document.getElementById(`attempts-${currentPlayerIndex}`);
-    if (attemptsCounter) {
-        attemptsCounter.textContent = playerAttempts[currentPlayerIndex];
-    }
     
     // Si agotó los intentos
     if (currentRow >= 6) {
@@ -444,6 +488,11 @@ function showHint() {
 
 function revealPlayer(playerIndex) {
     revealedPlayers.add(playerIndex);
+    
+    // Limpiar historial de intentos del jugador revelado
+    delete playerGuessHistory[playerIndex];
+    delete playerAttempts[playerIndex];
+    
     renderFormation();
     updateRevealedCount();
 }
