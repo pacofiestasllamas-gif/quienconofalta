@@ -959,74 +959,74 @@
         {
           "name": "CLAUDIO BRAVO",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Barcelona • iniciales CB • apellido Bravo."
+          "number": "13",
+          "hint": "Portero chileno: sobrio, reflejos y juego de pies."
         }
       ],
       [
         {
+          "name": "JORDI ALBA",
+          "position": "DEF",
+          "number": "18",
+          "hint": "Lateral zurdo: autopista en banda y llegadas al área."
+        },
+        {
           "name": "JAVIER MASCHERANO",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Barcelona • iniciales JM • apellido Mascherano."
+          "number": "14",
+          "hint": "El ‘Jefecito’: central/pivote de choque, al corte."
         },
         {
           "name": "GERARD PIQUÉ",
           "position": "DEF",
           "number": "3",
-          "hint": "Defensa del Barcelona • iniciales GP • apellido Piqué."
-        },
-        {
-          "name": "JORDI ALBA",
-          "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Barcelona • iniciales JA • apellido Alba."
+          "hint": "Central alto: salida limpia y carácter."
         },
         {
           "name": "DANI ALVES",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Barcelona • iniciales DA • apellido Alves."
+          "number": "22",
+          "hint": "Lateral derecho brasileño: energía y centros con mala leche."
         }
       ],
       [
-        {
-          "name": "SERGIO BUSQUETS",
-          "position": "MID",
-          "number": "6",
-          "hint": "Pivote que siempre está donde cae el balón (y nadie le ve llegar)."
-        },
-        {
-          "name": "IVAN RAKITIC",
-          "position": "MID",
-          "number": "7",
-          "hint": "Centrocampista del Barcelona • iniciales IR • apellido Rakitic."
-        },
         {
           "name": "ANDRÉS INIESTA",
           "position": "MID",
           "number": "8",
-          "hint": "Centrocampista del Barcelona • iniciales AI • apellido Iniesta."
+          "hint": "Magia en corto: giro, pausa y último pase."
+        },
+        {
+          "name": "SERGIO BUSQUETS",
+          "position": "MID",
+          "number": "5",
+          "hint": "Pivote invisible: controla el tempo sin hacer ruido."
+        },
+        {
+          "name": "IVAN RAKITIC",
+          "position": "MID",
+          "number": "4",
+          "hint": "Interior derecho: pulmón y llegada desde segunda línea."
         }
       ],
       [
         {
+          "name": "NEYMAR",
+          "position": "FWD",
+          "number": "11",
+          "hint": "Extremo izquierdo: regate, desequilibrio y picardía."
+        },
+        {
           "name": "LUIS SUÁREZ",
           "position": "FWD",
           "number": "9",
-          "hint": "Delantero del Barcelona • iniciales LS • apellido Suárez."
-        },
-        {
-          "name": "NEYMAR",
-          "position": "FWD",
-          "number": "10",
-          "hint": "Delantero del Barcelona • iniciales N • apellido Neymar."
+          "hint": "9 uruguayo: agresivo, desmarque y gol."
         },
         {
           "name": "LIONEL MESSI",
           "position": "FWD",
-          "number": "11",
-          "hint": "El 10 que rompía defensas a base de zurda y control imposible."
+          "number": "10",
+          "hint": "Zurda imposible: el 10 que decide partidos."
         }
       ]
     ]
@@ -1045,74 +1045,74 @@
         {
           "name": "CLAUDIO BRAVO",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Barcelona • iniciales CB • apellido Bravo."
+          "number": "13",
+          "hint": "Portero chileno: sobrio, reflejos y juego de pies."
         }
       ],
       [
         {
+          "name": "JORDI ALBA",
+          "position": "DEF",
+          "number": "18",
+          "hint": "Lateral zurdo: autopista en banda y llegadas al área."
+        },
+        {
           "name": "GERARD PIQUÉ",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Barcelona • iniciales GP • apellido Piqué."
+          "number": "3",
+          "hint": "Central alto: salida limpia y carácter."
         },
         {
           "name": "JÉRÉMY MATHIEU",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Barcelona • iniciales JM • apellido Mathieu."
-        },
-        {
-          "name": "JORDI ALBA",
-          "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Barcelona • iniciales JA • apellido Alba."
+          "number": "24",
+          "hint": "Central zurdo francés: físico y balón parado."
         },
         {
           "name": "DANI ALVES",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Barcelona • iniciales DA • apellido Alves."
+          "number": "22",
+          "hint": "Lateral derecho brasileño: energía y centros con mala leche."
         }
       ],
       [
         {
           "name": "RAFINHA",
           "position": "MID",
-          "number": "6",
-          "hint": "Centrocampista del Barcelona • iniciales R • apellido Rafinha."
-        },
-        {
-          "name": "ANDRÉS INIESTA",
-          "position": "MID",
-          "number": "7",
-          "hint": "Centrocampista del Barcelona • iniciales AI • apellido Iniesta."
+          "number": "12",
+          "hint": "Interior ofensivo: conducción y llegada."
         },
         {
           "name": "SERGIO BUSQUETS",
           "position": "MID",
+          "number": "5",
+          "hint": "Pivote invisible: controla el tempo sin hacer ruido."
+        },
+        {
+          "name": "ANDRÉS INIESTA",
+          "position": "MID",
           "number": "8",
-          "hint": "Pivote que siempre está donde cae el balón (y nadie le ve llegar)."
+          "hint": "Magia en corto: giro, pausa y último pase."
         }
       ],
       [
         {
+          "name": "NEYMAR",
+          "position": "FWD",
+          "number": "11",
+          "hint": "Extremo izquierdo: regate, desequilibrio y picardía."
+        },
+        {
           "name": "LUIS SUÁREZ",
           "position": "FWD",
           "number": "9",
-          "hint": "Delantero del Barcelona • iniciales LS • apellido Suárez."
-        },
-        {
-          "name": "NEYMAR",
-          "position": "FWD",
-          "number": "10",
-          "hint": "Delantero del Barcelona • iniciales N • apellido Neymar."
+          "hint": "9 uruguayo: agresivo, desmarque y gol."
         },
         {
           "name": "LIONEL MESSI",
           "position": "FWD",
-          "number": "11",
-          "hint": "El 10 que rompía defensas a base de zurda y control imposible."
+          "number": "10",
+          "hint": "Zurda imposible: el 10 que decide partidos."
         }
       ]
     ]
@@ -1131,74 +1131,74 @@
         {
           "name": "CLAUDIO BRAVO",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Barcelona • iniciales CB • apellido Bravo."
+          "number": "13",
+          "hint": "Portero chileno: sobrio, reflejos y juego de pies."
         }
       ],
       [
         {
+          "name": "JORDI ALBA",
+          "position": "DEF",
+          "number": "18",
+          "hint": "Lateral zurdo: autopista en banda y llegadas al área."
+        },
+        {
           "name": "GERARD PIQUÉ",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Barcelona • iniciales GP • apellido Piqué."
+          "number": "3",
+          "hint": "Central alto: salida limpia y carácter."
         },
         {
           "name": "JAVIER MASCHERANO",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Barcelona • iniciales JM • apellido Mascherano."
-        },
-        {
-          "name": "JORDI ALBA",
-          "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Barcelona • iniciales JA • apellido Alba."
+          "number": "14",
+          "hint": "El ‘Jefecito’: central/pivote de choque, al corte."
         },
         {
           "name": "DANI ALVES",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Barcelona • iniciales DA • apellido Alves."
+          "number": "22",
+          "hint": "Lateral derecho brasileño: energía y centros con mala leche."
         }
       ],
       [
         {
           "name": "ANDRÉS INIESTA",
           "position": "MID",
-          "number": "6",
-          "hint": "Centrocampista del Barcelona • iniciales AI • apellido Iniesta."
+          "number": "8",
+          "hint": "Magia en corto: giro, pausa y último pase."
         },
         {
           "name": "SERGIO BUSQUETS",
           "position": "MID",
-          "number": "7",
-          "hint": "Pivote que siempre está donde cae el balón (y nadie le ve llegar)."
+          "number": "5",
+          "hint": "Pivote invisible: controla el tempo sin hacer ruido."
         },
         {
           "name": "IVAN RAKITIC",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Barcelona • iniciales IR • apellido Rakitic."
+          "number": "4",
+          "hint": "Interior derecho: pulmón y llegada desde segunda línea."
         }
       ],
       [
         {
-          "name": "PEDRO",
-          "position": "FWD",
-          "number": "9",
-          "hint": "Delantero del Barcelona • iniciales P • apellido Pedro."
-        },
-        {
           "name": "NEYMAR",
           "position": "FWD",
-          "number": "10",
-          "hint": "Delantero del Barcelona • iniciales N • apellido Neymar."
+          "number": "11",
+          "hint": "Extremo izquierdo: regate, desequilibrio y picardía."
         },
         {
           "name": "LIONEL MESSI",
           "position": "FWD",
-          "number": "11",
-          "hint": "El 10 que rompía defensas a base de zurda y control imposible."
+          "number": "10",
+          "hint": "Zurda imposible: el 10 que decide partidos."
+        },
+        {
+          "name": "PEDRO",
+          "position": "FWD",
+          "number": "7",
+          "hint": "Extremo trabajador: desmarque y presión."
         }
       ]
     ]
@@ -1217,74 +1217,74 @@
         {
           "name": "CLAUDIO BRAVO",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Barcelona • iniciales CB • apellido Bravo."
+          "number": "13",
+          "hint": "Portero chileno: sobrio, reflejos y juego de pies."
         }
       ],
       [
         {
+          "name": "ADRIANO",
+          "position": "DEF",
+          "number": "21",
+          "hint": "Lateral polivalente: izquierda o derecha, buen disparo."
+        },
+        {
           "name": "MARC BARTRA",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Barcelona • iniciales MB • apellido Bartra."
+          "number": "15",
+          "hint": "Central canterano: rápido al cruce."
         },
         {
           "name": "GERARD PIQUÉ",
           "position": "DEF",
           "number": "3",
-          "hint": "Defensa del Barcelona • iniciales GP • apellido Piqué."
-        },
-        {
-          "name": "ADRIANO",
-          "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Barcelona • iniciales A • apellido Adriano."
+          "hint": "Central alto: salida limpia y carácter."
         },
         {
           "name": "DANI ALVES",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Barcelona • iniciales DA • apellido Alves."
+          "number": "22",
+          "hint": "Lateral derecho brasileño: energía y centros con mala leche."
         }
       ],
       [
         {
           "name": "RAFINHA",
           "position": "MID",
-          "number": "6",
-          "hint": "Centrocampista del Barcelona • iniciales R • apellido Rafinha."
-        },
-        {
-          "name": "XAVI",
-          "position": "MID",
-          "number": "7",
-          "hint": "Cerebro del pase corto y la brújula del medio."
+          "number": "12",
+          "hint": "Interior ofensivo: conducción y llegada."
         },
         {
           "name": "JAVIER MASCHERANO",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Barcelona • iniciales JM • apellido Mascherano."
+          "number": "14",
+          "hint": "El ‘Jefecito’: central/pivote de choque, al corte."
+        },
+        {
+          "name": "XAVI",
+          "position": "MID",
+          "number": "6",
+          "hint": "Director de orquesta: pase y control del ritmo."
         }
       ],
       [
         {
+          "name": "NEYMAR",
+          "position": "FWD",
+          "number": "11",
+          "hint": "Extremo izquierdo: regate, desequilibrio y picardía."
+        },
+        {
           "name": "LUIS SUÁREZ",
           "position": "FWD",
           "number": "9",
-          "hint": "Delantero del Barcelona • iniciales LS • apellido Suárez."
-        },
-        {
-          "name": "NEYMAR",
-          "position": "FWD",
-          "number": "10",
-          "hint": "Delantero del Barcelona • iniciales N • apellido Neymar."
+          "hint": "9 uruguayo: agresivo, desmarque y gol."
         },
         {
           "name": "LIONEL MESSI",
           "position": "FWD",
-          "number": "11",
-          "hint": "El 10 que rompía defensas a base de zurda y control imposible."
+          "number": "10",
+          "hint": "Zurda imposible: el 10 que decide partidos."
         }
       ]
     ]
@@ -1303,74 +1303,74 @@
         {
           "name": "CLAUDIO BRAVO",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Barcelona • iniciales CB • apellido Bravo."
+          "number": "13",
+          "hint": "Portero chileno: sobrio, reflejos y juego de pies."
         }
       ],
       [
         {
+          "name": "ADRIANO",
+          "position": "DEF",
+          "number": "21",
+          "hint": "Lateral polivalente: izquierda o derecha, buen disparo."
+        },
+        {
           "name": "JÉRÉMY MATHIEU",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Barcelona • iniciales JM • apellido Mathieu."
+          "number": "24",
+          "hint": "Central zurdo francés: físico y balón parado."
         },
         {
           "name": "MARC BARTRA",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Barcelona • iniciales MB • apellido Bartra."
-        },
-        {
-          "name": "ADRIANO",
-          "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Barcelona • iniciales A • apellido Adriano."
+          "number": "15",
+          "hint": "Central canterano: rápido al cruce."
         },
         {
           "name": "DANI ALVES",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Barcelona • iniciales DA • apellido Alves."
+          "number": "22",
+          "hint": "Lateral derecho brasileño: energía y centros con mala leche."
         }
       ],
       [
         {
-          "name": "SERGIO BUSQUETS",
-          "position": "MID",
-          "number": "6",
-          "hint": "Pivote que siempre está donde cae el balón (y nadie le ve llegar)."
-        },
-        {
           "name": "RAFINHA",
           "position": "MID",
-          "number": "7",
-          "hint": "Centrocampista del Barcelona • iniciales R • apellido Rafinha."
+          "number": "12",
+          "hint": "Interior ofensivo: conducción y llegada."
+        },
+        {
+          "name": "SERGIO BUSQUETS",
+          "position": "MID",
+          "number": "5",
+          "hint": "Pivote invisible: controla el tempo sin hacer ruido."
         },
         {
           "name": "XAVI",
           "position": "MID",
-          "number": "8",
-          "hint": "Cerebro del pase corto y la brújula del medio."
+          "number": "6",
+          "hint": "Director de orquesta: pase y control del ritmo."
         }
       ],
       [
         {
+          "name": "NEYMAR",
+          "position": "FWD",
+          "number": "11",
+          "hint": "Extremo izquierdo: regate, desequilibrio y picardía."
+        },
+        {
           "name": "LUIS SUÁREZ",
           "position": "FWD",
           "number": "9",
-          "hint": "Delantero del Barcelona • iniciales LS • apellido Suárez."
-        },
-        {
-          "name": "NEYMAR",
-          "position": "FWD",
-          "number": "10",
-          "hint": "Delantero del Barcelona • iniciales N • apellido Neymar."
+          "hint": "9 uruguayo: agresivo, desmarque y gol."
         },
         {
           "name": "LIONEL MESSI",
           "position": "FWD",
-          "number": "11",
-          "hint": "El 10 que rompía defensas a base de zurda y control imposible."
+          "number": "10",
+          "hint": "Zurda imposible: el 10 que decide partidos."
         }
       ]
     ]
@@ -1648,73 +1648,73 @@
           "name": "JUAN CARLOS",
           "position": "GK",
           "number": "1",
-          "hint": "Portero del Cordoba • iniciales JC • apellido Carlos."
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "ALEKSANDAR PANTIC",
+          "name": "A. PANTIĆ",
           "position": "DEF",
           "number": "2",
-          "hint": "Defensa del Cordoba • iniciales AP • apellido Pantic."
+          "hint": "Serbio"
         },
         {
           "name": "ÍÑIGO LÓPEZ",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Cordoba • iniciales ÍL • apellido López."
+          "number": "12",
+          "hint": "Español"
         },
         {
           "name": "DEIVID",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Cordoba • iniciales D • apellido Deivid."
+          "number": "15",
+          "hint": "Español"
         },
         {
-          "name": "DANIEL PINILLOS",
+          "name": "DANI PINILLOS",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Cordoba • iniciales DP • apellido Pinillos."
+          "number": "29",
+          "hint": "Español"
         },
         {
-          "name": "ADRIÁN GUNINO",
+          "name": "A. GUNINO",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Cordoba • iniciales AG • apellido Gunino."
+          "number": "17",
+          "hint": "Uruguayo"
         }
       ],
       [
         {
           "name": "ABEL GÓMEZ",
           "position": "MID",
-          "number": "7",
-          "hint": "Centrocampista del Cordoba • iniciales AG • apellido Gómez."
+          "number": "23",
+          "hint": "Español"
         },
         {
           "name": "BORJA GARCÍA",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Cordoba • iniciales BG • apellido García."
+          "number": "18",
+          "hint": "Español"
         },
         {
           "name": "FIDEL",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Cordoba • iniciales F • apellido Fidel."
+          "number": "16",
+          "hint": "Español"
         },
         {
-          "name": "FEDE CARTABIA",
+          "name": "F. CARTABIA",
           "position": "MID",
           "number": "10",
-          "hint": "Centrocampista del Cordoba • iniciales FC • apellido Cartabia."
+          "hint": "Argentino"
         }
       ],
       [
         {
-          "name": "NABIL GHILAS",
+          "name": "N. GHILAS",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Cordoba • iniciales NG • apellido Ghilas."
+          "number": "14",
+          "hint": "Argelino"
         }
       ]
     ]
@@ -1733,74 +1733,74 @@
         {
           "name": "MIKEL SAIZAR",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Cordoba • iniciales MS • apellido Saizar."
+          "number": "13",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "JOSÉ CRESPO",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Cordoba • iniciales JC • apellido Crespo."
+          "number": "3",
+          "hint": "Español"
         },
         {
-          "name": "ALEKSANDAR PANTIC",
+          "name": "A. PANTIĆ",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Cordoba • iniciales AP • apellido Pantic."
+          "number": "2",
+          "hint": "Serbio"
         },
         {
           "name": "EDIMAR",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Cordoba • iniciales E • apellido Edimar."
+          "number": "11",
+          "hint": "Brasileño"
         },
         {
           "name": "FAUSTO ROSSI",
           "position": "DEF",
           "number": "5",
-          "hint": "Defensa del Cordoba • iniciales FR • apellido Rossi."
+          "hint": "Italiano"
         },
         {
-          "name": "RENE KRHIN",
+          "name": "R. KHRIN",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Cordoba • iniciales RK • apellido Krhin."
+          "number": "21",
+          "hint": "Esloveno"
         },
         {
-          "name": "EDUARD CAMPABADAL",
+          "name": "EDU CAMPABADAL",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Cordoba • iniciales EC • apellido Campabadal."
+          "number": "33",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "ABEL GÓMEZ",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Cordoba • iniciales AG • apellido Gómez."
+          "number": "23",
+          "hint": "Español"
         },
         {
           "name": "BEBÉ",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Cordoba • iniciales B • apellido Bebé."
+          "number": "24",
+          "hint": "Caboverdiano"
         },
         {
           "name": "HÉLDON",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Cordoba • iniciales H • apellido Héldon."
+          "number": "9",
+          "hint": "Caboverdiano"
         }
       ],
       [
         {
-          "name": "NABIL GHILAS",
+          "name": "N. GHILAS",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Cordoba • iniciales NG • apellido Ghilas."
+          "number": "14",
+          "hint": "Argelino"
         }
       ]
     ]
@@ -1820,73 +1820,73 @@
           "name": "JUAN CARLOS",
           "position": "GK",
           "number": "1",
-          "hint": "Portero del Cordoba • iniciales JC • apellido Carlos."
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "ÍÑIGO LÓPEZ",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Cordoba • iniciales ÍL • apellido López."
+          "number": "12",
+          "hint": "Español"
         },
         {
-          "name": "ALEKSANDAR PANTIC",
+          "name": "A. PANTIĆ",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Cordoba • iniciales AP • apellido Pantic."
+          "number": "2",
+          "hint": "Serbio"
         },
         {
           "name": "EDIMAR",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Cordoba • iniciales E • apellido Edimar."
+          "number": "11",
+          "hint": "Brasileño"
         },
         {
-          "name": "RENE KRHIN",
+          "name": "R. KHRIN",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Cordoba • iniciales RK • apellido Krhin."
+          "number": "21",
+          "hint": "Esloveno"
         },
         {
           "name": "DEIVID",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Cordoba • iniciales D • apellido Deivid."
+          "number": "15",
+          "hint": "Español"
         },
         {
           "name": "JOSÉ CRESPO",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Cordoba • iniciales JC • apellido Crespo."
+          "number": "3",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "LUSO",
+          "name": "LUSO DELGADO",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Cordoba • iniciales L • apellido Luso."
+          "number": "6",
+          "hint": "Español"
         },
         {
           "name": "FIDEL",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Cordoba • iniciales F • apellido Fidel."
+          "number": "16",
+          "hint": "Español"
         },
         {
           "name": "BEBÉ",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Cordoba • iniciales B • apellido Bebé."
+          "number": "24",
+          "hint": "Caboverdiano"
         }
       ],
       [
         {
           "name": "FLORIN ANDONE",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Cordoba • iniciales FA • apellido Andone."
+          "number": "28",
+          "hint": "Rumano"
         }
       ]
     ]
@@ -1903,76 +1903,76 @@
     "formation": [
       [
         {
-          "name": "FABRI",
+          "name": "FABRICIO",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Deportivo La Coruna • iniciales F • apellido Fabri."
+          "number": "13",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "PABLO INSUA",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Deportivo La Coruna • iniciales PI • apellido Insua."
+          "number": "5",
+          "hint": "Español"
         },
         {
-          "name": "ALBERTO LOPO",
+          "name": "A. LOPO",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Deportivo La Coruna • iniciales AL • apellido Lopo."
+          "number": "23",
+          "hint": "Español"
         },
         {
           "name": "LUISINHO",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Deportivo La Coruna • iniciales L • apellido Luisinho."
+          "number": "16",
+          "hint": "Portugués"
         },
         {
           "name": "ÁLEX BERGANTIÑOS",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Deportivo La Coruna • iniciales ÁB • apellido Bergantiños."
+          "number": "4",
+          "hint": "Español"
         },
         {
           "name": "CELSO BORGES",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Deportivo La Coruna • iniciales CB • apellido Borges."
+          "number": "22",
+          "hint": "Costarricense"
         },
         {
           "name": "JUANFRAN",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Deportivo La Coruna • iniciales J • apellido Juanfran."
+          "number": "11",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "LUCAS PÉREZ",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Deportivo La Coruna • iniciales LP • apellido Pérez."
+          "number": "7",
+          "hint": "Español"
         },
         {
           "name": "IVAN CAVALEIRO",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Deportivo La Coruna • iniciales IC • apellido Cavaleiro."
+          "number": "19",
+          "hint": "Portugués"
         },
         {
-          "name": "ISAAC CUENCA",
+          "name": "I. CUENCA",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Deportivo La Coruna • iniciales IC • apellido Cuenca."
+          "number": "14",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "ORIOL RIERA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Deportivo La Coruna • iniciales OR • apellido Riera."
+          "number": "21",
+          "hint": "Español"
         }
       ]
     ]
@@ -1989,76 +1989,76 @@
     "formation": [
       [
         {
-          "name": "FABRI",
+          "name": "FABRICIO",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Deportivo La Coruna • iniciales F • apellido Fabri."
+          "number": "13",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "SIDNEI",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Deportivo La Coruna • iniciales S • apellido Sidnei."
+          "number": "12",
+          "hint": "Brasileño"
         },
         {
-          "name": "ALBERTO LOPO",
+          "name": "A. LOPO",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Deportivo La Coruna • iniciales AL • apellido Lopo."
+          "number": "23",
+          "hint": "Español"
         },
         {
           "name": "MANUEL PABLO",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Deportivo La Coruna • iniciales MP • apellido Pablo."
+          "number": "2",
+          "hint": "Español"
         },
         {
           "name": "CELSO BORGES",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Deportivo La Coruna • iniciales CB • apellido Borges."
+          "number": "22",
+          "hint": "Costarricense"
         },
         {
           "name": "ÁLEX BERGANTIÑOS",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Deportivo La Coruna • iniciales ÁB • apellido Bergantiños."
+          "number": "4",
+          "hint": "Español"
         },
         {
           "name": "LAURE",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Deportivo La Coruna • iniciales L • apellido Laure."
+          "number": "15",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "LUCAS PÉREZ",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Deportivo La Coruna • iniciales LP • apellido Pérez."
+          "number": "7",
+          "hint": "Español"
         },
         {
           "name": "LUISINHO",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Deportivo La Coruna • iniciales L • apellido Luisinho."
+          "number": "16",
+          "hint": "Portugués"
         },
         {
           "name": "JUANFRAN",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Deportivo La Coruna • iniciales J • apellido Juanfran."
+          "number": "11",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "ORIOL RIERA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Deportivo La Coruna • iniciales OR • apellido Riera."
+          "number": "21",
+          "hint": "Español"
         }
       ]
     ]
@@ -2075,76 +2075,76 @@
     "formation": [
       [
         {
-          "name": "FABRI",
+          "name": "FABRICIO",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Deportivo La Coruna • iniciales F • apellido Fabri."
+          "number": "13",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "ALBERTO LOPO",
+          "name": "A. LOPO",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Deportivo La Coruna • iniciales AL • apellido Lopo."
+          "number": "23",
+          "hint": "Español"
         },
         {
           "name": "SIDNEI",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Deportivo La Coruna • iniciales S • apellido Sidnei."
+          "number": "12",
+          "hint": "Brasileño"
         },
         {
           "name": "MANUEL PABLO",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Deportivo La Coruna • iniciales MP • apellido Pablo."
+          "number": "2",
+          "hint": "Español"
         },
         {
           "name": "CELSO BORGES",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Deportivo La Coruna • iniciales CB • apellido Borges."
+          "number": "22",
+          "hint": "Costarricense"
         },
         {
           "name": "ÁLEX BERGANTIÑOS",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Deportivo La Coruna • iniciales ÁB • apellido Bergantiños."
+          "number": "4",
+          "hint": "Español"
         },
         {
           "name": "JUANFRAN",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Deportivo La Coruna • iniciales J • apellido Juanfran."
+          "number": "11",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "LUCAS PÉREZ",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Deportivo La Coruna • iniciales LP • apellido Pérez."
+          "number": "7",
+          "hint": "Español"
         },
         {
           "name": "IVAN CAVALEIRO",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Deportivo La Coruna • iniciales IC • apellido Cavaleiro."
+          "number": "19",
+          "hint": "Portugués"
         },
         {
           "name": "JOSÉ RODRÍGUEZ",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Deportivo La Coruna • iniciales JR • apellido Rodríguez."
+          "number": "6",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "ORIOL RIERA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Deportivo La Coruna • iniciales OR • apellido Riera."
+          "number": "21",
+          "hint": "Español"
         }
       ]
     ]
@@ -2163,74 +2163,74 @@
         {
           "name": "JAIME",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Eibar • iniciales J • apellido Jaime."
+          "number": "25",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "RAÚL NAVAS",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Eibar • iniciales RN • apellido Navas."
+          "number": "22",
+          "hint": "Español"
         },
         {
           "name": "TXEMA AÑIBARRO",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Eibar • iniciales TA • apellido Añibarro."
+          "number": "4",
+          "hint": "Español"
         },
         {
-          "name": "LILLO",
+          "name": "LILLO CASTELLANO",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Eibar • iniciales L • apellido Lillo."
+          "number": "16",
+          "hint": "Español"
         },
         {
           "name": "DANI GARCÍA",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Eibar • iniciales DG • apellido García."
+          "number": "14",
+          "hint": "Español"
         },
         {
-          "name": "BORJA FERNÁNDEZ",
+          "name": "BORJA",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Eibar • iniciales BF • apellido Fernández."
+          "number": "12",
+          "hint": "Español"
         },
         {
           "name": "ENEKO BÓVEDA",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Eibar • iniciales EB • apellido Bóveda."
+          "number": "2",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "MIKEL ARRUABARRENA",
+          "name": "M. ARRUABARRENA",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Eibar • iniciales MA • apellido Arruabarrena."
+          "number": "10",
+          "hint": "Español"
         },
         {
-          "name": "ABRAHAM MINERO",
+          "name": "ABRAHAM",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Eibar • iniciales AM • apellido Minero."
+          "number": "24",
+          "hint": "Español"
         },
         {
           "name": "SAÚL BERJÓN",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Eibar • iniciales SB • apellido Berjón."
+          "number": "21",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "MANU DEL MORAL",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Eibar • iniciales MD • apellido Moral."
+          "number": "20",
+          "hint": "Español"
         }
       ]
     ]
@@ -2247,76 +2247,76 @@
     "formation": [
       [
         {
-          "name": "XABI IRURETA",
+          "name": "X. IRURETA",
           "position": "GK",
           "number": "1",
-          "hint": "Portero del Eibar • iniciales XI • apellido Irureta."
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "EKIZA",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Eibar • iniciales E • apellido Ekiza."
+          "number": "5",
+          "hint": "Español"
         },
         {
-          "name": "LILLO",
+          "name": "LILLO CASTELLANO",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Eibar • iniciales L • apellido Lillo."
+          "number": "16",
+          "hint": "Español"
         },
         {
           "name": "ALBENTOSA",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Eibar • iniciales A • apellido Albentosa."
+          "number": "6",
+          "hint": "Español"
         },
         {
-          "name": "ABRAHAM MINERO",
+          "name": "ABRAHAM",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Eibar • iniciales AM • apellido Minero."
+          "number": "24",
+          "hint": "Español"
         },
         {
           "name": "ENEKO BÓVEDA",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Eibar • iniciales EB • apellido Bóveda."
+          "number": "2",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "JON ERRASTI",
           "position": "MID",
-          "number": "7",
-          "hint": "Centrocampista del Eibar • iniciales JE • apellido Errasti."
+          "number": "8",
+          "hint": "Español"
         },
         {
           "name": "DANI GARCÍA",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Eibar • iniciales DG • apellido García."
+          "number": "14",
+          "hint": "Español"
         },
         {
           "name": "JAVI LARA",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Eibar • iniciales JL • apellido Lara."
+          "number": "23",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "SAÚL BERJÓN",
           "position": "FWD",
-          "number": "10",
-          "hint": "Delantero del Eibar • iniciales SB • apellido Berjón."
+          "number": "21",
+          "hint": "Español"
         },
         {
           "name": "ANDER CAPA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Eibar • iniciales AC • apellido Capa."
+          "number": "7",
+          "hint": "Español"
         }
       ]
     ]
@@ -2333,76 +2333,76 @@
     "formation": [
       [
         {
-          "name": "XABI IRURETA",
+          "name": "X. IRURETA",
           "position": "GK",
           "number": "1",
-          "hint": "Portero del Eibar • iniciales XI • apellido Irureta."
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "LILLO",
+          "name": "LILLO CASTELLANO",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Eibar • iniciales L • apellido Lillo."
+          "number": "16",
+          "hint": "Español"
         },
         {
           "name": "RAÚL NAVAS",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Eibar • iniciales RN • apellido Navas."
+          "number": "22",
+          "hint": "Español"
         },
         {
-          "name": "DÍDAC VILÁ",
+          "name": "DÍDAC VILÀ",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Eibar • iniciales DV • apellido Vilá."
+          "number": "17",
+          "hint": "Español"
         },
         {
-          "name": "BORJA FERNÁNDEZ",
+          "name": "BORJA",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Eibar • iniciales BF • apellido Fernández."
+          "number": "12",
+          "hint": "Español"
         },
         {
           "name": "DANI GARCÍA",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Eibar • iniciales DG • apellido García."
+          "number": "14",
+          "hint": "Español"
         },
         {
           "name": "ENEKO BÓVEDA",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Eibar • iniciales EB • apellido Bóveda."
+          "number": "2",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "MIKEL ARRUABARRENA",
+          "name": "M. ARRUABARRENA",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Eibar • iniciales MA • apellido Arruabarrena."
+          "number": "10",
+          "hint": "Español"
         },
         {
           "name": "JAVI LARA",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Eibar • iniciales JL • apellido Lara."
+          "number": "23",
+          "hint": "Español"
         },
         {
           "name": "ANDER CAPA",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Eibar • iniciales AC • apellido Capa."
+          "number": "7",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "SAÚL BERJÓN",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Eibar • iniciales SB • apellido Berjón."
+          "number": "21",
+          "hint": "Español"
         }
       ]
     ]
@@ -2419,76 +2419,76 @@
     "formation": [
       [
         {
-          "name": "PRZEMYSLAW TYTON",
+          "name": "P. TYTOŃ",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Elche • iniciales PT • apellido Tyton."
+          "number": "25",
+          "hint": "Polaco"
         }
       ],
       [
         {
-          "name": "DAVID LOMBÁN",
-          "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Elche • iniciales DL • apellido Lombán."
-        },
-        {
-          "name": "ENZO ROCO",
-          "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Elche • iniciales ER • apellido Roco."
-        },
-        {
-          "name": "DOMINGO CISMA",
+          "name": "LOMBÁN",
           "position": "DEF",
           "number": "4",
-          "hint": "Defensa del Elche • iniciales DC • apellido Cisma."
+          "hint": "Español"
+        },
+        {
+          "name": "E. ROCO",
+          "position": "DEF",
+          "number": "3",
+          "hint": "Chileno"
+        },
+        {
+          "name": "CISMA",
+          "position": "DEF",
+          "number": "5",
+          "hint": "Español"
         },
         {
           "name": "JOSÉ ÁNGEL",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Elche • iniciales JÁ • apellido Ángel."
+          "number": "14",
+          "hint": "Español"
         },
         {
-          "name": "MARIO PASALIC",
+          "name": "MARIO PAŠALIĆ",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Elche • iniciales MP • apellido Pasalic."
+          "number": "24",
+          "hint": "Croata"
         },
         {
-          "name": "DAMIÁN SUÁREZ",
+          "name": "D. SUÁREZ",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Elche • iniciales DS • apellido Suárez."
+          "number": "2",
+          "hint": "Uruguayo"
         }
       ],
       [
         {
-          "name": "FAYÇAL FAJR",
+          "name": "F. FAJR",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Elche • iniciales FF • apellido Fajr."
+          "number": "20",
+          "hint": "Marroquí"
         },
         {
           "name": "VÍCTOR RODRÍGUEZ",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Elche • iniciales VR • apellido Rodríguez."
+          "number": "17",
+          "hint": "Español"
         },
         {
-          "name": "CORO",
+          "name": "COROMINAS",
           "position": "MID",
           "number": "10",
-          "hint": "Centrocampista del Elche • iniciales C • apellido Coro."
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "JONATHAS",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Elche • iniciales J • apellido Jonathas."
+          "number": "22",
+          "hint": "Brasileño"
         }
       ]
     ]
@@ -2505,76 +2505,76 @@
     "formation": [
       [
         {
-          "name": "PRZEMYSLAW TYTON",
+          "name": "P. TYTOŃ",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Elche • iniciales PT • apellido Tyton."
+          "number": "25",
+          "hint": "Polaco"
         }
       ],
       [
         {
-          "name": "DAVID LOMBÁN",
-          "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Elche • iniciales DL • apellido Lombán."
-        },
-        {
-          "name": "ENZO ROCO",
-          "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Elche • iniciales ER • apellido Roco."
-        },
-        {
-          "name": "DOMINGO CISMA",
+          "name": "LOMBÁN",
           "position": "DEF",
           "number": "4",
-          "hint": "Defensa del Elche • iniciales DC • apellido Cisma."
+          "hint": "Español"
         },
         {
-          "name": "DAMIÁN SUÁREZ",
+          "name": "E. ROCO",
+          "position": "DEF",
+          "number": "3",
+          "hint": "Chileno"
+        },
+        {
+          "name": "CISMA",
           "position": "DEF",
           "number": "5",
-          "hint": "Defensa del Elche • iniciales DS • apellido Suárez."
+          "hint": "Español"
+        },
+        {
+          "name": "D. SUÁREZ",
+          "position": "DEF",
+          "number": "2",
+          "hint": "Uruguayo"
         }
       ],
       [
         {
-          "name": "MARIO PASALIC",
+          "name": "MARIO PAŠALIĆ",
           "position": "MID",
-          "number": "6",
-          "hint": "Centrocampista del Elche • iniciales MP • apellido Pasalic."
+          "number": "24",
+          "hint": "Croata"
         },
         {
-          "name": "ADRIÁN GONZÁLEZ",
-          "position": "MID",
-          "number": "7",
-          "hint": "Centrocampista del Elche • iniciales AG • apellido González."
-        },
-        {
-          "name": "AARÓN ÑÍGUEZ",
+          "name": "ADRIÁN",
           "position": "MID",
           "number": "8",
-          "hint": "Centrocampista del Elche • iniciales AÑ • apellido Ñíguez."
+          "hint": "Español"
+        },
+        {
+          "name": "AARÓN",
+          "position": "MID",
+          "number": "7",
+          "hint": "Español"
         },
         {
           "name": "VÍCTOR RODRÍGUEZ",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Elche • iniciales VR • apellido Rodríguez."
+          "number": "17",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "FAYÇAL FAJR",
+          "name": "F. FAJR",
           "position": "FWD",
-          "number": "10",
-          "hint": "Delantero del Elche • iniciales FF • apellido Fajr."
+          "number": "20",
+          "hint": "Marroquí"
         },
         {
           "name": "JONATHAS",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Elche • iniciales J • apellido Jonathas."
+          "number": "22",
+          "hint": "Brasileño"
         }
       ]
     ]
@@ -2591,76 +2591,76 @@
     "formation": [
       [
         {
-          "name": "PRZEMYSLAW TYTON",
+          "name": "P. TYTOŃ",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Elche • iniciales PT • apellido Tyton."
+          "number": "25",
+          "hint": "Polaco"
         }
       ],
       [
         {
-          "name": "ENZO ROCO",
-          "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Elche • iniciales ER • apellido Roco."
-        },
-        {
-          "name": "DAVID LOMBÁN",
+          "name": "E. ROCO",
           "position": "DEF",
           "number": "3",
-          "hint": "Defensa del Elche • iniciales DL • apellido Lombán."
+          "hint": "Chileno"
         },
         {
-          "name": "DOMINGO CISMA",
+          "name": "LOMBÁN",
           "position": "DEF",
           "number": "4",
-          "hint": "Defensa del Elche • iniciales DC • apellido Cisma."
+          "hint": "Español"
+        },
+        {
+          "name": "CISMA",
+          "position": "DEF",
+          "number": "5",
+          "hint": "Español"
         },
         {
           "name": "PEDRO MOSQUERA",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Elche • iniciales PM • apellido Mosquera."
-        },
-        {
-          "name": "MARIO PASALIC",
-          "position": "DEF",
           "number": "6",
-          "hint": "Defensa del Elche • iniciales MP • apellido Pasalic."
+          "hint": "Español"
         },
         {
-          "name": "DAMIÁN SUÁREZ",
+          "name": "MARIO PAŠALIĆ",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Elche • iniciales DS • apellido Suárez."
+          "number": "24",
+          "hint": "Croata"
+        },
+        {
+          "name": "D. SUÁREZ",
+          "position": "DEF",
+          "number": "2",
+          "hint": "Uruguayo"
         }
       ],
       [
         {
-          "name": "FAYÇAL FAJR",
+          "name": "F. FAJR",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Elche • iniciales FF • apellido Fajr."
+          "number": "20",
+          "hint": "Marroquí"
         },
         {
-          "name": "AARÓN ÑÍGUEZ",
+          "name": "AARÓN",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Elche • iniciales AÑ • apellido Ñíguez."
+          "number": "7",
+          "hint": "Español"
         },
         {
           "name": "VÍCTOR RODRÍGUEZ",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Elche • iniciales VR • apellido Rodríguez."
+          "number": "17",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "CRISTIAN HERRERA",
+          "name": "C. HERRERA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Elche • iniciales CH • apellido Herrera."
+          "number": "9",
+          "hint": "Español"
         }
       ]
     ]
@@ -2679,74 +2679,74 @@
         {
           "name": "KIKO CASILLA",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Espanyol • iniciales KC • apellido Casilla."
+          "number": "13",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "HÉCTOR MORENO",
+          "name": "H. MORENO",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Espanyol • iniciales HM • apellido Moreno."
+          "number": "15",
+          "hint": "Mexicano"
         },
         {
           "name": "ÁLVARO GONZÁLEZ",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Espanyol • iniciales ÁG • apellido González."
+          "number": "22",
+          "hint": "Español"
         },
         {
           "name": "FUENTES",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Espanyol • iniciales F • apellido Fuentes."
+          "number": "18",
+          "hint": "Español"
         },
         {
           "name": "JAVI LÓPEZ",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Espanyol • iniciales JL • apellido López."
+          "number": "16",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "ABRAHAM",
+          "name": "ÁLVARO GONZÁLEZ",
           "position": "MID",
-          "number": "6",
-          "hint": "Centrocampista del Espanyol • iniciales A • apellido Abraham."
+          "number": "22",
+          "hint": "Español"
         },
         {
           "name": "JOSÉ CAÑAS",
           "position": "MID",
-          "number": "7",
-          "hint": "Centrocampista del Espanyol • iniciales JC • apellido Cañas."
+          "number": "14",
+          "hint": "Español"
         },
         {
           "name": "SALVA SEVILLA",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Espanyol • iniciales SS • apellido Sevilla."
+          "number": "6",
+          "hint": "Español"
         },
         {
           "name": "LUCAS VÁZQUEZ",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Espanyol • iniciales LV • apellido Vázquez."
+          "number": "17",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "CRISTHIAN STUANI",
+          "name": "C. STUANI",
           "position": "FWD",
-          "number": "10",
-          "hint": "Delantero del Espanyol • iniciales CS • apellido Stuani."
+          "number": "8",
+          "hint": "Uruguayo"
         },
         {
           "name": "SERGIO GARCÍA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Espanyol • iniciales SG • apellido García."
+          "number": "9",
+          "hint": "Español"
         }
       ]
     ]
@@ -2765,74 +2765,74 @@
         {
           "name": "KIKO CASILLA",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Espanyol • iniciales KC • apellido Casilla."
+          "number": "13",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "HÉCTOR MORENO",
+          "name": "H. MORENO",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Espanyol • iniciales HM • apellido Moreno."
+          "number": "15",
+          "hint": "Mexicano"
         },
         {
-          "name": "DIEGO COLOTTO",
+          "name": "D. COLOTTO",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Espanyol • iniciales DC • apellido Colotto."
+          "number": "19",
+          "hint": "Argentino"
         },
         {
           "name": "FUENTES",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Espanyol • iniciales F • apellido Fuentes."
+          "number": "18",
+          "hint": "Español"
         },
         {
-          "name": "ABRAHAM",
+          "name": "ÁLVARO GONZÁLEZ",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Espanyol • iniciales A • apellido Abraham."
+          "number": "22",
+          "hint": "Español"
         },
         {
           "name": "JAVI LÓPEZ",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Espanyol • iniciales JL • apellido López."
+          "number": "16",
+          "hint": "Español"
         },
         {
-          "name": "ANAITZ ARBILLA",
+          "name": "A. ARBILLA",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Espanyol • iniciales AA • apellido Arbilla."
+          "number": "23",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "CRISTHIAN STUANI",
+          "name": "C. STUANI",
           "position": "MID",
           "number": "8",
-          "hint": "Centrocampista del Espanyol • iniciales CS • apellido Stuani."
+          "hint": "Uruguayo"
         },
         {
           "name": "SALVA SEVILLA",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Espanyol • iniciales SS • apellido Sevilla."
+          "number": "6",
+          "hint": "Español"
         },
         {
           "name": "LUCAS VÁZQUEZ",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Espanyol • iniciales LV • apellido Vázquez."
+          "number": "17",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "SERGIO GARCÍA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Espanyol • iniciales SG • apellido García."
+          "number": "9",
+          "hint": "Español"
         }
       ]
     ]
@@ -2851,74 +2851,74 @@
         {
           "name": "KIKO CASILLA",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Espanyol • iniciales KC • apellido Casilla."
+          "number": "13",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "HÉCTOR MORENO",
+          "name": "H. MORENO",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Espanyol • iniciales HM • apellido Moreno."
+          "number": "15",
+          "hint": "Mexicano"
         },
         {
           "name": "ÁLVARO GONZÁLEZ",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Espanyol • iniciales ÁG • apellido González."
+          "number": "22",
+          "hint": "Español"
         },
         {
           "name": "RUBÉN DUARTE",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Espanyol • iniciales RD • apellido Duarte."
+          "number": "27",
+          "hint": "Español"
         },
         {
-          "name": "ANAITZ ARBILLA",
+          "name": "A. ARBILLA",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Espanyol • iniciales AA • apellido Arbilla."
+          "number": "23",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "VÍCTOR SÁNCHEZ",
           "position": "MID",
-          "number": "6",
-          "hint": "Centrocampista del Espanyol • iniciales VS • apellido Sánchez."
+          "number": "4",
+          "hint": "Español"
         },
         {
-          "name": "ABRAHAM",
+          "name": "ÁLVARO GONZÁLEZ",
           "position": "MID",
-          "number": "7",
-          "hint": "Centrocampista del Espanyol • iniciales A • apellido Abraham."
+          "number": "22",
+          "hint": "Español"
         },
         {
           "name": "SALVA SEVILLA",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Espanyol • iniciales SS • apellido Sevilla."
+          "number": "6",
+          "hint": "Español"
         },
         {
           "name": "LUCAS VÁZQUEZ",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Espanyol • iniciales LV • apellido Vázquez."
+          "number": "17",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "FELIPE CAICEDO",
+          "name": "F. CAICEDO",
           "position": "FWD",
-          "number": "10",
-          "hint": "Delantero del Espanyol • iniciales FC • apellido Caicedo."
+          "number": "20",
+          "hint": "Ecuatoriano"
         },
         {
           "name": "SERGIO GARCÍA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Espanyol • iniciales SG • apellido García."
+          "number": "9",
+          "hint": "Español"
         }
       ]
     ]
@@ -2935,76 +2935,76 @@
     "formation": [
       [
         {
-          "name": "VICENTE GUAITA",
+          "name": "V. GUAITA",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Getafe • iniciales VG • apellido Guaita."
+          "number": "25",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "NALDO",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Getafe • iniciales N • apellido Naldo."
+          "number": "5",
+          "hint": "Brasileño"
         },
         {
-          "name": "EMILIANO VELÁZQUEZ",
-          "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Getafe • iniciales EV • apellido Velázquez."
-        },
-        {
-          "name": "SERGIO ESCUDERO",
+          "name": "E. VELÁZQUEZ",
           "position": "DEF",
           "number": "4",
-          "hint": "Defensa del Getafe • iniciales SE • apellido Escudero."
+          "hint": "Uruguayo"
         },
         {
-          "name": "DIEGO CASTRO",
+          "name": "S. ESCUDERO",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Getafe • iniciales DC • apellido Castro."
+          "number": "18",
+          "hint": "Español"
         },
         {
-          "name": "MEHDI LACEN",
+          "name": "D. CASTRO",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Getafe • iniciales ML • apellido Lacen."
+          "number": "17",
+          "hint": "Español"
+        },
+        {
+          "name": "LACEN",
+          "position": "DEF",
+          "number": "8",
+          "hint": "Argelino"
         },
         {
           "name": "CARLOS VIGARAY",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Getafe • iniciales CV • apellido Vigaray."
+          "number": "27",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "PABLO SARABIA",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Getafe • iniciales PS • apellido Sarabia."
+          "number": "10",
+          "hint": "Español"
         },
         {
-          "name": "FREDDY HINESTROZA",
+          "name": "F. HINESTROZA",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Getafe • iniciales FH • apellido Hinestroza."
+          "number": "23",
+          "hint": "Colombiano"
         },
         {
           "name": "PEDRO LEÓN",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Getafe • iniciales PL • apellido León."
+          "number": "14",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "ÁLVARO VÁZQUEZ",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Getafe • iniciales ÁV • apellido Vázquez."
+          "number": "9",
+          "hint": "Español"
         }
       ]
     ]
@@ -3021,76 +3021,76 @@
     "formation": [
       [
         {
-          "name": "JONA",
+          "name": "JONATHAN",
           "position": "GK",
           "number": "1",
-          "hint": "Portero del Getafe • iniciales J • apellido Jona."
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "NALDO",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Getafe • iniciales N • apellido Naldo."
+          "number": "5",
+          "hint": "Brasileño"
         },
         {
-          "name": "EMILIANO VELÁZQUEZ",
-          "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Getafe • iniciales EV • apellido Velázquez."
-        },
-        {
-          "name": "SERGIO ESCUDERO",
+          "name": "E. VELÁZQUEZ",
           "position": "DEF",
           "number": "4",
-          "hint": "Defensa del Getafe • iniciales SE • apellido Escudero."
+          "hint": "Uruguayo"
         },
         {
-          "name": "MEHDI LACEN",
+          "name": "S. ESCUDERO",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Getafe • iniciales ML • apellido Lacen."
+          "number": "18",
+          "hint": "Español"
+        },
+        {
+          "name": "LACEN",
+          "position": "DEF",
+          "number": "8",
+          "hint": "Argelino"
         },
         {
           "name": "JUAN RODRÍGUEZ",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Getafe • iniciales JR • apellido Rodríguez."
+          "number": "22",
+          "hint": "Español"
         },
         {
-          "name": "ALEXIS RUANO",
+          "name": "ALEXIS",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Getafe • iniciales AR • apellido Ruano."
+          "number": "2",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "PABLO SARABIA",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Getafe • iniciales PS • apellido Sarabia."
+          "number": "10",
+          "hint": "Español"
         },
         {
-          "name": "JORGE SAMMIR CRUZ CAMPOS",
+          "name": "SAMMIR",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Getafe • iniciales JS • apellido Campos."
+          "number": "6",
+          "hint": "Croata"
         },
         {
           "name": "PEDRO LEÓN",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Getafe • iniciales PL • apellido León."
+          "number": "14",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "ÁLVARO VÁZQUEZ",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Getafe • iniciales ÁV • apellido Vázquez."
+          "number": "9",
+          "hint": "Español"
         }
       ]
     ]
@@ -3107,76 +3107,76 @@
     "formation": [
       [
         {
-          "name": "VICENTE GUAITA",
+          "name": "V. GUAITA",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Getafe • iniciales VG • apellido Guaita."
+          "number": "25",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "EMILIANO VELÁZQUEZ",
+          "name": "E. VELÁZQUEZ",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Getafe • iniciales EV • apellido Velázquez."
+          "number": "4",
+          "hint": "Uruguayo"
         },
         {
           "name": "NALDO",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Getafe • iniciales N • apellido Naldo."
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Getafe • iniciales SE • apellido Escudero."
-        },
-        {
-          "name": "MEHDI LACEN",
-          "position": "DEF",
           "number": "5",
-          "hint": "Defensa del Getafe • iniciales ML • apellido Lacen."
+          "hint": "Brasileño"
+        },
+        {
+          "name": "S. ESCUDERO",
+          "position": "DEF",
+          "number": "18",
+          "hint": "Español"
+        },
+        {
+          "name": "LACEN",
+          "position": "DEF",
+          "number": "8",
+          "hint": "Argelino"
         },
         {
           "name": "MÍCHEL HERRERO",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Getafe • iniciales MH • apellido Herrero."
+          "number": "21",
+          "hint": "Español"
         },
         {
-          "name": "JUAN VALERA",
+          "name": "J. VALERA",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Getafe • iniciales JV • apellido Valera."
+          "number": "20",
+          "hint": "Español"
         }
       ],
       [
         {
           "name": "PABLO SARABIA",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Getafe • iniciales PS • apellido Sarabia."
-        },
-        {
-          "name": "DIEGO CASTRO",
-          "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Getafe • iniciales DC • apellido Castro."
-        },
-        {
-          "name": "KARIM YODA",
-          "position": "MID",
           "number": "10",
-          "hint": "Centrocampista del Getafe • iniciales KY • apellido Yoda."
+          "hint": "Español"
+        },
+        {
+          "name": "D. CASTRO",
+          "position": "MID",
+          "number": "17",
+          "hint": "Español"
+        },
+        {
+          "name": "K. YODA",
+          "position": "MID",
+          "number": "11",
+          "hint": "Francés"
         }
       ],
       [
         {
-          "name": "ÁNGEL LAFITA",
+          "name": "A. LAFITA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Getafe • iniciales ÁL • apellido Lafita."
+          "number": "7",
+          "hint": "Español"
         }
       ]
     ]
@@ -3193,76 +3193,76 @@
     "formation": [
       [
         {
-          "name": "OIER OLAZÁBAL",
+          "name": "OIER",
           "position": "GK",
           "number": "1",
-          "hint": "Portero del Granada • iniciales OO • apellido Olazábal."
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "JEAN-SYLVAIN BABIN",
+          "name": "J. BABIN",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Granada • iniciales JB • apellido Babin."
+          "number": "6",
+          "hint": "Martiniqués"
         },
         {
-          "name": "DIEGO MAINZ",
+          "name": "D. MAINZ",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Granada • iniciales DM • apellido Mainz."
+          "number": "5",
+          "hint": "Español"
         },
         {
-          "name": "ABDOUL SISSOKO",
+          "name": "A. SISSOKO",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Granada • iniciales AS • apellido Sissoko."
+          "number": "17",
+          "hint": "Maliense"
         },
         {
           "name": "HÉCTOR YUSTE",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Granada • iniciales HY • apellido Yuste."
-        },
-        {
-          "name": "MANUEL ITURRA",
-          "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Granada • iniciales MI • apellido Iturra."
-        },
-        {
-          "name": "ALLAN NYOM",
-          "position": "DEF",
           "number": "7",
-          "hint": "Defensa del Granada • iniciales AN • apellido Nyom."
+          "hint": "Español"
+        },
+        {
+          "name": "ITURRA",
+          "position": "DEF",
+          "number": "16",
+          "hint": "Chileno"
+        },
+        {
+          "name": "A. NYOM",
+          "position": "DEF",
+          "number": "2",
+          "hint": "Camerunés"
         }
       ],
       [
         {
           "name": "PITI",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Granada • iniciales P • apellido Piti."
+          "number": "10",
+          "hint": "Español"
         },
         {
           "name": "LASS BANGOURA",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Granada • iniciales LB • apellido Bangoura."
+          "number": "15",
+          "hint": "Guineano"
         },
         {
           "name": "ROBER IBÁÑEZ",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Granada • iniciales RI • apellido Ibáñez."
+          "number": "21",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "YOUSSEF EL ARABI",
+          "name": "Y. EL-ARABI",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Granada • iniciales YE • apellido Arabi."
+          "number": "9",
+          "hint": "Marroquí"
         }
       ]
     ]
@@ -3279,76 +3279,76 @@
     "formation": [
       [
         {
-          "name": "ROBERTO FERNÁNDEZ",
+          "name": "ROBERTO",
           "position": "GK",
-          "number": "1",
-          "hint": "Portero del Granada • iniciales RF • apellido Fernández."
+          "number": "13",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "JEAN-SYLVAIN BABIN",
+          "name": "J. BABIN",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Granada • iniciales JB • apellido Babin."
+          "number": "6",
+          "hint": "Martiniqués"
         },
         {
-          "name": "JEISON MURILLO",
+          "name": "J. MURILLO",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Granada • iniciales JM • apellido Murillo."
+          "number": "24",
+          "hint": "Colombiano"
         },
         {
           "name": "JUANKAR",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Granada • iniciales J • apellido Juankar."
+          "number": "20",
+          "hint": "Español"
         },
         {
-          "name": "MANUEL ITURRA",
+          "name": "ITURRA",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Granada • iniciales MI • apellido Iturra."
+          "number": "16",
+          "hint": "Chileno"
         },
         {
           "name": "FRAN RICO",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Granada • iniciales FR • apellido Rico."
+          "number": "4",
+          "hint": "Español"
         },
         {
-          "name": "DIMITRI FOULQUIER",
+          "name": "D. FOULQUIER",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Granada • iniciales DF • apellido Foulquier."
+          "number": "22",
+          "hint": "Guadalupeño"
         }
       ],
       [
         {
           "name": "PITI",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Granada • iniciales P • apellido Piti."
+          "number": "10",
+          "hint": "Español"
         },
         {
-          "name": "ABDOUL SISSOKO",
+          "name": "A. SISSOKO",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Granada • iniciales AS • apellido Sissoko."
+          "number": "17",
+          "hint": "Maliense"
         },
         {
           "name": "RUBÉN ROCHINA",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Granada • iniciales RR • apellido Rochina."
+          "number": "23",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "YOUSSEF EL ARABI",
+          "name": "Y. EL-ARABI",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Granada • iniciales YE • apellido Arabi."
+          "number": "9",
+          "hint": "Marroquí"
         }
       ]
     ]
@@ -3365,76 +3365,76 @@
     "formation": [
       [
         {
-          "name": "OIER OLAZÁBAL",
+          "name": "OIER",
           "position": "GK",
           "number": "1",
-          "hint": "Portero del Granada • iniciales OO • apellido Olazábal."
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "JEAN-SYLVAIN BABIN",
+          "name": "J. BABIN",
           "position": "DEF",
-          "number": "2",
-          "hint": "Defensa del Granada • iniciales JB • apellido Babin."
+          "number": "6",
+          "hint": "Martiniqués"
         },
         {
-          "name": "DIEGO MAINZ",
+          "name": "D. MAINZ",
           "position": "DEF",
-          "number": "3",
-          "hint": "Defensa del Granada • iniciales DM • apellido Mainz."
+          "number": "5",
+          "hint": "Español"
         },
         {
           "name": "EMANUEL INSÚA",
           "position": "DEF",
-          "number": "4",
-          "hint": "Defensa del Granada • iniciales EI • apellido Insúa."
+          "number": "25",
+          "hint": "Argentino"
         },
         {
           "name": "RUBÉN PÉREZ",
           "position": "DEF",
-          "number": "5",
-          "hint": "Defensa del Granada • iniciales RP • apellido Pérez."
+          "number": "12",
+          "hint": "Español"
         },
         {
           "name": "FRAN RICO",
           "position": "DEF",
-          "number": "6",
-          "hint": "Defensa del Granada • iniciales FR • apellido Rico."
+          "number": "4",
+          "hint": "Español"
         },
         {
-          "name": "ALLAN NYOM",
+          "name": "A. NYOM",
           "position": "DEF",
-          "number": "7",
-          "hint": "Defensa del Granada • iniciales AN • apellido Nyom."
+          "number": "2",
+          "hint": "Camerunés"
         }
       ],
       [
         {
           "name": "PITI",
           "position": "MID",
-          "number": "8",
-          "hint": "Centrocampista del Granada • iniciales P • apellido Piti."
+          "number": "10",
+          "hint": "Español"
         },
         {
           "name": "LASS BANGOURA",
           "position": "MID",
-          "number": "9",
-          "hint": "Centrocampista del Granada • iniciales LB • apellido Bangoura."
+          "number": "15",
+          "hint": "Guineano"
         },
         {
           "name": "ROBER IBÁÑEZ",
           "position": "MID",
-          "number": "10",
-          "hint": "Centrocampista del Granada • iniciales RI • apellido Ibáñez."
+          "number": "21",
+          "hint": "Español"
         }
       ],
       [
         {
-          "name": "JHON CÓRDOBA",
+          "name": "J. CÓRDOBA",
           "position": "FWD",
-          "number": "11",
-          "hint": "Delantero del Granada • iniciales JC • apellido Córdoba."
+          "number": "18",
+          "hint": "Colombiano"
         }
       ]
     ]
