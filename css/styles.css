@@ -365,7 +365,7 @@
             position: relative;
             z-index: 2;
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             gap: 25px;
             min-height: 550px;
         }
@@ -491,15 +491,6 @@
             font-size: 0.75rem;
             letter-spacing: 0.5px;
             text-transform: uppercase;
-        }
-
-        .attempts-counter {
-            background: rgba(0, 0, 0, 0.3);
-            color: white;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-size: 0.7rem;
-            font-weight: bold;
         }
 
         .stats-bar {
@@ -632,7 +623,7 @@
             background: var(--bg-purple);
             border-radius: 15px;
             padding: 30px 20px;
-            max-width: 500px;
+            max-width: 600px;
             width: 100%;
             max-height: 90vh;
             overflow-y: auto;
@@ -760,6 +751,12 @@
             background: var(--card-dark);
             transition: all 0.3s;
         }
+        
+        .letter-cell.space-cell {
+            border: none;
+            background: transparent;
+            width: 20px;
+        }
 
         .letter-cell.flip {
             animation: flip 0.6s ease-out;
@@ -775,13 +772,6 @@
             background: var(--correct);
             border-color: var(--correct);
             color: white;
-        }
-
-        /* Modo alto contraste - añadir patrón para correct */
-        body.high-contrast .letter-cell.correct::before {
-            content: '✓';
-            position: absolute;
-            font-size: 1.2rem;
         }
 
         .letter-cell.present {
@@ -929,6 +919,10 @@
                 height: 45px;
                 font-size: 1.4rem;
             }
+            
+            .letter-cell.space-cell {
+                width: 15px;
+            }
 
             .key {
                 min-width: 28px;
@@ -969,6 +963,10 @@
                 width: 35px;
                 height: 40px;
                 font-size: 1.2rem;
+            }
+            
+            .letter-cell.space-cell {
+                width: 12px;
             }
 
             .key {
