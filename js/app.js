@@ -161,15 +161,16 @@ function renderFormation() {
             nameContainer.className = 'player-name-container';
             
             if (isRevealed) {
-                // Mostrar nombre revelado
+                // Mostrar nombre revelado (completo)
                 const revealedName = document.createElement('div');
                 revealedName.className = 'revealed-name';
                 revealedName.textContent = player.name;
                 nameContainer.appendChild(revealedName);
             } else {
-                // Crear guiones negros individuales
-                for (let i = 0; i < player.name.length; i++) {
-                    const char = player.name[i];
+                // Crear guiones negros individuales (usando nombre sin abreviaciones)
+                const cleanName = removeAbbreviations(player.name);
+                for (let i = 0; i < cleanName.length; i++) {
+                    const char = cleanName[i];
                     const slot = document.createElement('div');
                     
                     if (char === ' ') {
