@@ -209,10 +209,11 @@ function openGuessModal(playerIndex) {
     }
     
     const player = getPlayerByIndex(playerIndex);
-    const fullName = player.name.toUpperCase(); // Nombre con espacios y tildes para visualización
-    const normalizedName = normalizeText(player.name); // Nombre sin tildes para lógica
+    const originalName = player.name.toUpperCase(); // Nombre original completo
+    const cleanName = removeAbbreviations(originalName); // Nombre sin abreviaciones (A., J., etc.)
+    const normalizedName = normalizeText(removeAbbreviations(player.name)); // Sin tildes ni abreviaciones
     
-    // Crear grid de letras
+    // Crear grid de letras (usando nombre sin abreviaciones)
     const guessGrid = document.getElementById('guess-grid');
     guessGrid.innerHTML = '';
     
@@ -221,10 +222,10 @@ function openGuessModal(playerIndex) {
         row.className = 'guess-row';
         
         let cellIndex = 0;
-        for (let j = 0; j < fullName.length; j++) {
+        for (let j = 0; j < cleanName.length; j++) {
             const cell = document.createElement('div');
             
-            if (fullName[j] === ' ') {
+            if (cleanName[j] === ' ') {
                 // Crear celda de espacio
                 cell.className = 'letter-cell space-cell';
                 cell.id = `cell-${i}-${j}-space`;
@@ -290,9 +291,16 @@ function normalizeText(text) {
     return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
 }
 
+// Función para eliminar abreviaciones del nombre (A., J., etc.)
+function removeAbbreviations(name) {
+    // Eliminar patrones como "A. ", "J. ", "CH. ", etc.
+    // Patrón: una o más letras mayúsculas seguidas de punto y espacio
+    return name.replace(/\b[A-Z]{1,2}\.\s+/g, '').trim();
+}
+
 function handleKeyPress(key) {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetName = normalizeText(player.name.replace(/\s/g, ''));
+    const targetName = normalizeText(removeAbbreviations(player.name).replace(/\s/g, ''));
     
     if (key === 'Enter') {
         if (currentGuess.length === targetName.length) {
@@ -317,7 +325,7 @@ function handleKeyPress(key) {
 
 function updateCurrentRow() {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetLength = normalizeText(player.name.replace(/\s/g, '')).length;
+    const targetLength = normalizeText(removeAbbreviations(player.name).replace(/\s/g, '')).length;
     
     for (let i = 0; i < targetLength; i++) {
         const cell = document.getElementById(`cell-${currentRow}-${i}`);
@@ -328,7 +336,7 @@ function updateCurrentRow() {
 
 function checkGuess() {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetName = normalizeText(player.name.replace(/\s/g, ''));
+    const targetName = normalizeText(removeAbbreviations(player.name).replace(/\s/g, ''));
     const guessWord = currentGuess.join('');
     
     if (guessWord === targetName) {
@@ -424,7 +432,7 @@ function checkGuess() {
 
 function animateCorrectGuess() {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetLength = normalizeText(player.name.replace(/\s/g, '')).length;
+    const targetLength = normalizeText(removeAbbreviations(player.name).replace(/\s/g, '')).length;
     
     for (let i = 0; i < targetLength; i++) {
         const cell = document.getElementById(`cell-${currentRow}-${i}`);
