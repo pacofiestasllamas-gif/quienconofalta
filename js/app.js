@@ -6,7 +6,6 @@ let currentMatch = null;
 let currentPlayerIndex = null;
 let revealedPlayers = new Set();
 let currentGuess = [];
-let usedHints = new Set();
 let playerAttempts = {}; // Contador de intentos por jugador
 let playerGuessHistory = {}; // Historial de intentos del wordle por jugador
 
@@ -105,7 +104,6 @@ function loadMatch() {
     
     currentMatch = allMatches[currentMatchIndex];
     revealedPlayers = new Set();
-    usedHints = new Set();
     playerAttempts = {};
     playerGuessHistory = {};
     
@@ -155,6 +153,7 @@ function renderFormation() {
             // Jersey
             const jersey = document.createElement('div');
             jersey.className = `jersey ${player.position === 'GK' ? 'goalkeeper' : ''}`;
+            jersey.textContent = player.number || '';
             jersey.onclick = () => openGuessModal(globalIndex);
             
             // Nombre del jugador
@@ -268,12 +267,6 @@ function openGuessModal(playerIndex) {
     for (const attempt of history) {
         updateKeyboard(attempt.guess.split(''), attempt.status);
     }
-    
-    // Ocultar pista
-    document.getElementById('hint-display').style.display = 'none';
-    
-    // Habilitar botón de pista si no se ha usado
-    document.getElementById('hint-btn').disabled = usedHints.has(playerIndex);
     
     document.getElementById('guess-modal').classList.add('active');
 }
@@ -472,26 +465,6 @@ function resetKeyboard() {
     currentRow = 0;
 }
 
-function showHint() {
-    const player = getPlayerByIndex(currentPlayerIndex);
-    const hintDisplay = document.getElementById('hint-display');
-    
-    let hintText = '';
-    if (player.hint) {
-        hintText = player.hint;
-    } else {
-        // Generar pista genérica si no hay una específica
-        const nameLength = player.name.replace(/\s/g, '').length;
-        hintText = `El nombre tiene ${nameLength} letras`;
-    }
-    
-    hintDisplay.textContent = hintText;
-    hintDisplay.style.display = 'block';
-    
-    usedHints.add(currentPlayerIndex);
-    document.getElementById('hint-btn').disabled = true;
-}
-
 function revealPlayer(playerIndex) {
     revealedPlayers.add(playerIndex);
     
@@ -676,6 +649,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('give-up-btn').addEventListener('click', giveUp);
     document.getElementById('home-btn').addEventListener('click', returnHome);
     document.getElementById('back-btn').addEventListener('click', closeGuessModal);
-    document.getElementById('hint-btn').addEventListener('click', showHint);
     document.getElementById('reveal-btn-modal').addEventListener('click', revealPlayerFromModal);
 });

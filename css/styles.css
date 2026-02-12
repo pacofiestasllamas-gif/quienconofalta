@@ -416,6 +416,11 @@
             justify-content: center;
             position: relative;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
 
         .jersey.goalkeeper {
@@ -667,47 +672,6 @@
             text-align: center;
         }
 
-        .hint-btn {
-            background: var(--neon-yellow);
-            color: var(--bg-dark);
-            border: none;
-            padding: 8px 15px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-family: 'Rajdhani', sans-serif;
-            font-weight: 700;
-            font-size: 0.9rem;
-            transition: all 0.2s;
-        }
-
-        .hint-btn:hover {
-            background: #fcd34d;
-            transform: scale(1.05);
-        }
-
-        .hint-btn:disabled {
-            background: #6b7280;
-            cursor: not-allowed;
-            opacity: 0.5;
-        }
-
-        .hint-display {
-            background: rgba(251, 191, 36, 0.2);
-            border: 2px solid var(--neon-yellow);
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            text-align: center;
-            font-weight: 600;
-            animation: hintPop 0.5s ease-out;
-        }
-
-        @keyframes hintPop {
-            0% { transform: scale(0.9); opacity: 0; }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); opacity: 1; }
-        }
-
         .reveal-btn-modal {
             background: var(--correct);
             color: var(--bg-dark);
@@ -903,6 +867,7 @@
             .jersey {
                 width: 50px;
                 height: 60px;
+                font-size: 1.5rem;
             }
 
             .player-name-container {
@@ -978,6 +943,7 @@
             .jersey {
                 width: 45px;
                 height: 55px;
+                font-size: 1.3rem;
             }
         }
 
