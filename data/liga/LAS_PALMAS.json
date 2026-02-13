@@ -1,0 +1,677 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "DEPORTIVO LA CORUNA",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-3",
+    "date": "11 de abril 2016",
+    "playingTeam": "LAS PALMAS",
+    "formation": [
+      [
+        {
+          "name": "JAVI VARAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MAURICIO LEMOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "AYTHAMI ARTILES",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DANI CASTELLANO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ROQUE MESA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "JONATHAN VIERA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TANA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MOMO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "NILI",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO ARAÚJO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "MALAGA",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-1",
+    "date": "15 de mayo 2016",
+    "playingTeam": "LAS PALMAS",
+    "formation": [
+      [
+        {
+          "name": "RAÚL LIZOAIN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MAURICIO LEMOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "PEDRO BIGAS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DANI CASTELLANO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ROQUE MESA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "JONATHAN VIERA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TANA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MOMO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "NABIL EL ZHAR",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "WILLIAN JOSÉ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "LAS PALMAS",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "06 de noviembre 2015",
+    "playingTeam": "LAS PALMAS",
+    "formation": [
+      [
+        {
+          "name": "JAVI VARAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "AYTHAMI ARTILES",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "PEDRO BIGAS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JAVIER GARRIDO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAVID SIMÓN",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ROQUE MESA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "VICENTE GÓMEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JONATHAN VIERA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NABIL EL ZHAR",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "TANA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SERGIO ARAÚJO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "LAS PALMAS",
+    "awayTeam": "ATLETICO MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-5",
+    "date": "29 de abril 2017",
+    "playingTeam": "LAS PALMAS",
+    "formation": [
+      [
+        {
+          "name": "JAVI VARAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "PEDRO BIGAS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DANI CASTELLANO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ROQUE MESA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MÍCHEL MACEDO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "HERNÁN",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TANA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JESÉ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ALEN HALILOVIC",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "KEVIN-PRINCE BOATENG",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "LAS PALMAS",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "24 de febrero 2017",
+    "playingTeam": "LAS PALMAS",
+    "formation": [
+      [
+        {
+          "name": "JAVI VARAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "AYTHAMI ARTILES",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "PEDRO BIGAS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "HÉLDER LOPES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAVID SIMÓN",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "VICENTE GÓMEZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ROQUE MESA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JONATHAN VIERA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "KEVIN-PRINCE BOATENG",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "JESÉ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "TANA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "5-0",
+    "date": "14 de enero 2017",
+    "playingTeam": "LAS PALMAS",
+    "formation": [
+      [
+        {
+          "name": "JAVI VARAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MAURICIO LEMOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "HÉLDER LOPES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MÍCHEL MACEDO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "JONATHAN VIERA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "VICENTE GÓMEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ROQUE MESA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "TANA",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "NABIL EL ZHAR",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "KEVIN-PRINCE BOATENG",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "LEVANTE",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "08 de abril 2018",
+    "playingTeam": "LAS PALMAS",
+    "formation": [
+      [
+        {
+          "name": "LEANDRO CHICHIZOLA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ALEJANDRO GÁLVEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DANI CASTELLANO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PETER ETEBO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JAVI CASTELLANO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "MATÍAS AGUIRREGARAY",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "IMOH EZEKIEL",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MOMO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ALEN HALILOVIC",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ERIK EXPÓSITO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "GIRONA",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "6-0",
+    "date": "13 de enero 2018",
+    "playingTeam": "LAS PALMAS",
+    "formation": [
+      [
+        {
+          "name": "RAÚL LIZOAIN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALEJANDRO GÁLVEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAIRO SAMPERIO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "HERNÁN TOLEDO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "JONATHAN VIERA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MOMO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JAVI CASTELLANO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "GABRIEL PEÑALBA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "JONATHAN CALLERI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "ALAVES",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "08 de diciembre 2017",
+    "playingTeam": "LAS PALMAS",
+    "formation": [
+      [
+        {
+          "name": "RAÚL LIZOAIN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MAURICIO LEMOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DANI CASTELLANO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "VICENTE GÓMEZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JAVI CASTELLANO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "MÍCHEL MACEDO",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "JONATHAN VIERA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "LOÏC RÉMY",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "OUSSAMA TANNANE",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "JONATHAN CALLERI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

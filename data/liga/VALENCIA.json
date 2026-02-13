@@ -1,0 +1,2702 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "08 de marzo 2015",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NICOLÁS OTAMENDI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANTONIO BARRAGÁN",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ENZO PÉREZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JAVI FUEGO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "PABLO PIATTI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SOFIANE FÉGHOULI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "15 de febrero 2015",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "NICOLÁS OTAMENDI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANTONIO BARRAGÁN",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ENZO PÉREZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JAVI FUEGO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "PABLO PIATTI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RODRIGO DE PAUL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "MALAGA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "02 de febrero 2015",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NICOLÁS OTAMENDI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JOÃO CANCELO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "JAVI FUEGO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ENZO PÉREZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ANDRÉ GOMES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "GRANADA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "07 de diciembre 2014",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NICOLÁS OTAMENDI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANTONIO BARRAGÁN",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JAVI FUEGO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ANDRÉ GOMES",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SOFIANE FÉGHOULI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "GRANADA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "21 de febrero 2016",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ADERLLAN SANTOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "GUILHERME SIQUEIRA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ENZO PÉREZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "JOÃO CANCELO",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ANDRÉ GOMES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DENIS CHERYSHEV",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "SOFIANE FÉGHOULI",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "PACO ALCÁCER",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "25 de octubre 2015",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ADERLLAN SANTOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JOÃO CANCELO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ENZO PÉREZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANILO BARBOSA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "SANTI MINA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ANDRÉ GOMES",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "DEPORTIVO LA CORUNA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "24 de enero 2016",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "MATHEW RYAN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "AYMEN ABDENNOUR",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "WILFRIED ZAHIBO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANILO BARBOSA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ANTONIO BARRAGÁN",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ANDRÉ GOMES",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "SANTI MINA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "VILLARREAL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "01 de mayo 2016",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ADERLLAN SANTOS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "GUILHERME SIQUEIRA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JOÃO CANCELO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ANDRÉ GOMES",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JAVI FUEGO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "SANTI MINA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "DEPORTIVO LA CORUNA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "31 de octubre 2016",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ELIAQUIM MANGALA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "AYMEN ABDENNOUR",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ENZO PÉREZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARIO SUÁREZ",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "MARTÍN MONTOYA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NANI",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "JOÃO CANCELO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "LAS PALMAS",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-1",
+    "date": "30 de enero 2017",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ELIAQUIM MANGALA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JOÃO CANCELO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ENZO PÉREZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "SANTI MINA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "NANI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MUNIR EL HADDADI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "CELTA VIGO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-2",
+    "date": "06 de abril 2017",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ELIAQUIM MANGALA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "GUILHERME SIQUEIRA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ENZO PÉREZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "JOÃO CANCELO",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "FABIÁN ORELLANA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MUNIR EL HADDADI",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "SIMONE ZAZA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "VILLARREAL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-3",
+    "date": "21 de mayo 2017",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ELIAQUIM MANGALA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ADERLLAN SANTOS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "MARTÍN MONTOYA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NANI",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "JOÃO CANCELO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "SIMONE ZAZA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "DEPORTIVO LA CORUNA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "13 de enero 2018",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "NETO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RÚBEN VEZO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FRANCIS COQUELIN",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "SANTI MINA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "04 de febrero 2018",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "NETO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RÚBEN VEZO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TONI LATO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "SANTI MINA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SIMONE ZAZA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "ESPANYOL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "08 de abril 2018",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "NETO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MARTÍN MONTOYA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "SIMONE ZAZA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-4",
+    "date": "27 de enero 2018",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "NETO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "FRANCIS COQUELIN",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "TONI LATO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MARTÍN MONTOYA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SANTI MINA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "SD HUESCA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-6",
+    "date": "05 de mayo 2019",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "NETO",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "14"
+        },
+        {
+          "name": "CRISTIANO PICCINI",
+          "position": "DEF",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "FRANCIS COQUELIN",
+          "position": "MID",
+          "number": "17"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "18"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "19"
+        },
+        {
+          "name": "SANTI MINA",
+          "position": "FWD",
+          "number": "22"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "07 de octubre 2018",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "NETO",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "24"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "14"
+        },
+        {
+          "name": "CRISTIANO PICCINI",
+          "position": "DEF",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "MICHY BATSHUAYI",
+          "position": "FWD",
+          "number": "23"
+        },
+        {
+          "name": "KEVIN GAMEIRO",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "LEGANES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "20 de octubre 2018",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "NETO",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "24"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "14"
+        },
+        {
+          "name": "CRISTIANO PICCINI",
+          "position": "DEF",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "FRANCIS COQUELIN",
+          "position": "MID",
+          "number": "17"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "DENIS CHERYSHEV",
+          "position": "MID",
+          "number": "11"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "18"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "19"
+        },
+        {
+          "name": "KEVIN GAMEIRO",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "ALAVES",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "05 de enero 2019",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "NETO",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "24"
+        },
+        {
+          "name": "TONI LATO",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "CRISTIANO PICCINI",
+          "position": "DEF",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "DENIS CHERYSHEV",
+          "position": "MID",
+          "number": "11"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "18"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "19"
+        },
+        {
+          "name": "SANTI MINA",
+          "position": "FWD",
+          "number": "22"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "EIBAR",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "25 de junio 2020",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JASPER CILLESSEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ELIAQUIM MANGALA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "FERRAN TORRES",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "19 de octubre 2019",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JASPER CILLESSEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "EZEQUIEL GARAY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JAUME COSTA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "FRANCIS COQUELIN",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DENIS CHERYSHEV",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "FERRAN TORRES",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "ALAVES",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "06 de marzo 2020",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JASPER CILLESSEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DENIS CHERYSHEV",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ALESSANDRO FLORENZI",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "KEVIN GAMEIRO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "GETAFE",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-0",
+    "date": "08 de febrero 2020",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ALESSANDRO FLORENZI",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FERRAN TORRES",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "07 de julio 2020",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ADRIÁN GUERRERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ALESSANDRO FLORENZI",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "KEVIN GAMEIRO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "REAL VALLADOLID",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "10 de enero 2021",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "UROS RACIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DENIS CHERYSHEV",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "LEE KANG-IN",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "11 de abril 2021",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "UROS RACIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DENIS CHERYSHEV",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "18 de octubre 2020",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÁLEX BLANCO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "YUNUS MUSAH",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "OSASUNA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "16 de abril 2022",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ILAIX MORIBA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "UROS RACIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "BRYAN GIL",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "HÉLDER COSTA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "HUGO DURO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "VILLARREAL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "30 de octubre 2021",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JASPER CILLESSEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "OMAR ALDERETE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "UROS RACIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MARCOS ANDRÉ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "HÉLDER COSTA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "19 de abril 2022",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JASPER CILLESSEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ERAY CÖMERT",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "CRISTHIAN MOSQUERA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN IRANZO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JESÚS VÁZQUEZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "HÉLDER COSTA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "YUNUS MUSAH",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "UROS RACIC",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "MARCOS ANDRÉ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "REAL BETIS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-3",
+    "date": "10 de mayo 2022",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "OMAR ALDERETE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JESÚS VÁZQUEZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "UROS RACIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ILAIX MORIBA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "BRYAN GIL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "HUGO DURO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "06 de noviembre 2022",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ERAY CÖMERT",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "YUNUS MUSAH",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ANDRÉ ALMEIDA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "MARCOS ANDRÉ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "SAMUEL LINO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JUSTIN KLUIVERT",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "RAYO VALLECANO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "03 de abril 2023",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "CENK ÖZKACAR",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "NICO GONZÁLEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ANDRÉ ALMEIDA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "EDINSON CAVANI",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "SAMUEL LINO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JUSTIN KLUIVERT",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "CELTA VIGO",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "14 de mayo 2023",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "NICO GONZÁLEZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JAVI GUERRA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ANDRÉ ALMEIDA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "SAMUEL LINO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "DIEGO LÓPEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "JUSTIN KLUIVERT",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "25 de febrero 2023",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "TONI LATO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "YUNUS MUSAH",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ANDRÉ ALMEIDA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "HUGO DURO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "SAMUEL LINO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SAMU CASTILLEJO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "ELCHE",
+    "awayTeam": "CORDOBA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "23 de noviembre 2014",
+    "playingTeam": "CORDOBA",
+    "formation": [
+      [
+        {
+          "name": "JUAN CARLOS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "A. PANTIĆ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "IÑIGO LÓPEZ",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "DEIVID",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "DANI PINILLOS",
+          "position": "DEF",
+          "number": "29"
+        },
+        {
+          "name": "A. GUNINO",
+          "position": "DEF",
+          "number": "17"
+        }
+      ],
+      [
+        {
+          "name": "ABEL GÓMEZ",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "BORJA GARCÍA",
+          "position": "MID",
+          "number": "18"
+        },
+        {
+          "name": "FIDEL",
+          "position": "MID",
+          "number": "16"
+        },
+        {
+          "name": "F. CARTABIA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "N. GHILAS",
+          "position": "FWD",
+          "number": "14"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "CORDOBA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "21 de febrero 2015",
+    "playingTeam": "CORDOBA",
+    "formation": [
+      [
+        {
+          "name": "MIKEL SAIZAR",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "JOSÉ CRESPO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "A. PANTIĆ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "EDIMAR",
+          "position": "DEF",
+          "number": "11"
+        },
+        {
+          "name": "FAUSTO ROSSI",
+          "position": "DEF",
+          "number": "8"
+        },
+        {
+          "name": "R. KHRIN",
+          "position": "DEF",
+          "number": "21"
+        },
+        {
+          "name": "EDU CAMPABADAL",
+          "position": "DEF",
+          "number": "33"
+        }
+      ],
+      [
+        {
+          "name": "ABEL GÓMEZ",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "BEBÉ",
+          "position": "MID",
+          "number": "24"
+        },
+        {
+          "name": "HÉLDON",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "N. GHILAS",
+          "position": "FWD",
+          "number": "14"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "CORDOBA",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-8",
+    "date": "02 de mayo 2015",
+    "playingTeam": "CORDOBA",
+    "formation": [
+      [
+        {
+          "name": "JUAN CARLOS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "IÑIGO LÓPEZ",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "A. PANTIĆ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "EDIMAR",
+          "position": "DEF",
+          "number": "11"
+        },
+        {
+          "name": "R. KHRIN",
+          "position": "DEF",
+          "number": "21"
+        },
+        {
+          "name": "DEIVID",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "JOSÉ CRESPO",
+          "position": "DEF",
+          "number": "3"
+        }
+      ],
+      [
+        {
+          "name": "LUSO DELGADO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FIDEL",
+          "position": "MID",
+          "number": "16"
+        },
+        {
+          "name": "BEBÉ",
+          "position": "MID",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "FLORIN ANDONE",
+          "position": "FWD",
+          "number": "28"
+        }
+      ]
+    ]
+  }
+]
