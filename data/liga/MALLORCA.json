@@ -1,0 +1,902 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "MALLORCA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-0",
+    "date": "26 de enero 2020",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "MANOLO REINA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ANTONIO RAÍLLO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "LUMOR AGBENYENU",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "FRAN GÁMEZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ALEIX FEBAS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "IDDRISU BABA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LAGO JUNIOR",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ANTE BUDIMIR",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CUCHO HERNÁNDEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "MALLORCA",
+    "awayTeam": "LEGANES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "19 de junio 2020",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "MANOLO REINA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ALEKSANDAR SEDLAR",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FRAN GÁMEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "IDDRISU BABA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ÁLEX POZO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "SALVA SEVILLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "CUCHO HERNÁNDEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ANTE BUDIMIR",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "MALLORCA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "5-2",
+    "date": "07 de diciembre 2019",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "MANOLO REINA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ANTONIO RAÍLLO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOAN SASTRE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "FRAN GÁMEZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ALEIX FEBAS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "IDDRISU BABA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "SALVA SEVILLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ANTE BUDIMIR",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "MALLORCA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-0",
+    "date": "03 de julio 2020",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "MANOLO REINA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ALEKSANDAR SEDLAR",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ANTONIO RAÍLLO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FRAN GÁMEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÁLEX POZO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ALEKSANDAR TRAJKOVSKI",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ALEIX FEBAS",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "IDDRISU BABA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "CUCHO HERNÁNDEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "MALLORCA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "12 de julio 2020",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "MANOLO REINA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ALEKSANDAR SEDLAR",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ANTONIO RAÍLLO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FRAN GÁMEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÁLEX POZO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "SALVA SEVILLA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "IDDRISU BABA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ANTE BUDIMIR",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "CUCHO HERNÁNDEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "MALLORCA",
+    "awayTeam": "GRANADA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "16 de julio 2020",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "MANOLO REINA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "IDDRISU BABA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ANTONIO RAÍLLO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "LUMOR AGBENYENU",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ÁLEX POZO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "SALVA SEVILLA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "CUCHO HERNÁNDEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ANTE BUDIMIR",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "MALLORCA",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "27 de octubre 2021",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "MANOLO REINA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "FRANCO RUSSO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "BRIAN OLIVÁN",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PABLO MAFFEO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ÍÑIGO RUÍZ DE GALARRETA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "IDDRISU BABA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ANTONIO SÁNCHEZ",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "AMATH NDIAYE",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "MALLORCA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "22 de mayo 2022",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "MANOLO REINA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "BRIAN OLIVÁN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ANTONIO RAÍLLO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAUME COSTA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "PABLO MAFFEO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "ANTONIO SÁNCHEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "SALVA SEVILLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "RODRIGO BATTAGLIA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "VEDAT MURIQI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "MALLORCA",
+    "awayTeam": "GRANADA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-6",
+    "date": "07 de mayo 2022",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "SERGIO RICO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ANTONIO RAÍLLO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JAUME COSTA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PABLO MAFFEO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "IDDRISU BABA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "SALVA SEVILLA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "VEDAT MURIQI",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "ABDÓN PRATS",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "MALLORCA",
+    "awayTeam": "CADIZ",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "12 de mayo 2023",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "PREDRAG RAJKOVIC",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "IDDRISU BABA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "COPETE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAUME COSTA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "PABLO MAFFEO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "MANU MORLANES",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÍÑIGO RUÍZ DE GALARRETA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "VEDAT MURIQI",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "LEE KANG-IN",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "AMATH NDIAYE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "MALLORCA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "06 de noviembre 2022",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "PREDRAG RAJKOVIC",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "COPETE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MATIJA NASTASIC",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAUME COSTA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "GIOVANNI GONZÁLEZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "ÍÑIGO RUÍZ DE GALARRETA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "IDDRISU BABA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "LEE KANG-IN",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "VEDAT MURIQI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "MALLORCA",
+    "awayTeam": "RAYO VALLECANO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-0",
+    "date": "04 de junio 2023",
+    "playingTeam": "MALLORCA",
+    "formation": [
+      [
+        {
+          "name": "LEO ROMÁN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MARTIN VALJENT",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ANTONIO RAÍLLO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "COPETE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAUME COSTA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "PABLO MAFFEO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "MANU MORLANES",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÍÑIGO RUÍZ DE GALARRETA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANI RODRÍGUEZ",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "VEDAT MURIQI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LEE KANG-IN",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

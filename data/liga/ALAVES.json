@@ -1,0 +1,1352 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "ALAVES",
+    "awayTeam": "EIBAR",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "27 de abril 2017",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ZOUHAIR FEDDAL",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "THÉO HERNÁNDEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MANU GARCÍA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARCOS LLORENTE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "KIKO FEMENÍA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR CAMARASA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "IBAI GÓMEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ÉDGAR MÉNDEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "DEYVERSON",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "ALAVES",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "04 de diciembre 2016",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ZOUHAIR FEDDAL",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ALEXIS RUANO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "THÉO HERNÁNDEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANIEL TORRES",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARCOS LLORENTE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS VIGARAY",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR CAMARASA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "IBAI GÓMEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ÉDGAR MÉNDEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "DEYVERSON",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "SPORTING GIJON",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-4",
+    "date": "05 de febrero 2017",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ZOUHAIR FEDDAL",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ALEXIS RUANO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RAÚL CARNERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANIEL TORRES",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "NENAD KRSTICIC",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS VIGARAY",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "RUBÉN SOBRINO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ÉDGAR MÉNDEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ALEKSANDAR KATAI",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "CHRISTIAN SANTOS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-0",
+    "date": "24 de febrero 2018",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ALEXIS RUANO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "DANIEL TORRES",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ALFONSO PEDRAZA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "HERNÁN PÉREZ",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "RUBÉN SOBRINO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JOHN GUIDETTI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "GETAFE",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-1",
+    "date": "18 de noviembre 2017",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ADRIÁN DIÉGUEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ALEXIS RUANO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ALFONSO PEDRAZA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "CARLOS VIGARAY",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "TOMÁS PINA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÁLVARO MEDRÁN JUST",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "MUNIR EL HADDADI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CHRISTIAN SANTOS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "ALAVES",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-1",
+    "date": "12 de mayo 2018",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GUILLERMO MARIPÁN",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALEXIS RUANO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MARTÍN AGUIRREGABIRIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "TOMÁS PINA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ALFONSO PEDRAZA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "IBAI GÓMEZ",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JOHN GUIDETTI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MUNIR EL HADDADI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "04 de abril 2019",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARTÍN AGUIRREGABIRIA",
+          "position": "DEF",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "TOMÁS PINA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MUBARAK WAKASO",
+          "position": "MID",
+          "number": "22"
+        },
+        {
+          "name": "JONY",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "TAKASHI INUI",
+          "position": "MID",
+          "number": "11"
+        }
+      ],
+      [
+        {
+          "name": "BORJA BASTÓN",
+          "position": "FWD",
+          "number": "18"
+        },
+        {
+          "name": "JONATHAN CALLERI",
+          "position": "FWD",
+          "number": "12"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-1",
+    "date": "12 de mayo 2019",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "CARLOS VIGARAY",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "DARKO BRASANAC",
+          "position": "MID",
+          "number": "20"
+        },
+        {
+          "name": "TOMÁS PINA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JONY",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "MARTÍN AGUIRREGABIRIA",
+          "position": "MID",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "DIEGO ROLAN",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "JONATHAN CALLERI",
+          "position": "FWD",
+          "number": "12"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "ALAVES",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "19 de abril 2019",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GUILLERMO MARIPÁN",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ADRIÁN MARÍN",
+          "position": "DEF",
+          "number": "17"
+        },
+        {
+          "name": "MARTÍN AGUIRREGABIRIA",
+          "position": "DEF",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "TOMÁS PINA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "19"
+        },
+        {
+          "name": "JONY",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "TAKASHI INUI",
+          "position": "MID",
+          "number": "11"
+        }
+      ],
+      [
+        {
+          "name": "JONATHAN CALLERI",
+          "position": "FWD",
+          "number": "12"
+        },
+        {
+          "name": "JOHN GUIDETTI",
+          "position": "FWD",
+          "number": "10"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "ALAVES",
+    "awayTeam": "REAL BETIS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "05 de enero 2020",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MUBARAK WAKASO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEIX VIDAL",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "ALAVES",
+    "awayTeam": "VILLARREAL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "25 de enero 2020",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MARTÍN AGUIRREGABIRIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR CAMARASA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEIX VIDAL",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-2",
+    "date": "03 de noviembre 2019",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "LISANDRO MAGALLÁN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MARTÍN AGUIRREGABIRIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "PERE PONS",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MUBARAK WAKASO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEIX VIDAL",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "GETAFE",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "31 de enero 2021",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "FLORIAN LEJEUNE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "TACHI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "TOMÁS PINA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MARTÍN AGUIRREGABIRIA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "DEYVERSON",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "SD HUESCA",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "12 de diciembre 2020",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "JOTA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "TOMÁS PINA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ÉDGAR MÉNDEZ",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "28 de noviembre 2020",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "FLORIAN LEJEUNE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO BATTAGLIA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "TOMÁS PINA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JOTA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "10 de abril 2022",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "FLORIAN LEJEUNE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MAMADOU LOUM",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "GONZALO ESCALANTE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "NAHUEL TENAGLIA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "MANU VALLEJO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ÉDGAR MÉNDEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "ALAVES",
+    "awayTeam": "ESPANYOL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "11 de mayo 2022",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "FLORIAN LEJEUNE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MAMADOU LOUM",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "GONZALO ESCALANTE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "NAHUEL TENAGLIA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "MIGUEL DE LA FUENTE",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "JASON",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-1",
+    "date": "02 de abril 2022",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "FLORIAN LEJEUNE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "NAHUEL TENAGLIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "PERE PONS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "TOMÁS PINA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "GONZALO ESCALANTE",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ÉDGAR MÉNDEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

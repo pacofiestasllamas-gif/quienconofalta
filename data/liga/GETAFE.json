@@ -1,0 +1,1802 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "21 de marzo 2015",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "V. GUAITA",
+          "position": "GK",
+          "number": "25"
+        }
+      ],
+      [
+        {
+          "name": "NALDO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "E. VELÁZQUEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "S. ESCUDERO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "D. CASTRO",
+          "position": "DEF",
+          "number": "17"
+        },
+        {
+          "name": "LACEN",
+          "position": "DEF",
+          "number": "8"
+        },
+        {
+          "name": "CARLOS VIGARAY",
+          "position": "DEF",
+          "number": "27"
+        }
+      ],
+      [
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "F. HINESTROZA",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "PEDRO LEÓN",
+          "position": "MID",
+          "number": "14"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO VÁZQUEZ",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "GETAFE",
+    "awayTeam": "ESPANYOL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "20 de febrero 2015",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "JONATHAN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NALDO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "E. VELÁZQUEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "S. ESCUDERO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "LACEN",
+          "position": "DEF",
+          "number": "8"
+        },
+        {
+          "name": "JUAN RODRÍGUEZ",
+          "position": "DEF",
+          "number": "22"
+        },
+        {
+          "name": "ALEXIS",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "SAMMIR",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "PEDRO LEÓN",
+          "position": "MID",
+          "number": "14"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO VÁZQUEZ",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "GETAFE",
+    "awayTeam": "CORDOBA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "03 de octubre 2014",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "V. GUAITA",
+          "position": "GK",
+          "number": "25"
+        }
+      ],
+      [
+        {
+          "name": "E. VELÁZQUEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "NALDO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "S. ESCUDERO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "LACEN",
+          "position": "DEF",
+          "number": "8"
+        },
+        {
+          "name": "MÍCHEL HERRERO",
+          "position": "DEF",
+          "number": "21"
+        },
+        {
+          "name": "J. VALERA",
+          "position": "DEF",
+          "number": "20"
+        }
+      ],
+      [
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "D. CASTRO",
+          "position": "MID",
+          "number": "17"
+        },
+        {
+          "name": "K. YODA",
+          "position": "MID",
+          "number": "11"
+        }
+      ],
+      [
+        {
+          "name": "A. LAFITA",
+          "position": "FWD",
+          "number": "7"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "SPORTING GIJON",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "04 de enero 2016",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "VICENTE GUAITA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SANTIAGO VERGINI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JUAN CALA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ROBERTO LAGO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MEHDI LACEN",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JUAN RODRÍGUEZ",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "PEDRO LEÓN",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "STEFAN SCEPOVIC",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "GETAFE",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "31 de octubre 2015",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "VICENTE GUAITA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ALEXIS RUANO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SANTIAGO VERGINI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ROBERTO LAGO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MEHDI LACEN",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JUAN RODRÍGUEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "VÍCTOR RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "PEDRO LEÓN",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "STEFAN SCEPOVIC",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "PABLO SARABIA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "MALAGA",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-0",
+    "date": "05 de febrero 2016",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "VICENTE GUAITA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SANTIAGO VERGINI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "EMILIANO VELÁZQUEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "CARLOS VIGARAY",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MEHDI LACEN",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JUAN RODRÍGUEZ",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MOI GÓMEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "PEDRO LEÓN",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "STEFAN SCEPOVIC",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "EIBAR",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "21 de abril 2018",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "VICENTE GUAITA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "BRUNO GONZÁLEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "LEANDRO CABRERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO MORA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MATHIEU FLAMINI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FAYÇAL FAJR",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "AMATH NDIAYE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "11 de febrero 2018",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "VICENTE GUAITA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "BRUNO GONZÁLEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ANTUNES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FAYÇAL FAJR",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "AMATH NDIAYE",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FRANCISCO PORTILLO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "GAKU SHIBASAKI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "GETAFE",
+    "awayTeam": "EIBAR",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "09 de diciembre 2017",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "VICENTE GUAITA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JUAN CALA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ANTUNES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MARKEL BERGARA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FAYÇAL FAJR",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "AMATH NDIAYE",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FRANCISCO PORTILLO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JORGE MOLINA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "GETAFE",
+    "awayTeam": "CELTA VIGO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-1",
+    "date": "09 de febrero 2019",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "LEANDRO CABRERA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "17"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "22"
+        }
+      ],
+      [
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "18"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "20"
+        },
+        {
+          "name": "SAMU SÁIZ",
+          "position": "MID",
+          "number": "11"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "MID",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "JORGE MOLINA",
+          "position": "FWD",
+          "number": "19"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "7"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "17 de marzo 2019",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "LEANDRO CABRERA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ANTUNES",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "22"
+        }
+      ],
+      [
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "18"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "20"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "MID",
+          "number": "17"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "MID",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "JORGE MOLINA",
+          "position": "FWD",
+          "number": "19"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "7"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "REAL VALLADOLID",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "14 de abril 2019",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "LEANDRO CABRERA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ANTUNES",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "22"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "20"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "18"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "MID",
+          "number": "17"
+        },
+        {
+          "name": "FRANCISCO PORTILLO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "7"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "06 de octubre 2019",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "LEANDRO CABRERA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "FAYÇAL FAJR",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JASON",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JORGE MOLINA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "ATHLETIC CLUB",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "02 de febrero 2020",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "XABIER ETXEITA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "DEYVERSON",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "GETAFE",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "15 de diciembre 2019",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "LEANDRO CABRERA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FRANCISCO PORTILLO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JORGE MOLINA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "GETAFE",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "02 de enero 2021",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN YÁÑEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ERICK CABACO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "ATHLETIC CLUB",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "5-1",
+    "date": "25 de enero 2021",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN YÁÑEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "XABIER ETXEITA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "CARLES ALEÑÁ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "GETAFE",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "17 de octubre 2020",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ERICK CABACO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CUCHO HERNÁNDEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "CADIZ",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "19 de febrero 2022",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "STEFAN MITROVIC",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JORGE CUENCA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAKUB JANKTO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "OKAY YOKUSLU",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÓSCAR RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "BORJA MAYORAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "11 de mayo 2022",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "STEFAN MITROVIC",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JORGE CUENCA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JUAN IGLESIAS",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "FLORENTINO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "BORJA MAYORAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "GETAFE",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "12 de marzo 2022",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "STEFAN MITROVIC",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JORGE CUENCA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "CARLES ALEÑÁ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SANDRO RAMÍREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "GETAFE",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "19 de marzo 2023",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GASTÓN ÁLVAREZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "STEFAN MITROVIC",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PORTU",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS MILLA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MUNIR EL HADDADI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "BORJA MAYORAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "REAL BETIS",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "24 de mayo 2023",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "STEFAN MITROVIC",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "OMAR ALDERETE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "GASTÓN ÁLVAREZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "PORTU",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "CARLES ALEÑÁ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "GETAFE",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "08 de octubre 2022",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DOMINGOS DUARTE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "STEFAN MITROVIC",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "FABRIZIO ANGILERI",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "CARLES ALEÑÁ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS MILLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ÁNGEL ALGOBIA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "BORJA MAYORAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]
