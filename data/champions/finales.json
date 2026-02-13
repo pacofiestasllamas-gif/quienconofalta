@@ -1,0 +1,1127 @@
+[
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2010",
+    "homeTeam": "INTER MILAN",
+    "awayTeam": "BAYERN MÜNCHEN",
+    "homeBadge": "🔵⚫",
+    "awayBadge": "🔴⚪",
+    "score": "2-0",
+    "date": "22 MAY 2010",
+    "playingTeam": "INTER MILAN",
+    "formation": [
+      [
+        {
+          "name": "JÚLIO CÉSAR",
+          "number": "12",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "MAICON",
+          "number": "13",
+          "position": "RB"
+        },
+        {
+          "name": "LÚCIO",
+          "number": "6",
+          "position": "CB"
+        },
+        {
+          "name": "WALTER SAMUEL",
+          "number": "25",
+          "position": "CB"
+        },
+        {
+          "name": "CRISTIAN CHIVU",
+          "number": "26",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "JAVIER ZANETTI",
+          "number": "4",
+          "position": "RM"
+        },
+        {
+          "name": "WESLEY SNEIJDER",
+          "number": "10",
+          "position": "CM"
+        },
+        {
+          "name": "ESTEBAN CAMBIASSO",
+          "number": "19",
+          "position": "CM"
+        },
+        {
+          "name": "THIAGO MOTTA",
+          "number": "8",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "SAMUEL ETO'O",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "DIEGO MILITO",
+          "number": "22",
+          "position": "ST"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2011",
+    "homeTeam": "FC BARCELONA",
+    "awayTeam": "MANCHESTER UNITED",
+    "homeBadge": "🔵🔴",
+    "awayBadge": "🔴⚫",
+    "score": "3-1",
+    "date": "28 MAY 2011",
+    "playingTeam": "FC BARCELONA",
+    "formation": [
+      [
+        {
+          "name": "VÍCTOR VALDÉS",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "DANI ALVES",
+          "number": "2",
+          "position": "RB"
+        },
+        {
+          "name": "GERARD PIQUÉ",
+          "number": "3",
+          "position": "CB"
+        },
+        {
+          "name": "JAVIER MASCHERANO",
+          "number": "14",
+          "position": "CB"
+        },
+        {
+          "name": "ÉRIC ABIDAL",
+          "number": "22",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO BUSQUETS",
+          "number": "16",
+          "position": "CDM"
+        },
+        {
+          "name": "XAVI HERNÁNDEZ",
+          "number": "6",
+          "position": "CM"
+        },
+        {
+          "name": "ANDRÉS INIESTA",
+          "number": "8",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "PEDRO RODRÍGUEZ",
+          "number": "17",
+          "position": "RW"
+        },
+        {
+          "name": "LIONEL MESSI",
+          "number": "10",
+          "position": "CF"
+        },
+        {
+          "name": "DAVID VILLA",
+          "number": "7",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2012",
+    "homeTeam": "CHELSEA",
+    "awayTeam": "BAYERN MÜNCHEN",
+    "homeBadge": "🔵⚪",
+    "awayBadge": "🔴⚪",
+    "score": "1-1 (4-3 pen)",
+    "date": "19 MAY 2012",
+    "playingTeam": "CHELSEA",
+    "formation": [
+      [
+        {
+          "name": "PETR ČECH",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "JOSÉ BOSINGWA",
+          "number": "17",
+          "position": "RB"
+        },
+        {
+          "name": "DAVID LUIZ",
+          "number": "4",
+          "position": "CB"
+        },
+        {
+          "name": "GARY CAHILL",
+          "number": "24",
+          "position": "CB"
+        },
+        {
+          "name": "ASHLEY COLE",
+          "number": "3",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "JOHN OBI MIKEL",
+          "number": "12",
+          "position": "CDM"
+        },
+        {
+          "name": "FRANK LAMPARD",
+          "number": "8",
+          "position": "CM"
+        },
+        {
+          "name": "JUAN MATA",
+          "number": "10",
+          "position": "CAM"
+        }
+      ],
+      [
+        {
+          "name": "SALOMON KALOU",
+          "number": "21",
+          "position": "RW"
+        },
+        {
+          "name": "DIDIER DROGBA",
+          "number": "11",
+          "position": "ST"
+        },
+        {
+          "name": "RYAN BERTRAND",
+          "number": "34",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2013",
+    "homeTeam": "BAYERN MÜNCHEN",
+    "awayTeam": "BORUSSIA DORTMUND",
+    "homeBadge": "🔴⚪",
+    "awayBadge": "🟡⚫",
+    "score": "2-1",
+    "date": "25 MAY 2013",
+    "playingTeam": "BAYERN MÜNCHEN",
+    "formation": [
+      [
+        {
+          "name": "MANUEL NEUER",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "PHILIPP LAHM",
+          "number": "21",
+          "position": "RB"
+        },
+        {
+          "name": "DANTE",
+          "number": "4",
+          "position": "CB"
+        },
+        {
+          "name": "JÉRÔME BOATENG",
+          "number": "17",
+          "position": "CB"
+        },
+        {
+          "name": "DAVID ALABA",
+          "number": "27",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "BASTIAN SCHWEINSTEIGER",
+          "number": "31",
+          "position": "CM"
+        },
+        {
+          "name": "JAVI MARTÍNEZ",
+          "number": "8",
+          "position": "CDM"
+        },
+        {
+          "name": "THOMAS MÜLLER",
+          "number": "25",
+          "position": "CAM"
+        }
+      ],
+      [
+        {
+          "name": "ARJEN ROBBEN",
+          "number": "10",
+          "position": "RW"
+        },
+        {
+          "name": "MARIO MANDŽUKIĆ",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "FRANCK RIBÉRY",
+          "number": "7",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2014",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "ATLÉTICO MADRID",
+    "homeBadge": "⚪",
+    "awayBadge": "🔴⚪",
+    "score": "4-1 (AET)",
+    "date": "24 MAY 2014",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "IKER CASILLAS",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "DANI CARVAJAL",
+          "number": "2",
+          "position": "RB"
+        },
+        {
+          "name": "SERGIO RAMOS",
+          "number": "4",
+          "position": "CB"
+        },
+        {
+          "name": "PEPE",
+          "number": "3",
+          "position": "CB"
+        },
+        {
+          "name": "FÁBIO COENTRÃO",
+          "number": "15",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "XABI ALONSO",
+          "number": "14",
+          "position": "CDM"
+        },
+        {
+          "name": "LUKA MODRIĆ",
+          "number": "19",
+          "position": "CM"
+        },
+        {
+          "name": "ÁNGEL DI MARÍA",
+          "number": "22",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "GARETH BALE",
+          "number": "11",
+          "position": "RW"
+        },
+        {
+          "name": "KARIM BENZEMA",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "CRISTIANO RONALDO",
+          "number": "7",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2015",
+    "homeTeam": "FC BARCELONA",
+    "awayTeam": "JUVENTUS",
+    "homeBadge": "🔵🔴",
+    "awayBadge": "⚫⚪",
+    "score": "3-1",
+    "date": "06 JUN 2015",
+    "playingTeam": "FC BARCELONA",
+    "formation": [
+      [
+        {
+          "name": "MARC-ANDRÉ TER STEGEN",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "DANI ALVES",
+          "number": "22",
+          "position": "RB"
+        },
+        {
+          "name": "GERARD PIQUÉ",
+          "number": "3",
+          "position": "CB"
+        },
+        {
+          "name": "JAVIER MASCHERANO",
+          "number": "14",
+          "position": "CB"
+        },
+        {
+          "name": "JORDI ALBA",
+          "number": "18",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO BUSQUETS",
+          "number": "5",
+          "position": "CDM"
+        },
+        {
+          "name": "IVAN RAKITIĆ",
+          "number": "4",
+          "position": "CM"
+        },
+        {
+          "name": "ANDRÉS INIESTA",
+          "number": "8",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "LIONEL MESSI",
+          "number": "10",
+          "position": "RW"
+        },
+        {
+          "name": "LUIS SUÁREZ",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "NEYMAR JR",
+          "number": "11",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2016",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "ATLÉTICO MADRID",
+    "homeBadge": "⚪",
+    "awayBadge": "🔴⚪",
+    "score": "1-1 (5-3 pen)",
+    "date": "28 MAY 2016",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "KEYLOR NAVAS",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "DANI CARVAJAL",
+          "number": "2",
+          "position": "RB"
+        },
+        {
+          "name": "SERGIO RAMOS",
+          "number": "4",
+          "position": "CB"
+        },
+        {
+          "name": "PEPE",
+          "number": "3",
+          "position": "CB"
+        },
+        {
+          "name": "MARCELO",
+          "number": "12",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "CASEMIRO",
+          "number": "14",
+          "position": "CDM"
+        },
+        {
+          "name": "LUKA MODRIĆ",
+          "number": "19",
+          "position": "CM"
+        },
+        {
+          "name": "TONI KROOS",
+          "number": "8",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "GARETH BALE",
+          "number": "11",
+          "position": "RW"
+        },
+        {
+          "name": "KARIM BENZEMA",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "CRISTIANO RONALDO",
+          "number": "7",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2017",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "JUVENTUS",
+    "homeBadge": "⚪",
+    "awayBadge": "⚫⚪",
+    "score": "4-1",
+    "date": "03 JUN 2017",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "KEYLOR NAVAS",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "DANI CARVAJAL",
+          "number": "2",
+          "position": "RB"
+        },
+        {
+          "name": "SERGIO RAMOS",
+          "number": "4",
+          "position": "CB"
+        },
+        {
+          "name": "RAPHAËL VARANE",
+          "number": "5",
+          "position": "CB"
+        },
+        {
+          "name": "MARCELO",
+          "number": "12",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "CASEMIRO",
+          "number": "14",
+          "position": "CDM"
+        },
+        {
+          "name": "LUKA MODRIĆ",
+          "number": "10",
+          "position": "CM"
+        },
+        {
+          "name": "TONI KROOS",
+          "number": "8",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "ISCO",
+          "number": "22",
+          "position": "CAM"
+        },
+        {
+          "name": "KARIM BENZEMA",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "CRISTIANO RONALDO",
+          "number": "7",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2018",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "LIVERPOOL",
+    "homeBadge": "⚪",
+    "awayBadge": "🔴",
+    "score": "3-1",
+    "date": "26 MAY 2018",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "KEYLOR NAVAS",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "DANI CARVAJAL",
+          "number": "2",
+          "position": "RB"
+        },
+        {
+          "name": "SERGIO RAMOS",
+          "number": "4",
+          "position": "CB"
+        },
+        {
+          "name": "RAPHAËL VARANE",
+          "number": "5",
+          "position": "CB"
+        },
+        {
+          "name": "MARCELO",
+          "number": "12",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "CASEMIRO",
+          "number": "14",
+          "position": "CDM"
+        },
+        {
+          "name": "LUKA MODRIĆ",
+          "number": "10",
+          "position": "CM"
+        },
+        {
+          "name": "TONI KROOS",
+          "number": "8",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "ISCO",
+          "number": "22",
+          "position": "RW"
+        },
+        {
+          "name": "KARIM BENZEMA",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "CRISTIANO RONALDO",
+          "number": "7",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2019",
+    "homeTeam": "LIVERPOOL",
+    "awayTeam": "TOTTENHAM HOTSPUR",
+    "homeBadge": "🔴",
+    "awayBadge": "⚪",
+    "score": "2-0",
+    "date": "01 JUN 2019",
+    "playingTeam": "LIVERPOOL",
+    "formation": [
+      [
+        {
+          "name": "ALISSON BECKER",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "TRENT ALEXANDER-ARNOLD",
+          "number": "66",
+          "position": "RB"
+        },
+        {
+          "name": "JOËL MATIP",
+          "number": "32",
+          "position": "CB"
+        },
+        {
+          "name": "VIRGIL VAN DIJK",
+          "number": "4",
+          "position": "CB"
+        },
+        {
+          "name": "ANDREW ROBERTSON",
+          "number": "26",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "FABINHO",
+          "number": "3",
+          "position": "CDM"
+        },
+        {
+          "name": "JORDAN HENDERSON",
+          "number": "14",
+          "position": "CM"
+        },
+        {
+          "name": "GEORGINIO WIJNALDUM",
+          "number": "5",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "MOHAMED SALAH",
+          "number": "11",
+          "position": "RW"
+        },
+        {
+          "name": "ROBERTO FIRMINO",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "SADIO MANÉ",
+          "number": "10",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2020",
+    "homeTeam": "BAYERN MÜNCHEN",
+    "awayTeam": "PARIS SAINT-GERMAIN",
+    "homeBadge": "🔴⚪",
+    "awayBadge": "🔴🔵",
+    "score": "1-0",
+    "date": "23 AUG 2020",
+    "playingTeam": "BAYERN MÜNCHEN",
+    "formation": [
+      [
+        {
+          "name": "MANUEL NEUER",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "JOSHUA KIMMICH",
+          "number": "32",
+          "position": "RB"
+        },
+        {
+          "name": "JÉRÔME BOATENG",
+          "number": "17",
+          "position": "CB"
+        },
+        {
+          "name": "DAVID ALABA",
+          "number": "27",
+          "position": "CB"
+        },
+        {
+          "name": "ALPHONSO DAVIES",
+          "number": "19",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "LEON GORETZKA",
+          "number": "18",
+          "position": "CM"
+        },
+        {
+          "name": "THIAGO ALCÁNTARA",
+          "number": "6",
+          "position": "CM"
+        },
+        {
+          "name": "SERGE GNABRY",
+          "number": "22",
+          "position": "RW"
+        }
+      ],
+      [
+        {
+          "name": "THOMAS MÜLLER",
+          "number": "25",
+          "position": "CAM"
+        },
+        {
+          "name": "ROBERT LEWANDOWSKI",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "KINGSLEY COMAN",
+          "number": "29",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2021",
+    "homeTeam": "CHELSEA",
+    "awayTeam": "MANCHESTER CITY",
+    "homeBadge": "🔵⚪",
+    "awayBadge": "🔵⚪",
+    "score": "1-0",
+    "date": "29 MAY 2021",
+    "playingTeam": "CHELSEA",
+    "formation": [
+      [
+        {
+          "name": "ÉDOUARD MENDY",
+          "number": "16",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "CÉSAR AZPILICUETA",
+          "number": "28",
+          "position": "RCB"
+        },
+        {
+          "name": "THIAGO SILVA",
+          "number": "6",
+          "position": "CB"
+        },
+        {
+          "name": "ANTONIO RÜDIGER",
+          "number": "2",
+          "position": "LCB"
+        }
+      ],
+      [
+        {
+          "name": "REECE JAMES",
+          "number": "24",
+          "position": "RWB"
+        },
+        {
+          "name": "N'GOLO KANTÉ",
+          "number": "7",
+          "position": "CM"
+        },
+        {
+          "name": "JORGINHO",
+          "number": "5",
+          "position": "CM"
+        },
+        {
+          "name": "BEN CHILWELL",
+          "number": "21",
+          "position": "LWB"
+        }
+      ],
+      [
+        {
+          "name": "MASON MOUNT",
+          "number": "19",
+          "position": "CAM"
+        },
+        {
+          "name": "KAI HAVERTZ",
+          "number": "29",
+          "position": "ST"
+        },
+        {
+          "name": "TIMO WERNER",
+          "number": "11",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2022",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "LIVERPOOL",
+    "homeBadge": "⚪",
+    "awayBadge": "🔴",
+    "score": "1-0",
+    "date": "28 MAY 2022",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "DANI CARVAJAL",
+          "number": "2",
+          "position": "RB"
+        },
+        {
+          "name": "ÉDER MILITÃO",
+          "number": "3",
+          "position": "CB"
+        },
+        {
+          "name": "DAVID ALABA",
+          "number": "4",
+          "position": "CB"
+        },
+        {
+          "name": "FERLAND MENDY",
+          "number": "23",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "CASEMIRO",
+          "number": "14",
+          "position": "CDM"
+        },
+        {
+          "name": "LUKA MODRIĆ",
+          "number": "10",
+          "position": "CM"
+        },
+        {
+          "name": "TONI KROOS",
+          "number": "8",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "FEDERICO VALVERDE",
+          "number": "15",
+          "position": "RW"
+        },
+        {
+          "name": "KARIM BENZEMA",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "VINÍCIUS JÚNIOR",
+          "number": "20",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2023",
+    "homeTeam": "MANCHESTER CITY",
+    "awayTeam": "INTER MILAN",
+    "homeBadge": "🔵⚪",
+    "awayBadge": "🔵⚫",
+    "score": "1-0",
+    "date": "10 JUN 2023",
+    "playingTeam": "MANCHESTER CITY",
+    "formation": [
+      [
+        {
+          "name": "EDERSON",
+          "number": "31",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "KYLE WALKER",
+          "number": "2",
+          "position": "RB"
+        },
+        {
+          "name": "RÚBEN DIAS",
+          "number": "3",
+          "position": "CB"
+        },
+        {
+          "name": "MANUEL AKANJI",
+          "number": "25",
+          "position": "CB"
+        },
+        {
+          "name": "NATHAN AKÉ",
+          "number": "6",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "RODRI",
+          "number": "16",
+          "position": "CDM"
+        },
+        {
+          "name": "JOHN STONES",
+          "number": "5",
+          "position": "CM"
+        },
+        {
+          "name": "KEVIN DE BRUYNE",
+          "number": "17",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "BERNARDO SILVA",
+          "number": "20",
+          "position": "RW"
+        },
+        {
+          "name": "ERLING HAALAND",
+          "number": "9",
+          "position": "ST"
+        },
+        {
+          "name": "JACK GREALISH",
+          "number": "10",
+          "position": "LW"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "CHAMPIONS LEAGUE FINAL 2024",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "BORUSSIA DORTMUND",
+    "homeBadge": "⚪",
+    "awayBadge": "🟡⚫",
+    "score": "2-0",
+    "date": "01 JUN 2024",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "number": "1",
+          "position": "GK"
+        }
+      ],
+      [
+        {
+          "name": "DANI CARVAJAL",
+          "number": "2",
+          "position": "RB"
+        },
+        {
+          "name": "ANTONIO RÜDIGER",
+          "number": "22",
+          "position": "CB"
+        },
+        {
+          "name": "NACHO FERNÁNDEZ",
+          "number": "6",
+          "position": "CB"
+        },
+        {
+          "name": "FERLAND MENDY",
+          "number": "23",
+          "position": "LB"
+        }
+      ],
+      [
+        {
+          "name": "EDUARDO CAMAVINGA",
+          "number": "12",
+          "position": "CM"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "number": "15",
+          "position": "CM"
+        },
+        {
+          "name": "TONI KROOS",
+          "number": "8",
+          "position": "CM"
+        }
+      ],
+      [
+        {
+          "name": "JUDE BELLINGHAM",
+          "number": "5",
+          "position": "CAM"
+        },
+        {
+          "name": "VINÍCIUS JÚNIOR",
+          "number": "7",
+          "position": "LW"
+        },
+        {
+          "name": "RODRYGO",
+          "number": "11",
+          "position": "RW"
+        }
+      ]
+    ]
+  }
+]
