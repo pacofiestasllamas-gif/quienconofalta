@@ -527,18 +527,50 @@ function getKnownName(fullName) {
         return words[0];
     }
     
+    // Lista de jugadores conocidos por un solo nombre (monónimos)
+    // Estos se devuelven completos si coinciden con la primera palabra
+    const monoNames = [
+        'NEYMAR', 'RONALDINHO', 'RONALDO', 'RIVALDO', 'CAFU', 'ROBERTO',
+        'CASEMIRO', 'FERNANDINHO', 'WILLIAN', 'FRED', 'PAULINHO',
+        'HULK', 'OSCAR', 'RAMIRES', 'LUCAS', 'RAFAEL', 'FABINHO',
+        'EDERSON', 'ALISSON', 'ADRIANO', 'ROBINHO', 'KAKÁ', 'DANI',
+        'THIAGO', 'DIEGO', 'FIRMINO', 'RICHARLISON', 'RAPHINHA',
+        'RODRYGO', 'VINÍCIUS', 'MILITÃO', 'MARQUINHOS', 'DANILO',
+        'FELIPE', 'RENAN', 'EMERSON', 'ALEX', 'ANDERSON', 'PEPE'
+    ];
+    
+    // Comprobar si es un jugador monónimo (primera palabra en la lista)
+    if (monoNames.includes(words[0])) {
+        // Si tiene sufijo (JR, SR, etc), ignorarlo y devolver solo el nombre
+        return words[0];
+    }
+    
+    // Sufijos que hay que ignorar (no son el nombre conocido)
+    const suffixes = ['JR', 'JR.', 'SR', 'SR.', 'II', 'III', 'IV'];
+    
+    // Si la última palabra es un sufijo, eliminarla
+    let cleanWords = [...words];
+    if (suffixes.includes(cleanWords[cleanWords.length - 1])) {
+        cleanWords.pop();
+    }
+    
+    // Ahora trabajar con las palabras limpias (sin sufijos)
+    if (cleanWords.length === 1) {
+        return cleanWords[0];
+    }
+    
     // Partículas que van con el apellido (en mayúsculas como aparecen en los JSON)
-    const particles = ['DE', 'VAN', 'DER', 'TER', 'VON', 'DA', 'DI', 'DEL', 'LA', 'LE', 'VAN DER', 'VAN DE'];
+    const particles = ['DE', 'VAN', 'DER', 'TER', 'VON', 'DA', 'DI', 'DEL', 'LA', 'LE', 'VAN DER', 'VAN DE', 'DOS', 'DAS'];
     
     // Si hay 2 palabras y la primera es una partícula, devolver ambas
-    if (words.length === 2 && particles.includes(words[0])) {
-        return name; // "DE JONG", "VAN DIJK", etc.
+    if (cleanWords.length === 2 && particles.includes(cleanWords[0])) {
+        return cleanWords.join(' '); // "DE JONG", "VAN DIJK", etc.
     }
     
     // Si hay 3+ palabras, buscar partículas en las últimas palabras
-    if (words.length >= 3) {
+    if (cleanWords.length >= 3) {
         // Comprobar si las últimas 2 palabras empiezan con partícula
-        const lastTwo = words.slice(-2).join(' ');
+        const lastTwo = cleanWords.slice(-2).join(' ');
         for (const particle of particles) {
             if (lastTwo.startsWith(particle + ' ')) {
                 return lastTwo; // "TER STEGEN", "VAN DIJK", etc.
@@ -546,8 +578,8 @@ function getKnownName(fullName) {
         }
         
         // Comprobar si las últimas 3 palabras contienen partícula
-        if (words.length >= 3) {
-            const lastThree = words.slice(-3).join(' ');
+        if (cleanWords.length >= 3) {
+            const lastThree = cleanWords.slice(-3).join(' ');
             for (const particle of particles) {
                 if (lastThree.includes(' ' + particle + ' ')) {
                     return lastThree; // "VAN DER SAR", etc.
@@ -557,7 +589,7 @@ function getKnownName(fullName) {
     }
     
     // Por defecto, devolver la última palabra (apellido simple)
-    return words[words.length - 1];
+    return cleanWords[cleanWords.length - 1];
 }
 
 function handleKeyPress(key) {
