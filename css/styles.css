@@ -365,7 +365,7 @@
             position: relative;
             z-index: 2;
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
             gap: 25px;
             min-height: 550px;
         }
@@ -385,7 +385,6 @@
             gap: 8px;
             cursor: pointer;
             transition: transform 0.2s;
-            width: 100px; /* Ancho fijo para que no se muevan */
         }
 
         .player-card:hover {
@@ -415,13 +414,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            position: relative;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             font-family: 'Bebas Neue', sans-serif;
             font-size: 2rem;
             font-weight: bold;
             color: white;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         .jersey.goalkeeper {
@@ -445,12 +444,9 @@
             border-radius: 4px;
             display: flex;
             gap: 2px;
-            width: 90px; /* Ancho fijo */
-            min-width: 90px; /* Garantizar ancho mínimo */
-            max-width: 90px; /* Garantizar ancho máximo */
+            min-width: 60px;
             justify-content: center;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            overflow: hidden; /* Ocultar desbordamiento */
         }
 
         .name-slot {
@@ -471,15 +467,6 @@
             font-size: 0.75rem;
             letter-spacing: 0.5px;
             text-transform: uppercase;
-            white-space: nowrap; /* No permite saltos de línea */
-            overflow: hidden; /* Oculta el desbordamiento */
-            text-overflow: ellipsis; /* Añade ... si es muy largo */
-            max-width: 100%; /* Se ajusta al contenedor */
-        }
-
-        /* Jugadores revelados por agotar intentos */
-        .revealed-name.failed-reveal {
-            color: #ef4444; /* Rojo brillante */
         }
 
         .attempts-counter {
@@ -489,26 +476,6 @@
             border-radius: 3px;
             font-size: 0.7rem;
             font-weight: bold;
-        }
-
-        .name-slot {
-            width: 8px;
-            height: 2px;
-            background: black;
-            border-radius: 1px;
-        }
-
-        .name-slot.space {
-            width: 6px;
-            background: transparent;
-        }
-
-        .revealed-name {
-            color: black;
-            font-weight: 700;
-            font-size: 0.75rem;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
         }
 
         .stats-bar {
@@ -641,7 +608,7 @@
             background: var(--bg-purple);
             border-radius: 15px;
             padding: 30px 20px;
-            max-width: 600px;
+            max-width: 500px;
             width: 100%;
             max-height: 90vh;
             overflow-y: auto;
@@ -683,6 +650,47 @@
             letter-spacing: 2px;
             flex-grow: 1;
             text-align: center;
+        }
+
+        .hint-btn {
+            background: var(--neon-yellow);
+            color: var(--bg-dark);
+            border: none;
+            padding: 8px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Rajdhani', sans-serif;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .hint-btn:hover {
+            background: #fcd34d;
+            transform: scale(1.05);
+        }
+
+        .hint-btn:disabled {
+            background: #6b7280;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        .hint-display {
+            background: rgba(251, 191, 36, 0.2);
+            border: 2px solid var(--neon-yellow);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+            animation: hintPop 0.5s ease-out;
+        }
+
+        @keyframes hintPop {
+            0% { transform: scale(0.9); opacity: 0; }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); opacity: 1; }
         }
 
         .reveal-btn-modal {
@@ -728,12 +736,6 @@
             background: var(--card-dark);
             transition: all 0.3s;
         }
-        
-        .letter-cell.space-cell {
-            border: none;
-            background: transparent;
-            width: 20px;
-        }
 
         .letter-cell.flip {
             animation: flip 0.6s ease-out;
@@ -749,6 +751,13 @@
             background: var(--correct);
             border-color: var(--correct);
             color: white;
+        }
+
+        /* Modo alto contraste - añadir patrón para correct */
+        body.high-contrast .letter-cell.correct::before {
+            content: '✓';
+            position: absolute;
+            font-size: 1.2rem;
         }
 
         .letter-cell.present {
@@ -884,13 +893,7 @@
             }
 
             .player-name-container {
-                width: 75px;
-                min-width: 75px;
-                max-width: 75px;
-                font-size: 0.65rem;
-            }
-            
-            .revealed-name {
+                min-width: 50px;
                 font-size: 0.65rem;
             }
 
@@ -898,10 +901,6 @@
                 width: 40px;
                 height: 45px;
                 font-size: 1.4rem;
-            }
-            
-            .letter-cell.space-cell {
-                width: 15px;
             }
 
             .key {
@@ -943,10 +942,6 @@
                 width: 35px;
                 height: 40px;
                 font-size: 1.2rem;
-            }
-            
-            .letter-cell.space-cell {
-                width: 12px;
             }
 
             .key {
