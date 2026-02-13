@@ -293,13 +293,13 @@ function renderFormation() {
                     revealedName.classList.add('failed-reveal');
                 }
                 
-                revealedName.textContent = player.name;
+                revealedName.textContent = getKnownName(player.name);
                 nameContainer.appendChild(revealedName);
             } else {
-                // Crear guiones negros individuales (usando nombre sin abreviaciones)
-                const cleanName = removeAbbreviations(player.name);
-                for (let i = 0; i < cleanName.length; i++) {
-                    const char = cleanName[i];
+                // Crear guiones negros individuales (usando solo apellido/nombre conocido)
+                const displayName = getKnownName(player.name);
+                for (let i = 0; i < displayName.length; i++) {
+                    const char = displayName[i];
                     const slot = document.createElement('div');
                     
                     if (char === ' ') {
@@ -343,11 +343,12 @@ function openGuessModal(playerIndex) {
     }
     
     const player = getPlayerByIndex(playerIndex);
-    const originalName = player.name.toUpperCase(); // Nombre original completo
-    const cleanName = removeAbbreviations(originalName); // Nombre sin abreviaciones (A., J., etc.)
-    const normalizedName = normalizeText(removeAbbreviations(player.name)); // Sin tildes ni abreviaciones
+    const knownName = getKnownName(player.name).toUpperCase(); // Solo apellido/nombre conocido
+    const originalName = knownName; // Usar nombre conocido en lugar del completo
+    const cleanName = knownName; // Ya está limpio, sin necesidad de removeAbbreviations
+    const normalizedName = normalizeText(knownName); // Sin tildes
     
-    // Crear grid de letras (usando nombre sin abreviaciones)
+    // Crear grid de letras (usando solo apellido/nombre conocido)
     const guessGrid = document.getElementById('guess-grid');
     guessGrid.innerHTML = '';
     
@@ -452,6 +453,55 @@ function getPlayerByIndex(index) {
 // LÓGICA DEL WORDLE
 let currentRow = 0;
 
+// Función para extraer el nombre por el que se conoce al jugador (generalmente el apellido)
+function getKnownName(fullName) {
+    // Casos especiales: jugadores conocidos por un solo nombre
+    const singleNamePlayers = ['NEYMAR', 'RONALDINHO', 'KAKÁ', 'PELÉ', 'DIDA', 'RIVALDO', 'CAFU', 'JÚNIOR', 'ÉLBER', 'DECO', 'DANTE'];
+    
+    const upperName = fullName.toUpperCase();
+    
+    // Si es un jugador de nombre único, devolver todo (sin Jr, Junior, etc.)
+    if (singleNamePlayers.some(name => upperName.includes(name))) {
+        return fullName.replace(/\s+(JR\.?|JÚNIOR|JUNIOR)$/i, '').trim();
+    }
+    
+    // Separar por espacios
+    const parts = fullName.split(' ');
+    
+    // Si solo tiene una palabra, devolverla
+    if (parts.length === 1) {
+        return fullName;
+    }
+    
+    // Si tiene dos palabras, devolver la última (el apellido)
+    if (parts.length === 2) {
+        return parts[1];
+    }
+    
+    // Si tiene 3+ palabras, verificar partículas nobiliarias/compuestas
+    const particles = ['DE', 'VAN', 'DA', 'DOS', 'DAS', 'DEL', 'TER', 'VON', 'LE', 'LA', 'DI'];
+    
+    // Buscar desde el final hacia atrás
+    const lastWord = parts[parts.length - 1];
+    const secondToLast = parts[parts.length - 2];
+    
+    if (particles.includes(secondToLast.toUpperCase())) {
+        // Si hay 3 palabras o más antes de la partícula
+        if (parts.length >= 4) {
+            const thirdToLast = parts[parts.length - 3];
+            // Casos como "Marc-André ter Stegen" → "Ter Stegen"
+            if (particles.includes(thirdToLast.toUpperCase())) {
+                return parts.slice(-3).join(' ');
+            }
+        }
+        // Casos como "Frenkie de Jong" → "De Jong"
+        return `${secondToLast} ${lastWord}`;
+    }
+    
+    // Si no hay partícula, devolver solo la última palabra
+    return lastWord;
+}
+
 // Función para normalizar texto (quitar tildes)
 function normalizeText(text) {
     return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
@@ -464,6 +514,52 @@ function removeAbbreviations(name) {
     return name.replace(/\b[A-Z]{1,2}\.\s+/g, '').trim();
 }
 
+// Función para obtener solo el apellido o nombre conocido del jugador
+function getKnownName(fullName) {
+    // Primero eliminar abreviaciones
+    let name = removeAbbreviations(fullName);
+    
+    // Dividir el nombre en palabras
+    const words = name.split(' ');
+    
+    // Si solo hay una palabra, devolverla
+    if (words.length === 1) {
+        return words[0];
+    }
+    
+    // Partículas que van con el apellido (en mayúsculas como aparecen en los JSON)
+    const particles = ['DE', 'VAN', 'DER', 'TER', 'VON', 'DA', 'DI', 'DEL', 'LA', 'LE', 'VAN DER', 'VAN DE'];
+    
+    // Si hay 2 palabras y la primera es una partícula, devolver ambas
+    if (words.length === 2 && particles.includes(words[0])) {
+        return name; // "DE JONG", "VAN DIJK", etc.
+    }
+    
+    // Si hay 3+ palabras, buscar partículas en las últimas palabras
+    if (words.length >= 3) {
+        // Comprobar si las últimas 2 palabras empiezan con partícula
+        const lastTwo = words.slice(-2).join(' ');
+        for (const particle of particles) {
+            if (lastTwo.startsWith(particle + ' ')) {
+                return lastTwo; // "TER STEGEN", "VAN DIJK", etc.
+            }
+        }
+        
+        // Comprobar si las últimas 3 palabras contienen partícula
+        if (words.length >= 3) {
+            const lastThree = words.slice(-3).join(' ');
+            for (const particle of particles) {
+                if (lastThree.includes(' ' + particle + ' ')) {
+                    return lastThree; // "VAN DER SAR", etc.
+                }
+            }
+        }
+    }
+    
+    // Por defecto, devolver la última palabra (apellido simple)
+    return words[words.length - 1];
+}
+
 function handleKeyPress(key) {
     // No permitir entrada si el jugador está revelado por fallo (modo solo lectura)
     if (failedPlayers.has(currentPlayerIndex)) {
@@ -471,7 +567,7 @@ function handleKeyPress(key) {
     }
     
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetName = normalizeText(removeAbbreviations(player.name).replace(/\s/g, ''));
+    const targetName = normalizeText(getKnownName(player.name).replace(/\s/g, ''));
     
     if (key === 'Enter') {
         if (currentGuess.length === targetName.length) {
@@ -496,7 +592,7 @@ function handleKeyPress(key) {
 
 function updateCurrentRow() {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetLength = normalizeText(removeAbbreviations(player.name).replace(/\s/g, '')).length;
+    const targetLength = normalizeText(getKnownName(player.name).replace(/\s/g, '')).length;
     
     for (let i = 0; i < targetLength; i++) {
         const cell = document.getElementById(`cell-${currentRow}-${i}`);
@@ -515,7 +611,7 @@ function updateCurrentRow() {
 
 function checkGuess() {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetName = normalizeText(removeAbbreviations(player.name).replace(/\s/g, ''));
+    const targetName = normalizeText(getKnownName(player.name).replace(/\s/g, ''));
     const guessWord = currentGuess.join('');
     
     if (guessWord === targetName) {
@@ -611,7 +707,7 @@ function checkGuess() {
 
 function animateCorrectGuess() {
     const player = getPlayerByIndex(currentPlayerIndex);
-    const targetLength = normalizeText(removeAbbreviations(player.name).replace(/\s/g, '')).length;
+    const targetLength = normalizeText(getKnownName(player.name).replace(/\s/g, '')).length;
     
     for (let i = 0; i < targetLength; i++) {
         const cell = document.getElementById(`cell-${currentRow}-${i}`);
