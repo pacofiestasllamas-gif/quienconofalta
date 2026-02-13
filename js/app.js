@@ -5,6 +5,7 @@ let currentMatchIndex = 0;
 let currentMatch = null;
 let currentPlayerIndex = null;
 let revealedPlayers = new Set();
+let failedPlayers = new Set(); // Jugadores revelados por agotar intentos
 let currentGuess = [];
 let playerAttempts = {}; // Contador de intentos por jugador
 let playerGuessHistory = {}; // Historial de intentos del wordle por jugador
@@ -104,6 +105,7 @@ function loadMatch() {
     
     currentMatch = allMatches[currentMatchIndex];
     revealedPlayers = new Set();
+    failedPlayers = new Set();
     playerAttempts = {};
     playerGuessHistory = {};
     
@@ -164,6 +166,12 @@ function renderFormation() {
                 // Mostrar nombre revelado (completo)
                 const revealedName = document.createElement('div');
                 revealedName.className = 'revealed-name';
+                
+                // Si fue revelado por fallo, aplicar clase especial para color rojo
+                if (failedPlayers.has(globalIndex)) {
+                    revealedName.classList.add('failed-reveal');
+                }
+                
                 revealedName.textContent = player.name;
                 nameContainer.appendChild(revealedName);
             } else {
@@ -194,10 +202,14 @@ function renderFormation() {
 }
 
 function openGuessModal(playerIndex) {
-    if (revealedPlayers.has(playerIndex)) return;
+    // Si el jugador fue revelado correctamente (adivinado), no abrir modal
+    if (revealedPlayers.has(playerIndex) && !failedPlayers.has(playerIndex)) return;
     
     currentPlayerIndex = playerIndex;
     currentGuess = [];
+    
+    // Determinar si es modo solo lectura (jugador fallido revelado)
+    const isReadOnly = failedPlayers.has(playerIndex);
     
     // Inicializar contador de intentos si no existe
     if (!playerAttempts[playerIndex]) {
@@ -271,6 +283,38 @@ function openGuessModal(playerIndex) {
     }
     
     document.getElementById('guess-modal').classList.add('active');
+    
+    // Si es modo solo lectura (jugador fallido), desactivar teclado y botón revelar
+    if (isReadOnly) {
+        const modal = document.getElementById('guess-modal');
+        modal.classList.add('read-only');
+        
+        // Desactivar todas las teclas
+        document.querySelectorAll('.key').forEach(key => {
+            key.disabled = true;
+            key.style.opacity = '0.5';
+            key.style.cursor = 'not-allowed';
+        });
+        
+        // Ocultar botón de revelar
+        document.getElementById('reveal-btn-modal').style.display = 'none';
+        
+        // Cambiar título del modal
+        document.querySelector('.modal-title').textContent = 'INTENTOS REALIZADOS';
+    } else {
+        // Modo normal, reactivar todo
+        const modal = document.getElementById('guess-modal');
+        modal.classList.remove('read-only');
+        
+        document.querySelectorAll('.key').forEach(key => {
+            key.disabled = false;
+            key.style.opacity = '1';
+            key.style.cursor = 'pointer';
+        });
+        
+        document.getElementById('reveal-btn-modal').style.display = 'block';
+        document.querySelector('.modal-title').textContent = 'ADIVINA EL JUGADOR';
+    }
 }
 
 function getPlayerByIndex(index) {
@@ -300,6 +344,11 @@ function removeAbbreviations(name) {
 }
 
 function handleKeyPress(key) {
+    // No permitir entrada si el jugador está revelado por fallo (modo solo lectura)
+    if (failedPlayers.has(currentPlayerIndex)) {
+        return;
+    }
+    
     const player = getPlayerByIndex(currentPlayerIndex);
     const targetName = normalizeText(removeAbbreviations(player.name).replace(/\s/g, ''));
     
@@ -330,8 +379,16 @@ function updateCurrentRow() {
     
     for (let i = 0; i < targetLength; i++) {
         const cell = document.getElementById(`cell-${currentRow}-${i}`);
-        cell.textContent = currentGuess[i] || '';
-        cell.className = 'letter-cell';
+        if (cell) {
+            cell.textContent = currentGuess[i] || '';
+            // Solo resetear la clase si la celda no tiene estado previo (correct, present, absent, flip)
+            if (!cell.classList.contains('correct') && 
+                !cell.classList.contains('present') && 
+                !cell.classList.contains('absent') && 
+                !cell.classList.contains('flip')) {
+                cell.className = 'letter-cell';
+            }
+        }
     }
 }
 
@@ -424,7 +481,7 @@ function checkGuess() {
     // Si agotó los intentos
     if (currentRow >= 6) {
         setTimeout(() => {
-            revealPlayer(currentPlayerIndex);
+            revealPlayer(currentPlayerIndex, true); // true = revelado por fallo
             closeGuessModal();
             updateStats(false);
         }, 1000);
@@ -474,12 +531,17 @@ function resetKeyboard() {
     currentRow = 0;
 }
 
-function revealPlayer(playerIndex) {
+function revealPlayer(playerIndex, isFailed = false) {
     revealedPlayers.add(playerIndex);
     
-    // Limpiar historial de intentos del jugador revelado
-    delete playerGuessHistory[playerIndex];
-    delete playerAttempts[playerIndex];
+    if (isFailed) {
+        // Si fue revelado por fallo, marcarlo y MANTENER el historial
+        failedPlayers.add(playerIndex);
+    } else {
+        // Si fue adivinado correctamente o revelado manualmente, limpiar historial
+        delete playerGuessHistory[playerIndex];
+        delete playerAttempts[playerIndex];
+    }
     
     renderFormation();
     updateRevealedCount();

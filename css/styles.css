@@ -469,6 +469,11 @@
             text-transform: uppercase;
         }
 
+        /* Jugadores revelados por agotar intentos */
+        .revealed-name.failed-reveal {
+            color: #ef4444; /* Rojo brillante */
+        }
+
         .attempts-counter {
             background: rgba(0, 0, 0, 0.3);
             color: white;
