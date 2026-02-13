@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "06 de noviembre 2022",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ERAY CÖMERT",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "YUNUS MUSAH",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ANDRÉ ALMEIDA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "MARCOS ANDRÉ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "SAMUEL LINO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JUSTIN KLUIVERT",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "RAYO VALLECANO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "03 de abril 2023",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "CENK ÖZKACAR",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "NICO GONZÁLEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ANDRÉ ALMEIDA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "EDINSON CAVANI",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "SAMUEL LINO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JUSTIN KLUIVERT",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "CELTA VIGO",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "14 de mayo 2023",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "NICO GONZÁLEZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JAVI GUERRA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ANDRÉ ALMEIDA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "SAMUEL LINO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "DIEGO LÓPEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "JUSTIN KLUIVERT",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "25 de febrero 2023",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "GIORGI MAMARDASHVILI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "TONI LATO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "YUNUS MUSAH",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ANDRÉ ALMEIDA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "HUGO DURO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "SAMUEL LINO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SAMU CASTILLEJO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

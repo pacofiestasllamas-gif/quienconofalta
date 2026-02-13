@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "LEGANES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "21 de abril 2019",
+    "playingTeam": "VILLARREAL",
+    "formation": [
+      [
+        {
+          "name": "ANDRÉS FERNÁNDEZ",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO GONZÁLEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RAMIRO FUNES MORI",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "XAVI QUINTILLÁ",
+          "position": "DEF",
+          "number": "39"
+        },
+        {
+          "name": "MARIO GASPAR",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "IBORRA",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "SANTI CAZORLA",
+          "position": "MID",
+          "number": "19"
+        },
+        {
+          "name": "KARL TOKO EKAMBI",
+          "position": "MID",
+          "number": "17"
+        },
+        {
+          "name": "SAMUEL CHUKWUEZE",
+          "position": "MID",
+          "number": "30"
+        }
+      ],
+      [
+        {
+          "name": "PABLO FORNALS",
+          "position": "FWD",
+          "number": "8"
+        },
+        {
+          "name": "CARLOS BACCA",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "ATLETICO MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "20 de octubre 2018",
+    "playingTeam": "VILLARREAL",
+    "formation": [
+      [
+        {
+          "name": "SERGIO ASENJO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO GONZÁLEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RAMIRO FUNES MORI",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAUME COSTA",
+          "position": "DEF",
+          "number": "11"
+        },
+        {
+          "name": "MANUEL ITURRA",
+          "position": "DEF",
+          "number": "20"
+        },
+        {
+          "name": "MANU TRIGUEROS",
+          "position": "DEF",
+          "number": "14"
+        },
+        {
+          "name": "MARIO GASPAR",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "PABLO FORNALS",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALFONSO PEDRAZA",
+          "position": "MID",
+          "number": "16"
+        },
+        {
+          "name": "SANTI CAZORLA",
+          "position": "MID",
+          "number": "19"
+        }
+      ],
+      [
+        {
+          "name": "GERARD MORENO",
+          "position": "FWD",
+          "number": "7"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "03 de enero 2019",
+    "playingTeam": "VILLARREAL",
+    "formation": [
+      [
+        {
+          "name": "SERGIO ASENJO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO GONZÁLEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "VÍCTOR RUIZ",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "JAUME COSTA",
+          "position": "DEF",
+          "number": "11"
+        },
+        {
+          "name": "JAVI FUEGO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "SANTIAGO CÁSERES",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MIGUEL LAYÚN",
+          "position": "DEF",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "PABLO FORNALS",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "SANTI CAZORLA",
+          "position": "MID",
+          "number": "19"
+        },
+        {
+          "name": "SAMUEL CHUKWUEZE",
+          "position": "MID",
+          "number": "30"
+        }
+      ],
+      [
+        {
+          "name": "GERARD MORENO",
+          "position": "FWD",
+          "number": "7"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "12 de enero 2019",
+    "playingTeam": "VILLARREAL",
+    "formation": [
+      [
+        {
+          "name": "SERGIO ASENJO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR RUIZ",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "RAMIRO FUNES MORI",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAUME COSTA",
+          "position": "DEF",
+          "number": "11"
+        },
+        {
+          "name": "IBORRA",
+          "position": "DEF",
+          "number": "10"
+        },
+        {
+          "name": "SANTIAGO CÁSERES",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARIO GASPAR",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "PABLO FORNALS",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "SANTI CAZORLA",
+          "position": "MID",
+          "number": "19"
+        },
+        {
+          "name": "SAMUEL CHUKWUEZE",
+          "position": "MID",
+          "number": "30"
+        }
+      ],
+      [
+        {
+          "name": "GERARD MORENO",
+          "position": "FWD",
+          "number": "7"
+        }
+      ]
+    ]
+  }
+]

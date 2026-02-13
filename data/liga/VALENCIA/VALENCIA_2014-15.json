@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "08 de marzo 2015",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NICOLÁS OTAMENDI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANTONIO BARRAGÁN",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ENZO PÉREZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JAVI FUEGO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "PABLO PIATTI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SOFIANE FÉGHOULI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "15 de febrero 2015",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "NICOLÁS OTAMENDI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANTONIO BARRAGÁN",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ENZO PÉREZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JAVI FUEGO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "PABLO PIATTI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RODRIGO DE PAUL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "MALAGA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "02 de febrero 2015",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NICOLÁS OTAMENDI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JOÃO CANCELO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "JAVI FUEGO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ENZO PÉREZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ANDRÉ GOMES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "GRANADA",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "07 de diciembre 2014",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "DIEGO ALVES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NICOLÁS OTAMENDI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SHKODRAN MUSTAFI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANTONIO BARRAGÁN",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JAVI FUEGO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ANDRÉ GOMES",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO NEGREDO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "RODRIGO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SOFIANE FÉGHOULI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]
