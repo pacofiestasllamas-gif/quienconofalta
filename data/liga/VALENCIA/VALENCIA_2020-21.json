@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "07 de julio 2020",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ADRIÁN GUERRERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ALESSANDRO FLORENZI",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI PAREJO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GEOFFREY KONDOGBIA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "KEVIN GAMEIRO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "REAL VALLADOLID",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "10 de enero 2021",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "HUGO GUILLAMÓN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "UROS RACIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DENIS CHERYSHEV",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "LEE KANG-IN",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "11 de abril 2021",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "UROS RACIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DENIS CHERYSHEV",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "18 de octubre 2020",
+    "playingTeam": "VALENCIA",
+    "formation": [
+      [
+        {
+          "name": "JAUME DOMÈNECH",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PAULISTA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOUCTAR DIAKHABY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSÉ GAYÀ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "THIERRY CORREIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS SOLER",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÁLEX BLANCO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "YUNUS MUSAH",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "GONÇALO GUEDES",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]
