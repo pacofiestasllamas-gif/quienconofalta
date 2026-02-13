@@ -22,39 +22,160 @@ let stats = {
 // CARGAR DATOS DESDE JSON
 async function loadMatchData(mode) {
     try {
-        let files = [];
+        let folders = [];
         
-        // Determinar qué archivos cargar según el modo
+        // Determinar qué carpetas cargar según el modo
         switch(mode) {
             case 'liga':
-                files = ['data/liga.json'];
+                folders = ['data/liga'];
                 break;
             case 'champions':
-                files = ['data/champions.json'];
+                folders = ['data/champions'];
                 break;
             case 'historico':
-                files = ['data/historico.json'];
+                folders = ['data/historico'];
                 break;
             case 'random':
-                files = ['data/liga.json', 'data/champions.json', 'data/historico.json'];
+                folders = ['data/liga', 'data/champions', 'data/historico'];
                 break;
         }
         
-        // Cargar todos los archivos
-        const promises = files.map(file => 
-            fetch(file)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Error cargando ${file}`);
+        // Array para almacenar todos los partidos
+        let allLoadedMatches = [];
+        
+        // Para cada carpeta, cargar todos sus archivos JSON
+        for (const folder of folders) {
+            try {
+                // Intentar cargar el archivo manifest.json que lista las subcarpetas/archivos disponibles
+                const manifestResponse = await fetch(`${folder}/manifest.json`);
+                
+                if (manifestResponse.ok) {
+                    // Si existe manifest.json, usarlo
+                    const manifest = await manifestResponse.json();
+                    
+                    // Verificar si el manifest tiene "folders" (subcarpetas) o "files" (archivos directos)
+                    if (manifest.folders && Array.isArray(manifest.folders)) {
+                        // MODO SUBCARPETAS: Cargar todos los JSON de cada subcarpeta
+                        for (const subfolder of manifest.folders) {
+                            const subfolderPath = `${folder}/${subfolder}`;
+                            
+                            // Intentar cargar el manifest de la subcarpeta que lista sus archivos
+                            try {
+                                const subManifestResponse = await fetch(`${subfolderPath}/manifest.json`);
+                                
+                                if (subManifestResponse.ok) {
+                                    // Si la subcarpeta tiene su propio manifest.json
+                                    const subManifest = await subManifestResponse.json();
+                                    
+                                    if (subManifest.files && Array.isArray(subManifest.files)) {
+                                        for (const filename of subManifest.files) {
+                                            try {
+                                                const fileResponse = await fetch(`${subfolderPath}/${filename}`);
+                                                if (fileResponse.ok) {
+                                                    const data = await fileResponse.json();
+                                                    if (Array.isArray(data)) {
+                                                        allLoadedMatches.push(...data);
+                                                    }
+                                                }
+                                            } catch (err) {
+                                                console.warn(`No se pudo cargar ${subfolderPath}/${filename}:`, err);
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    // Si no hay manifest en la subcarpeta, buscar archivos comunes
+                                    const commonJsonFiles = [
+                                        'partido1.json', 'partido2.json', 'partido3.json', 'partido4.json',
+                                        'partido5.json', 'partido6.json', 'partido7.json', 'partido8.json',
+                                        'partido9.json', 'partido10.json', 'partido11.json', 'partido12.json',
+                                        'partido13.json', 'partido14.json', 'partido15.json', 'partido16.json',
+                                        'partido17.json', 'partido18.json', 'partido19.json', 'partido20.json',
+                                        'partidos.json', 'data.json', 'matches.json',
+                                        // Patrones de temporadas
+                                        `${subfolder}_2014-15.json`, `${subfolder}_2015-16.json`, `${subfolder}_2016-17.json`,
+                                        `${subfolder}_2017-18.json`, `${subfolder}_2018-19.json`, `${subfolder}_2019-20.json`,
+                                        `${subfolder}_2020-21.json`, `${subfolder}_2021-22.json`, `${subfolder}_2022-23.json`,
+                                        `${subfolder}_2023-24.json`, `${subfolder}_2024-25.json`
+                                    ];
+                                    
+                                    for (const jsonFile of commonJsonFiles) {
+                                        try {
+                                            const fileResponse = await fetch(`${subfolderPath}/${jsonFile}`);
+                                            if (fileResponse.ok) {
+                                                const data = await fileResponse.json();
+                                                if (Array.isArray(data)) {
+                                                    allLoadedMatches.push(...data);
+                                                }
+                                            }
+                                        } catch (err) {
+                                            // Ignorar archivos que no existen
+                                        }
+                                    }
+                                }
+                            } catch (err) {
+                                console.warn(`Error procesando subcarpeta ${subfolderPath}:`, err);
+                            }
+                        }
+                    } else if (manifest.files && Array.isArray(manifest.files)) {
+                        // MODO ARCHIVOS DIRECTOS: Cargar archivos listados en el manifest
+                        for (const filename of manifest.files) {
+                            try {
+                                const fileResponse = await fetch(`${folder}/${filename}`);
+                                if (fileResponse.ok) {
+                                    const data = await fileResponse.json();
+                                    if (Array.isArray(data)) {
+                                        allLoadedMatches.push(...data);
+                                    }
+                                }
+                            } catch (err) {
+                                console.warn(`No se pudo cargar ${folder}/${filename}:`, err);
+                            }
+                        }
                     }
-                    return response.json();
-                })
-        );
+                } else {
+                    // Si no hay manifest.json, intentar cargar archivos comunes directamente
+                    const commonFiles = [
+                        'ALAVES.json', 'ALMERIA.json', 'ATHLETIC_CLUB.json', 'ATLETICO_MADRID.json',
+                        'BARCELONA.json', 'CADIZ.json', 'CELTA_VIGO.json', 'CORDOBA.json',
+                        'DEPORTIVO_LA_CORUNA.json', 'EIBAR.json', 'ELCHE.json', 'ESPANYOL.json',
+                        'GETAFE.json', 'GIRONA.json', 'GRANADA.json', 'LAS_PALMAS.json',
+                        'LEGANES.json', 'LEVANTE.json', 'MALAGA.json', 'MALLORCA.json',
+                        'OSASUNA.json', 'RAYO_VALLECANO.json', 'REAL_BETIS.json', 'REAL_MADRID.json',
+                        'REAL_SOCIEDAD.json', 'REAL_VALLADOLID.json', 'SD_HUESCA.json', 'SEVILLA.json',
+                        'SPORTING_GIJON.json', 'VALENCIA.json', 'VILLARREAL.json',
+                        // También nombres en minúsculas por compatibilidad
+                        'barcelona.json', 'real-madrid.json', 'atletico.json', 'sevilla.json',
+                        'valencia.json', 'athletic.json', 'real-sociedad.json', 'betis.json',
+                        'villarreal.json', 'celta.json', 'espanyol.json', 'getafe.json',
+                        'finales.json', 'semifinales.json', 'remontadas.json', 'clasicos.json',
+                        'mundiales.json', 'eurocopas.json', 'olimpiadas.json'
+                    ];
+                    
+                    for (const filename of commonFiles) {
+                        try {
+                            const fileResponse = await fetch(`${folder}/${filename}`);
+                            if (fileResponse.ok) {
+                                const data = await fileResponse.json();
+                                if (Array.isArray(data)) {
+                                    allLoadedMatches.push(...data);
+                                }
+                            }
+                        } catch (err) {
+                            // Ignorar archivos que no existen
+                        }
+                    }
+                }
+            } catch (err) {
+                console.warn(`Error procesando carpeta ${folder}:`, err);
+            }
+        }
         
-        const results = await Promise.all(promises);
+        if (allLoadedMatches.length === 0) {
+            throw new Error('No se encontraron partidos en las carpetas especificadas');
+        }
         
-        // Combinar todos los partidos
-        allMatches = results.flat();
+        // Asignar todos los partidos cargados
+        allMatches = allLoadedMatches;
         
         // Mezclar siempre para que aparezcan en orden aleatorio
         allMatches = shuffleArray(allMatches);
@@ -62,7 +183,7 @@ async function loadMatchData(mode) {
         return allMatches.length > 0;
     } catch (error) {
         console.error('Error cargando datos:', error);
-        alert('Error al cargar los datos. Asegúrate de que los archivos JSON estén en la carpeta /data/');
+        alert('Error al cargar los datos. Asegúrate de que los archivos JSON estén en las carpetas correctas dentro de /data/');
         return false;
     }
 }
