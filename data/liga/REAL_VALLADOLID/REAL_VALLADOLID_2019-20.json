@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL VALLADOLID",
+    "awayTeam": "CELTA VIGO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "17 de junio 2020",
+    "playingTeam": "REAL VALLADOLID",
+    "formation": [
+      [
+        {
+          "name": "JORDI MASIP",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "JOAQUÍN FERNÁNDEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOHAMMED SALISU",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "NACHO MARTÍNEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAVI MOYANO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "RUBÉN ALCARAZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MÍCHEL HERRERO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TONI VILLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ÓSCAR PLANO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "SERGI GUARDIOLA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "18 de enero 2020",
+    "playingTeam": "REAL VALLADOLID",
+    "formation": [
+      [
+        {
+          "name": "JORDI MASIP",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "KIKO OLIVAS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOHAMMED SALISU",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOAQUÍN FERNÁNDEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RAÚL CARNERO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ANTOÑITO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "FEDE SAN EMETERIO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MÍCHEL HERRERO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "RUBÉN ALCARAZ",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "SERGI GUARDIOLA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL VALLADOLID",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "08 de diciembre 2019",
+    "playingTeam": "REAL VALLADOLID",
+    "formation": [
+      [
+        {
+          "name": "JORDI MASIP",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "KIKO OLIVAS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MOHAMMED SALISU",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "NACHO MARTÍNEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAVI MOYANO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MÍCHEL HERRERO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FEDE SAN EMETERIO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TONI VILLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "PABLO HERVÍAS",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "SERGI GUARDIOLA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "SANDRO RAMÍREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "CELTA VIGO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "16 de marzo 2019",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "KEYLOR NAVAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "TONI KROOS",
+          "position": "DEF",
+          "number": "8"
+        },
+        {
+          "name": "LUKA MODRIC",
+          "position": "DEF",
+          "number": "10"
+        },
+        {
+          "name": "ÁLVARO ODRIOZOLA",
+          "position": "DEF",
+          "number": "19"
+        }
+      ],
+      [
+        {
+          "name": "ISCO",
+          "position": "MID",
+          "number": "22"
+        },
+        {
+          "name": "MARCO ASENSIO",
+          "position": "MID",
+          "number": "20"
+        },
+        {
+          "name": "GARETH BALE",
+          "position": "MID",
+          "number": "11"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "SD HUESCA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-2",
+    "date": "31 de marzo 2019",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "LUCA ZIDANE",
+          "position": "GK",
+          "number": "30"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "NACHO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "ÁLVARO ODRIOZOLA",
+          "position": "DEF",
+          "number": "19"
+        }
+      ],
+      [
+        {
+          "name": "ISCO",
+          "position": "MID",
+          "number": "22"
+        },
+        {
+          "name": "MARCOS LLORENTE",
+          "position": "MID",
+          "number": "18"
+        },
+        {
+          "name": "DANI CEBALLOS",
+          "position": "MID",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "BRAHIM DÍAZ",
+          "position": "FWD",
+          "number": "21"
+        },
+        {
+          "name": "GARETH BALE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-1",
+    "date": "12 de mayo 2019",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "25"
+        }
+      ],
+      [
+        {
+          "name": "JESÚS VALLEJO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "NACHO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "CASEMIRO",
+          "position": "MID",
+          "number": "14"
+        },
+        {
+          "name": "ISCO",
+          "position": "MID",
+          "number": "22"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "BRAHIM DÍAZ",
+          "position": "FWD",
+          "number": "21"
+        },
+        {
+          "name": "MARCO ASENSIO",
+          "position": "FWD",
+          "number": "20"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "03 de enero 2019",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "25"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "CASEMIRO",
+          "position": "MID",
+          "number": "14"
+        },
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "GARETH BALE",
+          "position": "FWD",
+          "number": "11"
+        },
+        {
+          "name": "LUCAS VÁZQUEZ",
+          "position": "FWD",
+          "number": "17"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "SD HUESCA",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "09 de diciembre 2018",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "25"
+        }
+      ],
+      [
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MARCOS LLORENTE",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "ÁLVARO ODRIOZOLA",
+          "position": "DEF",
+          "number": "19"
+        }
+      ],
+      [
+        {
+          "name": "DANI CEBALLOS",
+          "position": "MID",
+          "number": "24"
+        },
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "GARETH BALE",
+          "position": "MID",
+          "number": "11"
+        },
+        {
+          "name": "LUCAS VÁZQUEZ",
+          "position": "MID",
+          "number": "17"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  }
+]

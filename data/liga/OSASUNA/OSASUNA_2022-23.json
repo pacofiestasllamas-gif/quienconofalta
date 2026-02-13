@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "OSASUNA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-0",
+    "date": "21 de mayo 2023",
+    "playingTeam": "OSASUNA",
+    "formation": [
+      [
+        {
+          "name": "SERGIO HERRERA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ARIDANE HERNÁNDEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MANU SÁNCHEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RUBÉN PEÑA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "JON MONCAYOLA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "LUCAS TORRÓ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "AIMAR OROZ",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ANTE BUDIMIR",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "CHIMY AVILA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RUBÉN GARCÍA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "GIRONA",
+    "awayTeam": "OSASUNA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "23 de octubre 2022",
+    "playingTeam": "OSASUNA",
+    "formation": [
+      [
+        {
+          "name": "SERGIO HERRERA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "JUAN CRUZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "UNAI GARCÍA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MANU SÁNCHEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "LUCAS TORRÓ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "NACHO VIDAL",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "JON MONCAYOLA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MOI GÓMEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ABDE EZZALZOULI",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "RUBÉN PEÑA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "CHIMY AVILA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "30 de octubre 2022",
+    "playingTeam": "OSASUNA",
+    "formation": [
+      [
+        {
+          "name": "AITOR FERNÁNDEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "UNAI GARCÍA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MANU SÁNCHEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RUBÉN PEÑA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "LUCAS TORRÓ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "AIMAR OROZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MOI GÓMEZ",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ANTE BUDIMIR",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "KIKE BARJA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CHIMY AVILA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

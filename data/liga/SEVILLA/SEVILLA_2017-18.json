@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "EIBAR",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "5-1",
+    "date": "03 de febrero 2018",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "SERGIO RICO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "CLÉMENT LENGLET",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "NICOLÁS PAREJA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO ESCUDERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ROQUE MESA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "STEVEN NZONZI",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "MIGUEL LAYÚN",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "NOLITO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "SANDRO RAMÍREZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "WISSAM BEN YEDDER",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "REAL BETIS",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "12 de mayo 2018",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "CLÉMENT LENGLET",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SIMON KJÆR",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO ESCUDERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ROQUE MESA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "STEVEN NZONZI",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "GABRIEL MERCADO",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ÉVER BANEGA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NOLITO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "SANDRO RAMÍREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "REAL BETIS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-5",
+    "date": "06 de enero 2018",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "SERGIO RICO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SIMON KJÆR",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "CLÉMENT LENGLET",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO ESCUDERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "SÉBASTIEN CORCHIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "STEVEN NZONZI",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FRANCO VÁZQUEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÉVER BANEGA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "WISSAM BEN YEDDER",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "NOLITO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "04 de mayo 2018",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL MERCADO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "CLÉMENT LENGLET",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO ESCUDERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "STEVEN NZONZI",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ROQUE MESA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "MIGUEL LAYÚN",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ÉVER BANEGA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NOLITO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "SANDRO RAMÍREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

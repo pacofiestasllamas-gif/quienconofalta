@@ -1,0 +1,377 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "DEPORTIVO LA CORUNA",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-6",
+    "date": "26 de abril 2017",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "KIKO CASILLA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "NACHO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MATEO KOVACIC",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANILO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "JAMES RODRÍGUEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ISCO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MARCO ASENSIO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "LUCAS VÁZQUEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO MORATA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "MALAGA",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "21 de mayo 2017",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "KEYLOR NAVAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANILO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ISCO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "CASEMIRO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CRISTIANO RONALDO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "EIBAR",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-4",
+    "date": "04 de marzo 2017",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "KEYLOR NAVAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "PEPE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "NACHO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANILO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "CASEMIRO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JAMES RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MARCO ASENSIO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS VÁZQUEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-3",
+    "date": "23 de abril 2017",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "KEYLOR NAVAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "NACHO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "CASEMIRO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "GARETH BALE",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CRISTIANO RONALDO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "23 de octubre 2016",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "KEYLOR NAVAS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "PEPE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MATEO KOVACIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ISCO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "CRISTIANO RONALDO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "GARETH BALE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

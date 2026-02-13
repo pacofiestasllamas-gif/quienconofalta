@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "ATHLETIC CLUB",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-0",
+    "date": "08 de noviembre 2022",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "UNAI SIMÓN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "YERAY ÁLVAREZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DANI VIVIAN",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ÍÑIGO LEKUE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MIKEL VESGA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "ANDER HERRERA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "OIHAN SANCET",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NICO WILLIAMS",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "GORKA GURUZETA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-0",
+    "date": "23 de octubre 2022",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "UNAI SIMÓN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "YERAY ÁLVAREZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MIKEL VESGA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ANDER HERRERA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "OIER ZARRAGA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEX BERENGUER",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "NICO WILLIAMS",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "ALMERIA",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "22 de abril 2023",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "UNAI SIMÓN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "YERAY ÁLVAREZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MIKEL VESGA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ANDER HERRERA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "OIHAN SANCET",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NICO WILLIAMS",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "GORKA GURUZETA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "25 de mayo 2023",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "JULEN AGIRREZABALA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DANI VIVIAN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "AITOR PAREDES",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "OIER ZARRAGA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MIKEL VESGA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "IKER MUNIAIN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEX BERENGUER",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "NICO WILLIAMS",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

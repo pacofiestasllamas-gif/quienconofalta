@@ -1,0 +1,377 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "GIRONA",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-2",
+    "date": "25 de abril 2023",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "ANDRIY LUNIN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ANTONIO RÜDIGER",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÉDER MILITÃO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "NACHO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "RODRYGO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "VINÍCIUS JÚNIOR",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MARCO ASENSIO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "ESPANYOL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-1",
+    "date": "11 de marzo 2023",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NACHO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÉDER MILITÃO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "EDUARDO CAMAVINGA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "AURÉLIEN TCHOUAMÉNI",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "RODRYGO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "VINÍCIUS JÚNIOR",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "RAYO VALLECANO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "24 de mayo 2023",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID ALABA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "NACHO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ANTONIO RÜDIGER",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "EDUARDO CAMAVINGA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "RODRYGO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "13 de mayo 2023",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NACHO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÉDER MILITÃO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FERLAND MENDY",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "LUCAS VÁZQUEZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANI CEBALLOS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "EDUARDO CAMAVINGA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "AURÉLIEN TCHOUAMÉNI",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "MARCO ASENSIO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "EDEN HAZARD",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "RAYO VALLECANO",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-2",
+    "date": "07 de noviembre 2022",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID ALABA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÉDER MILITÃO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FERLAND MENDY",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "AURÉLIEN TCHOUAMÉNI",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "RODRYGO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "VINÍCIUS JÚNIOR",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MARCO ASENSIO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

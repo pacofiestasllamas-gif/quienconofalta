@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "09 de noviembre 2022",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "ÁLEX REMIRO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ROBIN LE NORMAND",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JON PACHECO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DIEGO RICO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÁLEX SOLA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DAVID SILVA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MARTÍN ZUBIMENDI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "BRAIS MÉNDEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MIKEL MERINO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "CARLOS FERNÁNDEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ALEXANDER SØRLOTH",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "05 de febrero 2023",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "ÁLEX REMIRO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ROBIN LE NORMAND",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "IGOR ZUBELDIA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DIEGO RICO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANDER BARRENETXEA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ROBERT NAVARRO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ASIER ILLARRAMENDI",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MARTÍN ZUBIMENDI",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "PABLO MARÍN",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ALEXANDER SØRLOTH",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "GIRONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "13 de mayo 2023",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "ÁLEX REMIRO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "IGOR ZUBELDIA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ROBIN LE NORMAND",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "AIHEN MUÑOZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANDONI GOROSABEL",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MARTÍN ZUBIMENDI",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MIKEL MERINO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MIKEL OYARZABAL",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ALEXANDER SØRLOTH",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "DAVID SILVA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

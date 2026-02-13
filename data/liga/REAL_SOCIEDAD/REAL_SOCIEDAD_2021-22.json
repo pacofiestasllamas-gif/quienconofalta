@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "21 de abril 2022",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "ÁLEX REMIRO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ROBIN LE NORMAND",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "IGOR ZUBELDIA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DIEGO RICO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MARTÍN ZUBIMENDI",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JOSEBA ZALDÚA",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "MIKEL MERINO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ADNAN JANUZAJ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "RAFINHA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ALEXANDER ISAK",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ALEXANDER SØRLOTH",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "MALLORCA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "02 de marzo 2022",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "ÁLEX REMIRO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "JON PACHECO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ROBIN LE NORMAND",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ANDONI GOROSABEL",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANDER GUEVARA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MIKEL MERINO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ARITZ ELUSTONDO",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "DAVID SILVA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MIKEL OYARZABAL",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "PORTU",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ALEXANDER SØRLOTH",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "21 de noviembre 2021",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "ÁLEX REMIRO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ARITZ ELUSTONDO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ROBIN LE NORMAND",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DIEGO RICO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANDER GUEVARA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MIKEL MERINO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ANDONI GOROSABEL",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "DAVID SILVA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ANDER BARRENETXEA",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ADNAN JANUZAJ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ALEXANDER ISAK",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

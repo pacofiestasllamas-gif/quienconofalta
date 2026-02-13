@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "ALMERIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "12 de marzo 2023",
+    "playingTeam": "ALMERIA",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO MARTÍNEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SRDJAN BABIC",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO AKIEME",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÍÑIGO EGUARAS",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "LUCAS ROBERTONE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "CHUMI",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ARNAU PUIGMAL",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "LUIS SUÁREZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ÁLEX POZO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "EL BILAL TOURÉ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "ALMERIA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "08 de enero 2023",
+    "playingTeam": "ALMERIA",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO MARTÍNEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SRDJAN BABIC",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO AKIEME",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "HOUBOULANG MENDES",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "GONZALO MELERO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "CÉSAR DE LA HOZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUCAS ROBERTONE",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "EL BILAL TOURÉ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "LUIS SUÁREZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LARGIE RAMAZANI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "ALMERIA",
+    "awayTeam": "ELCHE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "02 de mayo 2023",
+    "playingTeam": "ALMERIA",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO MARTÍNEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SRDJAN BABIC",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ÁLEX CENTELLES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÁLEX POZO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "CÉSAR DE LA HOZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GONZALO MELERO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUCAS ROBERTONE",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "LUIS SUÁREZ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "ADRI EMBARBA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LÉO BAPTISTÃO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "ALAVES",
+    "awayTeam": "EIBAR",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "27 de abril 2017",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ZOUHAIR FEDDAL",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "THÉO HERNÁNDEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MANU GARCÍA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARCOS LLORENTE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "KIKO FEMENÍA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR CAMARASA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "IBAI GÓMEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ÉDGAR MÉNDEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "DEYVERSON",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "ALAVES",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "04 de diciembre 2016",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ZOUHAIR FEDDAL",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ALEXIS RUANO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "THÉO HERNÁNDEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANIEL TORRES",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARCOS LLORENTE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS VIGARAY",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR CAMARASA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "IBAI GÓMEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ÉDGAR MÉNDEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "DEYVERSON",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "SPORTING GIJON",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-4",
+    "date": "05 de febrero 2017",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ZOUHAIR FEDDAL",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ALEXIS RUANO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RAÚL CARNERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANIEL TORRES",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "NENAD KRSTICIC",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS VIGARAY",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "RUBÉN SOBRINO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ÉDGAR MÉNDEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ALEKSANDAR KATAI",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "CHRISTIAN SANTOS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

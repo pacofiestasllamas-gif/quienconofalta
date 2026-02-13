@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "CELTA VIGO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "07 de abril 2023",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "MARKO DMITROVIC",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA GUDELJ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "LOÏC BADÉ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARCOS ACUÑA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PAPE GUEYE",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "FERNANDO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ÉRIK LAMELA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "BRYAN GIL",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "SUSO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "YOUSSEF EN-NESYRI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "ELCHE",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "24 de mayo 2023",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "MARKO DMITROVIC",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "KARIM REKIK",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "LOÏC BADÉ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALEX TELLES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PAPE GUEYE",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "FERNANDO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ÉRIK LAMELA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MARCOS ACUÑA",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "LUCAS OCAMPOS",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "YOUSSEF EN-NESYRI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "GIRONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "01 de mayo 2023",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "MARKO DMITROVIC",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA GUDELJ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "LOÏC BADÉ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARCOS ACUÑA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PAPE GUEYE",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "FERNANDO",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "GONZALO MONTIEL",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "PAPU GÓMEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "BRYAN GIL",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "LUCAS OCAMPOS",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "YOUSSEF EN-NESYRI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "ESPANYOL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-2",
+    "date": "04 de mayo 2023",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "MARKO DMITROVIC",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "KARIM REKIK",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "NEMANJA GUDELJ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALEX TELLES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "IVAN RAKITIC",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "PAPE GUEYE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ÓLIVER TORRES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "BRYAN GIL",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "SUSO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "RAFA MIR",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

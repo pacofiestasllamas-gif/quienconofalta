@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "ESPANYOL",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "10 de febrero 2017",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "GERÓNIMO RULLI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RAÚL NAVAS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÁLVARO ODRIOZOLA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DAVID ZURUTUZA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "XABI PRIETO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ASIER ILLARRAMENDI",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "WILLIAN JOSÉ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MIKEL OYARZABAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CARLOS VELA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "LEGANES",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "28 de octubre 2016",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "GERÓNIMO RULLI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RAÚL NAVAS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "CARLOS MARTÍNEZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "XABI PRIETO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ASIER ILLARRAMENDI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DAVID ZURUTUZA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "WILLIAN JOSÉ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MIKEL OYARZABAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CARLOS VELA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "MALAGA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "16 de enero 2017",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "GERÓNIMO RULLI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ARITZ ELUSTONDO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÁLVARO ODRIOZOLA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "XABI PRIETO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "DAVID ZURUTUZA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ESTEBAN GRANERO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "WILLIAN JOSÉ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MIKEL OYARZABAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JUANMI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

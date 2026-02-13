@@ -1,0 +1,377 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "ESPANYOL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "07 de diciembre 2019",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FERLAND MENDY",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "CASEMIRO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "VINÍCIUS JÚNIOR",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RODRYGO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "18 de enero 2020",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÉDER MILITÃO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "CASEMIRO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "LUKA JOVIC",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "RODRYGO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS VÁZQUEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "01 de marzo 2020",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARCELO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "CASEMIRO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ISCO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "VINÍCIUS JÚNIOR",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "GETAFE",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-3",
+    "date": "04 de enero 2020",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ÉDER MILITÃO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FERLAND MENDY",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "LUKA MODRIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "CASEMIRO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "ISCO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "GARETH BALE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "18 de diciembre 2019",
+    "playingTeam": "REAL MADRID",
+    "formation": [
+      [
+        {
+          "name": "THIBAUT COURTOIS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RAPHAËL VARANE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SERGIO RAMOS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FERLAND MENDY",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "CASEMIRO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DANI CARVAJAL",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "ISCO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "TONI KROOS",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "GARETH BALE",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "KARIM BENZEMA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

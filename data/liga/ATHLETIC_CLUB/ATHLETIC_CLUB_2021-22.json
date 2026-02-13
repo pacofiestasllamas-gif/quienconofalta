@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "ATHLETIC CLUB",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "18 de marzo 2022",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "UNAI SIMÓN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "YERAY ÁLVAREZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DANI VIVIAN",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "UNAI VENCEDOR",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MIKEL VESGA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "IKER MUNIAIN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEX BERENGUER",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "OIHAN SANCET",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "22 de mayo 2022",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "UNAI SIMÓN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DANI VIVIAN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "UNAI VENCEDOR",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MIKEL VESGA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "IKER MUNIAIN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEX BERENGUER",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "RAÚL GARCÍA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "09 de abril 2022",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "UNAI SIMÓN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "YERAY ÁLVAREZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DANI VIVIAN",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MIKEL BALENZIAGA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MIKEL VESGA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "UNAI VENCEDOR",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "IKER MUNIAIN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEX BERENGUER",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RAÚL GARCÍA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "ATHLETIC CLUB",
+    "awayTeam": "ELCHE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "03 de abril 2022",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "UNAI SIMÓN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DANI VIVIAN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "UNAI NÚÑEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MIKEL VESGA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "UNAI VENCEDOR",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "IKER MUNIAIN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEX BERENGUER",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "OIHAN SANCET",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

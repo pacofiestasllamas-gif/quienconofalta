@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "ALAVES",
+    "awayTeam": "REAL BETIS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "05 de enero 2020",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "XIMO NAVARRO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MUBARAK WAKASO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEIX VIDAL",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "ALAVES",
+    "awayTeam": "VILLARREAL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "25 de enero 2020",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RODRIGO ELY",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MARTÍN AGUIRREGABIRIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR CAMARASA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS RIOJA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEIX VIDAL",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-2",
+    "date": "03 de noviembre 2019",
+    "playingTeam": "ALAVES",
+    "formation": [
+      [
+        {
+          "name": "FERNANDO PACHECO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "LISANDRO MAGALLÁN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "VÍCTOR LAGUARDIA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RUBÉN DUARTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MARTÍN AGUIRREGABIRIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MANU GARCÍA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "PERE PONS",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MUBARAK WAKASO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEIX VIDAL",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JOSELU",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

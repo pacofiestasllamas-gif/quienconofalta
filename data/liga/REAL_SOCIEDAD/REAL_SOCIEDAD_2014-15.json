@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "GRANADA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-3",
+    "date": "17 de mayo 2015",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "EÑAUT ZUBIKARAI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MIKEL GONZÁLEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALBERTO DE LA BELLA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "CARLOS MARTÍNEZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "XABI PRIETO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MARKEL BERGARA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "GONZALO CASTRO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "CARLOS VELA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO CANALES",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ALFRED FINNBOGASON",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "MALAGA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "04 de abril 2015",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "GERÓNIMO RULLI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ION ANSOTEGI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ESTEBAN GRANERO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARKEL BERGARA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "JOSEBA ZALDÚA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO CANALES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "GONZALO CASTRO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "XABI PRIETO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "IMANOL AGIRRETXE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "ATHLETIC CLUB",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "28 de abril 2015",
+    "playingTeam": "REAL SOCIEDAD",
+    "formation": [
+      [
+        {
+          "name": "GERÓNIMO RULLI",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MIKEL GONZÁLEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALBERTO DE LA BELLA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RUBÉN PARDO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MARKEL BERGARA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "CARLOS MARTÍNEZ",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "DAVID ZURUTUZA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "GONZALO CASTRO",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "XABI PRIETO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "CARLOS VELA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

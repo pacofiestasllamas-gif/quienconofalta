@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-0",
+    "date": "06 de octubre 2019",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "TOMÁS VACLÍK",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DANIEL CARRIÇO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DIEGO CARLOS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO REGUILÓN",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ÓLIVER TORRES",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FERNANDO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÉVER BANEGA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "LUUK DE JONG",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "NOLITO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS OCAMPOS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "OSASUNA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-2",
+    "date": "01 de marzo 2020",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "YASSINE BOUNOU",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SERGI GÓMEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JULES KOUNDÉ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO ESCUDERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "FERNANDO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FRANCO VÁZQUEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÓLIVER TORRES",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "YOUSSEF EN-NESYRI",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "RONY LOPES",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS OCAMPOS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "LEVANTE",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "15 de junio 2020",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "TOMÁS VACLÍK",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DIEGO CARLOS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JULES KOUNDÉ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO ESCUDERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA GUDELJ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ÉVER BANEGA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JOAN JORDÁN",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "LUUK DE JONG",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MUNIR EL HADDADI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS OCAMPOS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "26 de junio 2020",
+    "playingTeam": "SEVILLA",
+    "formation": [
+      [
+        {
+          "name": "TOMÁS VACLÍK",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "JULES KOUNDÉ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DIEGO CARLOS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "SERGIO ESCUDERO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "FERNANDO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FRANCO VÁZQUEZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÉVER BANEGA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "LUUK DE JONG",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MUNIR EL HADDADI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS OCAMPOS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

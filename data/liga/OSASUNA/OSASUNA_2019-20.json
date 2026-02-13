@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "VILLARREAL",
+    "awayTeam": "OSASUNA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-1",
+    "date": "02 de febrero 2020",
+    "playingTeam": "OSASUNA",
+    "formation": [
+      [
+        {
+          "name": "SERGIO HERRERA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ARIDANE HERNÁNDEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "PERVIS ESTUPIÑÁN",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JON MONCAYOLA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "IÑIGO PÉREZ",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "NACHO VIDAL",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "RUBÉN GARCÍA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ROBERTO TORRES",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ROBER IBÁÑEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "MARC CARDONA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "OSASUNA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "14 de diciembre 2019",
+    "playingTeam": "OSASUNA",
+    "formation": [
+      [
+        {
+          "name": "SERGIO HERRERA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RAÚL NAVAS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "PERVIS ESTUPIÑÁN",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "FACUNDO RONCAGLIA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "FRAN MÉRIDA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "OIER SANJURJO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "DARKO BRASANAC",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "RUBÉN GARCÍA",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ROBERTO TORRES",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "CHIMY AVILA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "24 de noviembre 2019",
+    "playingTeam": "OSASUNA",
+    "formation": [
+      [
+        {
+          "name": "SERGIO HERRERA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID GARCÍA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "FACUNDO RONCAGLIA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "PERVIS ESTUPIÑÁN",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "LILLO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DARKO BRASANAC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FRAN MÉRIDA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "RUBÉN GARCÍA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ROBERTO TORRES",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JUAN VILLAR",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CHIMY AVILA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

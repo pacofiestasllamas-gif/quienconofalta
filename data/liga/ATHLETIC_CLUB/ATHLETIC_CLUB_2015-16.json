@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "09 de enero 2016",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "GORKA IRAIZOZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "AYMERIC LAPORTE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GURPEGI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MIKEL BALENZIAGA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MIKEL SAN JOSÉ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "BEÑAT ETXEBARRIA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "RAÚL GARCÍA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ÍÑIGO LEKUE",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ARITZ ADURIZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "6-0",
+    "date": "17 de enero 2016",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "GORKA IRAIZOZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "AYMERIC LAPORTE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "XABIER ETXEITA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MIKEL BALENZIAGA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "BEÑAT ETXEBARRIA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "MIKEL SAN JOSÉ",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ENEKO BÓVEDA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "JAVIER ERASO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "IKER MUNIAIN",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "LAS PALMAS",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "08 de mayo 2016",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "GORKA IRAIZOZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GORKA ELUSTONDO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ENEKO BÓVEDA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MIKEL BALENZIAGA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MIKEL SAN JOSÉ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "BEÑAT ETXEBARRIA",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "RAÚL GARCÍA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "IKER MUNIAIN",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ARITZ ADURIZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-2",
+    "date": "13 de febrero 2016",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "GORKA IRAIZOZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "XABIER ETXEITA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "AYMERIC LAPORTE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MIKEL BALENZIAGA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "BEÑAT ETXEBARRIA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ANDER ITURRASPE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "JAVIER ERASO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ÍÑIGO LEKUE",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "SABIN MERINO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ARITZ ADURIZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

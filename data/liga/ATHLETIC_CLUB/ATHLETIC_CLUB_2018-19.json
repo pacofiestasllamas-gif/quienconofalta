@@ -1,0 +1,302 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "GETAFE",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "07 de abril 2019",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "IAGO HERRERÍN",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "YERAY ÁLVAREZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "MIKEL SAN JOSÉ",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "DANI GARCÍA",
+          "position": "DEF",
+          "number": "16"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "18"
+        }
+      ],
+      [
+        {
+          "name": "RAÚL GARCÍA",
+          "position": "MID",
+          "number": "22"
+        },
+        {
+          "name": "IÑIGO CÓRDOBA",
+          "position": "MID",
+          "number": "11"
+        },
+        {
+          "name": "IBAI GÓMEZ",
+          "position": "MID",
+          "number": "19"
+        }
+      ],
+      [
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "ALAVES",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "17 de diciembre 2018",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "IAGO HERRERÍN",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "YERAY ÁLVAREZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "DANI GARCÍA",
+          "position": "DEF",
+          "number": "16"
+        },
+        {
+          "name": "BEÑAT ETXEBARRIA",
+          "position": "DEF",
+          "number": "7"
+        },
+        {
+          "name": "ANDER CAPA",
+          "position": "DEF",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "RAÚL GARCÍA",
+          "position": "MID",
+          "number": "22"
+        },
+        {
+          "name": "IÑIGO CÓRDOBA",
+          "position": "MID",
+          "number": "11"
+        },
+        {
+          "name": "MARKEL SUSAETA",
+          "position": "MID",
+          "number": "14"
+        }
+      ],
+      [
+        {
+          "name": "ARITZ ADURIZ",
+          "position": "FWD",
+          "number": "20"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "18 de mayo 2019",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "IAGO HERRERÍN",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "YERAY ÁLVAREZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MIKEL BALENZIAGA",
+          "position": "DEF",
+          "number": "24"
+        },
+        {
+          "name": "BEÑAT ETXEBARRIA",
+          "position": "DEF",
+          "number": "7"
+        },
+        {
+          "name": "DANI GARCÍA",
+          "position": "DEF",
+          "number": "16"
+        },
+        {
+          "name": "ANDER CAPA",
+          "position": "DEF",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "RAÚL GARCÍA",
+          "position": "MID",
+          "number": "22"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "MID",
+          "number": "12"
+        },
+        {
+          "name": "IKER MUNIAIN",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "RAYO VALLECANO",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "24 de octubre 2018",
+    "playingTeam": "ATHLETIC CLUB",
+    "formation": [
+      [
+        {
+          "name": "IAGO HERRERÍN",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "ÍÑIGO MARTÍNEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PERU NOLASKOAIN",
+          "position": "DEF",
+          "number": "31"
+        },
+        {
+          "name": "YURI BERCHICHE",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "ÓSCAR DE MARCOS",
+          "position": "DEF",
+          "number": "18"
+        }
+      ],
+      [
+        {
+          "name": "DANI GARCÍA",
+          "position": "MID",
+          "number": "16"
+        },
+        {
+          "name": "UNAI LÓPEZ",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "IKER MUNIAIN",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ARITZ ADURIZ",
+          "position": "FWD",
+          "number": "20"
+        },
+        {
+          "name": "IÑAKI WILLIAMS",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MARKEL SUSAETA",
+          "position": "FWD",
+          "number": "14"
+        }
+      ]
+    ]
+  }
+]
