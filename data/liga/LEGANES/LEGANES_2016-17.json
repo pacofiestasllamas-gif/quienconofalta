@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "LEGANES",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-0",
+    "date": "26 de abril 2017",
+    "playingTeam": "LEGANES",
+    "formation": [
+      [
+        {
+          "name": "IAGO HERRERÍN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DIMITRIOS SIOVAS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MARTÍN MANTOVANI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DIEGO RICO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "TITO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DAVID TIMOR",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "RUBÉN PÉREZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "GABRIEL PIRES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "SAMU GARCÍA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "LUCIANO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MIGUEL ÁNGEL GUERRERO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "LEGANES",
+    "awayTeam": "ALAVES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "20 de mayo 2017",
+    "playingTeam": "LEGANES",
+    "formation": [
+      [
+        {
+          "name": "NEREO CHAMPAGNE",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "PABLO INSUA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DIMITRIOS SIOVAS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DIEGO RICO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ALBERTO MARTÍN",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAVID TIMOR",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "VÍCTOR DÍAZ",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PIRES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEXANDER SZYMANOWSKI",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "NABIL EL ZHAR",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "MIGUEL ÁNGEL GUERRERO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "LEGANES",
+    "awayTeam": "OSASUNA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "21 de noviembre 2016",
+    "playingTeam": "LEGANES",
+    "formation": [
+      [
+        {
+          "name": "JON SERANTES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "MARTÍN MANTOVANI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "PABLO INSUA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DIEGO RICO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ALBERTO MARTÍN",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAVID TIMOR",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "UNAI BUSTINZA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "GABRIEL PIRES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALEXANDER SZYMANOWSKI",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ROBER IBÁÑEZ",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "LUCIANO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

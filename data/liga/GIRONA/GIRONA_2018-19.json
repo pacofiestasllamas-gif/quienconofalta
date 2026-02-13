@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "LEGANES",
+    "awayTeam": "GIRONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "16 de marzo 2019",
+    "playingTeam": "GIRONA",
+    "formation": [
+      [
+        {
+          "name": "YASSINE BOUNOU",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "PEDRO ALCALÁ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JUANPE",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "MARC MUNIESA",
+          "position": "DEF",
+          "number": "20"
+        },
+        {
+          "name": "ALEJANDRO GRANELL",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "PERE PONS",
+          "position": "DEF",
+          "number": "8"
+        },
+        {
+          "name": "PEDRO PORRO",
+          "position": "DEF",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "BORJA GARCÍA",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "VALERY FERNÁNDEZ",
+          "position": "MID",
+          "number": "34"
+        },
+        {
+          "name": "PORTU",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "CRISTHIAN STUANI",
+          "position": "FWD",
+          "number": "7"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "GIRONA",
+    "awayTeam": "RAYO VALLECANO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "27 de octubre 2018",
+    "playingTeam": "GIRONA",
+    "formation": [
+      [
+        {
+          "name": "YASSINE BOUNOU",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "JONÁS RAMALHO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "BERNARDO ESPINOSA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JUANPE",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "ADAY BENÍTEZ",
+          "position": "DEF",
+          "number": "11"
+        },
+        {
+          "name": "PEDRO PORRO",
+          "position": "DEF",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "PORTU",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "BORJA GARCÍA",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "PERE PONS",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DOUGLAS LUIZ",
+          "position": "MID",
+          "number": "12"
+        }
+      ],
+      [
+        {
+          "name": "ANTHONY LOZANO",
+          "position": "FWD",
+          "number": "19"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "GIRONA",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "28 de abril 2019",
+    "playingTeam": "GIRONA",
+    "formation": [
+      [
+        {
+          "name": "YASSINE BOUNOU",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "JUANPE",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "BERNARDO ESPINOSA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MARC MUNIESA",
+          "position": "DEF",
+          "number": "20"
+        },
+        {
+          "name": "VALERY FERNÁNDEZ",
+          "position": "DEF",
+          "number": "34"
+        }
+      ],
+      [
+        {
+          "name": "ALEJANDRO GRANELL",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "DOUGLAS LUIZ",
+          "position": "MID",
+          "number": "12"
+        },
+        {
+          "name": "PERE PONS",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "CRISTHIAN STUANI",
+          "position": "FWD",
+          "number": "7"
+        },
+        {
+          "name": "BORJA GARCÍA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "PORTU",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  }
+]

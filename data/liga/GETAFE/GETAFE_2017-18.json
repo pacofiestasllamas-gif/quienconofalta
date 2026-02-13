@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "EIBAR",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "21 de abril 2018",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "VICENTE GUAITA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "BRUNO GONZÁLEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "LEANDRO CABRERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO MORA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MATHIEU FLAMINI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FAYÇAL FAJR",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "AMATH NDIAYE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "11 de febrero 2018",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "VICENTE GUAITA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "BRUNO GONZÁLEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ANTUNES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FAYÇAL FAJR",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "AMATH NDIAYE",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FRANCISCO PORTILLO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "GAKU SHIBASAKI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "GETAFE",
+    "awayTeam": "EIBAR",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "09 de diciembre 2017",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "VICENTE GUAITA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JUAN CALA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ANTUNES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MARKEL BERGARA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FAYÇAL FAJR",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "AMATH NDIAYE",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FRANCISCO PORTILLO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JORGE MOLINA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "ALMERIA",
+    "awayTeam": "GIRONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-2",
+    "date": "20 de octubre 2022",
+    "playingTeam": "GIRONA",
+    "formation": [
+      [
+        {
+          "name": "JUAN CARLOS",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "BERNARDO ESPINOSA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SANTIAGO BUENO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MIGUEL GUTIÉRREZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ARNAU MARTÍNEZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ORIOL ROMEU",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "ALEIX GARCÍA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "RODRIGO RIQUELME",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "YANGEL HERRERA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "VALENTÍN CASTELLANOS",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CRISTHIAN STUANI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "GIRONA",
+    "awayTeam": "REAL BETIS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "28 de mayo 2023",
+    "playingTeam": "GIRONA",
+    "formation": [
+      [
+        {
+          "name": "PAULO GAZZANIGA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID LÓPEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JUANPE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MIGUEL GUTIÉRREZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ORIOL ROMEU",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ARNAU MARTÍNEZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "YANGEL HERRERA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "REINIER",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "VALERY FERNÁNDEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "VIKTOR TSYGANKOV",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "VALENTÍN CASTELLANOS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "GIRONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "01 de mayo 2023",
+    "playingTeam": "GIRONA",
+    "formation": [
+      [
+        {
+          "name": "PAULO GAZZANIGA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "JAVI HERNÁNDEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SANTIAGO BUENO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JUANPE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MIGUEL GUTIÉRREZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "YAN COUTO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "IVÁN MARTÍN",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ORIOL ROMEU",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "RODRIGO RIQUELME",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "VIKTOR TSYGANKOV",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "VALENTÍN CASTELLANOS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

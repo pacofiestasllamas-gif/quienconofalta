@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "GRANADA",
+    "awayTeam": "SPORTING GIJON",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "22 de octubre 2016",
+    "playingTeam": "GRANADA",
+    "formation": [
+      [
+        {
+          "name": "GUILLERMO OCHOA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID LOMBÁN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RÚBEN VEZO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "GABRIEL SILVA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "TITO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "VICTORIEN ANGBAN",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "UCHE AGBO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ANDREAS PEREIRA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ISAAC CUENCA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ARTEM KRAVETS",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "EZEQUIEL PONCE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "GRANADA",
+    "awayTeam": "OSASUNA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "15 de enero 2017",
+    "playingTeam": "GRANADA",
+    "formation": [
+      [
+        {
+          "name": "GUILLERMO OCHOA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID LOMBÁN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RÚBEN VEZO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FRANCK TABANOU",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "UCHE AGBO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "SERGI SAMPER",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "OMER ATZILI",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ANDREAS PEREIRA",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "JÉRÉMIE BOGA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ARTEM KRAVETS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2016-17",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "GRANADA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "13 de mayo 2017",
+    "playingTeam": "GRANADA",
+    "formation": [
+      [
+        {
+          "name": "GUILLERMO OCHOA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID LOMBÁN",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SVERRIR INGASON",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "DIMITRI FOULQUIER",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RÚBEN VEZO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "VICTORIEN ANGBAN",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MARTIN HONGLA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "RENE KRHIN",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ADRIÁN RAMOS",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "ANDREAS PEREIRA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JÉRÉMIE BOGA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

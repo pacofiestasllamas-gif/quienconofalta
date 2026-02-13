@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "MALAGA",
+    "awayTeam": "CELTA VIGO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "29 de octubre 2017",
+    "playingTeam": "CELTA VIGO",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN BLANCO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SERGI GÓMEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GUSTAVO CABRAL",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JONNY OTTO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "HUGO MALLO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "STANISLAV LOBOTKA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "PABLO HERNÁNDEZ",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "PIONE SISTO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "IAGO ASPAS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "CELTA VIGO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "09 de diciembre 2017",
+    "playingTeam": "CELTA VIGO",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN BLANCO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ANDREU FONTÀS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GUSTAVO CABRAL",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JONNY OTTO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "HUGO MALLO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "PABLO HERNÁNDEZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "STANISLAV LOBOTKA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "PIONE SISTO",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "IAGO ASPAS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "CELTA VIGO",
+    "awayTeam": "VALENCIA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "21 de abril 2018",
+    "playingTeam": "CELTA VIGO",
+    "formation": [
+      [
+        {
+          "name": "SERGIO ÁLVAREZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GUSTAVO CABRAL",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SERGI GÓMEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FACUNDO RONCAGLIA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "HUGO MALLO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "STANISLAV LOBOTKA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JOZABED",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "PIONE SISTO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANIEL WASS",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "BRAIS MÉNDEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

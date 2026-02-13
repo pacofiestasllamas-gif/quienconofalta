@@ -1,0 +1,377 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "OSASUNA",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "12 de diciembre 2021",
+    "playingTeam": "BARCELONA",
+    "formation": [
+      [
+        {
+          "name": "MARC-ANDRÉ TER STEGEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SAMUEL UMTITI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RONALD ARAUJO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "GERARD PIQUÉ",
+          "position": "DEF",
+          "number": "4"
+        }
+      ],
+      [
+        {
+          "name": "FRENKIE DE JONG",
+          "position": "MID",
+          "number": "5"
+        },
+        {
+          "name": "ABDE EZZALZOULI",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "OUSMANE DEMBÉLÉ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "SERGIO BUSQUETS",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NICO GONZÁLEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "GAVI",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "LUUK DE JONG",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "RAYO VALLECANO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "24 de abril 2022",
+    "playingTeam": "BARCELONA",
+    "formation": [
+      [
+        {
+          "name": "MARC-ANDRÉ TER STEGEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ERIC GARCÍA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RONALD ARAUJO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JORDI ALBA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "SERGIÑO DEST",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "FRENKIE DE JONG",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GAVI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "SERGIO BUSQUETS",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "PIERRE-EMERICK AUBAMEYANG",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "FERRAN TORRES",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "OUSMANE DEMBÉLÉ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "ESPANYOL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "20 de noviembre 2021",
+    "playingTeam": "BARCELONA",
+    "formation": [
+      [
+        {
+          "name": "MARC-ANDRÉ TER STEGEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GERARD PIQUÉ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ERIC GARCÍA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JORDI ALBA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ÓSCAR MINGUEZA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "NICO GONZÁLEZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FRENKIE DE JONG",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "SERGIO BUSQUETS",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "MEMPHIS DEPAY",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "GAVI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ILIAS AKHOMACH",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "VILLARREAL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "22 de mayo 2022",
+    "playingTeam": "BARCELONA",
+    "formation": [
+      [
+        {
+          "name": "MARC-ANDRÉ TER STEGEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "CLÉMENT LENGLET",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "RONALD ARAUJO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JORDI ALBA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DANI ALVES",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "GAVI",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FRENKIE DE JONG",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "SERGIO BUSQUETS",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "PIERRE-EMERICK AUBAMEYANG",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "FERRAN TORRES",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ADAMA TRAORÉ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2021-22",
+    "homeTeam": "VALENCIA",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-4",
+    "date": "20 de febrero 2022",
+    "playingTeam": "BARCELONA",
+    "formation": [
+      [
+        {
+          "name": "MARC-ANDRÉ TER STEGEN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "RONALD ARAUJO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ERIC GARCÍA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JORDI ALBA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "SERGIÑO DEST",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "SERGIO BUSQUETS",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FRENKIE DE JONG",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "GAVI",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "PIERRE-EMERICK AUBAMEYANG",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "FERRAN TORRES",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "OUSMANE DEMBÉLÉ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

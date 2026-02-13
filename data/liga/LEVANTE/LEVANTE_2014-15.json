@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "GETAFE",
+    "awayTeam": "LEVANTE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "25 de abril 2015",
+    "playingTeam": "LEVANTE",
+    "formation": [
+      [
+        {
+          "name": "DIEGO MARIÑO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "LOUKAS VYNTRA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "IVÁN RAMIS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JUANFRAN",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "TOÑO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "IVÁN LÓPEZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "JOSÉ MARI MARTÍN",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "SIMAO MATE",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JOSÉ LUÍS MORALES",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "DAVID BARRAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "VÍCTOR CASADESÚS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "LEVANTE",
+    "awayTeam": "ELCHE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "23 de mayo 2015",
+    "playingTeam": "LEVANTE",
+    "formation": [
+      [
+        {
+          "name": "DIEGO MARIÑO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID NAVARRO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "LOUKAS VYNTRA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JUANFRAN",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "TOÑO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "PEDRO LÓPEZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "VÍCTOR CAMARASA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JOSÉ LUÍS MORALES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JOSÉ MARI MARTÍN",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "DAVID BARRAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "VÍCTOR CASADESÚS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "LEVANTE",
+    "awayTeam": "MALAGA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "4-1",
+    "date": "07 de febrero 2015",
+    "playingTeam": "LEVANTE",
+    "formation": [
+      [
+        {
+          "name": "DIEGO MARIÑO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DAVID NAVARRO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "IVÁN RAMIS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "TOÑO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "IVÁN LÓPEZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "SIMAO MATE",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "VÍCTOR CAMARASA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JOSÉ LUÍS MORALES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JORDI XUMETRA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "KALU UCHE",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "DAVID BARRAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

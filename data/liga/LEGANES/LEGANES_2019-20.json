@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "LEGANES",
+    "awayTeam": "MALLORCA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "26 de octubre 2019",
+    "playingTeam": "LEGANES",
+    "formation": [
+      [
+        {
+          "name": "IVÁN CUÉLLAR",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DIMITRIOS SIOVAS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "UNAI BUSTINZA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JONATHAN SILVA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ROBERTO ROSALES",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ROQUE MESA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "CHRISTIAN RIVERA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "RECIO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "GUIDO CARRILLO",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MARTIN BRAITHWAITE",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ÓSCAR RODRÍGUEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "LEGANES",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "02 de febrero 2020",
+    "playingTeam": "LEGANES",
+    "formation": [
+      [
+        {
+          "name": "JUAN SORIANO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "CHIDOZIE AWAZIEM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "UNAI BUSTINZA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "KENNETH OMERUO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JONATHAN SILVA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ROBERTO ROSALES",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "ROQUE MESA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "RECIO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "KÉVIN RODRIGUES",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "JAVIER ERASO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "MARTIN BRAITHWAITE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL VALLADOLID",
+    "awayTeam": "LEGANES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "03 de enero 2020",
+    "playingTeam": "LEGANES",
+    "formation": [
+      [
+        {
+          "name": "IVÁN CUÉLLAR",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "JONATHAN SILVA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "CHIDOZIE AWAZIEM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "KENNETH OMERUO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "KÉVIN RODRIGUES",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ROBERTO ROSALES",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "RUBÉN PÉREZ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÓSCAR RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ROQUE MESA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "YOUSSEF EN-NESYRI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MARTIN BRAITHWAITE",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "21 de marzo 2015",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "V. GUAITA",
+          "position": "GK",
+          "number": "25"
+        }
+      ],
+      [
+        {
+          "name": "NALDO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "E. VELÁZQUEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "S. ESCUDERO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "D. CASTRO",
+          "position": "DEF",
+          "number": "17"
+        },
+        {
+          "name": "LACEN",
+          "position": "DEF",
+          "number": "8"
+        },
+        {
+          "name": "CARLOS VIGARAY",
+          "position": "DEF",
+          "number": "27"
+        }
+      ],
+      [
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "F. HINESTROZA",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "PEDRO LEÓN",
+          "position": "MID",
+          "number": "14"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO VÁZQUEZ",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "GETAFE",
+    "awayTeam": "ESPANYOL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "20 de febrero 2015",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "JONATHAN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "NALDO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "E. VELÁZQUEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "S. ESCUDERO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "LACEN",
+          "position": "DEF",
+          "number": "8"
+        },
+        {
+          "name": "JUAN RODRÍGUEZ",
+          "position": "DEF",
+          "number": "22"
+        },
+        {
+          "name": "ALEXIS",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "SAMMIR",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "PEDRO LEÓN",
+          "position": "MID",
+          "number": "14"
+        }
+      ],
+      [
+        {
+          "name": "ÁLVARO VÁZQUEZ",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2014-15",
+    "homeTeam": "GETAFE",
+    "awayTeam": "CORDOBA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "03 de octubre 2014",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "V. GUAITA",
+          "position": "GK",
+          "number": "25"
+        }
+      ],
+      [
+        {
+          "name": "E. VELÁZQUEZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "NALDO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "S. ESCUDERO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "LACEN",
+          "position": "DEF",
+          "number": "8"
+        },
+        {
+          "name": "MÍCHEL HERRERO",
+          "position": "DEF",
+          "number": "21"
+        },
+        {
+          "name": "J. VALERA",
+          "position": "DEF",
+          "number": "20"
+        }
+      ],
+      [
+        {
+          "name": "PABLO SARABIA",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "D. CASTRO",
+          "position": "MID",
+          "number": "17"
+        },
+        {
+          "name": "K. YODA",
+          "position": "MID",
+          "number": "11"
+        }
+      ],
+      [
+        {
+          "name": "A. LAFITA",
+          "position": "FWD",
+          "number": "7"
+        }
+      ]
+    ]
+  }
+]

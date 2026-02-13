@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "DEPORTIVO LA CORUNA",
+    "awayTeam": "VILLARREAL",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-4",
+    "date": "12 de mayo 2018",
+    "playingTeam": "DEPORTIVO LA CORUNA",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN MARTÍNEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ALBENTOSA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "FERNANDO NAVARRO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "LUISINHO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JUANFRAN",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "GUILHERME",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MICHAEL KROHN-DEHLI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "BORJA VALLE",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "ADRIÁN LÓPEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "DEPORTIVO LA CORUNA",
+    "awayTeam": "ATLETICO MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "04 de noviembre 2017",
+    "playingTeam": "DEPORTIVO LA CORUNA",
+    "formation": [
+      [
+        {
+          "name": "COSTEL PANTILIMON",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SIDNEI",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "FABIAN SCHÄR",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "LUISINHO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "GUILHERME",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "CELSO BORGES",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "JUANFRAN",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "FEDERICO VALVERDE",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ZAKARIA BAKKALI",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "FEDE CARTABIA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "DEPORTIVO LA CORUNA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "5-0",
+    "date": "02 de febrero 2018",
+    "playingTeam": "DEPORTIVO LA CORUNA",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN MARTÍNEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ALBENTOSA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "FABIAN SCHÄR",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "LUISINHO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "MICHAEL KROHN-DEHLI",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "GUILHERME",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ENEKO BÓVEDA",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "CARLES GIL",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ADRIÁN LÓPEZ",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "FEDE CARTABIA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "LUCAS PÉREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

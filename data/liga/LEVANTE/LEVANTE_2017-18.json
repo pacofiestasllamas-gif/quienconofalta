@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "ATLETICO MADRID",
+    "awayTeam": "LEVANTE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-0",
+    "date": "15 de abril 2018",
+    "playingTeam": "LEVANTE",
+    "formation": [
+      [
+        {
+          "name": "OIER OLAZÁBAL",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ERICK CABACO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ROBER PIER",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALY ABEID",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PEDRO LÓPEZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "JOSÉ CAMPAÑA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JEFFERSON LERMA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JOSÉ LUÍS MORALES",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JASON",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ARMANDO SADIKU",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ROGER MARTÍ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "LEVANTE",
+    "awayTeam": "MALAGA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "19 de abril 2018",
+    "playingTeam": "LEVANTE",
+    "formation": [
+      [
+        {
+          "name": "OIER OLAZÁBAL",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ERICK CABACO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ROBER PIER",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "COKE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PEDRO LÓPEZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "JOSÉ CAMPAÑA",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JEFFERSON LERMA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "IVI LÓPEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JOSÉ LUÍS MORALES",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ROGER MARTÍ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "EMMANUEL BOATENG",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "LEVANTE",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-1",
+    "date": "27 de abril 2018",
+    "playingTeam": "LEVANTE",
+    "formation": [
+      [
+        {
+          "name": "OIER OLAZÁBAL",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ROBER PIER",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "SERGIO POSTIGO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ANTONIO LUNA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "COKE",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "SASA LUKIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "JOSÉ CAMPAÑA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ENIS BARDHI",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JOSÉ LUÍS MORALES",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "EMMANUEL BOATENG",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ROGER MARTÍ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

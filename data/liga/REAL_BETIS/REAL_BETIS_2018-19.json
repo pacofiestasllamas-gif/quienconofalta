@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "CELTA VIGO",
+    "awayTeam": "REAL BETIS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "10 de marzo 2019",
+    "playingTeam": "REAL BETIS",
+    "formation": [
+      [
+        {
+          "name": "PAU LÓPEZ",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "MARC BARTRA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "AÏSSA MANDI",
+          "position": "DEF",
+          "number": "23"
+        },
+        {
+          "name": "SIDNEI",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "WILLIAM CARVALHO",
+          "position": "DEF",
+          "number": "14"
+        }
+      ],
+      [
+        {
+          "name": "ANDRÉS GUARDADO",
+          "position": "MID",
+          "number": "18"
+        },
+        {
+          "name": "SERGIO CANALES",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "FRANCIS GUERRERO",
+          "position": "MID",
+          "number": "2"
+        },
+        {
+          "name": "JOAQUÍN",
+          "position": "MID",
+          "number": "17"
+        }
+      ],
+      [
+        {
+          "name": "GIOVANI LO CELSO",
+          "position": "FWD",
+          "number": "21"
+        },
+        {
+          "name": "JESÉ",
+          "position": "FWD",
+          "number": "10"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "GETAFE",
+    "awayTeam": "REAL BETIS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "28 de octubre 2018",
+    "playingTeam": "REAL BETIS",
+    "formation": [
+      [
+        {
+          "name": "JOEL ROBLES",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "SIDNEI",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "AÏSSA MANDI",
+          "position": "DEF",
+          "number": "23"
+        },
+        {
+          "name": "MARC BARTRA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "JUNIOR FIRPO",
+          "position": "DEF",
+          "number": "20"
+        },
+        {
+          "name": "ANTONIO BARRAGÁN",
+          "position": "DEF",
+          "number": "19"
+        }
+      ],
+      [
+        {
+          "name": "GIOVANI LO CELSO",
+          "position": "MID",
+          "number": "21"
+        },
+        {
+          "name": "RYAD BOUDEBOUZ",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "WILLIAM CARVALHO",
+          "position": "MID",
+          "number": "14"
+        }
+      ],
+      [
+        {
+          "name": "LOREN MORÓN",
+          "position": "FWD",
+          "number": "16"
+        },
+        {
+          "name": "ANTONIO SANABRIA",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "REAL BETIS",
+    "awayTeam": "RAYO VALLECANO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "09 de diciembre 2018",
+    "playingTeam": "REAL BETIS",
+    "formation": [
+      [
+        {
+          "name": "PAU LÓPEZ",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "MARC BARTRA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "AÏSSA MANDI",
+          "position": "DEF",
+          "number": "23"
+        },
+        {
+          "name": "SIDNEI",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "JUNIOR FIRPO",
+          "position": "DEF",
+          "number": "20"
+        },
+        {
+          "name": "ANTONIO BARRAGÁN",
+          "position": "DEF",
+          "number": "19"
+        }
+      ],
+      [
+        {
+          "name": "WILLIAM CARVALHO",
+          "position": "MID",
+          "number": "14"
+        },
+        {
+          "name": "SERGIO CANALES",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GIOVANI LO CELSO",
+          "position": "MID",
+          "number": "21"
+        }
+      ],
+      [
+        {
+          "name": "ANTONIO SANABRIA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "LOREN MORÓN",
+          "position": "FWD",
+          "number": "16"
+        }
+      ]
+    ]
+  }
+]

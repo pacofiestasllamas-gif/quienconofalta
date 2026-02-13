@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "LEVANTE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "27 de abril 2019",
+    "playingTeam": "LEVANTE",
+    "formation": [
+      [
+        {
+          "name": "AITOR FERNÁNDEZ",
+          "position": "GK",
+          "number": "25"
+        }
+      ],
+      [
+        {
+          "name": "ROBER PIER",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "RÚBEN VEZO",
+          "position": "DEF",
+          "number": "14"
+        },
+        {
+          "name": "ANTONIO LUNA",
+          "position": "DEF",
+          "number": "22"
+        },
+        {
+          "name": "NIKOLA VUKCEVIC",
+          "position": "DEF",
+          "number": "17"
+        },
+        {
+          "name": "COKE",
+          "position": "DEF",
+          "number": "12"
+        }
+      ],
+      [
+        {
+          "name": "RUBÉN ROCHINA",
+          "position": "MID",
+          "number": "16"
+        },
+        {
+          "name": "JOSÉ CAMPAÑA",
+          "position": "MID",
+          "number": "24"
+        },
+        {
+          "name": "MOSES SIMON",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JASON",
+          "position": "MID",
+          "number": "23"
+        }
+      ],
+      [
+        {
+          "name": "BORJA MAYORAL",
+          "position": "FWD",
+          "number": "2"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "LEVANTE",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "24 de febrero 2019",
+    "playingTeam": "LEVANTE",
+    "formation": [
+      [
+        {
+          "name": "AITOR FERNÁNDEZ",
+          "position": "GK",
+          "number": "25"
+        }
+      ],
+      [
+        {
+          "name": "RÚBEN VEZO",
+          "position": "DEF",
+          "number": "14"
+        },
+        {
+          "name": "ERICK CABACO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "ROBER PIER",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ANTONIO LUNA",
+          "position": "DEF",
+          "number": "22"
+        },
+        {
+          "name": "MOSES SIMON",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "ENIS BARDHI",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "RUBÉN ROCHINA",
+          "position": "MID",
+          "number": "16"
+        },
+        {
+          "name": "JOSÉ CAMPAÑA",
+          "position": "MID",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "JOSÉ LUÍS MORALES",
+          "position": "FWD",
+          "number": "11"
+        },
+        {
+          "name": "ROGER MARTÍ",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "LEVANTE",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "20 de enero 2019",
+    "playingTeam": "LEVANTE",
+    "formation": [
+      [
+        {
+          "name": "OIER OLAZÁBAL",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "ROBER PIER",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ERICK CABACO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "COKE",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
+          "name": "JOSÉ CAMPAÑA",
+          "position": "DEF",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "ENIS BARDHI",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "RUBÉN ROCHINA",
+          "position": "MID",
+          "number": "16"
+        },
+        {
+          "name": "TOÑO",
+          "position": "MID",
+          "number": "3"
+        },
+        {
+          "name": "JASON",
+          "position": "MID",
+          "number": "23"
+        }
+      ],
+      [
+        {
+          "name": "BORJA MAYORAL",
+          "position": "FWD",
+          "number": "2"
+        },
+        {
+          "name": "JOSÉ LUÍS MORALES",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

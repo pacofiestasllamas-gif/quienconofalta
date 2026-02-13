@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "GETAFE",
+    "awayTeam": "SEVILLA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "19 de marzo 2023",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GASTÓN ÁLVAREZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "STEFAN MITROVIC",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PORTU",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS MILLA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MUNIR EL HADDADI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "BORJA MAYORAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "REAL BETIS",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "24 de mayo 2023",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "STEFAN MITROVIC",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "OMAR ALDERETE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "GASTÓN ÁLVAREZ",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "PORTU",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "CARLES ALEÑÁ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "GETAFE",
+    "awayTeam": "REAL MADRID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "08 de octubre 2022",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DOMINGOS DUARTE",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "STEFAN MITROVIC",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "FABRIZIO ANGILERI",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "CARLES ALEÑÁ",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "LUIS MILLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ÁNGEL ALGOBIA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "BORJA MAYORAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ENES ÜNAL",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "GETAFE",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "02 de enero 2021",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN YÁÑEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ERICK CABACO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "ÁNGEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "ATHLETIC CLUB",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "5-1",
+    "date": "25 de enero 2021",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN YÁÑEZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "XABIER ETXEITA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "CARLES ALEÑÁ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "TAKEFUSA KUBO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2020-21",
+    "homeTeam": "GETAFE",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "17 de octubre 2020",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ERICK CABACO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CUCHO HERNÁNDEZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

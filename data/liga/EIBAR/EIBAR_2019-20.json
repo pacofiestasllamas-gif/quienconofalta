@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "EIBAR",
+    "awayTeam": "REAL BETIS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "02 de febrero 2020",
+    "playingTeam": "EIBAR",
+    "formation": [
+      [
+        {
+          "name": "MARKO DMITROVIC",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "PEDRO BIGAS",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ESTEBAN BURGOS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "COTE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "EDU EXPÓSITO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "PAPE DIOP",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "ÁLVARO TEJERO",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "FABIÁN ORELLANA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "TAKASHI INUI",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "PEDRO LEÓN",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "SERGI ENRICH",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL MADRID",
+    "awayTeam": "EIBAR",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "3-1",
+    "date": "14 de junio 2020",
+    "playingTeam": "EIBAR",
+    "formation": [
+      [
+        {
+          "name": "MARKO DMITROVIC",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ANAITZ ARBILLA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "PAULO OLIVEIRA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "RAFA SOARES",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "SERGIO ÁLVAREZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ROBER CORREA",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "SEBASTIÁN CRISTÓFORO",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "EDU EXPÓSITO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "PABLO DE BLASIS",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "FABIÁN ORELLANA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "KIKE GARCÍA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "EIBAR",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-1",
+    "date": "08 de diciembre 2019",
+    "playingTeam": "EIBAR",
+    "formation": [
+      [
+        {
+          "name": "MARKO DMITROVIC",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "PAULO OLIVEIRA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "ANAITZ ARBILLA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "PEDRO BIGAS",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ROBER CORREA",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "PAPE DIOP",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GONZALO ESCALANTE",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "PEDRO LEÓN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FABIÁN ORELLANA",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "KIKE GARCÍA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CHARLES",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

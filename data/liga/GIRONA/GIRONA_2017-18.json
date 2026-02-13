@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "GIRONA",
+    "awayTeam": "ATHLETIC CLUB",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "04 de febrero 2018",
+    "playingTeam": "GIRONA",
+    "formation": [
+      [
+        {
+          "name": "YASSINE BOUNOU",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "JUANPE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "BERNARDO ESPINOSA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JONÁS RAMALHO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JOHAN MOJICA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "PABLO MAFFEO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "PORTU",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "BORJA GARCÍA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "PERE PONS",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ALEJANDRO GRANELL",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "CRISTHIAN STUANI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "BARCELONA",
+    "awayTeam": "GIRONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "6-1",
+    "date": "24 de febrero 2018",
+    "playingTeam": "GIRONA",
+    "formation": [
+      [
+        {
+          "name": "YASSINE BOUNOU",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "JUANPE",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JONÁS RAMALHO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "BERNARDO ESPINOSA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "ADAY BENÍTEZ",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "PABLO MAFFEO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "BORJA GARCÍA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "PORTU",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "PERE PONS",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ALEJANDRO GRANELL",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "ANTHONY LOZANO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2017-18",
+    "homeTeam": "GIRONA",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "17 de noviembre 2017",
+    "playingTeam": "GIRONA",
+    "formation": [
+      [
+        {
+          "name": "YASSINE BOUNOU",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "BERNARDO ESPINOSA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "MARC MUNIESA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JUANPE",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JOHAN MOJICA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "PABLO MAFFEO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "BORJA GARCÍA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "PORTU",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DAVID TIMOR",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "ALEJANDRO GRANELL",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "CRISTHIAN STUANI",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "SEVILLA",
+    "awayTeam": "REAL BETIS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "24 de abril 2016",
+    "playingTeam": "REAL BETIS",
+    "formation": [
+      [
+        {
+          "name": "ANTONIO ADÁN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GERMÁN PEZZELLA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "HEIKO WESTERMANN",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MARTÍN MONTOYA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PETROS ARAUJO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ALFRED N'DIAYE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "BRUNO GONZÁLEZ",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "JOAQUÍN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANI CEBALLOS",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "CHARLY MUSONDA",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "RUBÉN CASTRO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "REAL BETIS",
+    "awayTeam": "RAYO VALLECANO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-2",
+    "date": "27 de febrero 2016",
+    "playingTeam": "REAL BETIS",
+    "formation": [
+      [
+        {
+          "name": "ANTONIO ADÁN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "GERMÁN PEZZELLA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "BRUNO GONZÁLEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JUAN VARGAS",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "FRANCISCO MOLINERO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "PETROS ARAUJO",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "DANI CEBALLOS",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "CHARLY MUSONDA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JOAQUÍN",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JORGE MOLINA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RUBÉN CASTRO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2015-16",
+    "homeTeam": "REAL BETIS",
+    "awayTeam": "LAS PALMAS",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "19 de abril 2016",
+    "playingTeam": "REAL BETIS",
+    "formation": [
+      [
+        {
+          "name": "ANTONIO ADÁN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "BRUNO GONZÁLEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "GERMÁN PEZZELLA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "FRAN VARELA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "PETROS ARAUJO",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "ALFRED N'DIAYE",
+          "position": "DEF",
+          "number": "6"
+        },
+        {
+          "name": "FRANCISCO MOLINERO",
+          "position": "DEF",
+          "number": "7"
+        }
+      ],
+      [
+        {
+          "name": "JOAQUÍN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DANI CEBALLOS",
+          "position": "MID",
+          "number": "9"
+        },
+        {
+          "name": "FOUED KADIR",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "RUBÉN CASTRO",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

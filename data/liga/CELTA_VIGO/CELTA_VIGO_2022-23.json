@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "RAYO VALLECANO",
+    "awayTeam": "CELTA VIGO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "10 de noviembre 2022",
+    "playingTeam": "CELTA VIGO",
+    "formation": [
+      [
+        {
+          "name": "AGUSTÍN MARCHESÍN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "ÓSCAR MINGUEZA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "UNAI NÚÑEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JOSEPH AIDOO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "JAVI GALÁN",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "KEVIN VÁZQUEZ",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "GABRI VEIGA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "RENATO TAPIA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "GONÇALO PACIÊNCIA",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "FRANCO CERVI",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CARLES PÉREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "CELTA VIGO",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "24 de octubre 2022",
+    "playingTeam": "CELTA VIGO",
+    "formation": [
+      [
+        {
+          "name": "AGUSTÍN MARCHESÍN",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "UNAI NÚÑEZ",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "JOSEPH AIDOO",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JAVI GALÁN",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "FRAN BELTRÁN",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
+          "name": "HUGO MALLO",
+          "position": "DEF",
+          "number": "6"
+        }
+      ],
+      [
+        {
+          "name": "GABRI VEIGA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "ÓSCAR RODRÍGUEZ",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FRANCO CERVI",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JØRGEN STRAND LARSEN",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "IAGO ASPAS",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2022-23",
+    "homeTeam": "CADIZ",
+    "awayTeam": "CELTA VIGO",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-0",
+    "date": "28 de mayo 2023",
+    "playingTeam": "CELTA VIGO",
+    "formation": [
+      [
+        {
+          "name": "IVÁN VILLAR",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "JOSEPH AIDOO",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "UNAI NÚÑEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "JAVI GALÁN",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "HUGO MALLO",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "ÓSCAR RODRÍGUEZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "GABRI VEIGA",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "RENATO TAPIA",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "JØRGEN STRAND LARSEN",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "MIGUEL RODRÍGUEZ",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "CARLES PÉREZ",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

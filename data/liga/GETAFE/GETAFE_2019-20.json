@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "REAL SOCIEDAD",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-2",
+    "date": "06 de octubre 2019",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "LEANDRO CABRERA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "FAYÇAL FAJR",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "JASON",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JORGE MOLINA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "ATHLETIC CLUB",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-2",
+    "date": "02 de febrero 2020",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "XABIER ETXEITA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "ALLAN NYOM",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "DEYVERSON",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2019-20",
+    "homeTeam": "GETAFE",
+    "awayTeam": "REAL VALLADOLID",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "15 de diciembre 2019",
+    "playingTeam": "GETAFE",
+    "formation": [
+      [
+        {
+          "name": "DAVID SORIA",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "LEANDRO CABRERA",
+          "position": "DEF",
+          "number": "2"
+        },
+        {
+          "name": "DJENÉ DAKONAM",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "MATHÍAS OLIVERA",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAMIÁN SUÁREZ",
+          "position": "DEF",
+          "number": "5"
+        }
+      ],
+      [
+        {
+          "name": "MAURO ARAMBARRI",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "NEMANJA MAKSIMOVIC",
+          "position": "MID",
+          "number": "7"
+        },
+        {
+          "name": "MARC CUCURELLA",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FRANCISCO PORTILLO",
+          "position": "MID",
+          "number": "9"
+        }
+      ],
+      [
+        {
+          "name": "JORGE MOLINA",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "JAIME MATA",
+          "position": "FWD",
+          "number": "11"
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "CELTA VIGO",
+    "awayTeam": "BARCELONA",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "2-0",
+    "date": "04 de mayo 2019",
+    "playingTeam": "CELTA VIGO",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN BLANCO",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "NÉSTOR ARAÚJO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "GUSTAVO CABRAL",
+          "position": "DEF",
+          "number": "22"
+        },
+        {
+          "name": "LUCAS OLAZA",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "HUGO MALLO",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "STANISLAV LOBOTKA",
+          "position": "MID",
+          "number": "14"
+        },
+        {
+          "name": "OKAY YOKUSLU",
+          "position": "MID",
+          "number": "5"
+        },
+        {
+          "name": "SOFIANE BOUFAL",
+          "position": "MID",
+          "number": "19"
+        },
+        {
+          "name": "RYAD BOUDEBOUZ",
+          "position": "MID",
+          "number": "24"
+        }
+      ],
+      [
+        {
+          "name": "IAGO ASPAS",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "CELTA VIGO",
+    "awayTeam": "GETAFE",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "01 de octubre 2018",
+    "playingTeam": "CELTA VIGO",
+    "formation": [
+      [
+        {
+          "name": "SERGIO ÁLVAREZ",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "FACUNDO RONCAGLIA",
+          "position": "DEF",
+          "number": "24"
+        },
+        {
+          "name": "GUSTAVO CABRAL",
+          "position": "DEF",
+          "number": "22"
+        },
+        {
+          "name": "JÚNIOR ALONSO",
+          "position": "DEF",
+          "number": "25"
+        },
+        {
+          "name": "HUGO MALLO",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "STANISLAV LOBOTKA",
+          "position": "MID",
+          "number": "14"
+        },
+        {
+          "name": "FRAN BELTRÁN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "BRAIS MÉNDEZ",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "MATHIAS JENSEN",
+          "position": "MID",
+          "number": "18"
+        }
+      ],
+      [
+        {
+          "name": "IAGO ASPAS",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2018-19",
+    "homeTeam": "CELTA VIGO",
+    "awayTeam": "LEGANES",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "0-0",
+    "date": "14 de diciembre 2018",
+    "playingTeam": "CELTA VIGO",
+    "formation": [
+      [
+        {
+          "name": "RUBÉN BLANCO",
+          "position": "GK",
+          "number": "13"
+        }
+      ],
+      [
+        {
+          "name": "DAVID COSTAS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "NÉSTOR ARAÚJO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "DAVID JUNCÀ",
+          "position": "DEF",
+          "number": "17"
+        },
+        {
+          "name": "HUGO MALLO",
+          "position": "DEF",
+          "number": "2"
+        }
+      ],
+      [
+        {
+          "name": "JOZABED",
+          "position": "MID",
+          "number": "21"
+        },
+        {
+          "name": "OKAY YOKUSLU",
+          "position": "MID",
+          "number": "5"
+        },
+        {
+          "name": "SOFIANE BOUFAL",
+          "position": "MID",
+          "number": "19"
+        },
+        {
+          "name": "BRAIS MÉNDEZ",
+          "position": "MID",
+          "number": "23"
+        }
+      ],
+      [
+        {
+          "name": "IAGO ASPAS",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "MAXI GÓMEZ",
+          "position": "FWD",
+          "number": "9"
+        }
+      ]
+    ]
+  }
+]
