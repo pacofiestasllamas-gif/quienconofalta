@@ -362,9 +362,8 @@ function openGuessModal(playerIndex) {
             const char = cleanName[j];
             
             if (char === ' ') {
-                // Crear celda de espacio
-                cell.className = 'letter-cell space-cell';
-                cell.id = `cell-${i}-${j}-space`;
+                // Espacio real, no una casilla
+                cell.className = 'wordle-space';
             } else if (char === "'" || char === '-' || char === '·' || char === '.') {
                 // Crear celda de carácter especial (apóstrofe, guion, etc.)
                 // Visible pero no editable
@@ -467,55 +466,6 @@ function getPlayerByIndex(index) {
 
 // LÓGICA DEL WORDLE
 let currentRow = 0;
-
-// Función para extraer el nombre por el que se conoce al jugador (generalmente el apellido)
-function getKnownName(fullName) {
-    // Casos especiales: jugadores conocidos por un solo nombre
-    const singleNamePlayers = ['NEYMAR', 'RONALDINHO', 'KAKÁ', 'PELÉ', 'DIDA', 'RIVALDO', 'CAFU', 'JÚNIOR', 'ÉLBER', 'DECO', 'DANTE'];
-    
-    const upperName = fullName.toUpperCase();
-    
-    // Si es un jugador de nombre único, devolver todo (sin Jr, Junior, etc.)
-    if (singleNamePlayers.some(name => upperName.includes(name))) {
-        return fullName.replace(/\s+(JR\.?|JÚNIOR|JUNIOR)$/i, '').trim();
-    }
-    
-    // Separar por espacios
-    const parts = fullName.split(' ');
-    
-    // Si solo tiene una palabra, devolverla
-    if (parts.length === 1) {
-        return fullName;
-    }
-    
-    // Si tiene dos palabras, devolver la última (el apellido)
-    if (parts.length === 2) {
-        return parts[1];
-    }
-    
-    // Si tiene 3+ palabras, verificar partículas nobiliarias/compuestas
-    const particles = ['DE', 'VAN', 'DA', 'DOS', 'DAS', 'DEL', 'TER', 'VON', 'LE', 'LA', 'DI'];
-    
-    // Buscar desde el final hacia atrás
-    const lastWord = parts[parts.length - 1];
-    const secondToLast = parts[parts.length - 2];
-    
-    if (particles.includes(secondToLast.toUpperCase())) {
-        // Si hay 3 palabras o más antes de la partícula
-        if (parts.length >= 4) {
-            const thirdToLast = parts[parts.length - 3];
-            // Casos como "Marc-André ter Stegen" → "Ter Stegen"
-            if (particles.includes(thirdToLast.toUpperCase())) {
-                return parts.slice(-3).join(' ');
-            }
-        }
-        // Casos como "Frenkie de Jong" → "De Jong"
-        return `${secondToLast} ${lastWord}`;
-    }
-    
-    // Si no hay partícula, devolver solo la última palabra
-    return lastWord;
-}
 
 // Función para normalizar texto (quitar tildes)
 function normalizeText(text) {
