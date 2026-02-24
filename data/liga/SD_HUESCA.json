@@ -11,31 +11,31 @@
     "formation": [
       [
         {
-          "name": "ROBERTO SANTAMARÍA",
+          "name": "R. SANTAMARÍA",
           "position": "GK",
           "number": "13"
         }
       ],
       [
         {
+          "name": "JAVI GALÁN",
+          "position": "DEF",
+          "number": "12"
+        },
+        {
           "name": "XABIER ETXEITA",
           "position": "DEF",
           "number": "3"
         },
         {
-          "name": "JORGE PULIDO",
-          "position": "DEF",
-          "number": "14"
-        },
-        {
-          "name": "MARTÍN MANTOVANI",
+          "name": "M. MANTOVANI",
           "position": "DEF",
           "number": "2"
         },
         {
-          "name": "JAVI GALÁN",
+          "name": "JORGE PULIDO",
           "position": "DEF",
-          "number": "12"
+          "number": "14"
         },
         {
           "name": "YANGEL HERRERA",
@@ -45,406 +45,31 @@
       ],
       [
         {
-          "name": "CHRISTIAN RIVERA",
+          "name": "MOI GÓMEZ",
+          "position": "MID",
+          "number": "6"
+        },
+        {
+          "name": "DAMIÁN MUSTO",
+          "position": "MID",
+          "number": "23"
+        },
+        {
+          "name": "C. RIVERA",
           "position": "MID",
           "number": "17"
-        },
-        {
-          "name": "DAMIÁN MUSTO",
-          "position": "MID",
-          "number": "23"
-        },
-        {
-          "name": "MOI GÓMEZ",
-          "position": "MID",
-          "number": "6"
         }
       ],
       [
+        {
+          "name": "CHIMY ÁVILA",
+          "position": "FWD",
+          "number": "19"
+        },
         {
           "name": "CUCHO HERNÁNDEZ",
           "position": "FWD",
           "number": "9"
-        },
-        {
-          "name": "CHIMY AVILA",
-          "position": "FWD",
-          "number": "19"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "VILLARREAL",
-    "awayTeam": "SD HUESCA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "28 de abril 2019",
-    "playingTeam": "SD HUESCA",
-    "formation": [
-      [
-        {
-          "name": "ROBERTO SANTAMARÍA",
-          "position": "GK",
-          "number": "13"
-        }
-      ],
-      [
-        {
-          "name": "JORGE PULIDO",
-          "position": "DEF",
-          "number": "14"
-        },
-        {
-          "name": "XABIER ETXEITA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JAVI GALÁN",
-          "position": "DEF",
-          "number": "12"
-        },
-        {
-          "name": "YANGEL HERRERA",
-          "position": "DEF",
-          "number": "21"
-        },
-        {
-          "name": "MOI GÓMEZ",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "JORGE MIRAMÓN",
-          "position": "DEF",
-          "number": "24"
-        }
-      ],
-      [
-        {
-          "name": "CHIMY AVILA",
-          "position": "MID",
-          "number": "19"
-        },
-        {
-          "name": "DAVID FERREIRO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "JUANPI",
-          "position": "MID",
-          "number": "20"
-        }
-      ],
-      [
-        {
-          "name": "ENRIC GALLEGO",
-          "position": "FWD",
-          "number": "22"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "SD HUESCA",
-    "awayTeam": "GETAFE",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "04 de noviembre 2018",
-    "playingTeam": "SD HUESCA",
-    "formation": [
-      [
-        {
-          "name": "ALEKSANDAR JOVANOVIC",
-          "position": "GK",
-          "number": "25"
-        }
-      ],
-      [
-        {
-          "name": "JORGE PULIDO",
-          "position": "DEF",
-          "number": "14"
-        },
-        {
-          "name": "RÚBEN SEMEDO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "XABIER ETXEITA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "CARLOS AKAPO",
-          "position": "DEF",
-          "number": "15"
-        },
-        {
-          "name": "JORGE MIRAMÓN",
-          "position": "DEF",
-          "number": "24"
-        }
-      ],
-      [
-        {
-          "name": "DAMIÁN MUSTO",
-          "position": "MID",
-          "number": "23"
-        },
-        {
-          "name": "MOI GÓMEZ",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "DAVID FERREIRO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "SERDAR GÜRLER",
-          "position": "MID",
-          "number": "21"
-        }
-      ],
-      [
-        {
-          "name": "CUCHO HERNÁNDEZ",
-          "position": "FWD",
-          "number": "9"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "SD HUESCA",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "07 de noviembre 2020",
-    "playingTeam": "SD HUESCA",
-    "formation": [
-      [
-        {
-          "name": "ANDRÉS FERNÁNDEZ",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "PABLO INSUA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DIMITRIOS SIOVAS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JAVI GALÁN",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "PEDRO LÓPEZ",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "MIKEL RICO",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "PEDRO MOSQUERA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "BORJA GARCÍA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "DAVID FERREIRO",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "SANDRO RAMÍREZ",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "RAFA MIR",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "SD HUESCA",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "01 de mayo 2021",
-    "playingTeam": "SD HUESCA",
-    "formation": [
-      [
-        {
-          "name": "ÁLVARO FERNÁNDEZ",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JORGE PULIDO",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DENIS VAVRO",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "DIMITRIOS SIOVAS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JAVI GALÁN",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "PABLO MAFFEO",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "DAVID FERREIRO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "MIKEL RICO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "JAIME SEOANE",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "SANDRO RAMÍREZ",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "RAFA MIR",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "SD HUESCA",
-    "awayTeam": "GRANADA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "3-2",
-    "date": "21 de febrero 2021",
-    "playingTeam": "SD HUESCA",
-    "formation": [
-      [
-        {
-          "name": "ÁLVARO FERNÁNDEZ",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "DIMITRIOS SIOVAS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "PABLO INSUA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JORGE PULIDO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JAVI GALÁN",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "PABLO MAFFEO",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "DAVID FERREIRO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "DANI ESCRICHE",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "JAIME SEOANE",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "MIKEL RICO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "RAFA MIR",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]

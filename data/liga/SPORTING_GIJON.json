@@ -1,230 +1,5 @@
 [
   {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "LAS PALMAS",
-    "awayTeam": "SPORTING GIJON",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "16 de abril 2016",
-    "playingTeam": "SPORTING GIJON",
-    "formation": [
-      [
-        {
-          "name": "IVÁN CUÉLLAR",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JORGE MERÉ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "LUIS HERNÁNDEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ISMA LÓPEZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ALBERTO LORA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "OMAR MASCARELL",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "SERGIO ÁLVAREZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "JONY",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "PABLO PÉREZ",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "ANTONIO SANABRIA",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "MIGUEL ÁNGEL GUERRERO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "BARCELONA",
-    "awayTeam": "SPORTING GIJON",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "6-0",
-    "date": "23 de abril 2016",
-    "playingTeam": "SPORTING GIJON",
-    "formation": [
-      [
-        {
-          "name": "IVÁN CUÉLLAR",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "IGOR LICHNOVSKY",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "LUIS HERNÁNDEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ISMA LÓPEZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "RACHID AIT-ATMANE",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "OMAR MASCARELL",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "OGNJEN VRANJES",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ALEN HALILOVIC",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "ÁLEX MENÉNDEZ",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PABLO PÉREZ",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "MIGUEL ÁNGEL GUERRERO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "GETAFE",
-    "awayTeam": "SPORTING GIJON",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "08 de mayo 2016",
-    "playingTeam": "SPORTING GIJON",
-    "formation": [
-      [
-        {
-          "name": "IVÁN CUÉLLAR",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JORGE MERÉ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "LUIS HERNÁNDEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ISMA LÓPEZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "NACHO CASES",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "SERGIO ÁLVAREZ",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ALBERTO LORA",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ALEN HALILOVIC",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "JONY",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "CARLOS CARMONA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "ANTONIO SANABRIA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
     "competition": "LA LIGA • TEMPORADA 2016-17",
     "homeTeam": "DEPORTIVO LA CORUNA",
     "awayTeam": "SPORTING GIJON",
@@ -243,208 +18,58 @@
       ],
       [
         {
-          "name": "JEAN-SYLVAIN BABIN",
+          "name": "J.S. BABIN",
           "position": "DEF",
-          "number": "2"
+          "number": "3"
         },
         {
           "name": "JORGE MERÉ",
           "position": "DEF",
-          "number": "3"
+          "number": "4"
         },
         {
           "name": "ISMA LÓPEZ",
           "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MOI GÓMEZ",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "SERGIO ÁLVAREZ",
-          "position": "DEF",
-          "number": "6"
+          "number": "18"
         },
         {
           "name": "LILLO",
           "position": "DEF",
-          "number": "7"
+          "number": "16"
         }
       ],
       [
         {
-          "name": "DANIEL NDI",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "BURGUI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "VÍCTOR RODRÍGUEZ",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "DUJE COP",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "SPORTING GIJON",
-    "awayTeam": "LAS PALMAS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "06 de mayo 2017",
-    "playingTeam": "SPORTING GIJON",
-    "formation": [
-      [
-        {
-          "name": "IVÁN CUÉLLAR",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JEAN-SYLVAIN BABIN",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JORGE MERÉ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ROBERTO CANELLA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "DOUGLAS",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "MOI GÓMEZ",
+          "name": "SERGIO ÁLVAREZ",
           "position": "MID",
           "number": "6"
         },
         {
-          "name": "SERGIO ÁLVAREZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "MIKEL VESGA",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "DUJE COP",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "BURGUI",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "CARLOS CASTRO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "OSASUNA",
-    "awayTeam": "SPORTING GIJON",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-2",
-    "date": "22 de abril 2017",
-    "playingTeam": "SPORTING GIJON",
-    "formation": [
-      [
-        {
-          "name": "IVÁN CUÉLLAR",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JORGE MERÉ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JEAN-SYLVAIN BABIN",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ROBERTO CANELLA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "DOUGLAS",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
           "name": "MOI GÓMEZ",
           "position": "MID",
-          "number": "6"
+          "number": "23"
         },
         {
-          "name": "SERGIO ÁLVAREZ",
+          "name": "DANI NDI",
+          "position": "MID",
+          "number": "20"
+        },
+        {
+          "name": "V. RODRÍGUEZ",
           "position": "MID",
           "number": "7"
         },
         {
-          "name": "MIKEL VESGA",
+          "name": "BURGUI",
           "position": "MID",
-          "number": "8"
+          "number": "14"
         }
       ],
       [
         {
           "name": "DUJE COP",
           "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "BURGUI",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "CARLOS CARMONA",
-          "position": "FWD",
-          "number": "11"
+          "number": "24"
         }
       ]
     ]
