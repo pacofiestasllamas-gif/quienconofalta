@@ -1,27 +1,27 @@
 :root {
-            --bg-dark: #1a1a2e;
-            --bg-purple: #2d2640;
-            --bg-field: #3a8c3e;
-            --field-dark: #2d6e31;
-            --neon-green: #4ade80;
-            --neon-yellow: #fbbf24;
-            --text-light: #ffffff;
-            --player-bg: #4a9eff;
-            --gk-bg: #fbbf24;
-            --correct: #4ade80;
-            --present: #fbbf24;
-            --absent: #374151;
-            --card-dark: #1f2937;
+            --bg-dark: #1c1a14;
+            --bg-purple: #2a2518;
+            --bg-field: #2d7a32;
+            --field-dark: #235f27;
+            --neon-green: #c8a84b;
+            --neon-yellow: #e8c96d;
+            --text-light: #f5f0e8;
+            --player-bg: #8b1a1a;
+            --gk-bg: #d4a017;
+            --correct: #4a8c3e;
+            --present: #c8a84b;
+            --absent: #4a3f2f;
+            --card-dark: #2a2518;
         }
 
         /* Modo alto contraste */
         body.high-contrast {
             --bg-dark: #000000;
-            --bg-purple: #1a1a2e;
+            --bg-purple: #1a1a1a;
             --text-light: #ffffff;
-            --correct: #00ff00;
-            --present: #ffff00;
-            --absent: #666666;
+            --correct: #00aa00;
+            --present: #ccaa00;
+            --absent: #555555;
         }
 
         * {
@@ -59,7 +59,7 @@
         }
 
         .settings-btn:hover {
-            background: rgba(255,255,255,0.2);
+            background: rgba(200,168,75,0.2);
             transform: rotate(90deg);
         }
 
@@ -173,28 +173,42 @@
             justify-content: center;
             min-height: 100vh;
             padding: 20px;
+            background: 
+                linear-gradient(rgba(26,18,8,0.88), rgba(26,18,8,0.88)),
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 60px,
+                    rgba(255,255,255,0.02) 60px,
+                    rgba(255,255,255,0.02) 62px
+                ),
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 60px,
+                    rgba(255,255,255,0.02) 60px,
+                    rgba(255,255,255,0.02) 62px
+                );
         }
 
         .mode-title {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(2.5rem, 10vw, 5rem);
+            font-size: clamp(1.8rem, 7vw, 3.5rem);
             letter-spacing: 8px;
             color: var(--neon-green);
-            text-shadow: 0 0 20px var(--neon-green),
-                         0 0 40px var(--neon-green);
-            margin-bottom: 50px;
+            text-shadow: 3px 3px 0px #000, 1px 1px 0px rgba(0,0,0,0.8);
+            margin-bottom: 8px;
             text-align: center;
-            animation: pulse 2s ease-in-out infinite;
         }
 
         @keyframes pulse {
-            0%, 100% { text-shadow: 0 0 20px var(--neon-green), 0 0 40px var(--neon-green); }
-            50% { text-shadow: 0 0 30px var(--neon-green), 0 0 60px var(--neon-green); }
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.85; }
         }
 
         .mode-subtitle {
-            font-size: 1.5rem;
-            margin-bottom: 40px;
+            font-size: 1rem;
+            margin-bottom: 10px;
             text-align: center;
             opacity: 0.9;
         }
@@ -202,19 +216,19 @@
         .mode-buttons {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 8px;
             width: 100%;
             max-width: 500px;
         }
 
         .mode-btn {
-            background: linear-gradient(135deg, var(--bg-purple), #3d3456);
-            border: 3px solid var(--neon-green);
-            border-radius: 15px;
-            padding: 30px;
+            background: linear-gradient(135deg, var(--bg-purple), #3a2e1c);
+            border: 2px solid var(--neon-green);
+            border-radius: 10px;
+            padding: 10px 16px;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 0 30px rgba(57, 255, 20, 0.3);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
             animation: slideIn 0.5s ease-out;
         }
 
@@ -230,28 +244,29 @@
         }
 
         .mode-btn:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 0 50px rgba(57, 255, 20, 0.6);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
             border-color: var(--neon-yellow);
+            background: linear-gradient(135deg, #3a2e1c, #4a3a22);
         }
 
         .mode-btn-title {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: 2rem;
+            font-size: 1.3rem;
             letter-spacing: 3px;
             color: var(--neon-yellow);
-            margin-bottom: 10px;
+            margin-bottom: 3px;
         }
 
         .mode-btn-desc {
-            font-size: 1rem;
+            font-size: 0.85rem;
             opacity: 0.8;
-            line-height: 1.5;
+            line-height: 1.3;
         }
 
         .mode-btn-teams {
-            margin-top: 15px;
-            font-size: 0.85rem;
+            margin-top: 2px;
+            font-size: 0.75rem;
             opacity: 0.6;
             font-style: italic;
         }
@@ -597,7 +612,7 @@
             position: absolute;
             top: 10px;
             left: 10px;
-            background: rgba(255,255,255,0.1);
+            background: rgba(200,168,75,0.15);
             border: 2px solid var(--neon-green);
             color: var(--neon-green);
             padding: 8px 15px;
@@ -609,7 +624,7 @@
         }
 
         .home-btn:hover {
-            background: rgba(255,255,255,0.2);
+            background: rgba(200,168,75,0.3);
         }
 
         /* Modal de adivinanza */
@@ -639,7 +654,8 @@
 
         .modal-content {
             background: var(--bg-purple);
-            border-radius: 15px;
+            border: 2px solid var(--neon-green);
+            border-radius: 10px;
             padding: 30px 20px;
             max-width: 600px;
             width: 100%;
@@ -838,68 +854,10 @@
         }
 
         .loading {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .loading-inner {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-            width: 100%;
-            max-width: 380px;
-        }
-
-        .loading-ball {
-            font-size: 4rem;
-            animation: ball-roll 1s linear infinite;
-            filter: drop-shadow(0 0 16px rgba(74, 222, 128, 0.6));
-            transform-origin: center;
-        }
-
-        @keyframes ball-roll {
-            0%   { transform: rotate(0deg) translateY(0px); }
-            25%  { transform: rotate(90deg) translateY(-6px); }
-            50%  { transform: rotate(180deg) translateY(0px); }
-            75%  { transform: rotate(270deg) translateY(-6px); }
-            100% { transform: rotate(360deg) translateY(0px); }
-        }
-
-        .loading-title {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.8rem;
-            letter-spacing: 4px;
+            text-align: center;
+            font-size: 2rem;
+            padding: 100px 20px;
             color: var(--neon-green);
-            text-shadow: 0 0 20px rgba(74, 222, 128, 0.5);
-        }
-
-        .loading-bar-container {
-            width: 100%;
-            height: 10px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 99px;
-            overflow: hidden;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-        }
-
-        .loading-bar-fill {
-            height: 100%;
-            width: 0%;
-            background: linear-gradient(90deg, var(--neon-green), #22c55e);
-            border-radius: 99px;
-            transition: width 0.3s ease;
-            box-shadow: 0 0 10px rgba(74, 222, 128, 0.6);
-        }
-
-        .loading-status {
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 0.9rem;
-            color: rgba(255,255,255,0.5);
-            letter-spacing: 1px;
         }
 
         /* Confeti */
