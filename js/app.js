@@ -439,7 +439,13 @@ function getKnownName(fullName) {
         'DANI CARVAJAL': 'CARVAJAL',
         'DANI ALVES': 'ALVES',
         'DANIEL ALVES': 'ALVES',
-        'DANIEL CARVAJAL': 'CARVAJAL'
+        'DANIEL CARVAJAL': 'CARVAJAL',
+        'DIEGO COSTA': 'DIEGO COSTA',
+        'WISSAM BEN YEDDER': 'BEN YEDDER',
+        'MUNIR EL HADDADI': 'MUNIR',
+        'MOI GOMEZ': 'MOI GOMEZ',
+        'CUCHO HERNANDEZ': 'CUCHO',
+        'CUCHO HERNÁNDEZ': 'CUCHO'
     };
     
     // Comprobar si el nombre está en las excepciones
@@ -462,7 +468,7 @@ function getKnownName(fullName) {
         'CASEMIRO', 'FERNANDINHO', 'WILLIAN', 'FRED', 'PAULINHO',
         'HULK', 'OSCAR', 'RAMIRES', 'LUCAS', 'RAFAEL', 'FABINHO',
         'EDERSON', 'ALISSON', 'ADRIANO', 'ROBINHO', 'KAKÁ',
-        'THIAGO', 'DIEGO', 'FIRMINO', 'RICHARLISON', 'RAPHINHA',
+        'THIAGO', 'FIRMINO', 'RICHARLISON', 'RAPHINHA',
         'RODRYGO', 'VINÍCIUS', 'MILITÃO', 'MARQUINHOS', 'DANILO',
         'FELIPE', 'RENAN', 'EMERSON', 'ALEX', 'ANDERSON', 'PEPE'
     ];
@@ -677,7 +683,6 @@ function animateCorrectGuess() {
         }, i * 100);
     }
     
-    createConfetti();
 }
 
 function updateKeyboard(guessArray, letterStatus) {
@@ -891,20 +896,6 @@ function loadSettings() {
         document.getElementById('contrast-toggle').classList.add('active');
     }
 }
-
-// CONFETI
-function createConfetti() {
-    for (let i = 0; i < 50; i++) {
-        setTimeout(() => {
-            const confetti = document.createElement('div');
-            confetti.className = 'confetti';
-            confetti.style.left = Math.random() * 100 + '%';
-            confetti.style.background = ['#4ade80', '#fbbf24', '#4a9eff'][Math.floor(Math.random() * 3)];
-            document.body.appendChild(confetti);
-            
-            setTimeout(() => confetti.remove(), 3000);
-        }, i * 30);
-    }
 }
 
 // EVENT LISTENERS

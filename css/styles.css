@@ -292,17 +292,28 @@
 
         .match-score {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
-            gap: 20px;
+            gap: 0;
             margin: 8px 0;
         }
 
         .team-info {
+            flex: 1;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 4px;
+        }
+
+        .team-info:first-child {
+            align-items: flex-end;
+            padding-right: 28px;
+        }
+
+        .team-info:last-child {
+            align-items: flex-start;
+            padding-left: 28px;
         }
 
         .team-badge {
@@ -324,9 +335,10 @@
         }
 
         .match-date {
-            font-size: 0.9rem;
-            opacity: 0.7;
-            margin-top: 2px;
+            font-size: 1.1rem;
+            opacity: 0.85;
+            margin-top: 4px;
+            font-weight: 600;
         }
 
         .playing-team {
@@ -919,18 +931,6 @@
             letter-spacing: 4px;
             color: #4a9eff;
         }
-
-        /* Confeti */
-        .confetti {
-            position: fixed;
-            width: 10px;
-            height: 10px;
-            background: var(--neon-green);
-            position: absolute;
-            animation: confetti-fall 3s linear;
-            z-index: 2000;
-        }
-
         @keyframes confetti-fall {
             to {
                 transform: translateY(100vh) rotate(360deg);
