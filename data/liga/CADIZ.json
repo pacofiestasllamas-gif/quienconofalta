@@ -1,156 +1,6 @@
 [
   {
     "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "ATLETICO MADRID",
-    "awayTeam": "CADIZ",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "4-0",
-    "date": "07 de noviembre 2020",
-    "playingTeam": "CADIZ",
-    "formation": [
-      [
-        {
-          "name": "CONAN LEDESMA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "FALI",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JUAN CALA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALFONSO ESPINO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "CARLOS AKAPO",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "JENS JØNSSON",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "AUGUSTO FERNÁNDEZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ÁLEX FERNÁNDEZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "SALVI SÁNCHEZ",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "ANTHONY LOZANO",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "ÁLVARO NEGREDO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "CADIZ",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "4-1",
-    "date": "07 de febrero 2021",
-    "playingTeam": "CADIZ",
-    "formation": [
-      [
-        {
-          "name": "CONAN LEDESMA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MARCOS MAURO",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JUAN CALA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JAIRO IZQUIERDO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "IZA CARCELÉN",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "JENS JØNSSON",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "FALI",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ALBERTO PEREA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "SALVI SÁNCHEZ",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "ÁLVARO NEGREDO",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "ANTHONY LOZANO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
     "homeTeam": "BARCELONA",
     "awayTeam": "CADIZ",
     "homeBadge": "🏟️",
@@ -168,9 +18,14 @@
       ],
       [
         {
+          "name": "ALFONSO ESPINO",
+          "position": "DEF",
+          "number": "22"
+        },
+        {
           "name": "MARCOS MAURO",
           "position": "DEF",
-          "number": "2"
+          "number": "4"
         },
         {
           "name": "FALI",
@@ -178,48 +33,43 @@
           "number": "3"
         },
         {
-          "name": "ALFONSO ESPINO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JON ANDER GARRIDO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
           "name": "IZA CARCELÉN",
           "position": "DEF",
-          "number": "6"
+          "number": "20"
         }
       ],
       [
         {
-          "name": "RUBÉN SOBRINO",
+          "name": "SALVI SÁNCHEZ",
           "position": "MID",
           "number": "7"
         },
         {
+          "name": "RUBÉN SOBRINO",
+          "position": "MID",
+          "number": "21"
+        },
+        {
           "name": "ALBERTO PEREA",
           "position": "MID",
-          "number": "8"
+          "number": "10"
         },
         {
           "name": "JAIRO IZQUIERDO",
           "position": "MID",
-          "number": "9"
+          "number": "25"
         },
         {
-          "name": "SALVI SÁNCHEZ",
+          "name": "JON ANDER GARRIDO",
           "position": "MID",
-          "number": "10"
+          "number": "5"
         }
       ],
       [
         {
           "name": "ÁLVARO NEGREDO",
           "position": "FWD",
-          "number": "11"
+          "number": "18"
         }
       ]
     ]
@@ -243,208 +93,58 @@
       ],
       [
         {
-          "name": "VARAZDAT HAROYAN",
+          "name": "ALFONSO ESPINO",
           "position": "DEF",
-          "number": "2"
+          "number": "22"
         },
         {
           "name": "VICTOR CHUST",
           "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALFONSO ESPINO",
-          "position": "DEF",
-          "number": "4"
+          "number": "37"
         },
         {
           "name": "FALI",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "VARAZDAT HAROYAN",
           "position": "DEF",
           "number": "5"
         },
         {
           "name": "IZA CARCELÉN",
           "position": "DEF",
-          "number": "6"
+          "number": "20"
         }
       ],
       [
         {
+          "name": "RUBÉN SOBRINO",
+          "position": "MID",
+          "number": "21"
+        },
+        {
           "name": "JENS JØNSSON",
           "position": "MID",
-          "number": "7"
+          "number": "2"
         },
         {
           "name": "TOMÁS ALARCÓN",
           "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "RUBÉN SOBRINO",
-          "position": "MID",
-          "number": "9"
+          "number": "12"
         },
         {
           "name": "SALVI SÁNCHEZ",
           "position": "MID",
-          "number": "10"
+          "number": "7"
         }
       ],
       [
         {
           "name": "ANTHONY LOZANO",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2021-22",
-    "homeTeam": "VALENCIA",
-    "awayTeam": "CADIZ",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-0",
-    "date": "03 de abril 2022",
-    "playingTeam": "CADIZ",
-    "formation": [
-      [
-        {
-          "name": "CONAN LEDESMA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "LUIS HERNÁNDEZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "VICTOR CHUST",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALFONSO ESPINO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "CARLOS AKAPO",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "FEDE SAN EMETERIO",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "RUBÉN ALCARAZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "OUSSAMA IDRISSI",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "IVÁN ALEJO",
-          "position": "MID",
           "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "LUCAS PÉREZ",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "ÁLVARO NEGREDO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2021-22",
-    "homeTeam": "CADIZ",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-1",
-    "date": "03 de enero 2022",
-    "playingTeam": "CADIZ",
-    "formation": [
-      [
-        {
-          "name": "CONAN LEDESMA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "VICTOR CHUST",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "VARAZDAT HAROYAN",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALFONSO ESPINO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MARTÍN CALDERÓN",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "TOMÁS ALARCÓN",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "CARLOS AKAPO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "JENS JØNSSON",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "IVÁN CHAPELA",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "ÁLVARO NEGREDO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "MILUTIN OSMAJIC",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]
@@ -468,208 +168,58 @@
       ],
       [
         {
+          "name": "SANTIAGO ARZAMENDIA",
+          "position": "DEF",
+          "number": "21"
+        },
+        {
           "name": "MOMO MBAYE",
           "position": "DEF",
-          "number": "2"
+          "number": "5"
         },
         {
           "name": "FALI",
           "position": "DEF",
           "number": "3"
-        },
-        {
-          "name": "SANTIAGO ARZAMENDIA",
-          "position": "DEF",
-          "number": "4"
         },
         {
           "name": "JOSEBA ZALDÚA",
           "position": "DEF",
-          "number": "5"
+          "number": "2"
         }
       ],
       [
+        {
+          "name": "BRIAN OCAMPO",
+          "position": "MID",
+          "number": "14"
+        },
         {
           "name": "FEDE SAN EMETERIO",
           "position": "MID",
-          "number": "6"
+          "number": "24"
         },
         {
           "name": "ÁLEX FERNÁNDEZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "BRIAN OCAMPO",
           "position": "MID",
           "number": "8"
         },
         {
           "name": "THÉO BONGONDA",
           "position": "MID",
-          "number": "9"
+          "number": "10"
         }
       ],
       [
-        {
-          "name": "LUCAS PÉREZ",
-          "position": "FWD",
-          "number": "10"
-        },
         {
           "name": "ANTHONY LOZANO",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "CADIZ",
-    "awayTeam": "ALMERIA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "30 de diciembre 2022",
-    "playingTeam": "CADIZ",
-    "formation": [
-      [
-        {
-          "name": "CONAN LEDESMA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "FALI",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "LUIS HERNÁNDEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALFONSO ESPINO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "IZA CARCELÉN",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "ÁLEX FERNÁNDEZ",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "RUBÉN ALCARAZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "BRIAN OCAMPO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "THÉO BONGONDA",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "ÁLVARO NEGREDO",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "RUBÉN SOBRINO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "ATLETICO MADRID",
-    "awayTeam": "CADIZ",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "5-1",
-    "date": "03 de mayo 2023",
-    "playingTeam": "CADIZ",
-    "formation": [
-      [
-        {
-          "name": "CONAN LEDESMA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MOMO MBAYE",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JORGE MERÉ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SANTIAGO ARZAMENDIA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "YOUBA DIARRA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "IZA CARCELÉN",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "RUBÉN ALCARAZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ÁLEX FERNÁNDEZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "IVÁN ALEJO",
-          "position": "MID",
           "number": "9"
         },
         {
-          "name": "THÉO BONGONDA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "ÁLVARO NEGREDO",
+          "name": "LUCAS PÉREZ",
           "position": "FWD",
-          "number": "11"
+          "number": "15"
         }
       ]
     ]

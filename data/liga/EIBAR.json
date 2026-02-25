@@ -1,81 +1,6 @@
 [
   {
     "competition": "LA LIGA • TEMPORADA 2014-15",
-    "homeTeam": "GRANADA",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-0",
-    "date": "21 de marzo 2015",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "JAIME",
-          "position": "GK",
-          "number": "25"
-        }
-      ],
-      [
-        {
-          "name": "RAÚL NAVAS",
-          "position": "DEF",
-          "number": "22"
-        },
-        {
-          "name": "TXEMA AÑÍBARRO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "LILLO CASTELLANO",
-          "position": "DEF",
-          "number": "16"
-        },
-        {
-          "name": "DANI GARCÍA",
-          "position": "DEF",
-          "number": "14"
-        },
-        {
-          "name": "BORJA",
-          "position": "DEF",
-          "number": "12"
-        },
-        {
-          "name": "ENEKO BÓVEDA",
-          "position": "DEF",
-          "number": "2"
-        }
-      ],
-      [
-        {
-          "name": "M. ARRUABARRENA",
-          "position": "MID",
-          "number": "10"
-        },
-        {
-          "name": "ABRAHAM",
-          "position": "MID",
-          "number": "24"
-        },
-        {
-          "name": "SAÚL BERJÓN",
-          "position": "MID",
-          "number": "21"
-        }
-      ],
-      [
-        {
-          "name": "MANU DEL MORAL",
-          "position": "FWD",
-          "number": "20"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2014-15",
     "homeTeam": "BARCELONA",
     "awayTeam": "EIBAR",
     "homeBadge": "🏟️",
@@ -86,21 +11,16 @@
     "formation": [
       [
         {
-          "name": "X. IRURETA",
+          "name": "XABI IRURETA",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "EKIZA",
+          "name": "MINERO",
           "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "LILLO CASTELLANO",
-          "position": "DEF",
-          "number": "16"
+          "number": "24"
         },
         {
           "name": "ALBENTOSA",
@@ -108,793 +28,123 @@
           "number": "6"
         },
         {
-          "name": "ABRAHAM",
+          "name": "ELIZA",
           "position": "DEF",
-          "number": "24"
+          "number": "5"
         },
         {
-          "name": "ENEKO BÓVEDA",
+          "name": "BÓVEDA",
           "position": "DEF",
           "number": "2"
         }
       ],
       [
         {
-          "name": "JON ERRASTI",
+          "name": "CASTELLANO",
+          "position": "MID",
+          "number": "16"
+        },
+        {
+          "name": "ERRASTI",
           "position": "MID",
           "number": "8"
         },
         {
-          "name": "DANI GARCÍA",
+          "name": "GARCÍA",
           "position": "MID",
           "number": "14"
         },
         {
-          "name": "JAVI LARA",
+          "name": "COPA",
           "position": "MID",
-          "number": "23"
+          "number": "7"
         }
       ],
       [
         {
-          "name": "SAÚL BERJÓN",
+          "name": "BERJÓN",
           "position": "FWD",
           "number": "21"
         },
         {
-          "name": "ANDER CAPA",
+          "name": "LERA",
           "position": "FWD",
-          "number": "7"
+          "number": "23"
         }
       ]
     ]
   },
   {
     "competition": "LA LIGA • TEMPORADA 2014-15",
-    "homeTeam": "EIBAR",
-    "awayTeam": "CORDOBA",
+    "homeTeam": "GRANADA",
+    "awayTeam": "EIBAR",
     "homeBadge": "🏟️",
     "awayBadge": "⚽",
-    "score": "3-0",
-    "date": "23 de mayo 2015",
+    "score": "0-0",
+    "date": "21 de marzo 2015",
     "playingTeam": "EIBAR",
     "formation": [
       [
         {
-          "name": "X. IRURETA",
+          "name": "ASIER RIESGO",
           "position": "GK",
-          "number": "1"
+          "number": "25"
         }
       ],
       [
         {
-          "name": "LILLO CASTELLANO",
+          "name": "CASTELLANO",
           "position": "DEF",
           "number": "16"
         },
         {
-          "name": "RAÚL NAVAS",
+          "name": "AÑBARRO",
+          "position": "DEF",
+          "number": "4"
+        },
+        {
+          "name": "NAVAS",
           "position": "DEF",
           "number": "22"
         },
         {
-          "name": "DÍDAC VILÀ",
+          "name": "BÓVEDA",
           "position": "DEF",
-          "number": "17"
-        },
+          "number": "2"
+        }
+      ],
+      [
         {
-          "name": "BORJA",
-          "position": "DEF",
+          "name": "FERNÁNDEZ",
+          "position": "MID",
           "number": "12"
         },
         {
-          "name": "DANI GARCÍA",
-          "position": "DEF",
+          "name": "GARCÍA",
+          "position": "MID",
           "number": "14"
         },
         {
-          "name": "ENEKO BÓVEDA",
-          "position": "DEF",
-          "number": "2"
-        }
-      ],
-      [
-        {
-          "name": "M. ARRUABARRENA",
+          "name": "ARRUABARRENA",
           "position": "MID",
           "number": "10"
-        },
-        {
-          "name": "JAVI LARA",
-          "position": "MID",
-          "number": "23"
-        },
-        {
-          "name": "ANDER CAPA",
-          "position": "MID",
-          "number": "7"
         }
       ],
       [
         {
-          "name": "SAÚL BERJÓN",
+          "name": "MINERO",
+          "position": "FWD",
+          "number": "24"
+        },
+        {
+          "name": "DEL MORAL",
+          "position": "FWD",
+          "number": "20"
+        },
+        {
+          "name": "BERJÓN",
           "position": "FWD",
           "number": "21"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "EIBAR",
-    "awayTeam": "REAL MADRID",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-2",
-    "date": "29 de noviembre 2015",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "ASIER RIESGO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MAURO DOS SANTOS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ALEKSANDAR PANTIC",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "DAVID JUNCÀ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDER CAPA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "GONZALO ESCALANTE",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "ADRIÁN GONZÁLEZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "DANI GARCÍA",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "TAKASHI INUI",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "SAÚL BERJÓN",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "LAS PALMAS",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-2",
-    "date": "04 de octubre 2015",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "ASIER RIESGO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ALEKSANDAR PANTIC",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "MAURO DOS SANTOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "DAVID JUNCÀ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "GONZALO ESCALANTE",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "DANI GARCÍA",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ANDER CAPA",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ADRIÁN GONZÁLEZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "TAKASHI INUI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "SAÚL BERJÓN",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "BORJA BASTÓN",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "CELTA VIGO",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "3-2",
-    "date": "21 de febrero 2016",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "ASIER RIESGO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MAURO DOS SANTOS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ION ANSOTEGI",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "DAVID JUNCÀ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JOSIP RADOSEVIC",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "GONZALO ESCALANTE",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "LILLO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ADRIÁN GONZÁLEZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "TAKASHI INUI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "JOTA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "BORJA BASTÓN",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "18 de febrero 2017",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "YOEL RODRÍGUEZ",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MAURO DOS SANTOS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "FLORIAN LEJEUNE",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "GONZALO ESCALANTE",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "FRAN RICO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ANDER CAPA",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ADRIÁN GONZÁLEZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "RUBÉN PEÑA",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PEDRO LEÓN",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "EIBAR",
-    "awayTeam": "OSASUNA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-3",
-    "date": "17 de octubre 2016",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "ASIER RIESGO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MAURO DOS SANTOS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "FLORIAN LEJEUNE",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ANTONIO LUNA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "DANI GARCÍA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "GONZALO ESCALANTE",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ANDER CAPA",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "FRAN RICO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "BEBÉ",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PEDRO LEÓN",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "EIBAR",
-    "awayTeam": "CELTA VIGO",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "19 de noviembre 2016",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "ASIER RIESGO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "IVÁN RAMIS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "FLORIAN LEJEUNE",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ANTONIO LUNA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "DANI GARCÍA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "FRAN RICO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ADRIÁN GONZÁLEZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "TAKASHI INUI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PEDRO LEÓN",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "EIBAR",
-    "awayTeam": "ESPANYOL",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "3-1",
-    "date": "03 de diciembre 2017",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "PAULO OLIVEIRA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "DAVID JUNCÀ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDER CAPA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "DANI GARCÍA",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "JOAN JORDÁN",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "TAKASHI INUI",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "IVÁN ALEJO",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "KIKE GARCÍA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "EIBAR",
-    "awayTeam": "VALENCIA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-1",
-    "date": "16 de diciembre 2017",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "PAULO OLIVEIRA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "COTE",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDER CAPA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "DANI GARCÍA",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "JOAN JORDÁN",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "TAKASHI INUI",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "IVÁN ALEJO",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "CHARLES",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "ATLETICO MADRID",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-2",
-    "date": "20 de mayo 2018",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "DAVID LOMBÁN",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "PAULO OLIVEIRA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "COTE",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "DANI GARCÍA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "GONZALO ESCALANTE",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "RUBÉN PEÑA",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "JOAN JORDÁN",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "FABIÁN ORELLANA",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "IVÁN ALEJO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "KIKE GARCÍA",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]
@@ -911,65 +161,65 @@
     "formation": [
       [
         {
-          "name": "MARKO DMITROVIC",
+          "name": "DMITROVIC",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "PEDRO BIGAS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "23"
-        },
-        {
           "name": "COTE",
           "position": "DEF",
           "number": "15"
         },
         {
-          "name": "RUBÉN PEÑA",
+          "name": "BIGAS",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "ARBILLA",
+          "position": "DEF",
+          "number": "23"
+        },
+        {
+          "name": "PEÑA",
           "position": "DEF",
           "number": "11"
         }
       ],
       [
         {
-          "name": "PAPE DIOP",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "JOAN JORDÁN",
-          "position": "MID",
-          "number": "24"
-        },
-        {
-          "name": "MARC CUCURELLA",
+          "name": "CUCURELLA",
           "position": "MID",
           "number": "20"
         },
         {
-          "name": "PABLO DE BLASIS",
+          "name": "JORDÁN",
+          "position": "MID",
+          "number": "24"
+        },
+        {
+          "name": "DIOP",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "DE BLASIS",
           "position": "MID",
           "number": "16"
         }
       ],
       [
         {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "KIKE GARCÍA",
+          "name": "GARCÍA",
           "position": "FWD",
           "number": "17"
+        },
+        {
+          "name": "ENRICH",
+          "position": "FWD",
+          "number": "9"
         }
       ]
     ]
@@ -986,590 +236,65 @@
     "formation": [
       [
         {
-          "name": "MARKO DMITROVIC",
+          "name": "DMITROVIC",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "SERGIO ÁLVAREZ",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "PAULO OLIVEIRA",
-          "position": "DEF",
-          "number": "12"
-        },
-        {
           "name": "COTE",
           "position": "DEF",
           "number": "15"
         },
         {
-          "name": "GONZALO ESCALANTE",
+          "name": "OLIVEIRA",
           "position": "DEF",
-          "number": "5"
+          "number": "17"
         },
         {
-          "name": "JOAN JORDÁN",
+          "name": "ÁLVAREZ",
           "position": "DEF",
-          "number": "24"
+          "number": "6"
         },
         {
-          "name": "RUBÉN PEÑA",
+          "name": "PEÑA",
           "position": "DEF",
           "number": "11"
         }
       ],
       [
         {
-          "name": "FABIÁN ORELLANA",
+          "name": "ESCALANTE",
           "position": "MID",
-          "number": "14"
+          "number": "5"
         },
         {
-          "name": "MARC CUCURELLA",
+          "name": "JORDÁN",
           "position": "MID",
+          "number": "24"
+        },
+        {
+          "name": "ORELLANA",
+          "position": "MID",
+          "number": "14"
+        }
+      ],
+      [
+        {
+          "name": "CUCURELLA",
+          "position": "FWD",
           "number": "20"
         },
         {
-          "name": "PEDRO LEÓN",
-          "position": "MID",
+          "name": "ENRICH",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "LEÓN",
+          "position": "FWD",
           "number": "21"
-        }
-      ],
-      [
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "9"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "EIBAR",
-    "awayTeam": "REAL VALLADOLID",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-2",
-    "date": "17 de marzo 2019",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "23"
-        },
-        {
-          "name": "IVÁN RAMIS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "COTE",
-          "position": "DEF",
-          "number": "15"
-        },
-        {
-          "name": "PAPE DIOP",
-          "position": "DEF",
-          "number": "8"
-        },
-        {
-          "name": "JOAN JORDÁN",
-          "position": "DEF",
-          "number": "24"
-        },
-        {
-          "name": "RUBÉN PEÑA",
-          "position": "DEF",
-          "number": "11"
-        }
-      ],
-      [
-        {
-          "name": "MARC CUCURELLA",
-          "position": "MID",
-          "number": "20"
-        },
-        {
-          "name": "FABIÁN ORELLANA",
-          "position": "MID",
-          "number": "14"
-        }
-      ],
-      [
-        {
-          "name": "CHARLES",
-          "position": "FWD",
-          "number": "19"
-        },
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "9"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "EIBAR",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "02 de febrero 2020",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "PEDRO BIGAS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ESTEBAN BURGOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "COTE",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "EDU EXPÓSITO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "PAPE DIOP",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ÁLVARO TEJERO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "FABIÁN ORELLANA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "TAKASHI INUI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PEDRO LEÓN",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "REAL MADRID",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "3-1",
-    "date": "14 de junio 2020",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "PAULO OLIVEIRA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "RAFA SOARES",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "SERGIO ÁLVAREZ",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ROBER CORREA",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "SEBASTIÁN CRISTÓFORO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "EDU EXPÓSITO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "PABLO DE BLASIS",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "FABIÁN ORELLANA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "KIKE GARCÍA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "EIBAR",
-    "awayTeam": "GETAFE",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-1",
-    "date": "08 de diciembre 2019",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "PAULO OLIVEIRA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "PEDRO BIGAS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ROBER CORREA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "PAPE DIOP",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "GONZALO ESCALANTE",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "PEDRO LEÓN",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "FABIÁN ORELLANA",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "KIKE GARCÍA",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "CHARLES",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-1",
-    "date": "24 de octubre 2020",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "PAULO OLIVEIRA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ESTEBAN BURGOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ÁLEX POZO",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "SERGIO ÁLVAREZ",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "PAPE DIOP",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "BRYAN GIL",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "KÉVIN RODRIGUES",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "TAKASHI INUI",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "KIKE GARCÍA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "EIBAR",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-1",
-    "date": "26 de abril 2021",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "PAULO OLIVEIRA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "COTE",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MIGUEL ATIENZA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "PAPE DIOP",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ÁLEX POZO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "RECIO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "BRYAN GIL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PEDRO LEÓN",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "KIKE GARCÍA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "OSASUNA",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-1",
-    "date": "07 de febrero 2021",
-    "playingTeam": "EIBAR",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "PEDRO BIGAS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "PAULO OLIVEIRA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "RAFA SOARES",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANAITZ ARBILLA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "RECIO",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "EDU EXPÓSITO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "BRYAN GIL",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "YOSHINORI MUTO",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "SERGI ENRICH",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "KIKE GARCÍA",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]

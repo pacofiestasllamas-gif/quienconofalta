@@ -1,230 +1,5 @@
 [
   {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "REAL MADRID",
-    "awayTeam": "REAL VALLADOLID",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "03 de noviembre 2018",
-    "playingTeam": "REAL VALLADOLID",
-    "formation": [
-      [
-        {
-          "name": "JORDI MASIP",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "FERNANDO CALERO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "KIKO OLIVAS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "NACHO MARTÍNEZ",
-          "position": "DEF",
-          "number": "22"
-        },
-        {
-          "name": "JAVI MOYANO",
-          "position": "DEF",
-          "number": "17"
-        }
-      ],
-      [
-        {
-          "name": "RUBÉN ALCARAZ",
-          "position": "MID",
-          "number": "14"
-        },
-        {
-          "name": "MÍCHEL HERRERO",
-          "position": "MID",
-          "number": "21"
-        },
-        {
-          "name": "TONI VILLA",
-          "position": "MID",
-          "number": "19"
-        },
-        {
-          "name": "ANTOÑITO",
-          "position": "MID",
-          "number": "18"
-        }
-      ],
-      [
-        {
-          "name": "ENES ÜNAL",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "LEONARDO SUÁREZ",
-          "position": "FWD",
-          "number": "32"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "REAL VALLADOLID",
-    "awayTeam": "GETAFE",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-2",
-    "date": "14 de abril 2019",
-    "playingTeam": "REAL VALLADOLID",
-    "formation": [
-      [
-        {
-          "name": "YOEL RODRÍGUEZ",
-          "position": "GK",
-          "number": "13"
-        }
-      ],
-      [
-        {
-          "name": "FERNANDO CALERO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "KIKO OLIVAS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "NACHO MARTÍNEZ",
-          "position": "DEF",
-          "number": "22"
-        },
-        {
-          "name": "JAVI MOYANO",
-          "position": "DEF",
-          "number": "17"
-        }
-      ],
-      [
-        {
-          "name": "ANUAR TUHAMI",
-          "position": "MID",
-          "number": "23"
-        },
-        {
-          "name": "RUBÉN ALCARAZ",
-          "position": "MID",
-          "number": "14"
-        },
-        {
-          "name": "ÓSCAR PLANO",
-          "position": "MID",
-          "number": "10"
-        },
-        {
-          "name": "KEKO",
-          "position": "MID",
-          "number": "24"
-        }
-      ],
-      [
-        {
-          "name": "ENES ÜNAL",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "SERGI GUARDIOLA",
-          "position": "FWD",
-          "number": "12"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "EIBAR",
-    "awayTeam": "REAL VALLADOLID",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-2",
-    "date": "17 de marzo 2019",
-    "playingTeam": "REAL VALLADOLID",
-    "formation": [
-      [
-        {
-          "name": "JORDI MASIP",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "KIKO OLIVAS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "FERNANDO CALERO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "NACHO MARTÍNEZ",
-          "position": "DEF",
-          "number": "22"
-        },
-        {
-          "name": "JAVI MOYANO",
-          "position": "DEF",
-          "number": "17"
-        }
-      ],
-      [
-        {
-          "name": "ANUAR TUHAMI",
-          "position": "MID",
-          "number": "23"
-        },
-        {
-          "name": "MÍCHEL HERRERO",
-          "position": "MID",
-          "number": "21"
-        },
-        {
-          "name": "RUBÉN ALCARAZ",
-          "position": "MID",
-          "number": "14"
-        },
-        {
-          "name": "ÓSCAR PLANO",
-          "position": "MID",
-          "number": "10"
-        },
-        {
-          "name": "KEKO",
-          "position": "MID",
-          "number": "24"
-        }
-      ],
-      [
-        {
-          "name": "SERGI GUARDIOLA",
-          "position": "FWD",
-          "number": "12"
-        }
-      ]
-    ]
-  },
-  {
     "competition": "LA LIGA • TEMPORADA 2019-20",
     "homeTeam": "REAL VALLADOLID",
     "awayTeam": "CELTA VIGO",
@@ -243,208 +18,58 @@
       ],
       [
         {
-          "name": "JOAQUÍN FERNÁNDEZ",
+          "name": "NACHO MARTÍNEZ",
           "position": "DEF",
-          "number": "2"
+          "number": "22"
         },
         {
           "name": "MOHAMMED SALISU",
           "position": "DEF",
-          "number": "3"
+          "number": "27"
         },
         {
-          "name": "NACHO MARTÍNEZ",
+          "name": "JOAQUÍN FERNÁNDEZ",
           "position": "DEF",
-          "number": "4"
+          "number": "24"
         },
         {
           "name": "JAVI MOYANO",
           "position": "DEF",
-          "number": "5"
+          "number": "17"
         }
       ],
       [
         {
+          "name": "TONI VILLA",
+          "position": "MID",
+          "number": "19"
+        },
+        {
           "name": "RUBÉN ALCARAZ",
           "position": "MID",
-          "number": "6"
+          "number": "14"
         },
         {
           "name": "MÍCHEL HERRERO",
           "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "TONI VILLA",
-          "position": "MID",
-          "number": "8"
+          "number": "21"
         },
         {
           "name": "ÓSCAR PLANO",
           "position": "MID",
-          "number": "9"
+          "number": "10"
         }
       ],
       [
         {
           "name": "SERGI GUARDIOLA",
           "position": "FWD",
-          "number": "10"
+          "number": "7"
         },
         {
           "name": "ENES ÜNAL",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "OSASUNA",
-    "awayTeam": "REAL VALLADOLID",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-0",
-    "date": "18 de enero 2020",
-    "playingTeam": "REAL VALLADOLID",
-    "formation": [
-      [
-        {
-          "name": "JORDI MASIP",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "KIKO OLIVAS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "MOHAMMED SALISU",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JOAQUÍN FERNÁNDEZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "RAÚL CARNERO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ANTOÑITO",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "FEDE SAN EMETERIO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "MÍCHEL HERRERO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "RUBÉN ALCARAZ",
-          "position": "MID",
           "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "SERGI GUARDIOLA",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "ENES ÜNAL",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "REAL VALLADOLID",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-0",
-    "date": "08 de diciembre 2019",
-    "playingTeam": "REAL VALLADOLID",
-    "formation": [
-      [
-        {
-          "name": "JORDI MASIP",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "KIKO OLIVAS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "MOHAMMED SALISU",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "NACHO MARTÍNEZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JAVI MOYANO",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "MÍCHEL HERRERO",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "FEDE SAN EMETERIO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "TONI VILLA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "PABLO HERVÍAS",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "SERGI GUARDIOLA",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "SANDRO RAMÍREZ",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]
@@ -468,358 +93,58 @@
       ],
       [
         {
-          "name": "RUBÉN ALCARAZ",
+          "name": "NACHO MARTÍNEZ",
           "position": "DEF",
-          "number": "2"
+          "number": "22"
         },
         {
           "name": "JOAQUÍN FERNÁNDEZ",
           "position": "DEF",
-          "number": "3"
+          "number": "24"
         },
         {
-          "name": "NACHO MARTÍNEZ",
+          "name": "RUBÉN ALCARAZ",
           "position": "DEF",
-          "number": "4"
+          "number": "14"
         },
         {
           "name": "LUIS PÉREZ",
           "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "KIKE PÉREZ",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "ROQUE MESA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "FEDE SAN EMETERIO",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "SHON WEISSMAN",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "FABIÁN ORELLANA",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "ÓSCAR PLANO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "REAL VALLADOLID",
-    "awayTeam": "ATLETICO MADRID",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-2",
-    "date": "22 de mayo 2021",
-    "playingTeam": "REAL VALLADOLID",
-    "formation": [
-      [
-        {
-          "name": "JORDI MASIP",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "KIKO OLIVAS",
-          "position": "DEF",
           "number": "2"
-        },
-        {
-          "name": "JAWAD EL YAMIQ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "LUCAS OLAZA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "SAIDY JANKO",
-          "position": "DEF",
-          "number": "5"
         }
       ],
       [
         {
           "name": "FEDE SAN EMETERIO",
           "position": "MID",
-          "number": "6"
+          "number": "20"
         },
         {
-          "name": "ROQUE MESA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "TONI VILLA",
+          "name": "KIKE PÉREZ",
           "position": "MID",
           "number": "8"
         },
         {
-          "name": "ÓSCAR PLANO",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "SHON WEISSMAN",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "MARCOS ANDRÉ",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "REAL VALLADOLID",
-    "awayTeam": "OSASUNA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "3-2",
-    "date": "11 de diciembre 2020",
-    "playingTeam": "REAL VALLADOLID",
-    "formation": [
-      [
-        {
-          "name": "JORDI MASIP",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "BRUNO GONZÁLEZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JOAQUÍN FERNÁNDEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "NACHO MARTÍNEZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "SAIDY JANKO",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
           "name": "ROQUE MESA",
           "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "RUBÉN ALCARAZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ÓSCAR PLANO",
-          "position": "MID",
-          "number": "8"
-        },
+          "number": "17"
+        }
+      ],
+      [
         {
           "name": "FABIÁN ORELLANA",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "MARCOS ANDRÉ",
           "position": "FWD",
-          "number": "10"
+          "number": "12"
         },
         {
           "name": "SHON WEISSMAN",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "CADIZ",
-    "awayTeam": "REAL VALLADOLID",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "19 de mayo 2023",
-    "playingTeam": "REAL VALLADOLID",
-    "formation": [
-      [
-        {
-          "name": "JORDI MASIP",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JAVI SÁNCHEZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JAWAD EL YAMIQ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JOAQUÍN FERNÁNDEZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "LUCAS ROSA",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "MARTIN HONGLA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "MONCHU",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "KIKE PÉREZ",
-          "position": "MID",
           "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "CYLE LARIN",
-          "position": "FWD",
-          "number": "10"
         },
-        {
-          "name": "SERGIO LEÓN",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "REAL VALLADOLID",
-    "awayTeam": "OSASUNA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-0",
-    "date": "12 de febrero 2023",
-    "playingTeam": "REAL VALLADOLID",
-    "formation": [
-      [
-        {
-          "name": "JORDI MASIP",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MARTIN HONGLA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JAVI SÁNCHEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "LUCAS OLAZA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MONCHU",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "KIKE PÉREZ",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "LUIS PÉREZ",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
         {
           "name": "ÓSCAR PLANO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "DARWIN MACHÍS",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "GONZALO PLATA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "SERGIO LEÓN",
           "position": "FWD",
-          "number": "11"
+          "number": "10"
         }
       ]
     ]
@@ -843,58 +168,58 @@
       ],
       [
         {
-          "name": "MARTIN HONGLA",
+          "name": "JAWAD EL YAMIQ",
           "position": "DEF",
-          "number": "2"
+          "number": "15"
         },
         {
           "name": "JAVI SÁNCHEZ",
           "position": "DEF",
-          "number": "3"
+          "number": "5"
         },
         {
-          "name": "JAWAD EL YAMIQ",
+          "name": "MARIO HONGLA",
           "position": "DEF",
-          "number": "4"
+          "number": "20"
         }
       ],
       [
         {
-          "name": "ÁLVARO AGUADO",
+          "name": "IVÁN ESCUDERO",
           "position": "MID",
-          "number": "5"
-        },
-        {
-          "name": "KIKE PÉREZ",
-          "position": "MID",
-          "number": "6"
+          "number": "18"
         },
         {
           "name": "MONCHU",
           "position": "MID",
-          "number": "7"
+          "number": "8"
         },
         {
-          "name": "SERGIO ESCUDERO",
+          "name": "KIKE PÉREZ",
           "position": "MID",
-          "number": "8"
+          "number": "4"
         },
         {
           "name": "LUIS PÉREZ",
           "position": "MID",
-          "number": "9"
+          "number": "2"
+        },
+        {
+          "name": "ÁLVARO AGUADO",
+          "position": "MID",
+          "number": "6"
         }
       ],
       [
         {
           "name": "GONZALO PLATA",
           "position": "FWD",
-          "number": "10"
+          "number": "11"
         },
         {
           "name": "CYLE LARIN",
           "position": "FWD",
-          "number": "11"
+          "number": "25"
         }
       ]
     ]
