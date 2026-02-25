@@ -60,8 +60,8 @@
         <div class="mode-buttons">
             <div class="mode-btn" onclick="startGame('liga')">
                 <div class="mode-btn-title">⚽ LIGA</div>
-                <div class="mode-btn-desc">Partidos de La Liga Española</div>
-                <div class="mode-btn-teams">Temporadas de La Liga</div>
+                <div class="mode-btn-desc">Partidos de ligas nacionales y copas</div>
+                <div class="mode-btn-teams">La Liga, Premier League, Serie A, Bundesliga...</div>
             </div>
             <div class="mode-btn" onclick="startGame('champions')">
                 <div class="mode-btn-title">🏆 CHAMPIONS LEAGUE</div>
@@ -122,9 +122,13 @@
         <div id="guess-modal" class="guess-modal">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button class="reveal-btn-modal" id="reveal-btn-modal">Revelar</button>
-                    <button class="back-btn" id="back-btn">← </button>
+                    <button class="back-btn" id="back-btn" title="Volver">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
                     <div class="modal-title">ADIVINA EL JUGADOR</div>
+                    <button class="reveal-btn-modal" id="reveal-btn-modal">Revelar</button>
                 </div>
                 
                 <div id="guess-grid" class="guess-grid"></div>
