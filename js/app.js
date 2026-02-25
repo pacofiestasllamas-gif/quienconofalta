@@ -9,6 +9,7 @@ let failedPlayers = new Set(); // Jugadores revelados por agotar intentos
 let currentGuess = [];
 let playerAttempts = {}; // Contador de intentos por jugador
 let playerGuessHistory = {}; // Historial de intentos del wordle por jugador
+let playerCurrentGuess = {}; // Intento parcial en curso por jugador
 
 // Estadísticas
 let stats = {
@@ -229,6 +230,7 @@ function loadMatch() {
     failedPlayers = new Set();
     playerAttempts = {};
     playerGuessHistory = {};
+    playerCurrentGuess = {};
     
     // Mostrar información del partido
     document.getElementById('competition').textContent = currentMatch.competition;
@@ -326,8 +328,15 @@ function openGuessModal(playerIndex) {
     // Si el jugador fue revelado correctamente (adivinado), no abrir modal
     if (revealedPlayers.has(playerIndex) && !failedPlayers.has(playerIndex)) return;
     
+    // Guardar el intento parcial del jugador anterior antes de cambiar
+    if (currentPlayerIndex !== null && currentPlayerIndex !== playerIndex) {
+        playerCurrentGuess[currentPlayerIndex] = [...currentGuess];
+    }
+    
     currentPlayerIndex = playerIndex;
-    currentGuess = [];
+    
+    // Restaurar el intento parcial de este jugador (o vacío si es nuevo)
+    currentGuess = playerCurrentGuess[playerIndex] ? [...playerCurrentGuess[playerIndex]] : [];
     
     // Determinar si es modo solo lectura (jugador fallido revelado)
     const isReadOnly = failedPlayers.has(playerIndex);
@@ -416,6 +425,11 @@ function openGuessModal(playerIndex) {
     // Restaurar estado del teclado
     for (const attempt of history) {
         updateKeyboard(attempt.guess.split(''), attempt.status);
+    }
+    
+    // Restaurar el intento parcial en curso en la fila activa
+    if (currentGuess.length > 0) {
+        updateCurrentRow();
     }
     
     document.getElementById('guess-modal').classList.add('active');
@@ -776,6 +790,8 @@ function revealPlayer(playerIndex, isFailed = false) {
         delete playerGuessHistory[playerIndex];
         delete playerAttempts[playerIndex];
     }
+    // Limpiar siempre el intento parcial al revelar
+    delete playerCurrentGuess[playerIndex];
     
     renderFormation();
     updateRevealedCount();
@@ -795,6 +811,10 @@ function updateRevealedCount() {
 }
 
 function closeGuessModal() {
+    // Guardar el intento parcial antes de cerrar
+    if (currentPlayerIndex !== null) {
+        playerCurrentGuess[currentPlayerIndex] = [...currentGuess];
+    }
     document.getElementById('guess-modal').classList.remove('active');
     currentPlayerIndex = null;
 }
