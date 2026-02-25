@@ -896,7 +896,6 @@ function loadSettings() {
         document.getElementById('contrast-toggle').classList.add('active');
     }
 }
-}
 
 // EVENT LISTENERS
 document.addEventListener('DOMContentLoaded', () => {
