@@ -1,81 +1,6 @@
 [
   {
     "competition": "LA LIGA • TEMPORADA 2014-15",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "GRANADA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-3",
-    "date": "17 de mayo 2015",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "EÑAUT ZUBIKARAI",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ÍÑIGO MARTÍNEZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "MIKEL GONZÁLEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALBERTO DE LA BELLA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "CARLOS MARTÍNEZ",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "XABI PRIETO",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "MARKEL BERGARA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "GONZALO CASTRO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "CARLOS VELA",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "SERGIO CANALES",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "ALFRED FINNBOGASON",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2014-15",
     "homeTeam": "MALAGA",
     "awayTeam": "REAL SOCIEDAD",
     "homeBadge": "🏟️",
@@ -86,140 +11,65 @@
     "formation": [
       [
         {
-          "name": "GERÓNIMO RULLI",
+          "name": "RULLI",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "ION ANSOTEGI",
+          "name": "BERCHICHE",
           "position": "DEF",
-          "number": "2"
+          "number": "19"
         },
         {
-          "name": "ÍÑIGO MARTÍNEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "YURI BERCHICHE",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ESTEBAN GRANERO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "MARKEL BERGARA",
+          "name": "IÑIGO MARTÍNEZ",
           "position": "DEF",
           "number": "6"
         },
         {
-          "name": "JOSEBA ZALDÚA",
+          "name": "ANSOTEGI",
           "position": "DEF",
-          "number": "7"
+          "number": "15"
+        },
+        {
+          "name": "ZALDUA",
+          "position": "DEF",
+          "number": "20"
         }
       ],
       [
         {
-          "name": "SERGIO CANALES",
+          "name": "GRANERO",
           "position": "MID",
           "number": "8"
         },
         {
-          "name": "GONZALO CASTRO",
+          "name": "BERGARA",
           "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "XABI PRIETO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "IMANOL AGIRRETXE",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2014-15",
-    "homeTeam": "ATHLETIC CLUB",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "28 de abril 2015",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "GERÓNIMO RULLI",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MIKEL GONZÁLEZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ÍÑIGO MARTÍNEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALBERTO DE LA BELLA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "RUBÉN PARDO",
-          "position": "DEF",
           "number": "5"
         },
         {
-          "name": "MARKEL BERGARA",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "CARLOS MARTÍNEZ",
-          "position": "DEF",
-          "number": "7"
+          "name": "CANALES",
+          "position": "MID",
+          "number": "16"
         }
       ],
       [
         {
-          "name": "DAVID ZURUTUZA",
-          "position": "MID",
-          "number": "8"
+          "name": "CHORY CASTRO",
+          "position": "FWD",
+          "number": "18"
         },
         {
-          "name": "GONZALO CASTRO",
-          "position": "MID",
+          "name": "AGIRRETXE",
+          "position": "FWD",
           "number": "9"
         },
         {
-          "name": "XABI PRIETO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "CARLOS VELA",
+          "name": "PRIETO",
           "position": "FWD",
-          "number": "11"
+          "number": "10"
         }
       ]
     ]
@@ -236,365 +86,65 @@
     "formation": [
       [
         {
-          "name": "GERÓNIMO RULLI",
+          "name": "RULLI",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "ÍÑIGO MARTÍNEZ",
+          "name": "BERCHICHE",
           "position": "DEF",
-          "number": "2"
+          "number": "19"
         },
         {
-          "name": "MIKEL GONZÁLEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "YURI BERCHICHE",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "RUBÉN PARDO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ASIER ILLARRAMENDI",
+          "name": "IÑIGO MARTÍNEZ",
           "position": "DEF",
           "number": "6"
         },
         {
-          "name": "ARITZ ELUSTONDO",
+          "name": "GONZÁLEZ",
           "position": "DEF",
-          "number": "7"
+          "number": "3"
+        },
+        {
+          "name": "ELUSTONDO",
+          "position": "DEF",
+          "number": "30"
         }
       ],
       [
         {
-          "name": "XABI PRIETO",
+          "name": "ILLARRAMENDI",
           "position": "MID",
-          "number": "8"
+          "number": "4"
         },
         {
-          "name": "SERGIO CANALES",
+          "name": "RUBÉN PARDO",
           "position": "MID",
+          "number": "14"
+        },
+        {
+          "name": "XABI PRIETO",
+          "position": "MID",
+          "number": "10"
+        }
+      ],
+      [
+        {
+          "name": "CANALES",
+          "position": "FWD",
+          "number": "16"
+        },
+        {
+          "name": "AGIRRETXE",
+          "position": "FWD",
           "number": "9"
         },
         {
           "name": "BRUMA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "IMANOL AGIRRETXE",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "REAL MADRID",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "3-1",
-    "date": "30 de diciembre 2015",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "GERÓNIMO RULLI",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ARITZ ELUSTONDO",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ÍÑIGO MARTÍNEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "YURI BERCHICHE",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ASIER ILLARRAMENDI",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "MARKEL BERGARA",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "CARLOS MARTÍNEZ",
-          "position": "DEF",
           "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "IMANOL AGIRRETXE",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "XABI PRIETO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "JONATHAS",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-1",
-    "date": "31 de enero 2016",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "GERÓNIMO RULLI",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MIKEL GONZÁLEZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ÍÑIGO MARTÍNEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "HÉCTOR HERNÁNDEZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ASIER ILLARRAMENDI",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "RUBÉN PARDO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ARITZ ELUSTONDO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "XABI PRIETO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "CARLOS VELA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "JONATHAS",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "ESPANYOL",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-2",
-    "date": "10 de febrero 2017",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "GERÓNIMO RULLI",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "RAÚL NAVAS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ÍÑIGO MARTÍNEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "YURI BERCHICHE",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ÁLVARO ODRIOZOLA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "DAVID ZURUTUZA",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "XABI PRIETO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ASIER ILLARRAMENDI",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "WILLIAN JOSÉ",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "CARLOS VELA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "LEGANES",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-2",
-    "date": "28 de octubre 2016",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "GERÓNIMO RULLI",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "RAÚL NAVAS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ÍÑIGO MARTÍNEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "YURI BERCHICHE",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "CARLOS MARTÍNEZ",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "XABI PRIETO",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "ASIER ILLARRAMENDI",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "DAVID ZURUTUZA",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "WILLIAN JOSÉ",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "CARLOS VELA",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]
@@ -611,215 +161,65 @@
     "formation": [
       [
         {
-          "name": "GERÓNIMO RULLI",
+          "name": "RULLI",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "ARITZ ELUSTONDO",
+          "name": "BERCHICHE",
           "position": "DEF",
-          "number": "2"
+          "number": "19"
         },
         {
-          "name": "ÍÑIGO MARTÍNEZ",
+          "name": "IÑIGO MARTÍNEZ",
           "position": "DEF",
-          "number": "3"
+          "number": "6"
         },
         {
-          "name": "YURI BERCHICHE",
+          "name": "ELUSTONDO",
           "position": "DEF",
-          "number": "4"
+          "number": "15"
         },
         {
-          "name": "ÁLVARO ODRIOZOLA",
+          "name": "ODRIOZOLA",
           "position": "DEF",
-          "number": "5"
+          "number": "29"
         }
       ],
       [
+        {
+          "name": "ZURUTUZA",
+          "position": "MID",
+          "number": "17"
+        },
+        {
+          "name": "GRANERO",
+          "position": "MID",
+          "number": "8"
+        },
         {
           "name": "XABI PRIETO",
           "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "DAVID ZURUTUZA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ESTEBAN GRANERO",
-          "position": "MID",
-          "number": "8"
+          "number": "10"
         }
       ],
       [
         {
-          "name": "WILLIAN JOSÉ",
+          "name": "OYARZABAL",
           "position": "FWD",
-          "number": "9"
+          "number": "18"
         },
         {
-          "name": "MIKEL OYARZABAL",
+          "name": "WILLIAN JOSÉ",
           "position": "FWD",
-          "number": "10"
+          "number": "12"
         },
         {
           "name": "JUANMI",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "GETAFE",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-2",
-    "date": "17 de marzo 2018",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "MIGUEL ÁNGEL MOYÁ",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "RAÚL NAVAS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "HÉCTOR MORENO",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALBERTO DE LA BELLA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ÁLVARO ODRIOZOLA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "DAVID ZURUTUZA",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "ASIER ILLARRAMENDI",
-          "position": "MID",
           "number": "7"
-        },
-        {
-          "name": "IGOR ZUBELDIA",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "WILLIAN JOSÉ",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "SERGIO CANALES",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "ESPANYOL",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-1",
-    "date": "11 de marzo 2018",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "MIGUEL ÁNGEL MOYÁ",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "DIEGO LLORENTE",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "HÉCTOR MORENO",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALBERTO DE LA BELLA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ÁLVARO ODRIOZOLA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "ASIER ILLARRAMENDI",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "IGOR ZUBELDIA",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "WILLIAN JOSÉ",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "JUANMI",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]
@@ -836,140 +236,65 @@
     "formation": [
       [
         {
-          "name": "MIGUEL ÁNGEL MOYÁ",
+          "name": "MOYÁ",
           "position": "GK",
-          "number": "1"
+          "number": "25"
         }
       ],
       [
         {
-          "name": "HÉCTOR MORENO",
+          "name": "RODRIGUES",
           "position": "DEF",
-          "number": "2"
+          "number": "20"
         },
         {
-          "name": "RAÚL NAVAS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "KÉVIN RODRIGUES",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "RUBÉN PARDO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "IGOR ZUBELDIA",
+          "name": "MORENO",
           "position": "DEF",
           "number": "6"
         },
         {
-          "name": "ARITZ ELUSTONDO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "ADNAN JANUZAJ",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "WILLIAN JOSÉ",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "CELTA VIGO",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "3-1",
-    "date": "07 de abril 2019",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "GERÓNIMO RULLI",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ARITZ ELUSTONDO",
-          "position": "DEF",
-          "number": "15"
-        },
-        {
-          "name": "RAÚL NAVAS",
+          "name": "NAVAS",
           "position": "DEF",
           "number": "22"
         },
         {
-          "name": "THÉO HERNÁNDEZ",
+          "name": "ELUSTONDO",
           "position": "DEF",
-          "number": "19"
-        },
-        {
-          "name": "JOSEBA ZALDÚA",
-          "position": "DEF",
-          "number": "2"
+          "number": "15"
         }
       ],
       [
         {
-          "name": "MIKEL MERINO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "IGOR ZUBELDIA",
+          "name": "ZUBELDIA",
           "position": "MID",
           "number": "5"
         },
         {
-          "name": "SANDRO RAMÍREZ",
+          "name": "RUBÉN PARDO",
           "position": "MID",
-          "number": "24"
+          "number": "14"
         },
         {
-          "name": "MIKEL OYARZABAL",
+          "name": "OYARZABAL",
           "position": "MID",
-          "number": "10"
+          "number": "18"
         }
       ],
       [
+        {
+          "name": "JANUZAJ",
+          "position": "FWD",
+          "number": "8"
+        },
         {
           "name": "WILLIAN JOSÉ",
           "position": "FWD",
           "number": "12"
         },
         {
-          "name": "RUBÉN PARDO",
+          "name": "SERGIO CANALES",
           "position": "FWD",
-          "number": "14"
+          "number": "16"
         }
       ]
     ]
@@ -986,53 +311,43 @@
     "formation": [
       [
         {
-          "name": "MIGUEL ÁNGEL MOYÁ",
+          "name": "MOYÁ",
           "position": "GK",
           "number": "13"
         }
       ],
       [
         {
-          "name": "ARITZ ELUSTONDO",
-          "position": "DEF",
-          "number": "15"
-        },
-        {
-          "name": "RAÚL NAVAS",
-          "position": "DEF",
-          "number": "22"
-        },
-        {
-          "name": "KÉVIN RODRIGUES",
+          "name": "RODRIGUES",
           "position": "DEF",
           "number": "20"
         },
         {
-          "name": "ASIER ILLARRAMENDI",
+          "name": "ELUSTONDO",
           "position": "DEF",
-          "number": "4"
+          "number": "15"
         },
         {
-          "name": "IGOR ZUBELDIA",
+          "name": "NAVAS",
           "position": "DEF",
-          "number": "5"
+          "number": "22"
         },
         {
-          "name": "ANDONI GOROSABEL",
+          "name": "GOROSABEL",
           "position": "DEF",
           "number": "18"
         }
       ],
       [
         {
-          "name": "LUCA SANGALLI",
+          "name": "ZUBELDIA",
           "position": "MID",
-          "number": "23"
+          "number": "5"
         },
         {
-          "name": "DAVID ZURUTUZA",
+          "name": "ILLARRAMENDI",
           "position": "MID",
-          "number": "17"
+          "number": "4"
         },
         {
           "name": "RUBÉN PARDO",
@@ -1042,159 +357,19 @@
       ],
       [
         {
-          "name": "WILLIAN JOSÉ",
+          "name": "ZURUTUZA",
           "position": "FWD",
-          "number": "12"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "SD HUESCA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-0",
-    "date": "27 de enero 2019",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "GERÓNIMO RULLI",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "RAÚL NAVAS",
-          "position": "DEF",
-          "number": "22"
+          "number": "17"
         },
-        {
-          "name": "DIEGO LLORENTE",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "THÉO HERNÁNDEZ",
-          "position": "DEF",
-          "number": "19"
-        },
-        {
-          "name": "ASIER ILLARRAMENDI",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "IGOR ZUBELDIA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "JOSEBA ZALDÚA",
-          "position": "DEF",
-          "number": "2"
-        }
-      ],
-      [
-        {
-          "name": "MIKEL MERINO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "SANDRO RAMÍREZ",
-          "position": "MID",
-          "number": "24"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
         {
           "name": "WILLIAN JOSÉ",
           "position": "FWD",
           "number": "12"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "REAL MADRID",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-2",
-    "date": "21 de junio 2020",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "ÁLEX REMIRO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "DIEGO LLORENTE",
-          "position": "DEF",
-          "number": "2"
         },
         {
-          "name": "ROBIN LE NORMAND",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "NACHO MONREAL",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "IGOR ZUBELDIA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "MIKEL MERINO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ANDONI GOROSABEL",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "MARTIN ØDEGAARD",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PORTU",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "ALEXANDER ISAK",
+          "name": "SANGALLI",
           "position": "FWD",
-          "number": "11"
+          "number": "23"
         }
       ]
     ]
@@ -1211,215 +386,65 @@
     "formation": [
       [
         {
-          "name": "ÁLEX REMIRO",
+          "name": "REMIRO",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "DIEGO LLORENTE",
+          "name": "MONREAL",
           "position": "DEF",
-          "number": "2"
+          "number": "20"
         },
         {
-          "name": "IGOR ZUBELDIA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "NACHO MONREAL",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDER GUEVARA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "JOSEBA ZALDÚA",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "MARTIN ØDEGAARD",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "MIKEL MERINO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PORTU",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "ALEXANDER ISAK",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "GETAFE",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-2",
-    "date": "06 de octubre 2019",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "MIGUEL ÁNGEL MOYÁ",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "DIEGO LLORENTE",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ARITZ ELUSTONDO",
+          "name": "LLORENTE",
           "position": "DEF",
           "number": "3"
         },
         {
-          "name": "NACHO MONREAL",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDER GUEVARA",
+          "name": "ZUBELDIA",
           "position": "DEF",
           "number": "5"
         },
         {
-          "name": "MIKEL MERINO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "JOSEBA ZALDÚA",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "MARTIN ØDEGAARD",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PORTU",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "WILLIAN JOSÉ",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "LEVANTE",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "06 de julio 2020",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "MIGUEL ÁNGEL MOYÁ",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ROBIN LE NORMAND",
+          "name": "ZALDUA",
           "position": "DEF",
           "number": "2"
-        },
-        {
-          "name": "ARITZ ELUSTONDO",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "AIHEN MUÑOZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MARTÍN ZUBIMENDI",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "MIKEL MERINO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ANDONI GOROSABEL",
-          "position": "DEF",
-          "number": "7"
         }
       ],
       [
         {
-          "name": "MARTIN ØDEGAARD",
+          "name": "GUEVARA",
           "position": "MID",
-          "number": "8"
+          "number": "16"
         },
         {
-          "name": "MIKEL OYARZABAL",
+          "name": "ØDEGAARD",
           "position": "MID",
-          "number": "9"
+          "number": "21"
+        },
+        {
+          "name": "MERINO",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "OYARZABAL",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "ISAK",
+          "position": "FWD",
+          "number": "19"
         },
         {
           "name": "PORTU",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "ALEXANDER ISAK",
           "position": "FWD",
-          "number": "11"
+          "number": "7"
         }
       ]
     ]
@@ -1436,140 +461,65 @@
     "formation": [
       [
         {
-          "name": "ÁLEX REMIRO",
+          "name": "REMIRO",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "ROBIN LE NORMAND",
+          "name": "MONREAL",
           "position": "DEF",
-          "number": "2"
+          "number": "20"
         },
         {
-          "name": "ARITZ ELUSTONDO",
+          "name": "LE NORMAND",
           "position": "DEF",
-          "number": "3"
+          "number": "24"
         },
         {
-          "name": "NACHO MONREAL",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MARTÍN ZUBIMENDI",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ANDER GUEVARA",
+          "name": "ELUSTONDO",
           "position": "DEF",
           "number": "6"
         },
         {
-          "name": "ANDONI GOROSABEL",
+          "name": "GOROSABEL",
           "position": "DEF",
-          "number": "7"
+          "number": "18"
         }
       ],
       [
         {
-          "name": "DAVID SILVA",
+          "name": "ZUBIMENDI",
           "position": "MID",
-          "number": "8"
+          "number": "36"
         },
         {
-          "name": "MIKEL OYARZABAL",
+          "name": "GUEVARA",
           "position": "MID",
-          "number": "9"
+          "number": "16"
         },
         {
-          "name": "PORTU",
+          "name": "SILVA",
           "position": "MID",
-          "number": "10"
+          "number": "21"
         }
       ],
       [
         {
-          "name": "ALEXANDER ISAK",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "SD HUESCA",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "01 de mayo 2021",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "ÁLEX REMIRO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ARITZ ELUSTONDO",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ROBIN LE NORMAND",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "NACHO MONREAL",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDONI GOROSABEL",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "MARTÍN ZUBIMENDI",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ANDER GUEVARA",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "ALEXANDER ISAK",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "PORTU",
+          "name": "OYARZABAL",
           "position": "FWD",
           "number": "10"
         },
         {
-          "name": "ADNAN JANUZAJ",
+          "name": "ISAK",
           "position": "FWD",
-          "number": "11"
+          "number": "19"
+        },
+        {
+          "name": "PORTU",
+          "position": "FWD",
+          "number": "7"
         }
       ]
     ]
@@ -1586,290 +536,65 @@
     "formation": [
       [
         {
-          "name": "ÁLEX REMIRO",
+          "name": "REMIRO",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "ROBIN LE NORMAND",
+          "name": "RICO",
           "position": "DEF",
-          "number": "2"
+          "number": "15"
         },
         {
-          "name": "IGOR ZUBELDIA",
+          "name": "LE NORMAND",
           "position": "DEF",
-          "number": "3"
+          "number": "24"
         },
         {
-          "name": "DIEGO RICO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MARTÍN ZUBIMENDI",
+          "name": "ZUBELDIA",
           "position": "DEF",
           "number": "5"
         },
         {
-          "name": "JOSEBA ZALDÚA",
+          "name": "ZALDUA",
           "position": "DEF",
-          "number": "6"
+          "number": "2"
         }
       ],
       [
         {
-          "name": "MIKEL MERINO",
+          "name": "ZUBIMENDI",
           "position": "MID",
-          "number": "7"
+          "number": "3"
         },
         {
-          "name": "ADNAN JANUZAJ",
+          "name": "JANUZAJ",
           "position": "MID",
-          "number": "8"
+          "number": "11"
         },
         {
           "name": "RAFINHA",
           "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "ALEXANDER ISAK",
-          "position": "FWD",
-          "number": "10"
+          "number": "17"
         },
         {
-          "name": "ALEXANDER SØRLOTH",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2021-22",
-    "homeTeam": "MALLORCA",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-2",
-    "date": "02 de marzo 2022",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "ÁLEX REMIRO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JON PACHECO",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ROBIN LE NORMAND",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ANDONI GOROSABEL",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDER GUEVARA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "MIKEL MERINO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ARITZ ELUSTONDO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "DAVID SILVA",
+          "name": "MERINO",
           "position": "MID",
           "number": "8"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PORTU",
-          "position": "MID",
-          "number": "10"
         }
       ],
       [
         {
-          "name": "ALEXANDER SØRLOTH",
+          "name": "ISAK",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2021-22",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "VALENCIA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-0",
-    "date": "21 de noviembre 2021",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "ÁLEX REMIRO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ARITZ ELUSTONDO",
-          "position": "DEF",
-          "number": "2"
+          "number": "19"
         },
         {
-          "name": "ROBIN LE NORMAND",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "DIEGO RICO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDER GUEVARA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "MIKEL MERINO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "ANDONI GOROSABEL",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "DAVID SILVA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "ANDER BARRENETXEA",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "ADNAN JANUZAJ",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "ALEXANDER ISAK",
+          "name": "SØRLOTH",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-2",
-    "date": "09 de noviembre 2022",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "ÁLEX REMIRO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ROBIN LE NORMAND",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JON PACHECO",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "DIEGO RICO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ÁLEX SOLA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "DAVID SILVA",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "MARTÍN ZUBIMENDI",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "BRAIS MÉNDEZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "MIKEL MERINO",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "CARLOS FERNÁNDEZ",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "ALEXANDER SØRLOTH",
-          "position": "FWD",
-          "number": "11"
+          "number": "23"
         }
       ]
     ]
@@ -1886,140 +611,65 @@
     "formation": [
       [
         {
-          "name": "ÁLEX REMIRO",
+          "name": "REMIRO",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "ROBIN LE NORMAND",
+          "name": "RICO",
           "position": "DEF",
-          "number": "2"
+          "number": "15"
         },
         {
-          "name": "IGOR ZUBELDIA",
+          "name": "LE NORMAND",
           "position": "DEF",
-          "number": "3"
+          "number": "24"
         },
         {
-          "name": "DIEGO RICO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDER BARRENETXEA",
+          "name": "ZUBELDIA",
           "position": "DEF",
           "number": "5"
+        },
+        {
+          "name": "MARÍN",
+          "position": "DEF",
+          "number": "42"
         }
       ],
       [
+        {
+          "name": "ZUBIMENDI",
+          "position": "MID",
+          "number": "3"
+        },
+        {
+          "name": "ILLARRAMENDI",
+          "position": "MID",
+          "number": "4"
+        },
         {
           "name": "ROBERT NAVARRO",
           "position": "MID",
-          "number": "6"
-        },
+          "number": "17"
+        }
+      ],
+      [
         {
-          "name": "TAKEFUSA KUBO",
-          "position": "MID",
+          "name": "BARRENETXEA",
+          "position": "FWD",
           "number": "7"
         },
         {
-          "name": "ASIER ILLARRAMENDI",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "MARTÍN ZUBIMENDI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PABLO MARÍN",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "ALEXANDER SØRLOTH",
+          "name": "SØRLOTH",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "GIRONA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-2",
-    "date": "13 de mayo 2023",
-    "playingTeam": "REAL SOCIEDAD",
-    "formation": [
-      [
-        {
-          "name": "ÁLEX REMIRO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "IGOR ZUBELDIA",
-          "position": "DEF",
-          "number": "2"
+          "number": "19"
         },
         {
-          "name": "ROBIN LE NORMAND",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "AIHEN MUÑOZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDONI GOROSABEL",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "MARTÍN ZUBIMENDI",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "MIKEL MERINO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "MIKEL OYARZABAL",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "TAKEFUSA KUBO",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "ALEXANDER SØRLOTH",
+          "name": "KUBO",
           "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "DAVID SILVA",
-          "position": "FWD",
-          "number": "11"
+          "number": "14"
         }
       ]
     ]

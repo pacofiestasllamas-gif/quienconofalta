@@ -1,81 +1,6 @@
 [
   {
     "competition": "LA LIGA • TEMPORADA 2014-15",
-    "homeTeam": "VILLARREAL",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-2",
-    "date": "22 de marzo 2015",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "TIMOTHÉE KOLODZIEJCZAK",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "NICOLÁS PAREJA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "BENOÎT TRÉMOULINAS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "STÉPHANE MBIA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "DANIEL CARRIÇO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "COKE",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "IBORRA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "VITOLO",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "DIOGO FIGUEIRAS",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "CARLOS BACCA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2014-15",
     "homeTeam": "SEVILLA",
     "awayTeam": "ATHLETIC CLUB",
     "homeBadge": "🏟️",
@@ -88,179 +13,14 @@
         {
           "name": "SERGIO RICO",
           "position": "GK",
-          "number": "1"
+          "number": "29"
         }
       ],
       [
-        {
-          "name": "NICOLÁS PAREJA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DANIEL CARRIÇO",
-          "position": "DEF",
-          "number": "3"
-        },
         {
           "name": "BENOÎT TRÉMOULINAS",
           "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ÉVER BANEGA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "GRZEGORZ KRYCHOWIAK",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "COKE",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "IBORRA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "VITOLO",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "ALEIX VIDAL",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "CARLOS BACCA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2014-15",
-    "homeTeam": "CELTA VIGO",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "10 de mayo 2015",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ALEJANDRO ARRIBAS",
-          "position": "DEF",
           "number": "2"
-        },
-        {
-          "name": "TIMOTHÉE KOLODZIEJCZAK",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "FERNANDO NAVARRO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "GRZEGORZ KRYCHOWIAK",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "IBORRA",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "COKE",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "IAGO ASPAS",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "DENIS SUÁREZ",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "DIOGO FIGUEIRAS",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "KEVIN GAMEIRO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2014-15",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "4-3",
-    "date": "22 de febrero 2015",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ALEJANDRO ARRIBAS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "TIMOTHÉE KOLODZIEJCZAK",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "BENOÎT TRÉMOULINAS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "IBORRA",
-          "position": "DEF",
-          "number": "5"
         },
         {
           "name": "DANIEL CARRIÇO",
@@ -268,108 +28,48 @@
           "number": "6"
         },
         {
-          "name": "DIOGO FIGUEIRAS",
+          "name": "FEDERICO FAZIO",
           "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ÉVER BANEGA",
-          "position": "MID",
-          "number": "8"
+          "number": "21"
         },
         {
-          "name": "ALEIX VIDAL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "GERARD DEULOFEU",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "CARLOS BACCA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "GRANADA",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-1",
-    "date": "03 de enero 2016",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ADIL RAMI",
+          "name": "COKE",
           "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "TIMOTHÉE KOLODZIEJCZAK",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MARIANO",
-          "position": "DEF",
-          "number": "5"
+          "number": "23"
         }
       ],
       [
         {
           "name": "GRZEGORZ KRYCHOWIAK",
           "position": "MID",
-          "number": "6"
+          "number": "4"
         },
         {
-          "name": "IBORRA",
+          "name": "ÉVER BANEGA",
           "position": "MID",
-          "number": "7"
+          "number": "19"
         },
         {
-          "name": "VITOLO",
+          "name": "VICENTE IBORRA",
           "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "JOSÉ ANTONIO REYES",
-          "position": "MID",
-          "number": "9"
+          "number": "12"
         }
       ],
       [
         {
-          "name": "KEVIN GAMEIRO",
+          "name": "VITOLO",
           "position": "FWD",
-          "number": "10"
+          "number": "20"
         },
         {
-          "name": "FERNANDO LLORENTE",
+          "name": "CARLOS BACCA",
           "position": "FWD",
-          "number": "11"
+          "number": "9"
+        },
+        {
+          "name": "ALEIX VIDAL",
+          "position": "FWD",
+          "number": "22"
         }
       ]
     ]
@@ -393,283 +93,58 @@
       ],
       [
         {
-          "name": "ADIL RAMI",
+          "name": "BENOÎT TRÉMOULINAS",
           "position": "DEF",
           "number": "2"
         },
         {
-          "name": "MARCO ANDREOLLI",
+          "name": "GABRIEL ANDREOLLI",
+          "position": "DEF",
+          "number": "17"
+        },
+        {
+          "name": "ADIL RAMI",
           "position": "DEF",
           "number": "3"
-        },
-        {
-          "name": "BENOÎT TRÉMOULINAS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "STEVEN NZONZI",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "GRZEGORZ KRYCHOWIAK",
-          "position": "DEF",
-          "number": "6"
         },
         {
           "name": "MARIANO",
           "position": "DEF",
-          "number": "7"
+          "number": "25"
         }
       ],
       [
-        {
-          "name": "ÉVER BANEGA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "YEVHEN KONOPLYANKA",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "VITOLO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "CIRO IMMOBILE",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "ESPANYOL",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "30 de diciembre 2015",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ADIL RAMI",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "TIMOTHÉE KOLODZIEJCZAK",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "BENOÎT TRÉMOULINAS",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "SEBASTIÁN CRISTÓFORO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "IBORRA",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "MARIANO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ÉVER BANEGA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "YEVHEN KONOPLYANKA",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "VITOLO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "CIRO IMMOBILE",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "BARCELONA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-1",
-    "date": "03 de octubre 2015",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MARCO ANDREOLLI",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "TIMOTHÉE KOLODZIEJCZAK",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "BENOÎT TRÉMOULINAS",
-          "position": "DEF",
-          "number": "4"
-        },
         {
           "name": "GRZEGORZ KRYCHOWIAK",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "STEVEN NZONZI",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "COKE",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "IBORRA",
           "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "MICHAEL KROHN-DEHLI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "VITOLO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "KEVIN GAMEIRO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "18 de febrero 2017",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "GABRIEL MERCADO",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ADIL RAMI",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "CLÉMENT LENGLET",
-          "position": "DEF",
           "number": "4"
         },
         {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "PABLO SARABIA",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "SAMIR NASRI",
-          "position": "MID",
-          "number": "7"
-        },
-        {
           "name": "STEVEN NZONZI",
           "position": "MID",
-          "number": "8"
+          "number": "15"
         },
         {
-          "name": "FRANCO VÁZQUEZ",
+          "name": "ÉVER BANEGA",
           "position": "MID",
-          "number": "9"
+          "number": "19"
         }
       ],
       [
         {
-          "name": "WISSAM BEN YEDDER",
+          "name": "YEVHEN KONOPLYANKA",
           "position": "FWD",
-          "number": "10"
+          "number": "22"
         },
         {
-          "name": "STEVAN JOVETIC",
+          "name": "CIRO IMMOBILE",
           "position": "FWD",
           "number": "11"
+        },
+        {
+          "name": "VITOLO",
+          "position": "FWD",
+          "number": "20"
         }
       ]
     ]
@@ -693,201 +168,41 @@
       ],
       [
         {
-          "name": "ADIL RAMI",
+          "name": "CLÉMENT LENGLET",
           "position": "DEF",
-          "number": "2"
+          "number": "5"
         },
         {
           "name": "DANIEL CARRIÇO",
           "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "CLÉMENT LENGLET",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MATÍAS KRANEVITTER",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "FRANCO VÁZQUEZ",
-          "position": "MID",
           "number": "6"
-        },
-        {
-          "name": "PABLO SARABIA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "MARIANO",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "STEVAN JOVETIC",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "JOAQUÍN CORREA",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "WALTER MONTOYA",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "GRANADA",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-1",
-    "date": "03 de diciembre 2016",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "NICOLÁS PAREJA",
-          "position": "DEF",
-          "number": "2"
         },
         {
           "name": "ADIL RAMI",
           "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "GABRIEL MERCADO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "MATÍAS KRANEVITTER",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "STEVEN NZONZI",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "MARIANO",
-          "position": "DEF",
-          "number": "7"
+          "number": "23"
         }
       ],
       [
-        {
-          "name": "FRANCO VÁZQUEZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "VITOLO",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "JOAQUÍN CORREA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "LUCIANO VIETTO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "VALENCIA",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-0",
-    "date": "16 de abril 2017",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "NICOLÁS PAREJA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "CLÉMENT LENGLET",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "STEVEN NZONZI",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "IBORRA",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "MARIANO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "FRANCO VÁZQUEZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "VITOLO",
-          "position": "MID",
-          "number": "9"
-        },
         {
           "name": "PABLO SARABIA",
           "position": "MID",
-          "number": "10"
+          "number": "17"
+        },
+        {
+          "name": "MAXIME GONALONS",
+          "position": "MID",
+          "number": "4"
+        },
+        {
+          "name": "FRANCO VÁZQUEZ",
+          "position": "MID",
+          "number": "22"
+        },
+        {
+          "name": "MARIANO",
+          "position": "MID",
+          "number": "3"
         }
       ],
       [
@@ -895,156 +210,16 @@
           "name": "JOAQUÍN CORREA",
           "position": "FWD",
           "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "EIBAR",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "5-1",
-    "date": "03 de febrero 2018",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "SERGIO RICO",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "CLÉMENT LENGLET",
-          "position": "DEF",
-          "number": "2"
         },
         {
-          "name": "NICOLÁS PAREJA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ROQUE MESA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "STEVEN NZONZI",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "MIGUEL LAYÚN",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "NOLITO",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "SANDRO RAMÍREZ",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PABLO SARABIA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "WISSAM BEN YEDDER",
+          "name": "STEVAN JOVETIĆ",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "REAL BETIS",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-2",
-    "date": "12 de mayo 2018",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "DAVID SORIA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "CLÉMENT LENGLET",
-          "position": "DEF",
-          "number": "2"
+          "number": "16"
         },
         {
-          "name": "SIMON KJÆR",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ROQUE MESA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "STEVEN NZONZI",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "GABRIEL MERCADO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ÉVER BANEGA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "NOLITO",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PABLO SARABIA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "SANDRO RAMÍREZ",
+          "name": "WALTER MONTOYA",
           "position": "FWD",
-          "number": "11"
+          "number": "14"
         }
       ]
     ]
@@ -1068,208 +243,58 @@
       ],
       [
         {
-          "name": "SIMON KJÆR",
+          "name": "SERGIO ESCUDERO",
           "position": "DEF",
-          "number": "2"
+          "number": "18"
         },
         {
           "name": "CLÉMENT LENGLET",
           "position": "DEF",
-          "number": "3"
+          "number": "5"
         },
         {
-          "name": "SERGIO ESCUDERO",
+          "name": "SIMON KJAER",
           "position": "DEF",
           "number": "4"
         },
         {
-          "name": "SÉBASTIEN CORCHIA",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "STEVEN NZONZI",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "FRANCO VÁZQUEZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ÉVER BANEGA",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "WISSAM BEN YEDDER",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "NOLITO",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "04 de mayo 2018",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "DAVID SORIA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "GABRIEL MERCADO",
+          "name": "SIMÓN CORCHIA",
           "position": "DEF",
           "number": "2"
-        },
+        }
+      ],
+      [
         {
-          "name": "CLÉMENT LENGLET",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4"
+          "name": "ÉVER BANEGA",
+          "position": "MID",
+          "number": "10"
         },
         {
           "name": "STEVEN NZONZI",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ROQUE MESA",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "MIGUEL LAYÚN",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ÉVER BANEGA",
           "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "NOLITO",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "PABLO SARABIA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "SANDRO RAMÍREZ",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "CELTA VIGO",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "02 de febrero 2019",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "TOMÁS VACLÍK",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "GABRIEL MERCADO",
-          "position": "DEF",
-          "number": "25"
-        },
-        {
-          "name": "SIMON KJÆR",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "SERGI GÓMEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ÉVER BANEGA",
-          "position": "DEF",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "PABLO SARABIA",
-          "position": "MID",
-          "number": "17"
+          "number": "15"
         },
         {
           "name": "FRANCO VÁZQUEZ",
           "position": "MID",
           "number": "22"
-        },
-        {
-          "name": "GUILHERME ARANA",
-          "position": "MID",
-          "number": "23"
-        },
-        {
-          "name": "QUINCY PROMES",
-          "position": "MID",
-          "number": "21"
         }
       ],
       [
+        {
+          "name": "NOLITO",
+          "position": "FWD",
+          "number": "24"
+        },
         {
           "name": "WISSAM BEN YEDDER",
           "position": "FWD",
           "number": "9"
         },
         {
-          "name": "ANDRÉ SILVA",
+          "name": "JESÚS NAVAS",
           "position": "FWD",
-          "number": "12"
+          "number": "16"
         }
       ]
     ]
@@ -1286,123 +311,48 @@
     "formation": [
       [
         {
-          "name": "TOMÁS VACLÍK",
+          "name": "TOMÁŠ VACLÍK",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
+          "name": "SERGI GÓMEZ",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
           "name": "DANIEL CARRIÇO",
           "position": "DEF",
           "number": "6"
         },
         {
-          "name": "SIMON KJÆR",
+          "name": "SIMON KJAER",
           "position": "DEF",
           "number": "4"
-        },
-        {
-          "name": "SERGI GÓMEZ",
-          "position": "DEF",
-          "number": "3"
         }
       ],
       [
         {
-          "name": "PABLO SARABIA",
+          "name": "SERGIO ESCUDERO",
           "position": "MID",
-          "number": "17"
+          "number": "18"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "MID",
+          "number": "7"
         },
         {
           "name": "ÉVER BANEGA",
           "position": "MID",
           "number": "10"
-        },
-        {
-          "name": "ROQUE MESA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "MID",
-          "number": "18"
         },
         {
           "name": "ALEIX VIDAL",
           "position": "MID",
           "number": "11"
-        }
-      ],
-      [
-        {
-          "name": "ANDRÉ SILVA",
-          "position": "FWD",
-          "number": "12"
-        },
-        {
-          "name": "WISSAM BEN YEDDER",
-          "position": "FWD",
-          "number": "9"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "ALAVES",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "04 de abril 2019",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "JUAN SORIANO",
-          "position": "GK",
-          "number": "13"
-        }
-      ],
-      [
-        {
-          "name": "SIMON KJÆR",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "DANIEL CARRIÇO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "18"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "16"
-        }
-      ],
-      [
-        {
-          "name": "ROQUE MESA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "MAXIME GONALONS",
-          "position": "MID",
-          "number": "15"
-        },
-        {
-          "name": "FRANCO VÁZQUEZ",
-          "position": "MID",
-          "number": "22"
         },
         {
           "name": "PABLO SARABIA",
@@ -1412,81 +362,6 @@
       ],
       [
         {
-          "name": "MUNIR EL HADDADI",
-          "position": "FWD",
-          "number": "19"
-        },
-        {
-          "name": "WISSAM BEN YEDDER",
-          "position": "FWD",
-          "number": "9"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "LEGANES",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "23 de diciembre 2018",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "TOMÁS VACLÍK",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "GABRIEL MERCADO",
-          "position": "DEF",
-          "number": "25"
-        },
-        {
-          "name": "DANIEL CARRIÇO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "SERGI GÓMEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "18"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "16"
-        }
-      ],
-      [
-        {
-          "name": "FRANCO VÁZQUEZ",
-          "position": "MID",
-          "number": "22"
-        },
-        {
-          "name": "ROQUE MESA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "IBRAHIM AMADOU",
-          "position": "MID",
-          "number": "5"
-        }
-      ],
-      [
-        {
           "name": "ANDRÉ SILVA",
           "position": "FWD",
           "number": "12"
@@ -1495,81 +370,6 @@
           "name": "WISSAM BEN YEDDER",
           "position": "FWD",
           "number": "9"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "BARCELONA",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "4-0",
-    "date": "06 de octubre 2019",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "TOMÁS VACLÍK",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "DANIEL CARRIÇO",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DIEGO CARLOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO REGUILÓN",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "ÓLIVER TORRES",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "FERNANDO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ÉVER BANEGA",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "LUUK DE JONG",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "NOLITO",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "LUCAS OCAMPOS",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]
@@ -1588,213 +388,63 @@
         {
           "name": "YASSINE BOUNOU",
           "position": "GK",
-          "number": "1"
+          "number": "13"
         }
       ],
       [
+        {
+          "name": "SERGIO ESCUDERO",
+          "position": "DEF",
+          "number": "18"
+        },
         {
           "name": "SERGI GÓMEZ",
           "position": "DEF",
-          "number": "2"
+          "number": "3"
         },
         {
           "name": "JULES KOUNDÉ",
           "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4"
+          "number": "17"
         },
         {
           "name": "JESÚS NAVAS",
           "position": "DEF",
-          "number": "5"
+          "number": "16"
         }
       ],
       [
-        {
-          "name": "FERNANDO",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "FRANCO VÁZQUEZ",
-          "position": "MID",
-          "number": "7"
-        },
         {
           "name": "ÓLIVER TORRES",
           "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "YOUSSEF EN-NESYRI",
-          "position": "FWD",
-          "number": "9"
+          "number": "21"
         },
-        {
-          "name": "RONY LOPES",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "LUCAS OCAMPOS",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "LEVANTE",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "15 de junio 2020",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "TOMÁS VACLÍK",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "DIEGO CARLOS",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JULES KOUNDÉ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "NEMANJA GUDELJ",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "ÉVER BANEGA",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "JOAN JORDÁN",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "LUUK DE JONG",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "MUNIR EL HADDADI",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "LUCAS OCAMPOS",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "REAL VALLADOLID",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "26 de junio 2020",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "TOMÁS VACLÍK",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JULES KOUNDÉ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DIEGO CARLOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
         {
           "name": "FERNANDO",
           "position": "MID",
-          "number": "6"
+          "number": "25"
         },
         {
           "name": "FRANCO VÁZQUEZ",
           "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ÉVER BANEGA",
-          "position": "MID",
-          "number": "8"
+          "number": "22"
         }
       ],
       [
         {
-          "name": "LUUK DE JONG",
+          "name": "LUCAS OCAMPOS",
           "position": "FWD",
-          "number": "9"
+          "number": "5"
+        },
+        {
+          "name": "YOUSSEF EN-NESYRI",
+          "position": "FWD",
+          "number": "15"
         },
         {
           "name": "MUNIR EL HADDADI",
           "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "LUCAS OCAMPOS",
-          "position": "FWD",
-          "number": "11"
+          "number": "7"
         }
       ]
     ]
@@ -1811,365 +461,65 @@
     "formation": [
       [
         {
-          "name": "TOMÁS VACLÍK",
+          "name": "TOMÁŠ VACLÍK",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "KARIM REKIK",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JULES KOUNDÉ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
           "name": "SERGIO ESCUDERO",
+          "position": "DEF",
+          "number": "18"
+        },
+        {
+          "name": "KARIM REKIK",
           "position": "DEF",
           "number": "4"
         },
         {
-          "name": "ALEIX VIDAL",
+          "name": "JULES KOUNDÉ",
           "position": "DEF",
-          "number": "5"
+          "number": "12"
+        },
+        {
+          "name": "JESÚS NAVAS",
+          "position": "DEF",
+          "number": "17"
         }
       ],
       [
+        {
+          "name": "JOAN JORDÁN",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "NEMANJA GUDELJ",
+          "position": "MID",
+          "number": "6"
+        },
         {
           "name": "FRANCO VÁZQUEZ",
           "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "NEMANJA GUDELJ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "JOAN JORDÁN",
-          "position": "MID",
-          "number": "8"
+          "number": "22"
         }
       ],
       [
-        {
-          "name": "YOUSSEF EN-NESYRI",
-          "position": "FWD",
-          "number": "9"
-        },
         {
           "name": "LUCAS OCAMPOS",
           "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "SUSO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "OSASUNA",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-2",
-    "date": "22 de febrero 2021",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "YASSINE BOUNOU",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JULES KOUNDÉ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DIEGO CARLOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "KARIM REKIK",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
           "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "ÓLIVER TORRES",
-          "position": "MID",
-          "number": "6"
         },
-        {
-          "name": "FERNANDO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "JOAN JORDÁN",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "LUUK DE JONG",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "MUNIR EL HADDADI",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "SUSO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "GRANADA",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "17 de octubre 2020",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "YASSINE BOUNOU",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "SERGI GÓMEZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DIEGO CARLOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "SERGIO ESCUDERO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "JOAN JORDÁN",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "FERNANDO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "IVAN RAKITIC",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "CARLOS FERNÁNDEZ",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "MUNIR EL HADDADI",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "SUSO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "EIBAR",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-1",
-    "date": "24 de octubre 2020",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "TOMÁS VACLÍK",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "SERGI GÓMEZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DIEGO CARLOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "MARCOS ACUÑA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "IVAN RAKITIC",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "ÓLIVER TORRES",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "NEMANJA GUDELJ",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
         {
           "name": "YOUSSEF EN-NESYRI",
           "position": "FWD",
-          "number": "9"
+          "number": "15"
         },
         {
-          "name": "ÓSCAR RODRÍGUEZ",
+          "name": "SUSO",
           "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "MUNIR EL HADDADI",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2021-22",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "OSASUNA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "30 de octubre 2021",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "YASSINE BOUNOU",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "JULES KOUNDÉ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DIEGO CARLOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "MARCOS ACUÑA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "GONZALO MONTIEL",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "JOAN JORDÁN",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "THOMAS DELANEY",
-          "position": "MID",
           "number": "7"
-        },
-        {
-          "name": "IVAN RAKITIC",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "RAFA MIR",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "LUCAS OCAMPOS",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "ÉRIK LAMELA",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]
@@ -2186,365 +536,65 @@
     "formation": [
       [
         {
-          "name": "MARKO DMITROVIC",
+          "name": "DMITROVIC",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "JULES KOUNDÉ",
+          "name": "MARCOS ACUÑA",
           "position": "DEF",
-          "number": "2"
+          "number": "19"
         },
         {
           "name": "DIEGO CARLOS",
           "position": "DEF",
-          "number": "3"
+          "number": "20"
         },
         {
-          "name": "MARCOS ACUÑA",
+          "name": "JULES KOUNDÉ",
           "position": "DEF",
-          "number": "4"
+          "number": "23"
         },
         {
           "name": "GONZALO MONTIEL",
           "position": "DEF",
-          "number": "5"
+          "number": "2"
         }
       ],
       [
         {
           "name": "ÓLIVER TORRES",
           "position": "MID",
-          "number": "6"
+          "number": "21"
+        },
+        {
+          "name": "FERNANDO",
+          "position": "MID",
+          "number": "25"
         },
         {
           "name": "JOAN JORDÁN",
           "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "FERNANDO",
-          "position": "MID",
           "number": "8"
         }
       ],
       [
-        {
-          "name": "RAFA MIR",
-          "position": "FWD",
-          "number": "9"
-        },
         {
           "name": "PAPU GÓMEZ",
           "position": "FWD",
-          "number": "10"
+          "number": "24"
         },
-        {
-          "name": "LUCAS OCAMPOS",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2021-22",
-    "homeTeam": "VALENCIA",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "19 de enero 2022",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "JAVI DÍAZ",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "KARIM REKIK",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "DIEGO CARLOS",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "MARCOS ACUÑA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "GONZALO MONTIEL",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "ÓLIVER TORRES",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "FERNANDO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "IVAN RAKITIC",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
         {
           "name": "RAFA MIR",
           "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "PAPU GÓMEZ",
-          "position": "FWD",
-          "number": "10"
+          "number": "12"
         },
         {
           "name": "LUCAS OCAMPOS",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2021-22",
-    "homeTeam": "RAYO VALLECANO",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "13 de marzo 2022",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "YASSINE BOUNOU",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "NEMANJA GUDELJ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JULES KOUNDÉ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "LUDWIG AUGUSTINSSON",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "IVAN RAKITIC",
-          "position": "DEF",
           "number": "5"
-        },
-        {
-          "name": "THOMAS DELANEY",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ÓLIVER TORRES",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "MUNIR EL HADDADI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "LUCAS OCAMPOS",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "RAFA MIR",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "CELTA VIGO",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-2",
-    "date": "07 de abril 2023",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "NEMANJA GUDELJ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "LOÏC BADÉ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "MARCOS ACUÑA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "PAPE GUEYE",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "FERNANDO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ÉRIK LAMELA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "BRYAN GIL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "SUSO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "YOUSSEF EN-NESYRI",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "ELCHE",
-    "awayTeam": "SEVILLA",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-1",
-    "date": "24 de mayo 2023",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "KARIM REKIK",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "LOÏC BADÉ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALEX TELLES",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "PAPE GUEYE",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "FERNANDO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ÉRIK LAMELA",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "MARCOS ACUÑA",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "LUCAS OCAMPOS",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "YOUSSEF EN-NESYRI",
-          "position": "FWD",
-          "number": "11"
         }
       ]
     ]
@@ -2561,140 +611,65 @@
     "formation": [
       [
         {
-          "name": "MARKO DMITROVIC",
+          "name": "DMITROVIC",
           "position": "GK",
           "number": "1"
         }
       ],
       [
         {
-          "name": "NEMANJA GUDELJ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "LOÏC BADÉ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
           "name": "MARCOS ACUÑA",
           "position": "DEF",
-          "number": "4"
+          "number": "19"
         },
         {
-          "name": "PAPE GUEYE",
+          "name": "TANGUY NIANZOU KOUASSI",
           "position": "DEF",
-          "number": "5"
+          "number": "22"
         },
         {
-          "name": "FERNANDO",
+          "name": "NEMANJA GUDELJ",
           "position": "DEF",
           "number": "6"
         },
         {
           "name": "GONZALO MONTIEL",
           "position": "DEF",
-          "number": "7"
+          "number": "2"
         }
       ],
       [
+        {
+          "name": "FERNANDO",
+          "position": "MID",
+          "number": "20"
+        },
+        {
+          "name": "IDRISSA GUEYE",
+          "position": "MID",
+          "number": "18"
+        },
         {
           "name": "PAPU GÓMEZ",
           "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "BRYAN GIL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "LUCAS OCAMPOS",
-          "position": "MID",
-          "number": "10"
+          "number": "24"
         }
       ],
       [
+        {
+          "name": "BRYAN GIL",
+          "position": "FWD",
+          "number": "25"
+        },
         {
           "name": "YOUSSEF EN-NESYRI",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "ESPANYOL",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "3-2",
-    "date": "04 de mayo 2023",
-    "playingTeam": "SEVILLA",
-    "formation": [
-      [
-        {
-          "name": "MARKO DMITROVIC",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "KARIM REKIK",
-          "position": "DEF",
-          "number": "2"
+          "number": "15"
         },
         {
-          "name": "NEMANJA GUDELJ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ALEX TELLES",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "IVAN RAKITIC",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "PAPE GUEYE",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "JESÚS NAVAS",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "ÓLIVER TORRES",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "BRYAN GIL",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "SUSO",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "RAFA MIR",
+          "name": "LUCAS OCAMPOS",
           "position": "FWD",
-          "number": "11"
+          "number": "5"
         }
       ]
     ]

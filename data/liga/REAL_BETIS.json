@@ -1,81 +1,6 @@
 [
   {
     "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "SEVILLA",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "24 de abril 2016",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "ANTONIO ADÁN",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "GERMÁN PEZZELLA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "HEIKO WESTERMANN",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "MARTÍN MONTOYA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "PETROS ARAUJO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ALFRED N'DIAYE",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "BRUNO GONZÁLEZ",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "JOAQUÍN",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "DANI CEBALLOS",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "CHARLY MUSONDA",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "RUBÉN CASTRO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
     "homeTeam": "REAL BETIS",
     "awayTeam": "RAYO VALLECANO",
     "homeBadge": "🏟️",
@@ -86,215 +11,65 @@
     "formation": [
       [
         {
-          "name": "ANTONIO ADÁN",
+          "name": "ADÁN",
           "position": "GK",
-          "number": "1"
+          "number": "13"
         }
       ],
       [
         {
-          "name": "GERMÁN PEZZELLA",
+          "name": "VARGAS",
           "position": "DEF",
-          "number": "2"
+          "number": "11"
         },
         {
-          "name": "BRUNO GONZÁLEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JUAN VARGAS",
+          "name": "GONZÁLEZ",
           "position": "DEF",
           "number": "4"
         },
         {
-          "name": "FRANCISCO MOLINERO",
+          "name": "PEZZELLA",
           "position": "DEF",
-          "number": "5"
+          "number": "20"
+        },
+        {
+          "name": "MOLINERO",
+          "position": "DEF",
+          "number": "2"
         }
       ],
       [
         {
-          "name": "PETROS ARAUJO",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "DANI CEBALLOS",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "CHARLY MUSONDA",
+          "name": "MUSONDA JR.",
           "position": "MID",
           "number": "8"
         },
         {
+          "name": "CEBALLOS",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "PETROS",
+          "position": "MID",
+          "number": "25"
+        },
+        {
           "name": "JOAQUÍN",
           "position": "MID",
-          "number": "9"
+          "number": "7"
         }
       ],
       [
         {
           "name": "JORGE MOLINA",
           "position": "FWD",
-          "number": "10"
+          "number": "19"
         },
         {
           "name": "RUBÉN CASTRO",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2015-16",
-    "homeTeam": "REAL BETIS",
-    "awayTeam": "LAS PALMAS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "19 de abril 2016",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "ANTONIO ADÁN",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "BRUNO GONZÁLEZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "GERMÁN PEZZELLA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "FRAN VARELA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "PETROS ARAUJO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ALFRED N'DIAYE",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "FRANCISCO MOLINERO",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "JOAQUÍN",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "DANI CEBALLOS",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "FOUED KADIR",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "RUBÉN CASTRO",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "REAL BETIS",
-    "awayTeam": "ALAVES",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-4",
-    "date": "30 de abril 2017",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "ANTONIO ADÁN",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ALIN TOSÇA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "GERMÁN PEZZELLA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "RIZA DURMISI",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "RAFA NAVARRO",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "JOAQUÍN",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "DANI CEBALLOS",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "RUBÉN PARDO",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "ÁLEX ALEGRÍA",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "RUBÉN CASTRO",
-          "position": "FWD",
-          "number": "11"
+          "number": "24"
         }
       ]
     ]
@@ -311,140 +86,65 @@
     "formation": [
       [
         {
-          "name": "ANTONIO ADÁN",
+          "name": "ADÁN",
           "position": "GK",
-          "number": "1"
+          "number": "13"
         }
       ],
       [
         {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "BRUNO GONZÁLEZ",
+          "name": "MARTÍNEZ",
           "position": "DEF",
           "number": "3"
         },
         {
-          "name": "GERMÁN PEZZELLA",
+          "name": "PEZZELLA",
+          "position": "DEF",
+          "number": "20"
+        },
+        {
+          "name": "MANDI",
+          "position": "DEF",
+          "number": "23"
+        },
+        {
+          "name": "GONZÁLEZ",
           "position": "DEF",
           "number": "4"
         },
         {
-          "name": "ÁLEX MARTÍNEZ",
+          "name": "PICCINI",
           "position": "DEF",
+          "number": "12"
+        }
+      ],
+      [
+        {
+          "name": "CEBALLOS",
+          "position": "MID",
+          "number": "10"
+        },
+        {
+          "name": "PETROS",
+          "position": "MID",
           "number": "5"
         },
         {
-          "name": "CRISTIANO PICCINI",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "PETROS ARAUJO",
+          "name": "DONK",
           "position": "MID",
-          "number": "7"
+          "number": "15"
         },
-        {
-          "name": "DANI CEBALLOS",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "RYAN DONK",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
         {
           "name": "JOAQUÍN",
-          "position": "FWD",
-          "number": "10"
-        },
+          "position": "MID",
+          "number": "17"
+        }
+      ],
+      [
         {
           "name": "RUBÉN CASTRO",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2016-17",
-    "homeTeam": "ATLETICO MADRID",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "14 de enero 2017",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "ANTONIO ADÁN",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "RYAN DONK",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "GERMÁN PEZZELLA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JOSÉ CARLOS RAMÍREZ",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "RIZA DURMISI",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "CRISTIANO PICCINI",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "DARKO BRASANAC",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "JONAS MARTIN",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "DANI CEBALLOS",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "ÁLEX ALEGRÍA",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "RUBÉN CASTRO",
-          "position": "FWD",
-          "number": "11"
+          "number": "24"
         }
       ]
     ]
@@ -461,290 +161,65 @@
     "formation": [
       [
         {
-          "name": "ANTONIO ADÁN",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MARC BARTRA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "JORDI AMAT",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "JUNIOR FIRPO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ANTONIO BARRAGÁN",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "ANDRÉS GUARDADO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "FABIÁN RUIZ",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "JOAQUÍN",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "RYAD BOUDEBOUZ",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "LOREN MORÓN",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "REAL SOCIEDAD",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "4-4",
-    "date": "01 de octubre 2017",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "ANTONIO ADÁN",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "ZOUHAIR FEDDAL",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "RIZA DURMISI",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANTONIO BARRAGÁN",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "JAVI GARCÍA",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "FABIÁN RUIZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "ANDRÉS GUARDADO",
-          "position": "MID",
-          "number": "8"
-        }
-      ],
-      [
-        {
-          "name": "ANTONIO SANABRIA",
-          "position": "FWD",
-          "number": "9"
-        },
-        {
-          "name": "CRISTIAN TELLO",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "JOAQUÍN",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2017-18",
-    "homeTeam": "LEVANTE",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-2",
-    "date": "26 de febrero 2018",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "ANTONIO ADÁN",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "MARC BARTRA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JUNIOR FIRPO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "FRANCIS GUERRERO",
-          "position": "DEF",
-          "number": "5"
-        }
-      ],
-      [
-        {
-          "name": "JAVI GARCÍA",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "FABIÁN RUIZ",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "JOAQUÍN",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "RYAD BOUDEBOUZ",
-          "position": "MID",
-          "number": "9"
-        }
-      ],
-      [
-        {
-          "name": "LOREN MORÓN",
-          "position": "FWD",
-          "number": "10"
-        },
-        {
-          "name": "SERGIO LEÓN",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "CELTA VIGO",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-1",
-    "date": "10 de marzo 2019",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "PAU LÓPEZ",
+          "name": "ADÁN",
           "position": "GK",
           "number": "13"
         }
       ],
       [
         {
-          "name": "MARC BARTRA",
+          "name": "BARTRA",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
+          "name": "AMAT",
           "position": "DEF",
           "number": "5"
         },
         {
-          "name": "AÏSSA MANDI",
+          "name": "MANDI",
           "position": "DEF",
           "number": "23"
-        },
-        {
-          "name": "SIDNEI",
-          "position": "DEF",
-          "number": "12"
-        },
-        {
-          "name": "WILLIAM CARVALHO",
-          "position": "DEF",
-          "number": "14"
         }
       ],
       [
         {
-          "name": "ANDRÉS GUARDADO",
+          "name": "FIRPO",
+          "position": "MID",
+          "number": "28"
+        },
+        {
+          "name": "GUARDADO",
           "position": "MID",
           "number": "18"
         },
         {
-          "name": "SERGIO CANALES",
+          "name": "FABIÁN RUIZ",
           "position": "MID",
           "number": "6"
         },
         {
-          "name": "FRANCIS GUERRERO",
+          "name": "BARRAGÁN",
           "position": "MID",
-          "number": "2"
-        },
-        {
-          "name": "JOAQUÍN",
-          "position": "MID",
-          "number": "17"
+          "number": "19"
         }
       ],
       [
         {
-          "name": "GIOVANI LO CELSO",
-          "position": "FWD",
-          "number": "21"
-        },
-        {
-          "name": "JESÉ",
+          "name": "BOUDEBOUZ",
           "position": "FWD",
           "number": "10"
+        },
+        {
+          "name": "SERGIO LEÓN",
+          "position": "FWD",
+          "number": "16"
+        },
+        {
+          "name": "JOAQUÍN",
+          "position": "FWD",
+          "number": "17"
         }
       ]
     ]
@@ -768,208 +243,58 @@
       ],
       [
         {
-          "name": "SIDNEI",
-          "position": "DEF",
-          "number": "12"
-        },
-        {
-          "name": "AÏSSA MANDI",
+          "name": "MANDI",
           "position": "DEF",
           "number": "23"
         },
         {
-          "name": "MARC BARTRA",
+          "name": "BARTRA",
           "position": "DEF",
           "number": "5"
-        },
-        {
-          "name": "JUNIOR FIRPO",
-          "position": "DEF",
-          "number": "20"
-        },
-        {
-          "name": "ANTONIO BARRAGÁN",
-          "position": "DEF",
-          "number": "19"
-        }
-      ],
-      [
-        {
-          "name": "GIOVANI LO CELSO",
-          "position": "MID",
-          "number": "21"
-        },
-        {
-          "name": "RYAD BOUDEBOUZ",
-          "position": "MID",
-          "number": "10"
-        },
-        {
-          "name": "WILLIAM CARVALHO",
-          "position": "MID",
-          "number": "14"
-        }
-      ],
-      [
-        {
-          "name": "LOREN MORÓN",
-          "position": "FWD",
-          "number": "16"
-        },
-        {
-          "name": "ANTONIO SANABRIA",
-          "position": "FWD",
-          "number": "9"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2018-19",
-    "homeTeam": "REAL BETIS",
-    "awayTeam": "RAYO VALLECANO",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "09 de diciembre 2018",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "PAU LÓPEZ",
-          "position": "GK",
-          "number": "13"
-        }
-      ],
-      [
-        {
-          "name": "MARC BARTRA",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "23"
         },
         {
           "name": "SIDNEI",
           "position": "DEF",
           "number": "12"
-        },
-        {
-          "name": "JUNIOR FIRPO",
-          "position": "DEF",
-          "number": "20"
-        },
-        {
-          "name": "ANTONIO BARRAGÁN",
-          "position": "DEF",
-          "number": "19"
         }
       ],
       [
         {
-          "name": "WILLIAM CARVALHO",
+          "name": "FIRPO",
+          "position": "MID",
+          "number": "20"
+        },
+        {
+          "name": "CARVALHO",
           "position": "MID",
           "number": "14"
         },
         {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "6"
-        },
-        {
-          "name": "GIOVANI LO CELSO",
+          "name": "LO CELSO",
           "position": "MID",
           "number": "21"
-        }
-      ],
-      [
-        {
-          "name": "ANTONIO SANABRIA",
-          "position": "FWD",
-          "number": "9"
         },
         {
-          "name": "LOREN MORÓN",
-          "position": "FWD",
-          "number": "16"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "REAL BETIS",
-    "awayTeam": "REAL SOCIEDAD",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "3-0",
-    "date": "19 de enero 2020",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "JOEL ROBLES",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "MARC BARTRA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ÁLEX MORENO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "EDGAR GONZÁLEZ",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "EMERSON ROYAL",
-          "position": "DEF",
-          "number": "6"
-        }
-      ],
-      [
-        {
-          "name": "ANDRÉS GUARDADO",
+          "name": "BARRAGÁN",
           "position": "MID",
-          "number": "7"
+          "number": "19"
         },
         {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "JOAQUÍN",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "CARLES ALEÑÁ",
+          "name": "BOUDEBOUZ",
           "position": "MID",
           "number": "10"
         }
       ],
       [
         {
-          "name": "BORJA IGLESIAS",
+          "name": "SANABRIA",
           "position": "FWD",
-          "number": "11"
+          "number": "9"
+        },
+        {
+          "name": "MORÓN",
+          "position": "FWD",
+          "number": "16"
         }
       ]
     ]
@@ -993,208 +318,58 @@
       ],
       [
         {
-          "name": "AÏSSA MANDI",
+          "name": "MORENO",
           "position": "DEF",
-          "number": "2"
+          "number": "15"
         },
         {
-          "name": "MARC BARTRA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ÁLEX MORENO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "GUIDO RODRÍGUEZ",
+          "name": "BARTRA",
           "position": "DEF",
           "number": "5"
+        },
+        {
+          "name": "MANDI",
+          "position": "DEF",
+          "number": "23"
         },
         {
           "name": "EMERSON ROYAL",
           "position": "DEF",
-          "number": "6"
+          "number": "22"
         }
       ],
       [
-        {
-          "name": "WILLIAM CARVALHO",
-          "position": "MID",
-          "number": "7"
-        },
-        {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "NABIL FEKIR",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "CARLES ALEÑÁ",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "BORJA IGLESIAS",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2019-20",
-    "homeTeam": "REAL BETIS",
-    "awayTeam": "CELTA VIGO",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-1",
-    "date": "30 de octubre 2019",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "JOEL ROBLES",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "ZOUHAIR FEDDAL",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ÁLEX MORENO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ISMAEL GUTIÉRREZ",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "MARC BARTRA",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "EMERSON ROYAL",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "NABIL FEKIR",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "JOAQUÍN",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "BORJA IGLESIAS",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "REAL BETIS",
-    "awayTeam": "CADIZ",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "23 de diciembre 2020",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "JOEL ROBLES",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "VÍCTOR RUIZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JUAN MIRANDA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDRÉS GUARDADO",
-          "position": "DEF",
-          "number": "5"
-        },
         {
           "name": "GUIDO RODRÍGUEZ",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "MARTÍN MONTOYA",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "NABIL FEKIR",
           "position": "MID",
-          "number": "8"
+          "number": "21"
         },
         {
-          "name": "AITOR RUIBAL",
+          "name": "CARVALHO",
           "position": "MID",
-          "number": "9"
+          "number": "14"
         },
         {
-          "name": "JOAQUÍN",
+          "name": "CANALES",
           "position": "MID",
           "number": "10"
         }
       ],
       [
         {
-          "name": "ANTONIO SANABRIA",
+          "name": "FEKIR",
           "position": "FWD",
-          "number": "11"
+          "number": "8"
+        },
+        {
+          "name": "BORJA IGLESIAS",
+          "position": "FWD",
+          "number": "9"
+        },
+        {
+          "name": "ALEÑÁ",
+          "position": "FWD",
+          "number": "24"
         }
       ]
     ]
@@ -1213,213 +388,63 @@
         {
           "name": "CLAUDIO BRAVO",
           "position": "GK",
-          "number": "1"
+          "number": "25"
         }
       ],
       [
         {
+          "name": "MORENO",
+          "position": "DEF",
+          "number": "15"
+        },
+        {
           "name": "VÍCTOR RUIZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "MARC BARTRA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ÁLEX MORENO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "GUIDO RODRÍGUEZ",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ANDRÉS GUARDADO",
           "position": "DEF",
           "number": "6"
         },
         {
+          "name": "BARTRA",
+          "position": "DEF",
+          "number": "5"
+        },
+        {
           "name": "EMERSON ROYAL",
           "position": "DEF",
-          "number": "7"
+          "number": "22"
         }
       ],
       [
         {
-          "name": "NABIL FEKIR",
+          "name": "GUIDO RODRÍGUEZ",
           "position": "MID",
-          "number": "8"
+          "number": "21"
         },
         {
-          "name": "CRISTIAN TELLO",
+          "name": "GUARDADO",
           "position": "MID",
+          "number": "18"
+        },
+        {
+          "name": "FEKIR",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "CRISTIAN TELLO",
+          "position": "FWD",
+          "number": "11"
+        },
+        {
+          "name": "BORJA IGLESIAS",
+          "position": "FWD",
           "number": "9"
         },
         {
           "name": "DIEGO LAINEZ",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "BORJA IGLESIAS",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2020-21",
-    "homeTeam": "VILLARREAL",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-2",
-    "date": "14 de febrero 2021",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "JOEL ROBLES",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "VÍCTOR RUIZ",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "AÏSSA MANDI",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JUAN MIRANDA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "ANDRÉS GUARDADO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "GUIDO RODRÍGUEZ",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "EMERSON ROYAL",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "NABIL FEKIR",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "AITOR RUIBAL",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "LOREN MORÓN",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2021-22",
-    "homeTeam": "REAL BETIS",
-    "awayTeam": "ATHLETIC CLUB",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "13 de marzo 2022",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "RUI SILVA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "MARC BARTRA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "GERMÁN PEZZELLA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JUAN MIRANDA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "GUIDO RODRÍGUEZ",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "PAUL AKOUOKOU",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "YOUSSOUF SABALY",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "NABIL FEKIR",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "JUANMI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "BORJA IGLESIAS",
-          "position": "FWD",
-          "number": "11"
+          "number": "20"
         }
       ]
     ]
@@ -1438,213 +463,63 @@
         {
           "name": "CLAUDIO BRAVO",
           "position": "GK",
-          "number": "1"
+          "number": "25"
         }
       ],
       [
         {
-          "name": "MARC BARTRA",
+          "name": "GUARDADO",
           "position": "DEF",
-          "number": "2"
+          "number": "18"
         },
         {
           "name": "VÍCTOR RUIZ",
           "position": "DEF",
-          "number": "3"
+          "number": "6"
         },
         {
-          "name": "ANDRÉS GUARDADO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "PAUL AKOUOKOU",
+          "name": "BARTRA",
           "position": "DEF",
           "number": "5"
         },
         {
-          "name": "WILLIAM CARVALHO",
+          "name": "SABALY",
           "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "YOUSSOUF SABALY",
-          "position": "DEF",
-          "number": "7"
+          "number": "23"
         }
       ],
       [
         {
-          "name": "NABIL FEKIR",
+          "name": "AKOUOKOU",
           "position": "MID",
-          "number": "8"
+          "number": "4"
         },
         {
-          "name": "AITOR RUIBAL",
+          "name": "CARVALHO",
           "position": "MID",
+          "number": "14"
+        },
+        {
+          "name": "FEKIR",
+          "position": "MID",
+          "number": "8"
+        }
+      ],
+      [
+        {
+          "name": "AITOR RUIBAL",
+          "position": "FWD",
+          "number": "24"
+        },
+        {
+          "name": "BORJA IGLESIAS",
+          "position": "FWD",
           "number": "9"
         },
         {
           "name": "JOAQUÍN",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "BORJA IGLESIAS",
           "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2021-22",
-    "homeTeam": "VILLARREAL",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "2-0",
-    "date": "03 de octubre 2021",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "RUI SILVA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "GERMÁN PEZZELLA",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "EDGAR GONZÁLEZ",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "JUAN MIRANDA",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "GUIDO RODRÍGUEZ",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "WILLIAM CARVALHO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "HÉCTOR BELLERÍN",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "NABIL FEKIR",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "JUANMI",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "AITOR RUIBAL",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "WILLIAN JOSÉ",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "REAL BETIS",
-    "awayTeam": "ATHLETIC CLUB",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "0-0",
-    "date": "29 de diciembre 2022",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "RUI SILVA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "LUIZ FELIPE",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "FÉLIX GARRETA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
-          "name": "ÁLEX MORENO",
-          "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "WILLIAM CARVALHO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "ANDRÉS GUARDADO",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "YOUSSOUF SABALY",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "NABIL FEKIR",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "SERGIO CANALES",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "LUIZ HENRIQUE",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "BORJA IGLESIAS",
-          "position": "FWD",
-          "number": "11"
+          "number": "17"
         }
       ]
     ]
@@ -1668,133 +543,58 @@
       ],
       [
         {
-          "name": "LUIZ FELIPE",
-          "position": "DEF",
-          "number": "2"
-        },
-        {
-          "name": "GERMÁN PEZZELLA",
-          "position": "DEF",
-          "number": "3"
-        },
-        {
           "name": "JUAN MIRANDA",
           "position": "DEF",
-          "number": "4"
-        },
-        {
-          "name": "WILLIAM CARVALHO",
-          "position": "DEF",
-          "number": "5"
-        },
-        {
-          "name": "GUIDO RODRÍGUEZ",
-          "position": "DEF",
-          "number": "6"
-        },
-        {
-          "name": "YOUSSOUF SABALY",
-          "position": "DEF",
-          "number": "7"
-        }
-      ],
-      [
-        {
-          "name": "RODRI",
-          "position": "MID",
-          "number": "8"
-        },
-        {
-          "name": "AYOZE PÉREZ",
-          "position": "MID",
-          "number": "9"
-        },
-        {
-          "name": "AITOR RUIBAL",
-          "position": "MID",
-          "number": "10"
-        }
-      ],
-      [
-        {
-          "name": "BORJA IGLESIAS",
-          "position": "FWD",
-          "number": "11"
-        }
-      ]
-    ]
-  },
-  {
-    "competition": "LA LIGA • TEMPORADA 2022-23",
-    "homeTeam": "ATLETICO MADRID",
-    "awayTeam": "REAL BETIS",
-    "homeBadge": "🏟️",
-    "awayBadge": "⚽",
-    "score": "1-0",
-    "date": "02 de abril 2023",
-    "playingTeam": "REAL BETIS",
-    "formation": [
-      [
-        {
-          "name": "RUI SILVA",
-          "position": "GK",
-          "number": "1"
-        }
-      ],
-      [
-        {
-          "name": "GERMÁN PEZZELLA",
-          "position": "DEF",
-          "number": "2"
+          "number": "33"
         },
         {
           "name": "LUIZ FELIPE",
           "position": "DEF",
-          "number": "3"
+          "number": "19"
         },
         {
-          "name": "JUAN MIRANDA",
+          "name": "PEZZELLA",
           "position": "DEF",
-          "number": "4"
+          "number": "16"
         },
         {
-          "name": "AITOR RUIBAL",
+          "name": "SABALY",
           "position": "DEF",
-          "number": "5"
+          "number": "23"
         }
       ],
       [
-        {
-          "name": "WILLIAM CARVALHO",
-          "position": "MID",
-          "number": "6"
-        },
         {
           "name": "GUIDO RODRÍGUEZ",
           "position": "MID",
-          "number": "7"
+          "number": "5"
         },
         {
-          "name": "AYOZE PÉREZ",
+          "name": "CARVALHO",
           "position": "MID",
-          "number": "8"
+          "number": "14"
         },
         {
-          "name": "LUIZ HENRIQUE",
+          "name": "SÁNCHEZ",
           "position": "MID",
-          "number": "9"
+          "number": "28"
         }
       ],
       [
         {
-          "name": "BORJA IGLESIAS",
+          "name": "ÁLEX PÉREZ",
           "position": "FWD",
-          "number": "10"
+          "number": "21"
         },
         {
-          "name": "RODRI",
+          "name": "BORJA IGLESIAS",
           "position": "FWD",
-          "number": "11"
+          "number": "9"
+        },
+        {
+          "name": "AITOR RUIBAL",
+          "position": "FWD",
+          "number": "24"
         }
       ]
     ]

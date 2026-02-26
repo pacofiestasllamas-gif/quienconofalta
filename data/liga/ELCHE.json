@@ -18,9 +18,9 @@
       ],
       [
         {
-          "name": "DAMIÁN SUÁREZ",
+          "name": "DOMINGO CISMA",
           "position": "DEF",
-          "number": "2"
+          "number": "5"
         },
         {
           "name": "ENZO ROCO",
@@ -33,9 +33,9 @@
           "number": "4"
         },
         {
-          "name": "DOMINGO CISMA",
+          "name": "DAMIÁN SUÁREZ",
           "position": "DEF",
-          "number": "5"
+          "number": "2"
         }
       ],
       [
@@ -93,9 +93,9 @@
       ],
       [
         {
-          "name": "DANI CALVO",
+          "name": "JOSEMA",
           "position": "DEF",
-          "number": "12"
+          "number": "24"
         },
         {
           "name": "DIEGO GONZÁLEZ",
@@ -103,9 +103,9 @@
           "number": "2"
         },
         {
-          "name": "JOSEMA",
+          "name": "DANI CALVO",
           "position": "DEF",
-          "number": "24"
+          "number": "12"
         },
         {
           "name": "HELIBELTON PALACIOS",
@@ -295,6 +295,81 @@
           "name": "PERE MILLA",
           "position": "FWD",
           "number": "10"
+        }
+      ]
+    ]
+  },
+  {
+    "competition": "LA LIGA • TEMPORADA 2025-26",
+    "homeTeam": "ELCHE",
+    "awayTeam": "REAL SOCIEDAD",
+    "homeBadge": "🏟️",
+    "awayBadge": "⚽",
+    "score": "1-1",
+    "date": "07 de noviembre 2025",
+    "playingTeam": "ELCHE",
+    "formation": [
+      [
+        {
+          "name": "DITURO",
+          "position": "GK",
+          "number": "1"
+        }
+      ],
+      [
+        {
+          "name": "PEDROSA",
+          "position": "DEF",
+          "number": "3"
+        },
+        {
+          "name": "CHUST",
+          "position": "DEF",
+          "number": "23"
+        },
+        {
+          "name": "AFFENGRUBER",
+          "position": "DEF",
+          "number": "22"
+        },
+        {
+          "name": "NÚÑEZ",
+          "position": "DEF",
+          "number": "15"
+        }
+      ],
+      [
+        {
+          "name": "MENDOZA",
+          "position": "MID",
+          "number": "30"
+        },
+        {
+          "name": "AGUADO",
+          "position": "MID",
+          "number": "8"
+        },
+        {
+          "name": "FEBAS",
+          "position": "MID",
+          "number": "14"
+        }
+      ],
+      [
+        {
+          "name": "MIR",
+          "position": "FWD",
+          "number": "10"
+        },
+        {
+          "name": "RODRÍGUEZ",
+          "position": "FWD",
+          "number": "20"
+        },
+        {
+          "name": "JOSAN",
+          "position": "FWD",
+          "number": "17"
         }
       ]
     ]
