@@ -954,33 +954,50 @@
             }
 
             .field-container {
-                padding: 20px 10px;
-                min-height: 500px;
+                padding: 12px 6px;
+                min-height: unset;
             }
 
             .formation {
-                gap: 15px;
+                gap: 8px;
+                min-height: unset;
             }
 
             .line {
-                gap: 8px;
+                gap: 4px;
+            }
+
+            .player-card {
+                width: 60px;
+                gap: 4px;
             }
 
             .jersey {
-                width: 50px;
-                height: 60px;
-                font-size: 1.5rem;
+                width: 44px;
+                height: 52px;
+                font-size: 1.2rem;
+                border-radius: 6px 6px 9px 9px;
+            }
+
+            .jersey::before {
+                top: -6px;
+                height: 6px;
             }
 
             .player-name-container {
-                width: 75px;
-                min-width: 75px;
-                max-width: 75px;
-                font-size: 0.65rem;
+                width: 58px;
+                min-width: 58px;
+                max-width: 58px;
+                padding: 3px 4px;
             }
             
             .revealed-name {
-                font-size: 0.65rem;
+                font-size: 0.55rem;
+            }
+
+            .penalty-area {
+                height: 60px;
+                bottom: 10px;
             }
 
             .letter-cell {
@@ -1009,6 +1026,7 @@
 
             .stats-bar {
                 justify-content: center;
+                padding: 10px 15px;
             }
 
             .btn-group {
@@ -1026,6 +1044,19 @@
 
             .score-display {
                 font-size: 2.4rem;
+            }
+
+            .match-header {
+                padding: 12px 15px;
+            }
+
+            .competition-name {
+                font-size: 1rem;
+                margin-bottom: 4px;
+            }
+
+            .match-date {
+                font-size: 0.85rem;
             }
         }
 
@@ -1046,10 +1077,33 @@
                 font-size: 0.8rem;
             }
 
+            .player-card {
+                width: 52px;
+                gap: 3px;
+            }
+
             .jersey {
-                width: 45px;
-                height: 55px;
-                font-size: 1.3rem;
+                width: 38px;
+                height: 46px;
+                font-size: 1.1rem;
+            }
+
+            .player-name-container {
+                width: 50px;
+                min-width: 50px;
+                max-width: 50px;
+            }
+
+            .revealed-name {
+                font-size: 0.5rem;
+            }
+
+            .formation {
+                gap: 6px;
+            }
+
+            .line {
+                gap: 3px;
             }
         }
 
@@ -1061,6 +1115,22 @@
 
             .keyboard-row {
                 gap: 4px;
+            }
+
+            .player-card {
+                width: 46px;
+            }
+
+            .jersey {
+                width: 34px;
+                height: 40px;
+                font-size: 1rem;
+            }
+
+            .player-name-container {
+                width: 44px;
+                min-width: 44px;
+                max-width: 44px;
             }
         }
 
