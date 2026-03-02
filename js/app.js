@@ -181,6 +181,10 @@ function loadMatch() {
     if (currentMatch.homeBadge) document.getElementById('home-badge').textContent = currentMatch.homeBadge;
     if (currentMatch.awayBadge) document.getElementById('away-badge').textContent = currentMatch.awayBadge;
 
+    // En modo diario ocultar botón "Siguiente"
+    document.getElementById('next-match-btn').style.display =
+        currentMode === 'diario' ? 'none' : 'inline-block';
+
     renderFormation();
     updateRevealedCount();
 
@@ -580,6 +584,21 @@ function updateRevealedCount() {
     if (revealedPlayers.size === total) setTimeout(() => showCompletionModal(), 600);
 }
 
+// Calcula el tiempo restante hasta las 12:00 del día siguiente
+function getTimeUntilNextDaily() {
+    const now = new Date();
+    const next = new Date();
+    next.setHours(12, 0, 0, 0);
+    if (now >= next) next.setDate(next.getDate() + 1);
+    const diff = next - now;
+    const h = Math.floor(diff / 3600000);
+    const m = Math.floor((diff % 3600000) / 60000);
+    const s = Math.floor((diff % 60000) / 1000);
+    return `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+}
+
+let dailyCountdownInterval = null;
+
 function showCompletionModal() {
     document.getElementById('completion-match').textContent =
         `${currentMatch.homeTeam} ${currentMatch.score} ${currentMatch.awayTeam} • ${currentMatch.date}`;
@@ -590,7 +609,7 @@ function showCompletionModal() {
 
     const streakEl = document.getElementById('comp-streak');
     if (stats.currentStreak >= 3) {
-        streakEl.textContent  = `🔥 Racha actual: ${stats.currentStreak}`;
+        streakEl.textContent   = `🔥 Racha actual: ${stats.currentStreak}`;
         streakEl.style.display = 'block';
     } else {
         streakEl.style.display = 'none';
@@ -598,6 +617,24 @@ function showCompletionModal() {
 
     document.querySelector('.completion-title').textContent =
         matchStats.guessed === 11 ? '🏆 ¡ONCE PERFECTO!' : '✅ ALINEACIÓN COMPLETADA';
+
+    // Botón siguiente: ocultar en modo diario
+    const nextBtn = document.querySelector('.completion-buttons .next-btn');
+    if (nextBtn) nextBtn.style.display = currentMode === 'diario' ? 'none' : 'block';
+
+    // Countdown solo en modo diario
+    const countdownEl = document.getElementById('comp-countdown');
+    if (currentMode === 'diario') {
+        countdownEl.style.display = 'block';
+        countdownEl.textContent = `⏱ Nuevo once en ${getTimeUntilNextDaily()}`;
+        if (dailyCountdownInterval) clearInterval(dailyCountdownInterval);
+        dailyCountdownInterval = setInterval(() => {
+            countdownEl.textContent = `⏱ Nuevo once en ${getTimeUntilNextDaily()}`;
+        }, 1000);
+    } else {
+        countdownEl.style.display = 'none';
+        if (dailyCountdownInterval) clearInterval(dailyCountdownInterval);
+    }
 
     document.getElementById('completion-modal').classList.add('active');
 
@@ -607,6 +644,10 @@ function showCompletionModal() {
 
 function closeCompletionModal() {
     document.getElementById('completion-modal').classList.remove('active');
+    if (dailyCountdownInterval) {
+        clearInterval(dailyCountdownInterval);
+        dailyCountdownInterval = null;
+    }
 }
 
 function closeGuessModal() {
