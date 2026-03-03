@@ -264,7 +264,7 @@ function updateDailyHeader(offset, edition) {
                 ${offset > 0 ? '<span class="daily-past-badge">PASADO</span>' : ''}
             </div>
             <button class="daily-nav-btn${canGoForward ? '' : ' disabled'}"
-                    ${canGoForward ? `onclick="navigateDaily(${offset - 1})"` : 'disabled'}>
+                    ${canGoForward ? `onclick="navigateDaily(0)"` : 'disabled'}>
                 Hoy →
             </button>
         </div>

@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/styles.css">
 <link rel="stylesheet" href="./css/hub.css">
+<link rel="stylesheet" href="./css/crucigrama.css">
 </head>
 <body>
 
@@ -63,14 +64,16 @@
       <div class="hub-game-arrow">→</div>
     </div>
 
-    <!-- JUEGO 2: EN EL CRUCIGRAMA (próximamente) -->
-    <div class="hub-game-card hub-game-card--soon" onclick="goToGame('crucigrama')">
+    <!-- JUEGO 2: EN EL CRUCIGRAMA -->
+    <div class="hub-game-card" onclick="goToGame('crucigrama')">
       <div class="hub-game-icon">📰</div>
       <div class="hub-game-info">
         <div class="hub-game-title">EN EL CRUCIGRAMA</div>
         <div class="hub-game-desc">Crucigrama de fútbol. Un nuevo reto cada día</div>
         <div class="hub-game-tags">
-          <span class="hub-tag hub-tag--soon">Próximamente</span>
+          <span class="hub-tag">Diario</span>
+          <span class="hub-tag">Fútbol</span>
+          <span class="hub-tag">Partidos históricos</span>
         </div>
       </div>
       <div class="hub-game-arrow">→</div>
@@ -264,19 +267,12 @@
 </div>
 
 <!-- ========================================== -->
-<!-- PANTALLA 5: CRUCIGRAMA (próximamente)      -->
+<!-- PANTALLA 5: CRUCIGRAMA                     -->
 <!-- ========================================== -->
-<div id="crucigrama-screen" style="display:none;">
-  <button class="back-to-hub-btn" onclick="goToHub()">← VOLVER</button>
-  <div class="coming-soon-wrapper">
-    <div class="coming-soon-icon">📰</div>
-    <h2 class="coming-soon-title">EN EL CRUCIGRAMA</h2>
-    <p class="coming-soon-text">El crucigrama de fútbol diario está en construcción.<br>Muy pronto disponible.</p>
-    <div class="coming-soon-badge">PRÓXIMAMENTE</div>
-  </div>
-</div>
+<div id="crucigrama-screen" style="display:none;"></div>
 
 <script src="./js/core.js"></script>
 <script src="./js/app.js"></script>
+<script src="./js/crucigrama.js"></script>
 </body>
 </html>
