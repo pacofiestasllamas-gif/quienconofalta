@@ -237,16 +237,10 @@ function buildCrucigramaScreen() {
             </div>
         </div>
 
-        <!-- INPUT OCULTO MÓVIL -->
-        <input id="cruc-hidden-input" type="text" autocomplete="off" autocorrect="off"
-               autocapitalize="characters" spellcheck="false"
-               style="position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;border:none;outline:none;background:transparent;color:transparent;font-size:16px;pointer-events:none;z-index:-1;">
     `;
 
     renderGrid();
     renderCluesList();
-    bindCrucigramaMobileInput();
-    bindCrucigramaKeyboard();
 
     // Recalcular tamaño si cambia el viewport
     window._crucResizeHandler && window.removeEventListener('resize', window._crucResizeHandler);
@@ -456,9 +450,9 @@ function crucClickCell(r, c) {
     updateCluesPanel();
 
     // En móvil: enfocar el input oculto para mostrar el teclado nativo
-    // En desktop: NO enfocar (para que el listener de document capture las teclas)
-    const isMobileDevice = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 600;
-    if (isMobileDevice) crucFocusMobile();
+    if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 600) {
+        crucFocusMobile();
+    }
 }
 
 function crucSelectWordById(id) {
@@ -469,8 +463,9 @@ function crucSelectWordById(id) {
     refreshAllCells();
     updateClueBar();
     updateCluesPanel();
-    const _isMob = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 600;
-    if (_isMob) crucFocusMobile();
+    if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 600) {
+        crucFocusMobile();
+    }
     // Scroll grid into view on mobile
     const grid = document.getElementById('cruc-grid');
     if (grid) grid.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -691,89 +686,68 @@ function crucTimeUntilMidnight() {
     return `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
 }
 
-// ── INPUT: MÓVIL Y TECLADO FÍSICO ────────────
-// Input oculto unificado: captura tanto teclado nativo móvil
-// como teclado físico desktop. Un único flujo, sin duplicados.
+// ── FOCO MÓVIL ───────────────────────────────
+// El input oculto global se crea en DOMContentLoaded (al final del archivo).
+// Esta función lo enfoca para abrir el teclado nativo en móvil (tap bar).
 
-function bindCrucigramaMobileInput() {
-    const input = document.getElementById('cruc-hidden-input');
-    if (!input) return;
+function crucFocusMobile() {
+    const inp = document.getElementById('cruc-mobile-input');
+    if (inp) inp.focus({ preventScroll: true });
+}
+// ── INTEGRACIÓN CON core.js + SETUP GLOBAL ──
+document.addEventListener('DOMContentLoaded', () => {
 
-    // Clonar para eliminar listeners previos acumulados
-    const fresh = input.cloneNode(true);
-    input.parentNode.replaceChild(fresh, input);
-    const inp = document.getElementById('cruc-hidden-input');
+    // 1. Patch goToGame para interceptar el crucigrama
+    if (typeof window.goToGame === 'function') {
+        const _orig = window.goToGame;
+        window.goToGame = function(game) {
+            if (game === 'crucigrama') openCrucigrama();
+            else _orig(game);
+        };
+    }
 
-    // Evento 'input': teclado nativo móvil
-    inp.addEventListener('input', () => {
-        const val = inp.value;
-        inp.value = '';
+    // 2. Input oculto global (igual que en app.js para el Once)
+    //    Se crea UNA SOLA VEZ y persiste toda la sesión.
+    const mobileInput = document.createElement('input');
+    mobileInput.id = 'cruc-mobile-input';
+    mobileInput.type = 'text';
+    mobileInput.setAttribute('autocomplete', 'off');
+    mobileInput.setAttribute('autocorrect', 'off');
+    mobileInput.setAttribute('autocapitalize', 'characters');
+    mobileInput.setAttribute('spellcheck', 'false');
+    mobileInput.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;border:none;outline:none;background:transparent;color:transparent;font-size:16px;pointer-events:none;z-index:-1;';
+    document.body.appendChild(mobileInput);
+
+    // Evento 'input': teclado nativo móvil (tap bar → focus → escribir)
+    mobileInput.addEventListener('input', () => {
+        const val = mobileInput.value;
+        mobileInput.value = '';
         if (!val) return;
         for (const ch of val) {
-            if (/^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ]$/i.test(ch)) {
-                crucHandleKey(ch.toUpperCase());
-            }
+            if (/^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ]$/i.test(ch)) crucHandleKey(ch.toUpperCase());
         }
     });
 
-    // Backspace y Tab en el propio input (móvil y desktop)
-    inp.addEventListener('keydown', (e) => {
-        if (e.key === 'Backspace') { e.preventDefault(); inp.value = ''; crucHandleKey('Delete'); }
+    // Backspace en móvil
+    mobileInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Backspace') { e.preventDefault(); mobileInput.value = ''; crucHandleKey('Delete'); }
         else if (e.key === 'Tab')  { e.preventDefault(); crucHandleKey('Tab'); }
     });
-}
 
-function crucFocusMobile() {
-    const inp = document.getElementById('cruc-hidden-input');
-    if (inp) inp.focus({ preventScroll: true });
-}
-
-// ── TECLADO FÍSICO (document) ────────────────
-
-function bindCrucigramaKeyboard() {
-    if (window._crucKeyHandler) document.removeEventListener('keydown', window._crucKeyHandler);
-
-    window._crucKeyHandler = (e) => {
+    // 3. Teclado físico desktop: igual que en app.js
+    //    Solo actúa si el crucigrama está visible Y no es móvil
+    document.addEventListener('keydown', (e) => {
         const screen = document.getElementById('crucigrama-screen');
-        if (!screen) return;
-        // display:none = oculto; cualquier otro valor (flex, block, '') = visible
-        if (screen.style.display === 'none') return;
+        if (!screen || screen.style.display === 'none') return;
+
+        // En móvil, el input oculto lo maneja todo
+        if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 600) return;
 
         const modal = document.getElementById('cruc-completion-modal');
         if (modal && modal.classList.contains('active')) return;
 
-        // Si el input oculto tiene foco, él maneja Backspace/Tab directamente.
-        // Para letras, el evento 'input' ya las procesa → no duplicar.
-        const inp = document.getElementById('cruc-hidden-input');
-        if (document.activeElement === inp) return;
-
-        // Desktop sin foco en input: capturar aquí
-        if (e.key === 'Backspace') { e.preventDefault(); crucHandleKey('Delete'); }
-        else if (e.key === 'Tab')  { e.preventDefault(); crucHandleKey('Tab'); }
-        else if (/^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ]$/i.test(e.key)) {
-            e.preventDefault();
-            crucHandleKey(e.key.toUpperCase());
-        }
-    };
-
-    document.addEventListener('keydown', window._crucKeyHandler);
-}
-
-// ── INTEGRACIÓN CON core.js ──────────────────
-// Override del goToGame para manejar crucigrama
-const _origGoToGame = typeof goToGame !== 'undefined' ? goToGame : null;
-
-// Patch goToGame to handle crucigrama
-document.addEventListener('DOMContentLoaded', () => {
-    // Extend goToGame defined in core.js
-    if (typeof window.goToGame === 'function') {
-        const _orig = window.goToGame;
-        window.goToGame = function(game) {
-            if (game === 'crucigrama') {
-                openCrucigrama();
-            } else {
-                _orig(game);
-            }
-        };
-    }
+        if (e.key === 'Backspace')                          { e.preventDefault(); crucHandleKey('Delete'); }
+        else if (e.key === 'Tab')                           { e.preventDefault(); crucHandleKey('Tab'); }
+        else if (/^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ]$/i.test(e.key)) { e.preventDefault(); crucHandleKey(e.key.toUpperCase()); }
+    });
 });
