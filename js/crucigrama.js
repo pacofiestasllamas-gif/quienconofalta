@@ -165,44 +165,55 @@ function buildCrucigramaScreen() {
 
         <!-- BODY -->
         <div class="cruc-body">
-            <!-- GRID -->
-            <div class="cruc-grid-wrapper">
-                <div class="cruc-grid" id="cruc-grid"></div>
-            </div>
 
-            <!-- PISTA ACTIVA -->
-            <div class="cruc-clue-bar" id="cruc-clue-bar">
-                <div class="cruc-clue-empty">Pulsa una casilla para ver la pista</div>
-            </div>
+            <!-- COLUMNA IZQUIERDA: VERTICALES (solo desktop) -->
+            <div class="cruc-clues-desktop" id="cruc-clues-down"></div>
 
-            <!-- TECLADO VIRTUAL (desktop) -->
-            <div class="cruc-keyboard" id="cruc-keyboard">
-                <div class="cruc-keyboard-row">
-                    ${['Q','W','E','R','T','Y','U','I','O','P'].map(k =>
-                        `<button class="cruc-key" data-cruc-key="${k}" onclick="crucHandleKey('${k}')">${k}</button>`
-                    ).join('')}
+            <!-- COLUMNA CENTRAL -->
+            <div class="cruc-center-col">
+                <!-- GRID -->
+                <div class="cruc-grid-wrapper">
+                    <div class="cruc-grid" id="cruc-grid"></div>
                 </div>
-                <div class="cruc-keyboard-row">
-                    ${['A','S','D','F','G','H','J','K','L'].map(k =>
-                        `<button class="cruc-key" data-cruc-key="${k}" onclick="crucHandleKey('${k}')">${k}</button>`
-                    ).join('')}
+
+                <!-- PISTA ACTIVA -->
+                <div class="cruc-clue-bar" id="cruc-clue-bar">
+                    <div class="cruc-clue-empty">Pulsa una casilla para ver la pista</div>
                 </div>
-                <div class="cruc-keyboard-row">
-                    <button class="cruc-key cruc-key--wide" onclick="crucHandleKey('Delete')">⌫</button>
-                    ${['Z','X','C','V','B','N','M'].map(k =>
-                        `<button class="cruc-key" data-cruc-key="${k}" onclick="crucHandleKey('${k}')">${k}</button>`
-                    ).join('')}
-                    <button class="cruc-key cruc-key--wide" onclick="crucHandleKey('Tab')">→</button>
+
+                <!-- TECLADO VIRTUAL (desktop) -->
+                <div class="cruc-keyboard" id="cruc-keyboard">
+                    <div class="cruc-keyboard-row">
+                        ${['Q','W','E','R','T','Y','U','I','O','P'].map(k =>
+                            `<button class="cruc-key" data-cruc-key="${k}" onclick="crucHandleKey('${k}')">${k}</button>`
+                        ).join('')}
+                    </div>
+                    <div class="cruc-keyboard-row">
+                        ${['A','S','D','F','G','H','J','K','L'].map(k =>
+                            `<button class="cruc-key" data-cruc-key="${k}" onclick="crucHandleKey('${k}')">${k}</button>`
+                        ).join('')}
+                    </div>
+                    <div class="cruc-keyboard-row">
+                        <button class="cruc-key cruc-key--wide" onclick="crucHandleKey('Delete')">⌫</button>
+                        ${['Z','X','C','V','B','N','M'].map(k =>
+                            `<button class="cruc-key" data-cruc-key="${k}" onclick="crucHandleKey('${k}')">${k}</button>`
+                        ).join('')}
+                        <button class="cruc-key cruc-key--wide" onclick="crucHandleKey('Tab')">→</button>
+                    </div>
                 </div>
+
+                <!-- TAP BAR MÓVIL -->
+                <div class="cruc-tap-bar" id="cruc-tap-bar" onclick="crucFocusMobile()">
+                    Toca aquí para escribir ✏️
+                </div>
+
+                <!-- LISTAS DE PISTAS (móvil: visibles; desktop: ocultas via CSS) -->
+                <div class="cruc-clues-panel" id="cruc-clues-panel"></div>
             </div>
 
-            <!-- TAP BAR MÓVIL -->
-            <div class="cruc-tap-bar" id="cruc-tap-bar" onclick="crucFocusMobile()">
-                Toca aquí para escribir ✏️
-            </div>
+            <!-- COLUMNA DERECHA: HORIZONTALES (solo desktop) -->
+            <div class="cruc-clues-desktop" id="cruc-clues-across"></div>
 
-            <!-- LISTAS DE PISTAS -->
-            <div class="cruc-clues-panel" id="cruc-clues-panel"></div>
         </div>
 
         <!-- BOTTOM BAR -->
@@ -257,9 +268,13 @@ function renderGrid() {
     const { rows, cols } = crucData.grid_size;
 
     // Calcular tamaño de celda dinámicamente según el ancho disponible
-    const availableWidth  = Math.min(window.innerWidth - 32, 640);
-    const availableHeight = window.innerHeight * 0.5; // max 50vh para el grid
-    const cellByWidth  = Math.floor((availableWidth  - 10) / cols);  // 10 = padding + gap
+    const isDesktop = window.innerWidth > 600;
+    // En desktop, la columna central ocupa aprox. el ancho total menos dos columnas laterales (210px c/u) y gaps
+    const availableWidth  = isDesktop
+        ? Math.min(window.innerWidth - 32 - 2 * 230, 480)
+        : Math.min(window.innerWidth - 32, 640);
+    const availableHeight = window.innerHeight * (isDesktop ? 0.65 : 0.5);
+    const cellByWidth  = Math.floor((availableWidth  - 10) / cols);
     const cellByHeight = Math.floor((availableHeight - 10) / rows);
     const cellSize = Math.max(28, Math.min(52, cellByWidth, cellByHeight));
 
@@ -369,7 +384,7 @@ function refreshAllCells() {
 
 function renderCluesList() {
     const panel = document.getElementById('cruc-clues-panel');
-    if (!panel || !crucData) return;
+    if (!crucData) return;
 
     const across = crucData.words.filter(w => w.direction === 'across').sort((a,b) => a.number - b.number);
     const down   = crucData.words.filter(w => w.direction === 'down').sort((a,b) => a.number - b.number);
@@ -384,20 +399,32 @@ function renderCluesList() {
                 </div>`;
     }).join('');
 
-    panel.innerHTML = `
+    const acrossHTML = `
         <div class="cruc-clues-section">
             <div class="cruc-clues-heading">HORIZONTALES</div>
             ${buildList(across)}
-        </div>
+        </div>`;
+    const downHTML = `
         <div class="cruc-clues-section">
             <div class="cruc-clues-heading">VERTICALES</div>
             ${buildList(down)}
         </div>`;
+
+    // Móvil: panel central (ambas columnas juntas)
+    if (panel) {
+        panel.innerHTML = acrossHTML + downHTML;
+    }
+
+    // Desktop: columnas laterales separadas
+    const colDown   = document.getElementById('cruc-clues-down');
+    const colAcross = document.getElementById('cruc-clues-across');
+    if (colDown)   colDown.innerHTML   = downHTML;
+    if (colAcross) colAcross.innerHTML = acrossHTML;
 }
 
 function updateCluesPanel() {
     if (!crucData) return;
-    // Update active/solved states without full rebuild
+    // Update active/solved states in all clue containers (panel móvil + columnas desktop)
     document.querySelectorAll('.cruc-clue-item').forEach(item => {
         const id = parseInt(item.dataset.clueId);
         item.classList.toggle('active',  crucSelectedWord?.id === id);

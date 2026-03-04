@@ -140,6 +140,49 @@
   flex: 1;
 }
 
+/* ── LAYOUT DESKTOP 3 COLUMNAS ── */
+@media (min-width: 601px) {
+  .cruc-body {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 16px;
+    gap: 20px;
+  }
+
+  /* Columna lateral de pistas */
+  .cruc-clues-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 210px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 20px;
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
+  }
+
+  .cruc-clues-desktop .cruc-clues-section {
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+
+  /* Columna central */
+  .cruc-center-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    flex: 0 0 auto;
+  }
+
+  /* Panel de pistas (ocultar en desktop, se mueven a columnas laterales) */
+  .cruc-clues-panel {
+    display: none;
+  }
+}
+
 /* ── CUADRÍCULA ── */
 .cruc-grid-wrapper {
   display: flex;
