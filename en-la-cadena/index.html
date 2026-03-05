@@ -59,6 +59,28 @@
       </div>
     </div>
 
+    <!-- Tiempo por turno -->
+    <div class="setup-block">
+      <label class="block-label">TIEMPO POR TURNO</label>
+      <div class="mode-cards">
+        <div class="time-card" data-time="10" onclick="App.selectTime(this)">
+          <div class="mode-icon">⚡</div>
+          <div class="mode-name">EXTREMO</div>
+          <div class="mode-desc">10 seg · Sin tiempo para pensar</div>
+        </div>
+        <div class="time-card selected" data-time="15" onclick="App.selectTime(this)">
+          <div class="mode-icon">⏱️</div>
+          <div class="mode-name">NORMAL</div>
+          <div class="mode-desc">15 seg · El equilibrio perfecto</div>
+        </div>
+        <div class="time-card" data-time="20" onclick="App.selectTime(this)">
+          <div class="mode-icon">🧠</div>
+          <div class="mode-name">PENSADOR</div>
+          <div class="mode-desc">20 seg · Tiempo para reflexionar</div>
+        </div>
+      </div>
+    </div>
+
     <!-- Jugadores -->
     <div class="setup-block">
       <label class="block-label">JUGADORES <span class="hint">(mín. 2, máx. 8)</span></label>
@@ -174,6 +196,12 @@
     <div class="suggestions" id="suggestions"></div>
   </div>
 
+  <!-- Panel de opciones válidas (aparece tras un error) -->
+  <div id="valid-options-panel" class="valid-options-panel hidden">
+    <div class="vop-label">✅ Opciones válidas que había:</div>
+    <div id="valid-options-list" class="vop-list"></div>
+  </div>
+
   <!-- Mensaje de espera (cuando no es tu turno en online) -->
   <div class="waiting-msg hidden" id="waiting-msg">
     <div class="waiting-icon">⏳</div>
@@ -188,6 +216,10 @@
     <div class="elim-icon">💀</div>
     <h2 class="elim-title" id="elim-title">¡ELIMINADO!</h2>
     <p class="elim-msg" id="elim-msg"></p>
+    <div id="elim-valid-options" class="elim-valid-options hidden">
+      <p class="elim-options-title">Las opciones válidas eran:</p>
+      <div id="elim-options-list" class="elim-options-list"></div>
+    </div>
     <button class="btn-primary" onclick="App.continueAfterElim()">Continuar</button>
   </div>
 </div>

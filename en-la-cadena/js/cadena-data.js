@@ -160,6 +160,8 @@ const CadenaData = (() => {
     selectedSuggestion = suggestionItems[index];
     document.getElementById('answer-input').value = selectedSuggestion.name;
     closeSuggestions();
+    // Auto-confirmar la selección directamente
+    submitAnswer();
   }
 
   function onKeyDown(e) {
@@ -293,7 +295,8 @@ const CadenaData = (() => {
 
         if (!valid) {
           App.showToast(reason, 'error');
-          CadenaGame.penalizeWrongAnswer(value, 'player');
+          // Para fallos de jugador no tenemos lista fácil de opciones válidas
+          CadenaGame.penalizeWrongAnswer(value, 'player', null);
           resetInput(input);
           return;
         }
@@ -309,9 +312,16 @@ const CadenaData = (() => {
         // Normalizar al nombre canónico del índice (si existe)
         const q = norm(teamName);
         const canonical = teamNames.find(t => norm(t) === q);
+
+        // Calcular opciones válidas: equipos del jugador anterior, excluyendo el equipo previo
+        const playerTeams  = lastEntry?.data?.teams || [];
+        const isOCM        = playerTeams.length === 1;
+        const prevTeamNorm = prevTeam ? norm(prevTeam) : null;
+        const validTeams   = playerTeams.filter(t => !prevTeamNorm || isOCM || norm(t) !== prevTeamNorm);
+
         if (!canonical) {
           App.showToast(`"${teamName}" no está en la base de datos`, 'error');
-          CadenaGame.penalizeWrongAnswer(value, 'team');
+          CadenaGame.penalizeWrongAnswer(value, 'team', validTeams);
           resetInput(input);
           return;
         }
@@ -321,7 +331,7 @@ const CadenaData = (() => {
 
         if (!valid) {
           App.showToast(reason, 'error');
-          CadenaGame.penalizeWrongAnswer(value, 'team');
+          CadenaGame.penalizeWrongAnswer(value, 'team', validTeams);
           resetInput(input);
           return;
         }
