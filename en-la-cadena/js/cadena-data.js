@@ -57,10 +57,16 @@ const CadenaData = (() => {
   }
 
   /* ── Inicialización: carga índices ── */
+  let _initPromise = null;  // Singleton: evita cargas duplicadas en paralelo
+
   async function init() {
     // Guard: no recargar si ya está inicializado
     if (nameIndex && teamNames) return;
 
+    // Si ya hay una carga en curso, esperar a que termine en lugar de lanzar otra
+    if (_initPromise) return _initPromise;
+
+    _initPromise = (async () => {
     // Cargar los tres ficheros en paralelo
     const [ni, tn, leagueData] = await Promise.all([
       fetch('../data/players/name-index.json').then(r => r.json()),
@@ -87,6 +93,8 @@ const CadenaData = (() => {
     }
 
     console.log(`✅ CadenaData: ${nameIndex.length.toLocaleString()} jugadores, ${teamNames.length.toLocaleString()} equipos`);
+    })();
+    return _initPromise;
   }
 
   /* ── Autocomplete ── */

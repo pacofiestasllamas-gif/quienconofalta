@@ -803,6 +803,10 @@ const App = (() => {
       cp.eliminated = true;
       _showEliminated(cp, `"${value}" no es válido`, validOptions);
     } else {
+      // Reiniciar cadena al perder vida
+      s.chain = [];
+      s.chainLength = 0;
+      document.getElementById('chain-entries').innerHTML = '';
       // Mostrar opciones válidas en el panel del juego (no-eliminación)
       _showValidOptionsPanel(validOptions);
       App.showToast(`❤️ Le quedan ${cp.lives} vida${cp.lives !== 1 ? 's' : ''}`, 'error');
@@ -836,19 +840,29 @@ const App = (() => {
 
     const isMyTurn = (s.mode === 'local') || (s.myPlayerId !== null && cp.id === s.myPlayerId);
 
+    // Período de gracia al inicio de la partida (cadena vacía): 3 segundos antes de arrancar el timer
+    const isFirstTurn = s.chain.length === 0 && !s._graceGiven;
+    if (isFirstTurn) s._graceGiven = true;
+    const graceMs = isFirstTurn ? 10000 : 0;
+
     if (isMyTurn) {
       answerZone.classList.remove('hidden');
       waitingMsg.classList.add('hidden');
       input.disabled = false;
       input.value = '';
       CadenaData.closeSuggestions();
-      _startTimer();
+      if (graceMs > 0) {
+        // Mostrar cuenta atrás visual antes de arrancar
+        _showGraceCountdown(graceMs, () => _startTimer());
+      } else {
+        _startTimer();
+      }
       setTimeout(() => input.focus(), 100);
     } else {
       answerZone.classList.add('hidden');
       waitingMsg.classList.remove('hidden');
       document.getElementById('waiting-name').textContent = cp.name;
-      _startTimer();
+      setTimeout(() => _startTimer(), graceMs);
     }
   };
 
@@ -904,7 +918,14 @@ const App = (() => {
           if (cp) {
             cp.lives--;
             if (cp.lives <= 0) { cp.eliminated = true; _showEliminated(cp, 'Se quedó sin tiempo', null); }
-            else { App.showToast(`❤️ Le quedan ${cp.lives} vida${cp.lives !== 1 ? 's' : ''}`, 'error'); _nextTurn(); }
+            else {
+              // Reiniciar cadena al perder vida por tiempo
+              s.chain = [];
+              s.chainLength = 0;
+              document.getElementById('chain-entries').innerHTML = '';
+              App.showToast(`❤️ Le quedan ${cp.lives} vida${cp.lives !== 1 ? 's' : ''}`, 'error');
+              _nextTurn();
+            }
           }
         }
       }
@@ -953,6 +974,44 @@ const App = (() => {
       panel.classList.remove('hidden');
     } else {
       panel.classList.add('hidden');
+    }
+  }
+
+  function _showGraceCountdown(totalMs, onDone) {
+    const SECS = Math.round(totalMs / 1000);
+    const bar  = document.getElementById('timer-bar');
+    const text = document.getElementById('timer-text');
+    if (bar)  { bar.style.width = '100%'; bar.classList.remove('warning'); }
+    if (text) text.textContent = '¡Prepárate!';
+
+    let remaining = SECS;
+    const iv = setInterval(() => {
+      remaining--;
+      if (text) text.textContent = remaining > 0 ? remaining : '¡Ya!';
+      if (bar)  bar.style.width = (Math.max(remaining, 0) / SECS * 100) + '%';
+
+      if (remaining <= 0) {
+        clearInterval(iv);
+        // Esperar a que los datos estén cargados antes de arrancar el timer
+        _waitForDataThenStart(onDone);
+      }
+    }, 1000);
+  }
+
+  function _waitForDataThenStart(onDone) {
+    const s = CadenaGame._state;
+    // CadenaData.init() devuelve una promesa (o nada si ya está listo)
+    const initResult = CadenaData.init();
+    if (initResult && typeof initResult.then === 'function') {
+      // Datos aún cargando: mostrar "Cargando..." y esperar
+      const text = document.getElementById('timer-text');
+      const bar  = document.getElementById('timer-bar');
+      if (text) text.textContent = '⏳';
+      if (bar)  { bar.style.width = '100%'; bar.classList.remove('warning'); }
+      initResult.then(() => onDone()).catch(() => onDone());
+    } else {
+      // Ya estaba listo
+      onDone();
     }
   }
 
