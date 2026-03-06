@@ -852,17 +852,20 @@ const App = (() => {
       input.value = '';
       CadenaData.closeSuggestions();
       if (graceMs > 0) {
-        // Mostrar cuenta atrás visual antes de arrancar
-        _showGraceCountdown(graceMs, () => _startTimer());
+        _showCountdownOverlay(graceMs, () => { _startTimer(); setTimeout(() => input.focus(), 50); });
       } else {
         _startTimer();
+        setTimeout(() => input.focus(), 100);
       }
-      setTimeout(() => input.focus(), 100);
     } else {
       answerZone.classList.add('hidden');
       waitingMsg.classList.remove('hidden');
       document.getElementById('waiting-name').textContent = cp.name;
-      setTimeout(() => _startTimer(), graceMs);
+      if (graceMs > 0) {
+        _showCountdownOverlay(graceMs, () => _startTimer());
+      } else {
+        _startTimer();
+      }
     }
   };
 
@@ -977,42 +980,26 @@ const App = (() => {
     }
   }
 
-  function _showGraceCountdown(totalMs, onDone) {
+  function _showCountdownOverlay(totalMs, onDone) {
     const SECS = Math.round(totalMs / 1000);
-    const bar  = document.getElementById('timer-bar');
-    const text = document.getElementById('timer-text');
-    if (bar)  { bar.style.width = '100%'; bar.classList.remove('warning'); }
-    if (text) text.textContent = '¡Prepárate!';
+    const overlay = document.getElementById('countdown-overlay');
+    const numEl   = document.getElementById('countdown-number');
+    if (!overlay || !numEl) { onDone(); return; }
 
     let remaining = SECS;
+    numEl.textContent = remaining;
+    overlay.classList.remove('hidden');
+
     const iv = setInterval(() => {
       remaining--;
-      if (text) text.textContent = remaining > 0 ? remaining : '¡Ya!';
-      if (bar)  bar.style.width = (Math.max(remaining, 0) / SECS * 100) + '%';
-
       if (remaining <= 0) {
         clearInterval(iv);
-        // Esperar a que los datos estén cargados antes de arrancar el timer
-        _waitForDataThenStart(onDone);
+        overlay.classList.add('hidden');
+        onDone();
+      } else {
+        numEl.textContent = remaining;
       }
     }, 1000);
-  }
-
-  function _waitForDataThenStart(onDone) {
-    const s = CadenaGame._state;
-    // CadenaData.init() devuelve una promesa (o nada si ya está listo)
-    const initResult = CadenaData.init();
-    if (initResult && typeof initResult.then === 'function') {
-      // Datos aún cargando: mostrar "Cargando..." y esperar
-      const text = document.getElementById('timer-text');
-      const bar  = document.getElementById('timer-bar');
-      if (text) text.textContent = '⏳';
-      if (bar)  { bar.style.width = '100%'; bar.classList.remove('warning'); }
-      initResult.then(() => onDone()).catch(() => onDone());
-    } else {
-      // Ya estaba listo
-      onDone();
-    }
   }
 
   function _endGame(winner) {
