@@ -987,15 +987,39 @@ const App = (() => {
     if (!overlay || !numEl) { onDone(); return; }
 
     let remaining = SECS;
+    let countdownDone = false;
+    let dataReady = false;
+
     numEl.textContent = remaining;
     overlay.classList.remove('hidden');
+
+    // Lanzar carga de índices Y todos los chunks en paralelo con la cuenta atrás
+    const dataPromise = Promise.all([
+      CadenaData.init().catch(() => {}),
+      CadenaData.preloadAllChunks().catch(() => {})
+    ]);
+    dataPromise.then(() => {
+      dataReady = true;
+      // Si la cuenta ya terminó, arrancar ahora
+      if (countdownDone) {
+        overlay.classList.add('hidden');
+        onDone();
+      }
+    });
 
     const iv = setInterval(() => {
       remaining--;
       if (remaining <= 0) {
         clearInterval(iv);
-        overlay.classList.add('hidden');
-        onDone();
+        countdownDone = true;
+        if (dataReady) {
+          // Datos listos: arrancar
+          overlay.classList.add('hidden');
+          onDone();
+        } else {
+          // Datos aún cargando: mostrar espera
+          numEl.textContent = '⏳';
+        }
       } else {
         numEl.textContent = remaining;
       }
@@ -1071,7 +1095,8 @@ const App = (() => {
    ══════════════════════════════════════════════ */
 document.addEventListener('DOMContentLoaded', () => {
   App.init();
-  // Precargar datos en background nada más cargar la página,
-  // para que al iniciar partida ya estén listos y no haya lag en el primer turno.
+  // Precargar índices y todos los chunks en background nada más cargar la página,
+  // para que al iniciar partida ya estén listos y no haya lag en ningún turno.
   CadenaData.init().catch(() => {});
+  CadenaData.preloadAllChunks().catch(() => {});
 });
