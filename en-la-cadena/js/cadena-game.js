@@ -595,7 +595,6 @@ const App = (() => {
   }
 
   function _startGameUI(names, lives, mode, roomCode, myId, turnSecs) {
-    // Construir estado en el módulo de juego
     const state = {
       players: names.map((name, i) => ({ id: i, name, lives, eliminated: false })),
       currentIndex: 0,
@@ -605,18 +604,27 @@ const App = (() => {
       turnSecs: turnSecs || 15,
       mode,
       roomCode,
-      isHost: true,
+      isHost: myId === 0,
       myPlayerId: myId,
-      phase: 'playing'
+      phase: 'playing',
+      _lastAppliedTurn: 0   // para que applyRemoteState no ignore el turno 0
     };
 
-    // Inyectar estado al módulo CadenaGame a través de un reset
     _injectState(state);
-
-    // Limpiar UI del juego
     document.getElementById('chain-entries').innerHTML = '';
     showScreen('screen-game');
-    CadenaGame.beginTurn();
+
+    if (mode === 'online') {
+      // Suscribir listener único para actualizaciones remotas
+      CadenaGame.FBSync.cleanup();
+      CadenaGame.FBSync.listenRoom(roomCode, remote => {
+        CadenaGame.applyRemoteState(remote);
+      });
+      // Solo el jugador 0 llama beginTurn en el arranque; los demás esperan el snapshot
+      if (myId === 0) CadenaGame.beginTurn();
+    } else {
+      CadenaGame.beginTurn();
+    }
   }
 
   /* Inyectar estado al módulo cerrado mediante eval temporal */
@@ -636,22 +644,28 @@ const App = (() => {
       showScreen('screen-lobby');
       document.getElementById('room-code-display').textContent = code;
       document.getElementById('lobby-mode-display').textContent =
-        `${lives === 1 ? '💀 Supervivencia' : lives === 2 ? '⚽ Normal' : '🏆 Largo'} · ${names.length} jugadores`;
+        `${lives === 1 ? '💀 Supervivencia' : lives === 2 ? '⚽ Normal' : '🏆 Largo'}`;
       document.getElementById('btn-start-online').style.display = 'block';
 
       renderLobbyPlayers(names, 0);
 
-      // Escuchar sala para ver si se unen más
-      CadenaGame.FBSync.listenRoom(code, remote => {
+      // Listener de lobby: solo actualiza lista de jugadores
+      // Cuando arranca la partida, _startGameUI registra su propio listener limpio
+      window._lobbyUnsub = null;
+      const { db, ref, onValue } = window._FB;
+      const rRef = ref(db, 'rooms/' + code);
+      const unsub = onValue(rRef, snap => {
+        if (!snap.exists()) return;
+        const remote = snap.val();
         if (remote.players) renderLobbyPlayers(remote.players.map(p => p.name), 0);
         if (remote.status === 'playing') {
+          unsub(); // cancelar listener de lobby
           _startGameUI(remote.players.map(p => p.name), remote.lives, 'online', code, 0, turnSecs || 15);
         }
       });
+      window._lobbyUnsub = unsub;
 
-      // Guardar código en estado local
       window._pendingRoomCode = code;
-      window._pendingNames    = names;
       window._pendingLives    = lives;
 
     } catch (err) {
@@ -684,13 +698,17 @@ const App = (() => {
 
       renderLobbyPlayers(roomData.players.map(p => p.name), myId);
 
-      CadenaGame.FBSync.listenRoom(code, remote => {
+      // Listener de lobby para el joiner
+      const { db, ref, onValue } = window._FB;
+      const rRef = ref(db, 'rooms/' + code);
+      const unsub = onValue(rRef, snap => {
+        if (!snap.exists()) return;
+        const remote = snap.val();
         if (remote.players) renderLobbyPlayers(remote.players.map(p => p.name), myId);
         if (remote.status === 'playing') {
-          // Cargar datos justo antes de empezar a jugar
+          unsub(); // cancelar listener de lobby
           CadenaData.init().catch(() => {}).finally(() => {
-            _startGameUI(remote.players.map(p => p.name), remote.lives, 'online', code, myId);
-            CadenaGame.FBSync.listenRoom(code, CadenaGame.applyRemoteState);
+            _startGameUI(remote.players.map(p => p.name), remote.lives, 'online', code, myId, remote.turnSecs || 15);
           });
         }
       });
@@ -825,7 +843,28 @@ const App = (() => {
     s.chainLength++;
 
     _renderEntry(entry);
-    _nextTurn();
+
+    if (s.mode === 'online') {
+      const nextActive = s.players.filter(p => !p.eliminated);
+      const nextIndex = (s.currentIndex + 1) % nextActive.length;
+      s.currentIndex = nextIndex;
+      const chainSerial = s.chain.map(e => ({
+        type: e.type, name: e.name || null, value: e.value || null,
+        id: e.id || null, isOneClubMan: e.isOneClubMan || false, submittedBy: e.submittedBy || ''
+      }));
+      const FB = window._FB;
+      if (FB?.configured && s.roomCode) {
+        const { db, ref, update, serverTimestamp } = FB;
+        update(ref(db, 'rooms/' + s.roomCode), {
+          chain: chainSerial, chainLength: chainSerial.length,
+          turnIndex: nextIndex,
+          players: s.players.map(p => ({ id: p.id, name: p.name, lives: p.lives, eliminated: p.eliminated })),
+          turnStartTime: serverTimestamp(), status: 'playing'
+        });
+      }
+    } else {
+      _nextTurn();
+    }
   };
 
   CadenaGame.penalizeWrongAnswer = function(value, type, validOptions) {
@@ -838,18 +877,38 @@ const App = (() => {
     cp.lives--;
     if (cp.lives <= 0) {
       cp.eliminated = true;
-      _showEliminated(cp, `"${value}" no es válido`, validOptions);
+      if (s.mode === 'online') _pushPenaltyToFirebase(s);
+      _showEliminated(cp, '"' + value + '" no es válido', validOptions);
     } else {
-      // Reiniciar cadena al perder vida
-      s.chain = [];
-      s.chainLength = 0;
+      s.chain = []; s.chainLength = 0;
       document.getElementById('chain-entries').innerHTML = '';
-      // Mostrar opciones válidas en el panel del juego (no-eliminación)
       _showValidOptionsPanel(validOptions);
-      App.showToast(`❤️ Le quedan ${cp.lives} vida${cp.lives !== 1 ? 's' : ''}`, 'error');
-      _nextTurn();
+      App.showToast('❤️ Le quedan ' + cp.lives + ' vida' + (cp.lives !== 1 ? 's' : ''), 'error');
+      if (s.mode === 'online') _pushPenaltyToFirebase(s);
+      else _nextTurn();
     }
   };
+
+  function _pushPenaltyToFirebase(s) {
+    const active = s.players.filter(p => !p.eliminated);
+    const FB = window._FB;
+    if (!FB?.configured || !s.roomCode) return;
+    const { db, ref, update, serverTimestamp } = FB;
+    if (active.length <= 1) {
+      update(ref(db, 'rooms/' + s.roomCode), {
+        players: s.players.map(p => ({ id: p.id, name: p.name, lives: p.lives, eliminated: p.eliminated })),
+        chain: [], chainLength: 0, status: 'finished'
+      });
+      return;
+    }
+    const nextIndex = (s.currentIndex + 1) % active.length;
+    s.currentIndex = nextIndex;
+    update(ref(db, 'rooms/' + s.roomCode), {
+      players: s.players.map(p => ({ id: p.id, name: p.name, lives: p.lives, eliminated: p.eliminated })),
+      chain: [], chainLength: 0, turnIndex: nextIndex,
+      turnStartTime: serverTimestamp(), status: 'playing'
+    });
+  }
 
   CadenaGame.beginTurn = function() {
     const s = CadenaGame._state;
@@ -909,19 +968,38 @@ const App = (() => {
   CadenaGame.applyRemoteState = function(remote) {
     const s = CadenaGame._state;
     if (!s) return;
+
+    let needsBeginTurn = false;
+
     if (remote.players) s.players = remote.players;
-    if (typeof remote.turnIndex === 'number') s.currentIndex = remote.turnIndex;
-    if (remote.chain && remote.chain.length !== s.chain.length) {
-      s.chain = remote.chain;
-      s.chainLength = remote.chainLength || remote.chain.length;
-      const c = document.getElementById('chain-entries');
-      c.innerHTML = '';
-      s.chain.forEach(e => _renderEntry(e));
+
+    // Solo reaccionar a cambio de turno si el índice cambió Y no soy yo quien acaba de actuar
+    if (typeof remote.turnIndex === 'number' && remote.turnIndex !== s._lastAppliedTurn) {
+      s._lastAppliedTurn = remote.turnIndex;
+      s.currentIndex = remote.turnIndex;
+      needsBeginTurn = true;
     }
-    if (remote.status === 'playing') CadenaGame.beginTurn();
+
+    // Actualizar cadena si cambió
+    if (remote.chain) {
+      const remoteLen = Array.isArray(remote.chain) ? remote.chain.length : 0;
+      if (remoteLen !== s.chain.length) {
+        s.chain = Array.isArray(remote.chain) ? remote.chain : [];
+        s.chainLength = remote.chainLength || s.chain.length;
+        const c = document.getElementById('chain-entries');
+        c.innerHTML = '';
+        s.chain.forEach(e => _renderEntry(e));
+      }
+    }
+
     if (remote.status === 'finished') {
       const active = s.players.filter(p => !p.eliminated);
       _endGame(active[0]);
+      return;
+    }
+
+    if (needsBeginTurn && remote.status === 'playing') {
+      setTimeout(() => CadenaGame.beginTurn(), 100);
     }
   };
 
@@ -949,22 +1027,23 @@ const App = (() => {
 
       if (rem <= 0) {
         clearInterval(window._timerInterval);
-        const isMyTurn = s.mode === 'local' || s.myPlayerId !== null &&
-          s.players.filter(p => !p.eliminated)[s.currentIndex % s.players.filter(p => !p.eliminated).length]?.id === s.myPlayerId;
+        const active2 = s.players.filter(p => !p.eliminated);
+        const cp2 = active2[s.currentIndex % active2.length];
+        const isMyTurn = s.mode === 'local' || (s.myPlayerId !== null && cp2?.id === s.myPlayerId);
         if (isMyTurn) {
-          const active = s.players.filter(p => !p.eliminated);
-          const cp = active[s.currentIndex % active.length];
-          App.showToast(`⏰ ¡Tiempo! ${cp?.name} pierde una vida`, 'error');
-          if (cp) {
-            cp.lives--;
-            if (cp.lives <= 0) { cp.eliminated = true; _showEliminated(cp, 'Se quedó sin tiempo', null); }
-            else {
-              // Reiniciar cadena al perder vida por tiempo
-              s.chain = [];
-              s.chainLength = 0;
+          App.showToast('⏰ ¡Tiempo! ' + (cp2?.name || '') + ' pierde una vida', 'error');
+          if (cp2) {
+            cp2.lives--;
+            if (cp2.lives <= 0) {
+              cp2.eliminated = true;
+              if (s.mode === 'online') _pushPenaltyToFirebase(s);
+              _showEliminated(cp2, 'Se quedó sin tiempo', null);
+            } else {
+              s.chain = []; s.chainLength = 0;
               document.getElementById('chain-entries').innerHTML = '';
-              App.showToast(`❤️ Le quedan ${cp.lives} vida${cp.lives !== 1 ? 's' : ''}`, 'error');
-              _nextTurn();
+              App.showToast('❤️ Le quedan ' + cp2.lives + ' vida' + (cp2.lives !== 1 ? 's' : ''), 'error');
+              if (s.mode === 'online') _pushPenaltyToFirebase(s);
+              else _nextTurn();
             }
           }
         }
