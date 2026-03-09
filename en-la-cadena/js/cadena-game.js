@@ -968,8 +968,9 @@ const App = (() => {
     entry.submittedBy = cp?.name || '?';
     // Promover nat y b al nivel raíz para que Firebase los serialice y _renderEntry los lea
     if (entry.type === 'player' && entry.data) {
-      if (!entry.nat) entry.nat = entry.data.nat || null;
-      if (!entry.b)   entry.b   = entry.data.b   || null;
+      if (!entry.nat)   entry.nat   = entry.data.nat   || null;
+      if (!entry.b)     entry.b     = entry.data.b     || null;
+      if (!entry.teams) entry.teams = entry.data.teams || null;
     }
     s.chain.push(entry);
     s.chainLength++;
@@ -983,8 +984,9 @@ const App = (() => {
       const chainSerial = s.chain.map(e => ({
         type: e.type, name: e.name || null, value: e.value || null,
         id: e.id || null, isOneClubMan: e.isOneClubMan || false, submittedBy: e.submittedBy || '',
-        nat: e.nat || e.data?.nat || null,
-        b:   e.b   || e.data?.b   || null
+        nat:   e.nat   || e.data?.nat   || null,
+        b:     e.b     || e.data?.b     || null,
+        teams: e.teams || e.data?.teams || null
       }));
       const FB = window._FB;
       if (FB?.configured && s.roomCode) {

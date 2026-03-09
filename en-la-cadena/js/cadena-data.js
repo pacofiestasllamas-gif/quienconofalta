@@ -393,11 +393,18 @@ const CadenaData = (() => {
         const lastEntry = state.chain[state.chain.length - 1];
         const prevTeam  = state.chain.length >= 2 ? state.chain[state.chain.length - 2].value : null;
 
+        // En online lastEntry.data no viaja — usar campos serializados directamente
+        let playerData = lastEntry?.data;
+        if (!playerData) {
+          // Reconstruir el mínimo necesario para validar desde campos serializados en Firebase
+          playerData = { teams: lastEntry?.teams || [], nat: lastEntry?.nat, b: lastEntry?.b };
+        }
+
         let teamName = selectedSuggestion?.name || value;
         const q = norm(teamName);
         const canonical = teamNames.find(t => norm(t) === q);
 
-        const playerTeams  = lastEntry?.data?.teams || [];
+        const playerTeams  = playerData?.teams || [];
         const isOCM        = playerTeams.length === 1;
         const prevTeamNorm = prevTeam ? norm(prevTeam) : null;
         const validTeams   = playerTeams.filter(t => !prevTeamNorm || isOCM || norm(t) !== prevTeamNorm);
@@ -410,7 +417,7 @@ const CadenaData = (() => {
         }
         teamName = canonical;
 
-        const { valid, reason, isOneClubMan } = validateTeam(teamName, lastEntry.data, prevTeam);
+        const { valid, reason, isOneClubMan } = validateTeam(teamName, playerData, prevTeam);
 
         if (!valid) {
           App.showToast(reason, 'error');
