@@ -737,12 +737,12 @@ const App = (() => {
       const isHost = myId === 0;
       btnStart.style.display = isHost ? 'block' : 'none';
       if (isHost) {
-        const enough = names.length >= 2;
+        const enough = normalized.length >= 2;
         btnStart.disabled = !enough;
         btnStart.style.opacity = enough ? '1' : '0.45';
         if (hintEl) hintEl.textContent = enough
-          ? `${names.length} jugadores listos — ¡puedes empezar!`
-          : `Esperando jugadores… (${names.length}/2 mínimo para empezar)`;
+          ? `${normalized.length} jugadores listos — ¡puedes empezar!`
+          : `Esperando jugadores… (${normalized.length}/2 mínimo para empezar)`;
       }
     }
   }
@@ -796,39 +796,45 @@ const App = (() => {
     showScreen('screen-create');
   }
 
-  /* Vuelve al lobby de la sala con el mismo código.
-     - Si la sala está en 'lobby': se une al final de la lista.
-     - Si no (finished/playing/etc): resetea la sala y se convierte en host. */
+  /* Vuelve al lobby de la sala con el mismo codigo.
+     Usa runTransaction para evitar race conditions cuando dos jugadores
+     pulsan "Jugar de nuevo" al mismo tiempo. */
   async function _rejoinLobby(roomCode, myName, lives) {
     const FB = window._FB;
     if (!FB?.configured) { showMenu(); return; }
     try {
-      const { db, ref, get, update } = FB;
-      const snap = await get(ref(db, 'rooms/' + roomCode));
-      if (!snap.exists()) { showToast('La sala ya no existe', 'error'); showMenu(); return; }
+      const { db, ref, runTransaction } = FB;
+      const rRef = ref(db, 'rooms/' + roomCode);
 
-      const room = snap.val();
-      let myId, players;
+      let myId = null;
 
-      if (room.status === 'lobby') {
-        // Alguien ya está en el lobby — añadirse al final
-        const existing = (room.players || []);
-        myId = existing.length;
-        players = [...existing, { id: myId, name: myName, lives: room.lives || lives, eliminated: false }];
-        await update(ref(db, 'rooms/' + roomCode), { players });
-      } else {
-        // Primero en volver — resetear sala, convertirse en host (id=0)
-        myId = 0;
-        players = [{ id: 0, name: myName, lives, eliminated: false }];
-        await update(ref(db, 'rooms/' + roomCode), {
-          status: 'lobby', players,
-          chain: [], chainLength: 0, turnIndex: 0, lives
-        });
+      const result = await runTransaction(rRef, (room) => {
+        if (!room) return room;
+        const existing = room.players || [];
+        if (room.status === 'lobby') {
+          myId = existing.length;
+          return { ...room, players: [
+            ...existing,
+            { id: myId, name: myName, lives: room.lives || lives, eliminated: false }
+          ]};
+        } else {
+          myId = 0;
+          return { ...room,
+            status: 'lobby',
+            players: [{ id: 0, name: myName, lives: room.lives || lives, eliminated: false }],
+            chain: [], chainLength: 0, turnIndex: 0
+          };
+        }
+      });
+
+      if (!result.committed) {
+        showToast('La sala ya no existe', 'error'); showMenu(); return;
       }
 
-      _enterLobby(roomCode, myId, myName, lives, players);
+      const finalRoom = result.snapshot.val();
+      _enterLobby(roomCode, myId, myName, finalRoom.lives || lives, finalRoom.players);
     } catch(e) {
-      showToast('Error al volver al lobby', 'error');
+      showToast('Error al volver al lobby: ' + e.message, 'error');
       showMenu();
     }
   }

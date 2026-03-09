@@ -383,7 +383,11 @@ const CadenaData = (() => {
           return;
         }
 
-        CadenaGame.addToChain({ type: 'player', id: playerId, name: playerName, data: playerData });
+        CadenaGame.addToChain({
+          type: 'player', id: playerId, name: playerName, data: playerData,
+          nat: playerData?.nat || null,
+          b:   playerData?.b   || null
+        });
 
       } else {
         const lastEntry = state.chain[state.chain.length - 1];
@@ -393,33 +397,20 @@ const CadenaData = (() => {
         const q = norm(teamName);
         const canonical = teamNames.find(t => norm(t) === q);
 
+        const playerTeams  = lastEntry?.data?.teams || [];
+        const isOCM        = playerTeams.length === 1;
+        const prevTeamNorm = prevTeam ? norm(prevTeam) : null;
+        const validTeams   = playerTeams.filter(t => !prevTeamNorm || isOCM || norm(t) !== prevTeamNorm);
+
         if (!canonical) {
           App.showToast(`"${teamName}" no está en la base de datos`, 'error');
-          CadenaGame.penalizeWrongAnswer(value, 'team', []);
+          CadenaGame.penalizeWrongAnswer(value, 'team', validTeams);
           resetInput(input);
           return;
         }
         teamName = canonical;
 
-        // En modo online lastEntry.data puede no existir (no se serializa a Firebase)
-        // Si falta, lo cargamos por id antes de validar
-        let playerData = lastEntry?.data;
-        if (!playerData && lastEntry?.id) {
-          playerData = await getPlayerById(lastEntry.id);
-        }
-
-        if (!playerData) {
-          App.showToast('No se pudo cargar el jugador anterior. Inténtalo de nuevo.', 'error');
-          resetInput(input);
-          return;
-        }
-
-        const playerTeams  = playerData.teams || [];
-        const isOCM        = playerTeams.length === 1;
-        const prevTeamNorm = prevTeam ? norm(prevTeam) : null;
-        const validTeams   = playerTeams.filter(t => !prevTeamNorm || isOCM || norm(t) !== prevTeamNorm);
-
-        const { valid, reason, isOneClubMan } = validateTeam(teamName, playerData, prevTeam);
+        const { valid, reason, isOneClubMan } = validateTeam(teamName, lastEntry.data, prevTeam);
 
         if (!valid) {
           App.showToast(reason, 'error');
