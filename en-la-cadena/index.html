@@ -224,20 +224,15 @@
   import { getDatabase, ref, set, get, update, onValue, push, serverTimestamp, remove }
     from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js';
 
-  // ══ CONFIGURACIÓN FIREBASE ═══════════════════════════════════════════════
-  // Crea un proyecto en https://console.firebase.google.com
-  // → Realtime Database → Crear base de datos → modo prueba
-  // → Configuración del proyecto → Añadir app web → copia el objeto firebaseConfig
   const FIREBASE_CONFIG = {
-    apiKey:            "TU_API_KEY",
-    authDomain:        "TU_PROYECTO.firebaseapp.com",
-    databaseURL:       "https://TU_PROYECTO-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId:         "TU_PROYECTO",
-    storageBucket:     "TU_PROYECTO.appspot.com",
-    messagingSenderId: "TU_SENDER_ID",
-    appId:             "TU_APP_ID"
+    apiKey:            "AIzaSyDNh3m2ro5PsrrGTlhdxhqo93WWusJHUrM",
+    authDomain:        "futbolhub-9d0a4.firebaseapp.com",
+    databaseURL:       "https://futbolhub-9d0a4-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId:         "futbolhub-9d0a4",
+    storageBucket:     "futbolhub-9d0a4.firebasestorage.app",
+    messagingSenderId: "179751773212",
+    appId:             "1:179751773212:web:9acfe3d5b8c344c51a2bd9"
   };
-  // ═════════════════════════════════════════════════════════════════════════
 
   // Detectar si Firebase está configurado
   const FB_CONFIGURED = FIREBASE_CONFIG.apiKey !== "TU_API_KEY";
