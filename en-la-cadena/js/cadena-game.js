@@ -683,34 +683,7 @@ const App = (() => {
     try {
       const code = await CadenaGame.FBSync.createRoom(names, lives);
       if (!code) return;
-
-      showScreen('screen-lobby');
-      document.getElementById('room-code-display').textContent = code;
-      document.getElementById('lobby-mode-display').textContent =
-        `${lives === 1 ? '💀 Supervivencia' : lives === 2 ? '⚽ Normal' : '🏆 Largo'}`;
-      document.getElementById('btn-start-online').style.display = 'block';
-
-      renderLobbyPlayers(names, 0);
-
-      // Listener de lobby: solo actualiza lista de jugadores
-      // Cuando arranca la partida, _startGameUI registra su propio listener limpio
-      window._lobbyUnsub = null;
-      const { db, ref, onValue } = window._FB;
-      const rRef = ref(db, 'rooms/' + code);
-      const unsub = onValue(rRef, snap => {
-        if (!snap.exists()) return;
-        const remote = snap.val();
-        if (remote.players) renderLobbyPlayers(remote.players.map(p => p.name), 0);
-        if (remote.status === 'countdown' || remote.status === 'playing') {
-          unsub(); // cancelar listener de lobby
-          _startGameUI(remote.players.map(p => p.name), remote.lives, 'online', code, 0, turnSecs || 15);
-        }
-      });
-      window._lobbyUnsub = unsub;
-
-      window._pendingRoomCode = code;
-      window._pendingLives    = lives;
-
+      _enterLobby(code, 0, lives, names.map((name, i) => ({ id: i, name, lives, eliminated: false })));
     } catch (err) {
       showToast('Error al crear sala: ' + err.message, 'error');
     }
@@ -737,26 +710,7 @@ const App = (() => {
     showToast('Conectando…');
     try {
       const { roomData, myId } = await CadenaGame.FBSync.joinRoom(code, name);
-
-      showScreen('screen-lobby');
-      document.getElementById('room-code-display').textContent = code;
-      document.getElementById('btn-start-online').style.display = 'none';
-
-      renderLobbyPlayers(roomData.players.map(p => p.name), myId);
-
-      // Listener de lobby para el joiner
-      const { db, ref, onValue } = window._FB;
-      const rRef = ref(db, 'rooms/' + code);
-      const unsub = onValue(rRef, snap => {
-        if (!snap.exists()) return;
-        const remote = snap.val();
-        if (remote.players) renderLobbyPlayers(remote.players.map(p => p.name), myId);
-        if (remote.status === 'countdown' || remote.status === 'playing') {
-          unsub(); // cancelar listener de lobby
-          _startGameUI(remote.players.map(p => p.name), remote.lives, 'online', code, myId, remote.turnSecs || 15);
-        }
-      });
-
+      _enterLobby(code, myId, roomData.lives, roomData.players);
     } catch (err) {
       showToast(err.message, 'error');
     }
@@ -764,24 +718,27 @@ const App = (() => {
 
   function renderLobbyPlayers(names, myId) {
     const list = document.getElementById('lobby-players-list');
-    list.innerHTML = names.map((name, i) => `
+    list.innerHTML = names.filter(n => n).map((name, i) => `
       <div class="lobby-player-item">
-        <div class="lobby-player-avatar">${name[0].toUpperCase()}</div>
+        <div class="lobby-player-avatar">${(name || '?')[0].toUpperCase()}</div>
         <span class="lobby-player-name">${name}</span>
         ${i === 0 ? '<span class="lobby-player-host">👑 Host</span>' : ''}
         ${i === myId ? '<span class="lobby-player-host">← Tú</span>' : ''}
       </div>`).join('');
 
-    // Habilitar botón de inicio solo si hay ≥2 jugadores y soy el host
     const btnStart = document.getElementById('btn-start-online');
     const hintEl   = document.getElementById('lobby-hint-players');
-    if (btnStart && myId === 0) {
-      const enough = names.length >= 2;
-      btnStart.disabled = !enough;
-      btnStart.style.opacity = enough ? '1' : '0.45';
-      if (hintEl) hintEl.textContent = enough
-        ? `${names.length} jugadores listos — ¡puedes empezar!`
-        : `Esperando jugadores… (${names.length}/2 mínimo para empezar)`;
+    if (btnStart) {
+      const isHost = myId === 0;
+      btnStart.style.display = isHost ? 'block' : 'none';
+      if (isHost) {
+        const enough = names.length >= 2;
+        btnStart.disabled = !enough;
+        btnStart.style.opacity = enough ? '1' : '0.45';
+        if (hintEl) hintEl.textContent = enough
+          ? `${names.length} jugadores listos — ¡puedes empezar!`
+          : `Esperando jugadores… (${names.length}/2 mínimo para empezar)`;
+      }
     }
   }
 
@@ -822,37 +779,7 @@ const App = (() => {
       document.getElementById('chain-entries').innerHTML = '';
       document.getElementById('players-lives').innerHTML = '';
 
-      const FB = window._FB;
-      if (!FB?.configured) { showMenu(); return; }
-
-      try {
-        const { db, ref, get, update } = FB;
-        const snap = await get(ref(db, 'rooms/' + roomCode));
-        if (!snap.exists()) { showToast('La sala ya no existe', 'error'); showMenu(); return; }
-
-        const room = snap.val();
-
-        if (room.status === 'lobby') {
-          // Ya hay alguien en el lobby — unirse como un joiner normal
-          const newId  = (room.players || []).length;
-          const updPlayers = [...(room.players || []),
-            { id: newId, name: myName, lives, eliminated: false }];
-          await update(ref(db, 'rooms/' + roomCode), { players: updPlayers });
-          _backToLobby(roomCode, newId, lives, updPlayers);
-        } else {
-          // Sala en finished/playing — soy el primero en volver, me convierto en host
-          const resetPlayers = [{ id: 0, name: myName, lives, eliminated: false }];
-          await update(ref(db, 'rooms/' + roomCode), {
-            status: 'lobby',
-            players: resetPlayers,
-            chain: [], chainLength: 0, turnIndex: 0
-          });
-          _backToLobby(roomCode, 0, lives, resetPlayers);
-        }
-      } catch(e) {
-        showToast('Error al volver al lobby', 'error');
-        showMenu();
-      }
+      await _rejoinLobby(roomCode, myName, lives);
       return;
     }
 
@@ -864,18 +791,52 @@ const App = (() => {
     showScreen('screen-create');
   }
 
-  /* Volver al lobby de la sala (sirve tanto para host como joiner) */
-  function _backToLobby(roomCode, myId, lives, currentPlayers) {
+  /* Vuelve al lobby de la sala con el mismo código.
+     - Si la sala está en 'lobby': se une al final de la lista.
+     - Si no (finished/playing/etc): resetea la sala y se convierte en host. */
+  async function _rejoinLobby(roomCode, myName, lives) {
+    const FB = window._FB;
+    if (!FB?.configured) { showMenu(); return; }
+    try {
+      const { db, ref, get, update } = FB;
+      const snap = await get(ref(db, 'rooms/' + roomCode));
+      if (!snap.exists()) { showToast('La sala ya no existe', 'error'); showMenu(); return; }
+
+      const room = snap.val();
+      let myId, players;
+
+      if (room.status === 'lobby') {
+        // Alguien ya está en el lobby — añadirse al final
+        const existing = (room.players || []);
+        myId = existing.length;
+        players = [...existing, { id: myId, name: myName, lives: room.lives || lives, eliminated: false }];
+        await update(ref(db, 'rooms/' + roomCode), { players });
+      } else {
+        // Primero en volver — resetear sala, convertirse en host (id=0)
+        myId = 0;
+        players = [{ id: 0, name: myName, lives, eliminated: false }];
+        await update(ref(db, 'rooms/' + roomCode), {
+          status: 'lobby', players,
+          chain: [], chainLength: 0, turnIndex: 0, lives
+        });
+      }
+
+      _enterLobby(roomCode, myId, lives, players);
+    } catch(e) {
+      showToast('Error al volver al lobby', 'error');
+      showMenu();
+    }
+  }
+
+  /* Muestra la pantalla de lobby y registra el listener */
+  function _enterLobby(roomCode, myId, lives, currentPlayers) {
     showScreen('screen-lobby');
     document.getElementById('room-code-display').textContent = roomCode;
     document.getElementById('lobby-mode-display').textContent =
       lives === 1 ? '💀 Supervivencia' : lives === 2 ? '⚽ Normal' : '🏆 Largo';
-
-    const isHost = myId === 0;
-    const btnStart = document.getElementById('btn-start-online');
-    btnStart.style.display = isHost ? 'block' : 'none';
     window._pendingRoomCode = roomCode;
     window._pendingLives    = lives;
+    window._myLobbyId       = myId;
 
     renderLobbyPlayers(currentPlayers.map(p => p.name), myId);
 
@@ -885,12 +846,41 @@ const App = (() => {
     const unsub = onValue(rRef, snap => {
       if (!snap.exists()) return;
       const remote = snap.val();
-      if (remote.players) renderLobbyPlayers(remote.players.map(p => p.name), myId);
+      // Recalcular myId por nombre en caso de que la sala se haya reseteado
+      const freshPlayers = remote.players || [];
+      const me = freshPlayers.find(p => p.name === currentPlayers[myId]?.name);
+      const freshMyId = me ? me.id : myId;
+      if (remote.players) renderLobbyPlayers(freshPlayers.map(p => p.name), freshMyId);
       if (remote.status === 'countdown' || remote.status === 'playing') {
         unsub();
-        _startGameUI(remote.players.map(p => p.name), remote.lives || lives, 'online', roomCode, myId, 15);
+        _startGameUI(freshPlayers.map(p => p.name), remote.lives || lives, 'online', roomCode, freshMyId, 15);
       }
     });
+    window._lobbyUnsub = unsub;
+  }
+
+  /* ── Salir del lobby ── */
+  function leaveLobby() {
+    if (window._lobbyUnsub) { window._lobbyUnsub(); window._lobbyUnsub = null; }
+    // Eliminar al jugador de la sala si está en el lobby
+    const FB = window._FB;
+    const code = window._pendingRoomCode;
+    const myId = window._myLobbyId;
+    if (FB?.configured && code && typeof myId === 'number') {
+      const { db, ref, get, update } = FB;
+      get(ref(db, 'rooms/' + code)).then(snap => {
+        if (!snap.exists()) return;
+        const room = snap.val();
+        if (room.status !== 'lobby') return;
+        // Eliminar jugador y reasignar ids
+        const remaining = (room.players || [])
+          .filter(p => p.id !== myId)
+          .map((p, i) => ({ ...p, id: i }));
+        // Si queda alguien, actualizar; si no, dejar sala vacía
+        update(ref(db, 'rooms/' + code), { players: remaining });
+      }).catch(() => {});
+    }
+    showMenu();
   }
 
     /* ── Toast ── */
@@ -922,7 +912,7 @@ const App = (() => {
   return {
     showMenu, showCreateGame, showJoinGame,
     selectMode, selectTime, setType, addPlayer, removePlayer,
-    startGame, startOnlineGame, joinRoom,
+    startGame, startOnlineGame, joinRoom, leaveLobby,
     copyRoomCode, continueAfterElim, playAgain,
     showToast, init, _startGameUI
   };
