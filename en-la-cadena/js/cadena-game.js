@@ -639,8 +639,9 @@ const App = (() => {
   }
 
   function _startGameUI(names, lives, mode, roomCode, myId, turnSecs) {
-    // Guardar nombre propio como fallback para playAgain
+    // Guardar nombre propio y modo como fallback para playAgain
     if (myId !== null && names[myId]) window._myLobbyName = names[myId];
+    window._lastGameMode = mode;
     const state = {
       players: names.map((name, i) => ({ id: i, name, lives, eliminated: false })),
       currentIndex: 0,
@@ -790,30 +791,24 @@ const App = (() => {
     clearInterval(window._timerInterval);
     const s = CadenaGame._state;
 
-    if (s?.mode === 'online') {
-      // Guardar todo antes de resetear el estado
-      const roomCode     = s.roomCode;
-      const myOriginalId = s.myPlayerId;
-      const lives        = s.lives;
-      // Buscar nombre por id numérico, comparando con == para tolerar string/number
-      const myPlayer = s.players.find(p => p.id == myOriginalId);
-      const myName   = myPlayer?.name || window._myLobbyName || '';
+    // Guardar datos necesarios ANTES de cualquier reset
+    const mode         = s?.mode || window._lastGameMode || 'local';
+    const roomCode     = s?.roomCode || window._pendingRoomCode;
+    const myOriginalId = s?.myPlayerId ?? window._myLobbyId ?? 0;
+    const lives        = s?.lives || window._pendingLives || 1;
+    const myPlayer     = s?.players?.find(p => p.id == myOriginalId);
+    const myName       = myPlayer?.name || window._myLobbyName || '';
 
-      CadenaGame.FBSync.cleanup();
-      CadenaGame._resetState(null);
-      document.getElementById('chain-entries').innerHTML = '';
-      document.getElementById('players-lives').innerHTML = '';
-
-      await _rejoinLobby(roomCode, myName, myOriginalId, lives);
-      return;
-    }
-
-    // Modo local
     CadenaGame.FBSync.cleanup();
     CadenaGame._resetState(null);
     document.getElementById('chain-entries').innerHTML = '';
     document.getElementById('players-lives').innerHTML = '';
-    showScreen('screen-create');
+
+    if (mode === 'online' && roomCode) {
+      await _rejoinLobby(roomCode, myName, myOriginalId, lives);
+    } else {
+      showScreen('screen-create');
+    }
   }
 
   /* Vuelve al lobby con el mismo codigo.
@@ -830,31 +825,35 @@ const App = (() => {
       const room = snap.val();
       const roomLives = room.lives || lives;
 
+      const myEntry = { id: myOriginalId, name: myName, lives: roomLives, eliminated: false };
+
       if (myOriginalId == 0) {
-        // Soy el host original — reseteo la sala y escribo el slot 0
+        // Host: resetear sala y escribir slot 0
         await update(roomRef, {
           status: 'lobby', chain: null, chainLength: 0, turnIndex: 0, players: null
         });
-        await set(ref(db, 'rooms/' + roomCode + '/players/0'),
-          { id: 0, name: myName, lives: roomLives, eliminated: false });
+        await set(ref(db, 'rooms/' + roomCode + '/players/0'), myEntry);
       } else {
-        // Soy joiner — espero a que el host haya reseteado la sala
-        let retries = 0;
-        while (retries < 20) {
-          const s2 = await get(roomRef);
-          if (s2.val()?.status === 'lobby') break;
-          await new Promise(r => setTimeout(r, 500));
-          retries++;
-        }
-        // Escribo mi slot con mi id original para mantener el orden
-        await set(ref(db, 'rooms/' + roomCode + '/players/' + myOriginalId),
-          { id: myOriginalId, name: myName, lives: roomLives, eliminated: false });
+        // Joiner: ir al lobby YA con solo mi nombre, y en background esperar al host y escribir mi slot
+        _enterLobby(roomCode, myOriginalId, myName, roomLives, [myEntry]);
+        // Esperar en background a que el host resetee y luego escribir mi slot
+        (async () => {
+          let retries = 0;
+          while (retries < 20) {
+            const s2 = await get(roomRef);
+            if (s2.val()?.status === 'lobby') break;
+            await new Promise(r => setTimeout(r, 500));
+            retries++;
+          }
+          await set(ref(db, 'rooms/' + roomCode + '/players/' + myOriginalId), myEntry);
+        })();
+        return; // ya llamamos _enterLobby arriba
       }
 
       const snapFinal = await get(roomRef);
       const finalPlayers = toPlayersArray(snapFinal.val()?.players);
       _enterLobby(roomCode, myOriginalId, myName, roomLives,
-        finalPlayers.length ? finalPlayers : [{ id: myOriginalId, name: myName, lives: roomLives, eliminated: false }]);
+        finalPlayers.length ? finalPlayers : [myEntry]);
     } catch(e) {
       showToast('Error al volver al lobby: ' + e.message, 'error');
       showMenu();
