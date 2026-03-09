@@ -808,8 +808,55 @@ const App = (() => {
   }
 
   /* ── Jugar de nuevo ── */
-  function playAgain() {
+  async function playAgain() {
     clearInterval(window._timerInterval);
+    const s = CadenaGame._state;
+
+    if (s?.mode === 'online') {
+      const roomCode = s.roomCode;
+      const myName   = s.players.find(p => p.id === s.myPlayerId)?.name || '';
+      const lives    = s.lives;
+
+      CadenaGame.FBSync.cleanup();
+      CadenaGame._resetState(null);
+      document.getElementById('chain-entries').innerHTML = '';
+      document.getElementById('players-lives').innerHTML = '';
+
+      const FB = window._FB;
+      if (!FB?.configured) { showMenu(); return; }
+
+      try {
+        const { db, ref, get, update } = FB;
+        const snap = await get(ref(db, 'rooms/' + roomCode));
+        if (!snap.exists()) { showToast('La sala ya no existe', 'error'); showMenu(); return; }
+
+        const room = snap.val();
+
+        if (room.status === 'lobby') {
+          // Ya hay alguien en el lobby — unirse como un joiner normal
+          const newId  = (room.players || []).length;
+          const updPlayers = [...(room.players || []),
+            { id: newId, name: myName, lives, eliminated: false }];
+          await update(ref(db, 'rooms/' + roomCode), { players: updPlayers });
+          _backToLobby(roomCode, newId, lives, updPlayers);
+        } else {
+          // Sala en finished/playing — soy el primero en volver, me convierto en host
+          const resetPlayers = [{ id: 0, name: myName, lives, eliminated: false }];
+          await update(ref(db, 'rooms/' + roomCode), {
+            status: 'lobby',
+            players: resetPlayers,
+            chain: [], chainLength: 0, turnIndex: 0
+          });
+          _backToLobby(roomCode, 0, lives, resetPlayers);
+        }
+      } catch(e) {
+        showToast('Error al volver al lobby', 'error');
+        showMenu();
+      }
+      return;
+    }
+
+    // Modo local
     CadenaGame.FBSync.cleanup();
     CadenaGame._resetState(null);
     document.getElementById('chain-entries').innerHTML = '';
@@ -817,7 +864,36 @@ const App = (() => {
     showScreen('screen-create');
   }
 
-  /* ── Toast ── */
+  /* Volver al lobby de la sala (sirve tanto para host como joiner) */
+  function _backToLobby(roomCode, myId, lives, currentPlayers) {
+    showScreen('screen-lobby');
+    document.getElementById('room-code-display').textContent = roomCode;
+    document.getElementById('lobby-mode-display').textContent =
+      lives === 1 ? '💀 Supervivencia' : lives === 2 ? '⚽ Normal' : '🏆 Largo';
+
+    const isHost = myId === 0;
+    const btnStart = document.getElementById('btn-start-online');
+    btnStart.style.display = isHost ? 'block' : 'none';
+    window._pendingRoomCode = roomCode;
+    window._pendingLives    = lives;
+
+    renderLobbyPlayers(currentPlayers.map(p => p.name), myId);
+
+    const FB = window._FB;
+    const { db, ref, onValue } = FB;
+    const rRef = ref(db, 'rooms/' + roomCode);
+    const unsub = onValue(rRef, snap => {
+      if (!snap.exists()) return;
+      const remote = snap.val();
+      if (remote.players) renderLobbyPlayers(remote.players.map(p => p.name), myId);
+      if (remote.status === 'countdown' || remote.status === 'playing') {
+        unsub();
+        _startGameUI(remote.players.map(p => p.name), remote.lives || lives, 'online', roomCode, myId, 15);
+      }
+    });
+  }
+
+    /* ── Toast ── */
   let toastTimer = null;
   function showToast(msg, type = '') {
     const el = document.getElementById('toast');
@@ -1046,7 +1122,7 @@ const App = (() => {
       return;
     }
 
-    // Ignorar snapshots de 'countdown': cada cliente hace su propio countdown
+    // Ignorar snapshots de countdown: cada cliente arranca por su cuenta
     if (remote.status === 'countdown') return;
 
     if (needsBeginTurn && remote.status === 'playing') {
@@ -1196,6 +1272,12 @@ const App = (() => {
     setTimeout(() => {
       document.querySelectorAll('.screen').forEach(sc => sc.classList.remove('active'));
       document.getElementById('screen-result').classList.add('active');
+
+      const btns = document.getElementById('result-buttons');
+      const exitLabel = s?.mode === 'online' ? '🏠 Salir de sala' : '🏠 Menú';
+      btns.innerHTML = '<button class="btn-primary" onclick="App.playAgain()">🔄 Jugar de nuevo</button>' +
+                       '<button class="btn-secondary" onclick="App.showMenu()">' + exitLabel + '</button>';
+
       document.getElementById('winner-name').textContent = winner ? winner.name : '— Empate —';
       document.getElementById('chain-stats').innerHTML =
         `Cadena de <strong>${s?.chainLength || 0}</strong> eslabones<br>` +
