@@ -798,7 +798,7 @@ const App = (() => {
       document.getElementById('chain-entries').innerHTML = '';
       document.getElementById('players-lives').innerHTML = '';
 
-      await _rejoinLobby(roomCode, myName, lives);
+      await _rejoinLobby(roomCode, myName, s.myPlayerId, lives);
       return;
     }
 
@@ -810,53 +810,45 @@ const App = (() => {
     showScreen('screen-create');
   }
 
-  /* Vuelve al lobby de la sala con el mismo codigo.
-     Cada jugador escribe solo su slot en /rejoining/nombre para evitar
-     race conditions al sobrescribir el array completo de players. */
-  async function _rejoinLobby(roomCode, myName, lives) {
+  /* Vuelve al lobby con el mismo codigo.
+     El host original (myPlayerId===0) resetea la sala y escribe su slot.
+     El resto espera a que exista status:lobby y escribe su slot propio. */
+  async function _rejoinLobby(roomCode, myName, myOriginalId, lives) {
     const FB = window._FB;
     if (!FB?.configured) { showMenu(); return; }
     try {
-      const { db, ref, get, update } = FB;
+      const { db, ref, get, update, set } = FB;
       const roomRef = ref(db, 'rooms/' + roomCode);
-
-      // 1. Leer sala actual
       const snap = await get(roomRef);
       if (!snap.exists()) { showToast('La sala ya no existe', 'error'); showMenu(); return; }
       const room = snap.val();
       const roomLives = room.lives || lives;
 
-      // 2. Si la sala no está en lobby, resetearla (solo escribe status y limpia, no players)
-      if (room.status !== 'lobby') {
+      if (myOriginalId === 0) {
+        // Soy el host original — reseteo la sala y escribo el slot 0
         await update(roomRef, {
-          status: 'lobby',
-          chain: null, chainLength: 0, turnIndex: 0,
-          rejoining: null   // limpiar rejoining anterior
+          status: 'lobby', chain: null, chainLength: 0, turnIndex: 0, players: null
         });
+        await set(ref(db, 'rooms/' + roomCode + '/players/0'),
+          { id: 0, name: myName, lives: roomLives, eliminated: false });
+      } else {
+        // Soy joiner — espero a que el host haya reseteado la sala
+        let retries = 0;
+        while (retries < 20) {
+          const s2 = await get(roomRef);
+          if (s2.val()?.status === 'lobby') break;
+          await new Promise(r => setTimeout(r, 500));
+          retries++;
+        }
+        // Escribo mi slot con mi id original para mantener el orden
+        await set(ref(db, 'rooms/' + roomCode + '/players/' + myOriginalId),
+          { id: myOriginalId, name: myName, lives: roomLives, eliminated: false });
       }
 
-      // 3. Cada jugador escribe su entrada en /rejoining/<nombre> (sin tocar al resto)
-      const safeKey = myName.replace(/[.#$\/\[\]]/g, '_');
-      await update(ref(db, 'rooms/' + roomCode + '/rejoining'), {
-        [safeKey]: { name: myName, lives: roomLives, ts: Date.now() }
-      });
-
-      // 4. Pequeña espera para que otros jugadores también escriban
-      await new Promise(r => setTimeout(r, 800));
-
-      // 5. Leer lista final de rejoining y construir players con ids estables por orden de llegada
-      const snapR = await get(ref(db, 'rooms/' + roomCode + '/rejoining'));
-      const rejoining = snapR.val() || {};
-      const sorted = Object.values(rejoining).sort((a, b) => a.ts - b.ts);
-      const players = sorted.map((p, i) => ({ id: i, name: p.name, lives: p.lives, eliminated: false }));
-      const myId = players.findIndex(p => p.name === myName);
-
-      // 6. El primero (ts más bajo) escribe el array final de players
-      if (myId === 0) {
-        await update(roomRef, { players });
-      }
-
-      _enterLobby(roomCode, myId >= 0 ? myId : 0, myName, roomLives, players);
+      const snapFinal = await get(roomRef);
+      const finalPlayers = toPlayersArray(snapFinal.val()?.players);
+      _enterLobby(roomCode, myOriginalId, myName, roomLives,
+        finalPlayers.length ? finalPlayers : [{ id: myOriginalId, name: myName, lives: roomLives, eliminated: false }]);
     } catch(e) {
       showToast('Error al volver al lobby: ' + e.message, 'error');
       showMenu();
