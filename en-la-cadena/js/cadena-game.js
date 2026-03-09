@@ -639,9 +639,17 @@ const App = (() => {
   }
 
   function _startGameUI(names, lives, mode, roomCode, myId, turnSecs) {
-    // Guardar nombre propio y modo como fallback para playAgain
+    // Guardar sesión completa como fallback para playAgain
     if (myId !== null && names[myId]) window._myLobbyName = names[myId];
     window._lastGameMode = mode;
+    if (mode === 'online') {
+      window._lastOnlineSession = {
+        roomCode: roomCode,
+        myId:     myId,
+        myName:   myId !== null ? names[myId] : '',
+        lives:    lives
+      };
+    }
     const state = {
       players: names.map((name, i) => ({ id: i, name, lives, eliminated: false })),
       currentIndex: 0,
@@ -789,23 +797,17 @@ const App = (() => {
   /* ── Jugar de nuevo ── */
   async function playAgain() {
     clearInterval(window._timerInterval);
-    const s = CadenaGame._state;
 
-    // Guardar datos necesarios ANTES de cualquier reset
-    const mode         = s?.mode || window._lastGameMode || 'local';
-    const roomCode     = s?.roomCode || window._pendingRoomCode;
-    const myOriginalId = s?.myPlayerId ?? window._myLobbyId ?? 0;
-    const lives        = s?.lives || window._pendingLives || 1;
-    const myPlayer     = s?.players?.find(p => p.id == myOriginalId);
-    const myName       = myPlayer?.name || window._myLobbyName || '';
+    // Leer sesión online guardada al arrancar la partida (nunca se borra)
+    const session = window._lastOnlineSession;
 
     CadenaGame.FBSync.cleanup();
     CadenaGame._resetState(null);
     document.getElementById('chain-entries').innerHTML = '';
     document.getElementById('players-lives').innerHTML = '';
 
-    if (mode === 'online' && roomCode) {
-      await _rejoinLobby(roomCode, myName, myOriginalId, lives);
+    if (session?.roomCode) {
+      await _rejoinLobby(session.roomCode, session.myName, session.myId, session.lives);
     } else {
       showScreen('screen-create');
     }
