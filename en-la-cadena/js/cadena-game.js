@@ -881,8 +881,13 @@ const App = (() => {
     const unsub = onValue(rRef, snap => {
       if (!snap.exists()) return;
       const remote = snap.val();
-      const freshPlayers = toPlayersArray(remote.players);
-      // Buscar mi id por nombre (resiste resets de sala)
+      let freshPlayers = toPlayersArray(remote.players);
+      // Si la lista está vacía (reset en curso) asegurarnos de que al menos yo aparezco
+      if (!freshPlayers.find(p => p.name === myName)) {
+        freshPlayers = [...freshPlayers.filter(p => p.name !== myName),
+          { id: myId, name: myName, lives, eliminated: false }];
+        freshPlayers.sort((a, b) => a.id - b.id);
+      }
       const me = freshPlayers.find(p => p.name === myName);
       const freshMyId = me ? me.id : myId;
       renderLobbyPlayers(freshPlayers, freshMyId);
