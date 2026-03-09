@@ -603,10 +603,18 @@ const App = (() => {
     let remaining = SECS, countdownDone = false, dataReady = false;
     numEl.textContent = remaining;
     overlay.classList.remove('hidden');
-    Promise.all([
-      CadenaData.init().catch(() => {}),
-      CadenaData.preloadAllChunks().catch(() => {})
-    ]).then(() => {
+    // Reintentar precarga hasta que todos los chunks estén en memoria
+    async function ensureAllLoaded() {
+      await CadenaData.init().catch(() => {});
+      let attempts = 0;
+      while (attempts < 5) {
+        await CadenaData.preloadAllChunks().catch(() => {});
+        if (CadenaData.chunksLoaded()) break;
+        attempts++;
+        await new Promise(r => setTimeout(r, 1000));
+      }
+    }
+    ensureAllLoaded().then(() => {
       dataReady = true;
       if (countdownDone) { overlay.classList.add('hidden'); onDone(); }
     });
@@ -968,9 +976,8 @@ const App = (() => {
     entry.submittedBy = cp?.name || '?';
     // Promover nat y b al nivel raíz para que Firebase los serialice y _renderEntry los lea
     if (entry.type === 'player' && entry.data) {
-      if (!entry.nat)   entry.nat   = entry.data.nat   || null;
-      if (!entry.b)     entry.b     = entry.data.b     || null;
-      if (!entry.teams) entry.teams = entry.data.teams || null;
+      if (!entry.nat) entry.nat = entry.data.nat || null;
+      if (!entry.b)   entry.b   = entry.data.b   || null;
     }
     s.chain.push(entry);
     s.chainLength++;
@@ -984,9 +991,8 @@ const App = (() => {
       const chainSerial = s.chain.map(e => ({
         type: e.type, name: e.name || null, value: e.value || null,
         id: e.id || null, isOneClubMan: e.isOneClubMan || false, submittedBy: e.submittedBy || '',
-        nat:   e.nat   || e.data?.nat   || null,
-        b:     e.b     || e.data?.b     || null,
-        teams: e.teams || e.data?.teams || null
+        nat: e.nat || e.data?.nat || null,
+        b:   e.b   || e.data?.b   || null
       }));
       const FB = window._FB;
       if (FB?.configured && s.roomCode) {
