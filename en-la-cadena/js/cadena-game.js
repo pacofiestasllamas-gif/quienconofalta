@@ -594,6 +594,35 @@ const App = (() => {
     _startGameUI(names, lives, 'local', null, null, turnSecs || 15);
   }
 
+  /* Muestra el countdown+precarga y llama onDone cuando todo listo */
+  function _runCountdownThenStart(onDone) {
+    const overlay = document.getElementById('countdown-overlay');
+    const numEl   = document.getElementById('countdown-number');
+    if (!overlay || !numEl) { onDone(); return; }
+    const SECS = 10;
+    let remaining = SECS, countdownDone = false, dataReady = false;
+    numEl.textContent = remaining;
+    overlay.classList.remove('hidden');
+    Promise.all([
+      CadenaData.init().catch(() => {}),
+      CadenaData.preloadAllChunks().catch(() => {})
+    ]).then(() => {
+      dataReady = true;
+      if (countdownDone) { overlay.classList.add('hidden'); onDone(); }
+    });
+    const iv = setInterval(() => {
+      remaining--;
+      if (remaining <= 0) {
+        clearInterval(iv);
+        countdownDone = true;
+        if (dataReady) { overlay.classList.add('hidden'); onDone(); }
+        else numEl.textContent = '⏳';
+      } else {
+        numEl.textContent = remaining;
+      }
+    }, 1000);
+  }
+
   function _startGameUI(names, lives, mode, roomCode, myId, turnSecs) {
     const state = {
       players: names.map((name, i) => ({ id: i, name, lives, eliminated: false })),
@@ -607,24 +636,38 @@ const App = (() => {
       isHost: myId === 0,
       myPlayerId: myId,
       phase: 'playing',
-      _lastAppliedTurn: 0   // para que applyRemoteState no ignore el turno 0
+      _lastAppliedTurn: 0,
+      _graceGiven: true   // countdown ya hace de gracia, no repetir en beginTurn
     };
 
     _injectState(state);
     document.getElementById('chain-entries').innerHTML = '';
     showScreen('screen-game');
 
-    if (mode === 'online') {
-      // Suscribir listener único para actualizaciones remotas
-      CadenaGame.FBSync.cleanup();
-      CadenaGame.FBSync.listenRoom(roomCode, remote => {
-        CadenaGame.applyRemoteState(remote);
-      });
-      // Solo el jugador 0 llama beginTurn en el arranque; los demás esperan el snapshot
-      if (myId === 0) CadenaGame.beginTurn();
-    } else {
-      CadenaGame.beginTurn();
-    }
+    _runCountdownThenStart(() => {
+      if (mode === 'online') {
+        CadenaGame.FBSync.cleanup();
+        CadenaGame.FBSync.listenRoom(roomCode, remote => {
+          CadenaGame.applyRemoteState(remote);
+        });
+        if (myId === 0) {
+          // Host: marcar 'playing' en Firebase y arrancar turno
+          const FB = window._FB;
+          if (FB?.configured && roomCode) {
+            const { db, ref, update, serverTimestamp } = FB;
+            update(ref(db, 'rooms/' + roomCode), {
+              status: 'playing',
+              turnIndex: 0,
+              turnStartTime: serverTimestamp()
+            });
+          }
+          CadenaGame.beginTurn();
+        }
+        // Joiners: esperan a que applyRemoteState reciba turnIndex y llame beginTurn
+      } else {
+        CadenaGame.beginTurn();
+      }
+    });
   }
 
   /* Inyectar estado al módulo cerrado mediante eval temporal */
@@ -658,7 +701,7 @@ const App = (() => {
         if (!snap.exists()) return;
         const remote = snap.val();
         if (remote.players) renderLobbyPlayers(remote.players.map(p => p.name), 0);
-        if (remote.status === 'playing') {
+        if (remote.status === 'countdown' || remote.status === 'playing') {
           unsub(); // cancelar listener de lobby
           _startGameUI(remote.players.map(p => p.name), remote.lives, 'online', code, 0, turnSecs || 15);
         }
@@ -676,7 +719,10 @@ const App = (() => {
   function startOnlineGame() {
     const btn = document.getElementById('btn-start-online');
     if (btn && btn.disabled) { showToast('Necesitas al menos 2 jugadores para empezar', 'error'); return; }
-    CadenaGame.FBSync.startGame(window._pendingRoomCode);
+    // Escribir 'countdown' para que todos arranquen la precarga a la vez
+    const FB = window._FB;
+    const { db, ref, update } = FB;
+    update(ref(db, 'rooms/' + window._pendingRoomCode), { status: 'countdown' });
   }
 
   /* ── Online: unirse ── */
@@ -705,11 +751,9 @@ const App = (() => {
         if (!snap.exists()) return;
         const remote = snap.val();
         if (remote.players) renderLobbyPlayers(remote.players.map(p => p.name), myId);
-        if (remote.status === 'playing') {
+        if (remote.status === 'countdown' || remote.status === 'playing') {
           unsub(); // cancelar listener de lobby
-          CadenaData.init().catch(() => {}).finally(() => {
-            _startGameUI(remote.players.map(p => p.name), remote.lives, 'online', code, myId, remote.turnSecs || 15);
-          });
+          _startGameUI(remote.players.map(p => p.name), remote.lives, 'online', code, myId, remote.turnSecs || 15);
         }
       });
 
@@ -997,6 +1041,9 @@ const App = (() => {
       _endGame(active[0]);
       return;
     }
+
+    // Ignorar snapshots de 'countdown': cada cliente hace su propio countdown
+    if (remote.status === 'countdown') return;
 
     if (needsBeginTurn && remote.status === 'playing') {
       setTimeout(() => CadenaGame.beginTurn(), 100);
