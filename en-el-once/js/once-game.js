@@ -364,20 +364,38 @@ function loadMatch() {
 // RENDER FORMACIÓN
 // =============================================
 
-// Posiciones CDM: se renderizan en línea propia ENTRE defensas y centrocampistas
-const CDM_POSITIONS = new Set(['CDM','DM','MCD','DCO','PIVOT','PIVOTE','MC DEFENSIVO','VOL']);
-// Posiciones CAM: se renderizan en línea propia ENTRE centrocampistas y delanteros
-const CAM_POSITIONS = new Set(['CAM','AM','MCO','TREQUARTISTA','MC OFENSIVO','MEZ','MEDIAPUNTA','SS']);
-// Posiciones que van alineadas con CM aunque sean extremos de mediocampo
-const MID_WIDE_POSITIONS = new Set(['LM','RM','ML','MR','WM']);
+/**
+ * Cada posición tiene un "grupo de fila" (rowGroup).
+ * Todos los jugadores del mismo grupo se muestran en la misma fila visual.
+ * El número determina la altura: mayor número = más arriba en el campo.
+ *
+ * Grupos:
+ *  1 → Portero (GK)
+ *  2 → Defensas (CB, LB, RB, LWB, RWB, SW)
+ *  3 → Centrocampistas: CM, CDM, DM y cualquier posición de mediocampo
+ *  4 → CAM / Mediapunta  (línea propia entre medios y delanteros)
+ *  5 → Delanteros: ST, CF, LW, RW, LM, RM y similares
+ *
+ * LM/RM = extremos/bandas → grupo 5 (delanteros), igual que LW/RW
+ */
+const ROW_GROUP = {
+    'GK':1,
+    'CB':2,'LB':2,'RB':2,'DF':2,'SW':2,
+    'CDM':3,'DM':3,'MCD':3,'PIVOT':3,'PIVOTE':3,'VOL':3,
+    'CM':3,'MC':3,'MF':3,'BOX':3,
+    'LWB':3,'RWB':3,                          // carrileros siempre con los CM
+    'CAM':4,'AM':4,'MCO':4,'TREQUARTISTA':4,'MEZ':4,'MEDIAPUNTA':4,
+    'ST':5,'CF':5,'LW':5,'RW':5,'FW':5,'ATT':5,'SS':5,'DC':5,
+};
 
-function getPositionTier(position) {
-    if (!position) return 'mid';
+// LM/RM: fila 3 si no hay CAM, fila 4 si hay CAM
+const WIDE_MID = new Set(['LM','RM','ML','MR']);
+
+function getRowGroup(position, hasCAM) {
+    if (!position) return 3;
     const pos = position.toUpperCase().trim();
-    if (CDM_POSITIONS.has(pos)) return 'cdm';
-    if (CAM_POSITIONS.has(pos)) return 'cam';
-    if (MID_WIDE_POSITIONS.has(pos)) return 'mid'; // LM/RM van con CM
-    return 'mid';
+    if (WIDE_MID.has(pos)) return hasCAM ? 4 : 3;
+    return ROW_GROUP[pos] ?? 3;
 }
 
 function buildPlayerCard(player, globalIndex) {
@@ -413,71 +431,38 @@ function buildPlayerCard(player, globalIndex) {
     return playerCard;
 }
 
-/**
- * Expande las líneas del JSON en líneas visuales separadas.
- * Una línea que mezcle CDM + CM + CAM se convierte en hasta 3 líneas visuales:
- *   [cdm-row]  →  entre defensas y CMs
- *   [mid-row]  →  centrocampistas normales + LM/RM
- *   [cam-row]  →  entre CMs y delanteros
- *
- * El contenedor .formation usa flex-direction: column-reverse, así que
- * añadimos las líneas en orden INVERSO al visual:
- *   campo de arriba → abajo = delanteros → CAM → MID → CDM → defensas → portero
- * En el DOM (column-reverse) esto se representa empujando primero los de abajo.
- *
- * Devuelve array de { players:[{player,globalIndex}], tier }
- */
-function expandFormationToVisualLines(formation) {
-    const visualLines = []; // se llenará en orden DOM (portero primero = abajo en campo)
-
-    let globalOffset = 0;
-
-    formation.forEach((line) => {
-        // Asignar índices globales a cada jugador de la línea
-        const indexed = line.map((player, i) => ({
-            player,
-            globalIndex: globalOffset + i,
-            tier: getPositionTier(player.position)
-        }));
-        globalOffset += line.length;
-
-        // Comprobar qué tiers hay en esta línea
-        const tiers = new Set(indexed.map(p => p.tier));
-        const hasCDM = tiers.has('cdm');
-        const hasCAM = tiers.has('cam');
-        const hasMid = tiers.has('mid');
-
-        if (!hasCDM && !hasCAM) {
-            // Línea pura (GK, defensas, delanteros, o solo CM): una sola fila
-            visualLines.push({ players: indexed, tier: indexed[0]?.tier || 'mid' });
-        } else {
-            // Línea mixta: separar en sub-filas por tier
-            // Orden DOM para column-reverse: CDM va antes (más abajo en campo), CAM después (más arriba)
-            if (hasCDM) {
-                visualLines.push({ players: indexed.filter(p => p.tier === 'cdm'), tier: 'cdm' });
-            }
-            if (hasMid) {
-                visualLines.push({ players: indexed.filter(p => p.tier === 'mid'), tier: 'mid' });
-            }
-            if (hasCAM) {
-                visualLines.push({ players: indexed.filter(p => p.tier === 'cam'), tier: 'cam' });
-            }
-        }
-    });
-
-    return visualLines;
-}
-
 function renderFormation() {
     const formationContainer = document.getElementById('formation');
     formationContainer.innerHTML = '';
+    const formation = currentMatch.formation;
 
-    const visualLines = expandFormationToVisualLines(currentMatch.formation);
+    // 1. Aplanar todos los jugadores manteniendo su índice global
+    const allPlayers = [];
+    let globalOffset = 0;
+    formation.forEach(line => {
+        line.forEach((player, i) => {
+            allPlayers.push({ player, globalIndex: globalOffset + i });
+        });
+        globalOffset += line.length;
+    });
 
-    visualLines.forEach(({ players, tier }) => {
+    // 2. Detectar si hay CAM en la alineación (afecta a LM/RM)
+    const hasCAM = allPlayers.some(({ player }) => ROW_GROUP[(player.position || '').toUpperCase().trim()] === 4);
+
+    // 3. Agrupar por rowGroup manteniendo el orden original dentro de cada grupo
+    const groups = new Map(); // rowGroup → [{player, globalIndex}]
+    allPlayers.forEach(({ player, globalIndex }) => {
+        const group = getRowGroup(player.position, hasCAM);
+        if (!groups.has(group)) groups.set(group, []);
+        groups.get(group).push({ player, globalIndex });
+    });
+
+    // 3. Renderizar en orden ascendente de grupo
+    // column-reverse del contenedor invierte la visual: grupo 1 (GK) queda abajo, grupo 5 (delanteros) arriba
+    [...groups.keys()].sort((a, b) => a - b).forEach(group => {
         const lineDiv = document.createElement('div');
-        lineDiv.className = `line line--${tier}`;
-        players.forEach(({ player, globalIndex }) => {
+        lineDiv.className = 'line';
+        groups.get(group).forEach(({ player, globalIndex }) => {
             lineDiv.appendChild(buildPlayerCard(player, globalIndex));
         });
         formationContainer.appendChild(lineDiv);
