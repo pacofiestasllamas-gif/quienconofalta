@@ -1,0 +1,614 @@
+/* =============================================
+   HIGHER-OR-LOWER.CSS
+   Estilos del juego Higher or Lower
+   QUIÉN COÑO FALTA
+   ============================================= */
+
+/* ── LAYOUT PRINCIPAL ── */
+.hol-game {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--bg-dark);
+}
+
+/* ── TOP BAR ── */
+.hol-topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  background: linear-gradient(180deg, rgba(10,10,8,0.92) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.hol-score-label {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  opacity: 0.7;
+  pointer-events: auto;
+}
+
+.hol-score-value {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  color: var(--neon-yellow);
+  margin-left: 8px;
+}
+
+.hol-score-left,
+.hol-score-right {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ── ARENA (las dos mitades) ── */
+.hol-arena {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── PANEL DE JUGADOR (cada mitad) ── */
+.hol-panel {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: opacity 0.4s ease;
+}
+
+/* Imagen de fondo del jugador */
+.hol-panel-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s ease;
+}
+
+/* Overlay oscuro */
+.hol-panel-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.hol-panel--left .hol-panel-bg::after {
+  background: linear-gradient(
+    135deg,
+    rgba(15, 25, 45, 0.82) 0%,
+    rgba(20, 30, 50, 0.75) 50%,
+    rgba(10, 20, 40, 0.88) 100%
+  );
+}
+
+.hol-panel--right .hol-panel-bg::after {
+  background: linear-gradient(
+    225deg,
+    rgba(15, 25, 45, 0.82) 0%,
+    rgba(20, 30, 50, 0.75) 50%,
+    rgba(10, 20, 40, 0.88) 100%
+  );
+}
+
+/* Separador central */
+.hol-panel--left::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    180deg,
+    transparent 10%,
+    rgba(200, 168, 75, 0.3) 50%,
+    transparent 90%
+  );
+  z-index: 10;
+}
+
+/* ── CONTENIDO DEL PANEL ── */
+.hol-panel-content {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Nombre del jugador */
+.hol-player-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+  letter-spacing: 4px;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  line-height: 1.1;
+}
+
+/* Club */
+.hol-player-club {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  opacity: 0.6;
+}
+
+/* ── STAT DISPLAY (panel izquierdo) ── */
+.hol-stat-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.hol-stat-label {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  opacity: 0.65;
+}
+
+.hol-stat-value {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(2.4rem, 6vw, 3.8rem);
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  line-height: 1;
+}
+
+/* Stat revelado en el panel derecho */
+.hol-stat-reveal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-top: 12px;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.hol-stat-reveal.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ── BOTONES DE RESPUESTA ── */
+.hol-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 16px;
+}
+
+.hol-choice-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.hol-choice-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.hol-choice-btn:hover::before {
+  opacity: 1;
+}
+
+/* Superior (verde) */
+.hol-choice-btn--higher {
+  background: linear-gradient(135deg, #1a8a4a, #22a558);
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(26, 138, 74, 0.35);
+}
+
+.hol-choice-btn--higher::before {
+  background: linear-gradient(135deg, #22a558, #2bbd68);
+}
+
+.hol-choice-btn--higher:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(26, 138, 74, 0.5);
+}
+
+/* Igual (gris) */
+.hol-choice-btn--equal {
+  background: linear-gradient(135deg, #4a4a52, #5c5c65);
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(74, 74, 82, 0.35);
+}
+
+.hol-choice-btn--equal::before {
+  background: linear-gradient(135deg, #5c5c65, #6e6e78);
+}
+
+.hol-choice-btn--equal:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(74, 74, 82, 0.5);
+}
+
+/* Inferior (rojo) */
+.hol-choice-btn--lower {
+  background: linear-gradient(135deg, #c0392b, #e04030);
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(192, 57, 43, 0.35);
+}
+
+.hol-choice-btn--lower::before {
+  background: linear-gradient(135deg, #e04030, #e8524a);
+}
+
+.hol-choice-btn--lower:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(192, 57, 43, 0.5);
+}
+
+/* Flechitas en los botones */
+.hol-btn-arrow {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* Estados tras responder */
+.hol-choice-btn.disabled {
+  pointer-events: none;
+  opacity: 0.3;
+  transform: scale(0.95);
+}
+
+.hol-choice-btn.correct-pick {
+  opacity: 1 !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 30px rgba(74, 222, 128, 0.6) !important;
+}
+
+.hol-choice-btn.wrong-pick {
+  opacity: 1 !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 30px rgba(239, 68, 68, 0.6) !important;
+  background: linear-gradient(135deg, #991b1b, #b91c1c) !important;
+}
+
+/* ── VS BADGE ── */
+.hol-vs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e293b, #2d3a4f);
+  border: 2px solid rgba(200, 168, 75, 0.4);
+  border-radius: 10px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* ── FEEDBACK FLASH (correct/wrong) ── */
+.hol-panel.flash-correct .hol-panel-bg::after {
+  background: rgba(34, 165, 88, 0.3) !important;
+  transition: background 0.3s;
+}
+
+.hol-panel.flash-wrong .hol-panel-bg::after {
+  background: rgba(192, 57, 43, 0.3) !important;
+  transition: background 0.3s;
+}
+
+/* ── GAME OVER OVERLAY ── */
+.hol-gameover {
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.92);
+  animation: fadeIn 0.4s ease;
+}
+
+.hol-gameover.active {
+  display: flex;
+}
+
+.hol-gameover-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 40px;
+  max-width: 420px;
+  width: 90%;
+  background: linear-gradient(135deg, var(--bg-purple), #3a2e1c);
+  border: 2px solid var(--neon-gold);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  animation: slideUp 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.hol-gameover-icon {
+  font-size: 3.5rem;
+}
+
+.hol-gameover-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.4rem;
+  letter-spacing: 6px;
+  color: var(--neon-yellow);
+}
+
+.hol-gameover-score {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.hol-gameover-score-label {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  opacity: 0.6;
+  margin-top: -8px;
+}
+
+.hol-gameover-record {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--neon-green);
+}
+
+.hol-gameover-record .new-record {
+  color: var(--neon-yellow);
+  font-weight: 700;
+}
+
+.hol-play-again-btn {
+  background: var(--neon-green);
+  color: var(--bg-dark);
+  border: none;
+  padding: 14px 40px;
+  border-radius: 10px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 8px;
+}
+
+.hol-play-again-btn:hover {
+  background: var(--neon-yellow);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(200, 168, 75, 0.4);
+}
+
+.hol-back-hub-link {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-light);
+  opacity: 0.5;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: opacity 0.2s;
+}
+
+.hol-back-hub-link:hover {
+  opacity: 0.8;
+}
+
+/* ── LOADING SCREEN ── */
+.hol-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: var(--bg-dark);
+}
+
+.hol-loading.hidden {
+  display: none;
+}
+
+.hol-loading-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 6px;
+  color: var(--neon-yellow);
+}
+
+.hol-loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(200, 168, 75, 0.2);
+  border-top-color: var(--neon-gold);
+  border-radius: 50%;
+  animation: holSpin 0.8s linear infinite;
+}
+
+@keyframes holSpin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── TRANSICIÓN DE CADENA ── */
+.hol-panel.sliding-out {
+  animation: holSlideOutLeft 0.5s ease-in forwards;
+}
+
+.hol-panel.sliding-in {
+  animation: holSlideInRight 0.5s ease-out forwards;
+}
+
+@keyframes holSlideOutLeft {
+  from { transform: translateX(0); opacity: 1; }
+  to   { transform: translateX(-30px); opacity: 0; }
+}
+
+@keyframes holSlideInRight {
+  from { transform: translateX(30px); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .hol-arena {
+    flex-direction: column;
+  }
+
+  .hol-panel--left::after {
+    /* Separador horizontal en vez de vertical */
+    right: 0;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(
+      90deg,
+      transparent 10%,
+      rgba(200, 168, 75, 0.3) 50%,
+      transparent 90%
+    );
+  }
+
+  .hol-vs {
+    width: 44px;
+    height: 44px;
+    font-size: 0.95rem;
+  }
+
+  .hol-topbar {
+    padding: 10px 16px;
+  }
+
+  .hol-score-value {
+    font-size: 1.3rem;
+  }
+
+  .hol-player-name {
+    font-size: clamp(1.2rem, 5vw, 1.6rem);
+    letter-spacing: 3px;
+  }
+
+  .hol-stat-value {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .hol-choices {
+    max-width: 240px;
+    gap: 8px;
+  }
+
+  .hol-choice-btn {
+    padding: 11px 20px;
+    font-size: 1.05rem;
+    border-radius: 10px;
+  }
+
+  .hol-panel-content {
+    gap: 10px;
+    padding: 14px;
+  }
+
+  .hol-stat-block,
+  .hol-stat-reveal {
+    margin-top: 6px;
+  }
+
+  .hol-gameover-content {
+    padding: 28px 24px;
+  }
+
+  .hol-gameover-title {
+    font-size: 1.8rem;
+  }
+
+  .hol-gameover-score {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hol-choice-btn {
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+  }
+
+  .hol-player-name {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+
+  .hol-stat-value {
+    font-size: 1.8rem;
+  }
+}
