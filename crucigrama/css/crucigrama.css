@@ -140,13 +140,9 @@
   flex: 1;
 }
 
-/* Columnas laterales: siempre visibles */
+/* Columnas laterales: ocultas en móvil, visibles solo en desktop */
 .cruc-clues-desktop {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  width: 100%;
-  max-width: 500px;
+  display: none;
 }
 
 /* ── LAYOUT DESKTOP 3 COLUMNAS ── */
@@ -161,6 +157,9 @@
 
   /* Columna lateral de pistas */
   .cruc-clues-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
     width: 240px;
     flex-shrink: 0;
     position: sticky;
