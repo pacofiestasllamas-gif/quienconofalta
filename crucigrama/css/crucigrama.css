@@ -140,9 +140,13 @@
   flex: 1;
 }
 
-/* Columnas laterales: ocultas por defecto (móvil), solo visibles en desktop */
+/* Columnas laterales: siempre visibles */
 .cruc-clues-desktop {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  max-width: 500px;
 }
 
 /* ── LAYOUT DESKTOP 3 COLUMNAS ── */
@@ -157,9 +161,6 @@
 
   /* Columna lateral de pistas */
   .cruc-clues-desktop {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
     width: 240px;
     flex-shrink: 0;
     position: sticky;
@@ -200,11 +201,6 @@
     align-items: center;
     gap: 14px;
     flex: 0 0 auto;
-  }
-
-  /* Panel de pistas (ocultar en desktop, se mueven a columnas laterales) */
-  .cruc-clues-panel {
-    display: none;
   }
 }
 
@@ -343,13 +339,6 @@
 }
 
 /* ── LISTAS DE PISTAS ── */
-.cruc-clues-panel {
-  width: 100%;
-  max-width: 500px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-}
 
 .cruc-clues-section {
   background: rgba(255,255,255,0.03);
@@ -695,22 +684,6 @@
   .cruc-tap-bar:active { background: rgba(200,168,75,0.2); }
 
   .cruc-keyboard { display: none; }
-
-  .cruc-cell {
-    /* El JS recalcula en móvil automáticamente */
-  }
-
-  .cruc-cell-letter {
-    /* font-size calculado en JS */
-  }
-
-  .cruc-cell-number {
-    /* font-size calculado en JS */
-  }
-
-  .cruc-clues-panel {
-    grid-template-columns: 1fr;
-  }
 
   .cruc-clue-text {
     font-size: 0.92rem;

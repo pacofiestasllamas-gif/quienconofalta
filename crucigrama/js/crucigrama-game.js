@@ -208,8 +208,6 @@ function buildCrucigramaScreen() {
                     Toca aquí para escribir ✏️
                 </div>
 
-                <!-- LISTAS DE PISTAS (móvil: visibles; desktop: ocultas via CSS) -->
-                <div class="cruc-clues-panel" id="cruc-clues-panel"></div>
             </div>
 
             <!-- COLUMNA DERECHA: HORIZONTALES (solo desktop) -->
@@ -394,7 +392,6 @@ function refreshAllCells() {
 // ── RENDER PISTAS ────────────────────────────
 
 function renderCluesList() {
-    const panel = document.getElementById('cruc-clues-panel');
     if (!crucData) return;
 
     const across = crucData.words.filter(w => w.direction === 'across').sort((a,b) => a.number - b.number);
@@ -421,12 +418,6 @@ function renderCluesList() {
             ${buildList(down)}
         </div>`;
 
-    // Móvil: panel central (ambas columnas juntas)
-    if (panel) {
-        panel.innerHTML = acrossHTML + downHTML;
-    }
-
-    // Desktop: columnas laterales separadas
     const colDown   = document.getElementById('cruc-clues-down');
     const colAcross = document.getElementById('cruc-clues-across');
     if (colDown)   colDown.innerHTML   = downHTML;
