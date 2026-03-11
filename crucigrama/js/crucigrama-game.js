@@ -208,8 +208,6 @@ function buildCrucigramaScreen() {
                     Toca aquí para escribir ✏️
                 </div>
 
-                <!-- LISTAS DE PISTAS (móvil: visibles; desktop: ocultas via CSS) -->
-                <div class="cruc-clues-panel" id="cruc-clues-panel"></div>
             </div>
 
             <!-- COLUMNA DERECHA: HORIZONTALES (solo desktop) -->
@@ -223,7 +221,14 @@ function buildCrucigramaScreen() {
                 <span id="cruc-solved-count">${crucSolvedWords.size}</span>/${crucData.words.length} palabras
             </div>
             <div class="cruc-actions">
-                <button class="cruc-btn-reveal" onclick="crucRevealAll()">Revelar todo</button>
+                <div class="cruc-reveal-wrapper" id="cruc-reveal-wrapper">
+                    <button class="cruc-btn-reveal" onclick="crucToggleRevealMenu(event)">Revelar ▾</button>
+                    <div class="cruc-reveal-menu" id="cruc-reveal-menu">
+                        <button class="cruc-reveal-option" onclick="crucRevealLetter()">🔡 Letra</button>
+                        <button class="cruc-reveal-option" onclick="crucRevealWord()">📝 Palabra</button>
+                        <button class="cruc-reveal-option cruc-reveal-option--danger" onclick="crucRevealAll()">🔲 Cuadrícula</button>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -387,7 +392,6 @@ function refreshAllCells() {
 // ── RENDER PISTAS ────────────────────────────
 
 function renderCluesList() {
-    const panel = document.getElementById('cruc-clues-panel');
     if (!crucData) return;
 
     const across = crucData.words.filter(w => w.direction === 'across').sort((a,b) => a.number - b.number);
@@ -414,12 +418,6 @@ function renderCluesList() {
             ${buildList(down)}
         </div>`;
 
-    // Móvil: panel central (ambas columnas juntas)
-    if (panel) {
-        panel.innerHTML = acrossHTML + downHTML;
-    }
-
-    // Desktop: columnas laterales separadas
     const colDown   = document.getElementById('cruc-clues-down');
     const colAcross = document.getElementById('cruc-clues-across');
     if (colDown)   colDown.innerHTML   = downHTML;
@@ -650,10 +648,72 @@ function crucIsComplete() {
     return crucData.words.every(w => crucSolvedWords.has(w.id));
 }
 
+// ── MENÚ REVELAR ─────────────────────────────
+
+function crucToggleRevealMenu(e) {
+    e.stopPropagation();
+    const menu = document.getElementById('cruc-reveal-menu');
+    if (!menu) return;
+    const isOpen = menu.classList.contains('open');
+    menu.classList.toggle('open', !isOpen);
+    if (!isOpen) {
+        // Cerrar al hacer click fuera
+        setTimeout(() => {
+            document.addEventListener('click', crucCloseRevealMenu, { once: true });
+        }, 0);
+    }
+}
+
+function crucCloseRevealMenu() {
+    const menu = document.getElementById('cruc-reveal-menu');
+    if (menu) menu.classList.remove('open');
+}
+
+function crucRevealLetter() {
+    crucCloseRevealMenu();
+    if (!crucSelectedCell || !crucData) return;
+    const { row, col } = crucSelectedCell;
+
+    // Encontrar la respuesta correcta para esta celda
+    const words = crucGetWordsAtCell(row, col);
+    if (words.length === 0) return;
+    const word = words[0];
+    const cells = crucGetWordCells(word);
+    const idx = cells.findIndex(p => p.row === row && p.col === col);
+    if (idx === -1) return;
+
+    const correct = crucNormalize(word.answer[idx]);
+    crucUserGrid[`${row},${col}`] = correct;
+    updateCellVisual(row, col);
+
+    // Comprobar si alguna palabra queda resuelta
+    crucGetWordsAtCell(row, col).forEach(w => crucCheckWordSolved(w));
+
+    crucSave();
+    if (crucIsComplete()) setTimeout(() => crucShowCompletion(true), 500);
+}
+
+function crucRevealWord() {
+    crucCloseRevealMenu();
+    if (!crucSelectedWord || !crucData) return;
+    const w = crucSelectedWord;
+    crucGetWordCells(w).forEach(({ row, col }, i) => {
+        crucUserGrid[`${row},${col}`] = crucNormalize(w.answer[i]);
+    });
+    crucSolvedWords.add(w.id);
+    const countEl = document.getElementById('cruc-solved-count');
+    if (countEl) countEl.textContent = crucSolvedWords.size;
+    refreshAllCells();
+    updateCluesPanel();
+    crucSave();
+    if (crucIsComplete()) setTimeout(() => crucShowCompletion(true), 500);
+}
+
 // ── REVELAR TODO ─────────────────────────────
 
 function crucRevealAll() {
-    if (!confirm('¿Seguro que quieres revelar todas las respuestas?')) return;
+    crucCloseRevealMenu();
+    if (!confirm('¿Seguro que quieres revelar toda la cuadrícula?')) return;
     if (!crucData) return;
     crucData.words.forEach(w => {
         crucGetWordCells(w).forEach(({ row, col }, i) => {
