@@ -364,21 +364,46 @@ function loadMatch() {
 // RENDER FORMACIÓN
 // =============================================
 
-// Posiciones que se consideran defensivas dentro de una línea de centrocampistas
-const CDM_POSITIONS = ['CDM', 'DM', 'MCD', 'DCO', 'PIVOT', 'PIVOTE', 'MC DEFENSIVO'];
-// Posiciones que se consideran ofensivas dentro de una línea de centrocampistas
-const CAM_POSITIONS = ['CAM', 'AM', 'MCO', 'TREQUARTISTA', 'MC OFENSIVO', 'MEZ', 'MEDIAPUNTA'];
+/**
+ * Cada posición tiene un "grupo de fila" (rowGroup).
+ * Todos los jugadores del mismo grupo se muestran en la misma fila visual.
+ * El número determina la altura: mayor número = más arriba en el campo.
+ *
+ * Grupos:
+ *  1 → Portero (GK)
+ *  2 → Defensas (CB, LB, RB, LWB, RWB, SW)
+ *  3 → Centrocampistas: CM, CDM, DM y cualquier posición de mediocampo
+ *  4 → CAM / Mediapunta  (línea propia entre medios y delanteros)
+ *  5 → Delanteros: ST, CF, LW, RW, LM, RM y similares
+ *
+ * LM/RM = extremos/bandas → grupo 5 (delanteros), igual que LW/RW
+ */
+const ROW_GROUP = {
+    'GK':1,
+    'CB':2,'LB':2,'RB':2,'DF':2,'SW':2,'LCB':2,'RCB':2,
+    'CDM':3,'DM':3,'MCD':3,'PIVOT':3,'PIVOTE':3,'VOL':3,
+    'CM':3,'MC':3,'MF':3,'BOX':3,
+    'LWB':3,'RWB':3,
+    'CAM':4,'AM':4,'MCO':4,'TREQUARTISTA':4,'MEZ':4,'MEDIAPUNTA':4,
+    'ST':5,'CF':5,'LW':5,'RW':5,'FW':5,'ATT':5,'SS':5,'DC':5,
+};
 
-function getPositionTier(position) {
-    if (!position) return 'mid';
+// LM/RM: fila 3 si no hay CAM, fila 4 si hay CAM
+const WIDE_MID = new Set(['LM','RM','ML','MR']);
+// LW/RW: normalmente fila 5, pero fila 4 si hay CAM y NO hay ST/CF
+const WIDE_FWD = new Set(['LW','RW']);
+const STRIKER_POS = new Set(['ST','CF','FW','ATT','SS','DC']);
+
+function getRowGroup(position, hasCAM, hasStriker) {
+    if (!position) return 3;
     const pos = position.toUpperCase().trim();
-    if (CDM_POSITIONS.includes(pos)) return 'cdm';
-    if (CAM_POSITIONS.includes(pos)) return 'cam';
-    return 'mid';
+    if (WIDE_MID.has(pos)) return hasCAM ? 4 : 3;
+    if (WIDE_FWD.has(pos)) return hasCAM ? 4 : 5;
+    return ROW_GROUP[pos] ?? 3;
 }
 
 function buildPlayerCard(player, globalIndex) {
-    const isRevealed  = revealedPlayers.has(globalIndex);
+    const isRevealed = revealedPlayers.has(globalIndex);
 
     const playerCard = document.createElement('div');
     playerCard.className = 'player-card' + (isRevealed ? ' revealed' : '');
@@ -415,48 +440,37 @@ function renderFormation() {
     formationContainer.innerHTML = '';
     const formation = currentMatch.formation;
 
-    formation.forEach((line, lineIndex) => {
-        const globalOffset = formation.slice(0, lineIndex).reduce((s, l) => s + l.length, 0);
+    // 1. Aplanar todos los jugadores manteniendo su índice global
+    const allPlayers = [];
+    let globalOffset = 0;
+    formation.forEach(line => {
+        line.forEach((player, i) => {
+            allPlayers.push({ player, globalIndex: globalOffset + i });
+        });
+        globalOffset += line.length;
+    });
 
-        // Detectar si hay mezcla de CDM/CAM en la misma línea
-        const tiers = line.map(p => getPositionTier(p.position));
-        const hasCDM = tiers.includes('cdm');
-        const hasCAM = tiers.includes('cam');
-        const hasMix = hasCDM || hasCAM;
+    // 2. Detectar si hay CAM y si hay delantero centro (ST/CF) en la alineación
+    const hasCAM     = allPlayers.some(({ player }) => ROW_GROUP[(player.position || '').toUpperCase().trim()] === 4);
+    const hasStriker = allPlayers.some(({ player }) => STRIKER_POS.has((player.position || '').toUpperCase().trim()));
 
-        if (!hasMix) {
-            // Línea normal: todos a la misma altura
-            const lineDiv = document.createElement('div');
-            lineDiv.className = 'line';
-            line.forEach((player, playerIndex) => {
-                lineDiv.appendChild(buildPlayerCard(player, globalOffset + playerIndex));
-            });
-            formationContainer.appendChild(lineDiv);
-        } else {
-            // Línea con sub-niveles: agrupar por tier
-            // Orden en campo (column-reverse): CAM arriba → MID → CDM abajo
-            const groups = { cam: [], mid: [], cdm: [] };
-            line.forEach((player, playerIndex) => {
-                groups[tiers[playerIndex]].push({ player, globalIndex: globalOffset + playerIndex });
-            });
+    // 3. Agrupar por rowGroup manteniendo el orden original dentro de cada grupo
+    const groups = new Map();
+    allPlayers.forEach(({ player, globalIndex }) => {
+        const group = getRowGroup(player.position, hasCAM, hasStriker);
+        if (!groups.has(group)) groups.set(group, []);
+        groups.get(group).push({ player, globalIndex });
+    });
 
-            // Envolvemos las sub-líneas en un contenedor vertical
-            const lineGroup = document.createElement('div');
-            lineGroup.className = 'line-group';
-
-            // Renderizar en orden: CAM, MID, CDM  (column-reverse invierte la visual)
-            ['cam', 'mid', 'cdm'].forEach(tier => {
-                if (groups[tier].length === 0) return;
-                const subLine = document.createElement('div');
-                subLine.className = `line line--${tier}`;
-                groups[tier].forEach(({ player, globalIndex }) => {
-                    subLine.appendChild(buildPlayerCard(player, globalIndex));
-                });
-                lineGroup.appendChild(subLine);
-            });
-
-            formationContainer.appendChild(lineGroup);
-        }
+    // 3. Renderizar en orden ascendente de grupo
+    // column-reverse del contenedor invierte la visual: grupo 1 (GK) queda abajo, grupo 5 (delanteros) arriba
+    [...groups.keys()].sort((a, b) => a - b).forEach(group => {
+        const lineDiv = document.createElement('div');
+        lineDiv.className = 'line';
+        groups.get(group).forEach(({ player, globalIndex }) => {
+            lineDiv.appendChild(buildPlayerCard(player, globalIndex));
+        });
+        formationContainer.appendChild(lineDiv);
     });
 }
 
@@ -580,7 +594,9 @@ function getKnownName(fullName) {
         'RAFA SILVA': 'RAFA', 'JOAO MARIO': 'JOAO MARIO', 'JOÃO MARIO': 'JOAO MARIO',
         'XAVI HERNANDEZ': 'XAVI', 'XAVI HERNÁNDEZ': 'XAVI',
         'ERIC MAXIM CHOUPO-MOTING': 'CHOUPO-MOTING', 'CHOUPO-MOTING': 'CHOUPO-MOTING',
-        'ALISSON BECKER': 'ALISSON'
+        'ALISSON BECKER': 'ALISSON',
+        'ADRIAN LOPEZ': 'ADRIAN', 'ADRIÁN LÓPEZ': 'ADRIAN',
+        'JUANFRAN TORRES': 'JUANFRAN', 'JUAN FRANCISCO TORRES': 'JUANFRAN'
     };
     if (exceptions[name]) return exceptions[name];
 
