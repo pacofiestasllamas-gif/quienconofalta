@@ -605,7 +605,69 @@
   background: var(--neon-yellow);
 }
 
-/* ── MOBILE TAP BAR ── */
+/* ── BOTÓN REVELAR CON MENÚ DESPLEGABLE ── */
+.cruc-reveal-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.cruc-reveal-menu {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  right: 0;
+  background: #1e1535;
+  border: 2px solid #ef4444;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 160px;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.6);
+  z-index: 200;
+  flex-direction: column;
+}
+
+.cruc-reveal-menu.open {
+  display: flex;
+  animation: fadeInUp 0.15s ease;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.cruc-reveal-option {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(239,68,68,0.2);
+  color: #fff;
+  padding: 12px 16px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+  letter-spacing: 0.5px;
+  transition: background 0.15s;
+}
+
+.cruc-reveal-option:last-child {
+  border-bottom: none;
+}
+
+.cruc-reveal-option:hover {
+  background: rgba(239,68,68,0.18);
+}
+
+.cruc-reveal-option--danger {
+  color: #ff9090;
+}
+
+.cruc-reveal-option--danger:hover {
+  background: rgba(239,68,68,0.32);
+}
+
+
 .cruc-tap-bar {
   display: none;
 }
