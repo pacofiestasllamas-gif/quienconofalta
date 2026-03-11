@@ -301,7 +301,7 @@
 
         .match-header {
             background: var(--bg-purple);
-            padding: 20px 20px 20px 100px;
+            padding: 20px;
             text-align: center;
             border-bottom: 3px solid var(--bg-dark);
             position: relative;
@@ -422,18 +422,6 @@
         }
 
         .line {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        /* Las sub-líneas CDM/CAM/MID se renderizan igual visualmente,
-           el orden en el campo lo controla column-reverse del .formation */
-        .line--cdm,
-        .line--cam,
-        .line--mid {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -657,9 +645,9 @@
         }
 
         .home-btn {
-            position: fixed;
-            top: 15px;
-            left: 15px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
             background: rgba(200,168,75,0.15);
             border: 2px solid var(--neon-green);
             color: var(--neon-green);
@@ -669,7 +657,6 @@
             font-family: 'Rajdhani', sans-serif;
             font-weight: 700;
             transition: all 0.2s;
-            z-index: 200;
         }
 
         .home-btn:hover {
@@ -1013,10 +1000,7 @@
             }
 
             /* Evitar que los jugadores de una línea se partan en varias filas */
-            .line,
-            .line--cdm,
-            .line--cam,
-            .line--mid {
+            .line {
                 flex-wrap: nowrap;
                 gap: 4px;
                 justify-content: center;
